@@ -1,0 +1,1461 @@
+
+%% 2-Column Papers and Discussion Papers
+\documentclass[11pt, draftcls, onecolumn]{IEEEtran} %% choose manuscript,article or draft
+
+\usepackage[german, english]{babel}
+\usepackage{tabularx}
+\usepackage{cancel}
+\usepackage{multirow}
+\usepackage{supertabular}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{amsthm}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{rotating}
+\usepackage{rotating}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{lineno}
+\usepackage{soul}
+%\usepackage{subcaption}
+\usepackage[draft]{fixme}
+\usepackage{longtable}
+\usepackage{supertabular}
+\usepackage{authblk}
+\usepackage[]{natbib}
+
+%%%%% Changes equation/table/figure references to match the QSR preference in appendices
+\numberwithin{equation}{section}
+\numberwithin{table}{section}
+\numberwithin{figure}{section}
+
+
+
+%%%%% Renewing the keywords command
+\renewcommand\IEEEkeywordsname{Keywords}
+
+%%%%% Setting up macros 
+\newcommand{\delOx}{$\delta{}^{18}\mathrm{O}$}
+\newcommand{\delOxb}{$\delta{}^{17}\mathrm{O}$}
+\newcommand{\delD}{$\delta\mathrm{D}$}
+\newcommand{\Dxs}{$\mathrm{d_{xs}}$}
+\newcommand{\delN}{$\delta{}^{15}\mathrm{N}$}
+\newcommand{\degC}{${}^{\circ}\mathrm{C}$}
+\newcommand{\delAr}{$\delta{}^{40}\mathrm{Ar}$}
+\newcommand{\delcorrel}{$r_{\delta{}^{18}\mathrm{O}/\delta\mathrm{D}}$}
+
+\linenumbers
+
+%%%%% Converting the IEEEtran class with letters and latin numbering to arabic numbering
+
+% Change from latin numbering to arabic numberic
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesectiondis{\arabic{section}}
+% Change from letters to arabic numberinc
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+\renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
+\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+
+
+%%%%%% Fixing the line numbering
+\newcommand*\patchAmsMathEnvironmentForLineno[1]{%
+	\expandafter\let\csname old#1\expandafter\endcsname\csname #1\endcsname
+	\expandafter\let\csname oldend#1\expandafter\endcsname\csname end#1\endcsname
+	\renewenvironment{#1}%
+	{\linenomath\csname old#1\endcsname}%
+	{\csname oldend#1\endcsname\endlinenomath}}% 
+\newcommand*\patchBothAmsMathEnvironmentsForLineno[1]{%
+	\patchAmsMathEnvironmentForLineno{#1}%
+	\patchAmsMathEnvironmentForLineno{#1*}}%
+\AtBeginDocument{%
+	\patchBothAmsMathEnvironmentsForLineno{equation}%
+	\patchBothAmsMathEnvironmentsForLineno{align}%
+	\patchBothAmsMathEnvironmentsForLineno{flalign}%
+	\patchBothAmsMathEnvironmentsForLineno{alignat}%
+	\patchBothAmsMathEnvironmentsForLineno{gather}%
+	\patchBothAmsMathEnvironmentsForLineno{multline}%
+}
+%%%%%%%%%%
+\begin{document}
+
+\title{Molecular diffusion of stable water isotopes in polar firn as a proxy for past temperatures}
+
+
+% \Author[affil]{given_name}{surname}
+
+\author[a]{Christian Holme$^\dag$*}
+\author[a]{Vasileios Gkinis*}
+\author[a]{Bo M. Vinther}
+
+\affil[a]{The Niels Bohr Institute, Centre for Ice and Climate, Juliane Maries Vej 30, 2100 Copenhagen, Denmark}
+\affil[$\dag$]{Corresponding author: christian.holme@nbi.ku.dk (C. Holme)}
+\affil[*]{The two authors contributed equally to this work}
+
+%% The [] brackets identify the author with the corresponding affiliation. 1, 2, 3, etc. should be inserted.
+\maketitle
+
+
+\begin{abstract}
+Polar precipitation archived in ice caps contains information on past temperature conditions. 
+Such information can be retrieved by measuring the water isotopic signals of \delOx~and \delD~in ice cores. 
+These signals have been attenuated during densification due to molecular diffusion in the firn column, 
+where the magnitude of the diffusion is isotopologoue specific and temperature dependent. 
+By utilizing the differential diffusion signal, dual isotope measurements of \delOx~and \delD~enable multiple 
+temperature reconstruction techniques. This study assesses how well six different methods can be used to 
+reconstruct past surface temperatures from the diffusion-based temperature proxies. Two of the methods are 
+based on the single diffusion lengths of \delOx~and \delD, three of the methods employ the differential diffusion signal, 
+while the last uses the ratio between the single diffusion lengths. All techniques are tested on synthetic data 
+in order to evaluate their accuracy and precision. 
+In addition, a benchmark test is applied to thirteen high resolution data sets 
+from Greenland and Antarctica, which represent a broad range of mean annual surface temperatures and accumulation rates. 
+The presented methods are found to accurately reconstruct the temperatures of the synthetic data, 
+and the estimated temperatures are shown to be unbiased. Both the benchmark test and the synthetic data test demonstrate 
+that the most precise reconstructions are obtained when using the single isotope diffusion lengths, with precisions around $0.5\,^\mathrm{o}\mathrm{C}$. 
+In the benchmark test, the single isotope diffusion lengths are also found to reconstruct consistent temperatures with a 
+root-mean-square-deviation of $0.7\,^\mathrm{o}\mathrm{C}$. The techniques employing the differential diffusion signals are more uncertain, 
+where the most precise method has a precision of $1.5\,^\mathrm{o}\mathrm{C}$. 
+The diffusion length ratio method is the least precise with a precision of $11.8\,^\mathrm{o}\mathrm{C}$. 
+The absolute temperature estimates from this method are also shown to be highly sensitive to the choice of fractionation factor parameterization. 
+From the combined analyses of the synthetic data and ice core data, this study demonstrates that methods 
+based on the single isotope diffusion lengths result in the most accurate and precise estimates of past temperatures.	
+	
+	
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Defining the keywords:
+\begin{IEEEkeywords} 
+Holocene, paleoclimatology, ice cores, isotope geochemistry, stable isotopes, diffusion, Greenland, Antarctica.	
+\end{IEEEkeywords}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction} %% \introduction[modified heading if necessary]
+\label{Intro}
+Polar precipitation stored for thousands of years in the ice caps of Greenland and Antarctica
+contains invaluable information on past climatic conditions. The isotopic composition 
+of polar ice  commonly expressed
+through the $\delta$ notation
+has been shown to work as a direct proxy of the relative depletion of a water vapor mass in its 
+journey from the evaporation site to the place where condensation takes place \citep{Epstein1951, IAEA}. 
+Additionally, for modern times, it shows a good correlation with the temperature of the cloud at the
+time of precipitation \citep{Dansgaard2, Dansgaard} and as a result it has been proposed and used 
+as a proxy of past temperatures \citep{Jouzel1984, Jouzel1997, Johnsen2001}. 
+
+
+The use of the isotopic paleothermometer presents however some notable limitations.
+The linear relationship between \delOx~and temperature commonly referred to as the ``spatial slope''
+may hold for present conditions. However previous studies based on more physical principles as the 
+borehole temperature reconstruction \citep{Cuffey1994, JOHNSEN1995a} 
+as well as the thermal fractionation of the \delN~signal in polar firn 
+\citep{Schwander1988, Severinghaus1998, Severinghaus1999} have
+independently underlined the inaccuracy of the spatial isotope slope when it is extrapolated to past climatic 
+conditions. Even though qualitatively the \delOx~signal comprises past temperature information, it fails
+to provide a quantitative picture on the magnitudes of past climatic changes.
+
+
+In a seminal paper in 2000, \cite{Johnsen2000} set the foundations for the quantitative description 
+of the diffusive processes the water isotopic signal undergoes in the porous firn layer from the time
+of deposition until pore close--off. Even though the main purpose of that work was to investigate
+how to reconstruct the part of the signal that was attenuated during the diffusive processes, the authors
+make a clear reference to the possibility of using the assessment of the diffusive rates as a proxy for
+past firn temperatures. The temperature reconstruction method based on isotope firn diffusion requires 
+data of high resolution. More specifically, if one would like to look into the differential diffusion signal, 
+datasets of both \delOx~and \delD~are required. Such data sets have until recently not been easy to
+obtain especially due to the challenging nature of the \delD~analysis \citep{BIGELEISEN1952, Vaughn1998}.
+Nowadays, with the advent of commercial high--accuracy, high--precision Infra-Red spectrometers 
+\citep{Crosson2008, Brand2009}, simultaneous measurements of \delOx~and \delD~have become 
+easier to obtain. Coupling of these instruments to Continuous Flow Analysis systems \citep{Gkinis2011, Emanuelsson2015} 
+can also result in measurements of ultra--high resolution, a necessary condition for 
+accurate temperature reconstructions based on water isotope diffusion.
+
+A number of existing works have presented past firn temperature reconstructions
+based on water isotope diffusion. \cite{Simonsen2011} and \cite{Gkinis2014} used high resolution 
+isotopic datasets from the NorthGRIP ice core \citep{NGRIPmembers2004}. The first study makes use
+of the differential diffusion signal, utilizing spectral estimates of high--resolution 
+dual  \delOx~and \delD~datasets covering
+the GS--1 and GI--1 periods in the NorthGRIP ice core \citep{Rasmussen2014}. 
+The second study 
+presents a combined temperature and accumulation history of the past 16,000 years based on the 
+power spectral density (\textbf{PSD} hereafter) signals of 
+high resolution \delOx~measurements of the NorthGRIP ice core. More recently, \cite{vanderWel2015a}
+introduced a slightly different approach for reconstructing the differential diffusion signal and testing it
+on dual \delOx, \delD~high resolution data from the EDML ice core \citep{Oerter2004}. 
+By artificially forward--diffusing the \delD~signal the authors estimate differential diffusion rates
+by maximizing the correlation between the \delOx~and \delD~signal.  
+
+In this work we attempt to look into all different flavors of temperature diffusion
+reconstruction techniques and assess their performance. 
+We use synthetic, as well as real ice core data sets that represent 
+Holocene conditions from a variety of drilling sites on Greenland and Antarctica.
+Our objective is to use data sections that originate from parts of the core as close to present day 
+as possible. By doing this we aim to minimize possible uncertainties and biases in the ice flow thinning
+adjustment that is required for temperature interpretation of the diffusion rate estimates.
+Such a bias has been shown to exist for the NorthGRIP ice core \citep{Gkinis2014}, most likely 
+due to the \cite{DJmodel} ice flow model overestimating  the past accumulation rates for the site. 
+For some cases however this was not possible and approximately half of the datasets used here
+have an age at approximately around Holocene Climate Optimum (\textbf{HCO} hereafter). 
+Another interesting aspect of this study is that it uses water isotopic data sets of \delOx~and 
+\delD~measured using different analytical techniques, namely Isotope Ratio Mass Spectroscopy 
+(\textbf{IRMS} hereafter) as  well as Cavity Ring Down Spectroscopy (\textbf{CRDS} hereafter).
+Two of the data sets presented here were obtained using Continuous Flow Analysis (\textbf{CFA} hereafter)
+systems tailored for water isotopic analysis \citep{Gkinis2011}. All data sections are characterized by
+a very high sampling resolution typically of $5\, \mathrm{cm}$ or better. 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Diffusion of water isotope signals in firn}
+
+The main focus of this section is to outline 
+the various temperature reconstruction techniques that can possibly be employed for 
+paleotemperature reconstructions.
+The fundamentals of isotope diffusion theory are also presented. In order to avoid
+significant overlap  with previously published works that have dealt with the matter
+e.g. \citet{Johnsen1977, Johnsen2000, Simonsen2011, Gkinis2014, vanderWel2015a} 
+we occasionally  point the reader to any of the latter
+or/and refer to specific sections in the Appendix.
+We exemplify and illustrate the use of various techniques using synthetic data prepared such 
+that they resemble  two representative regimes of ice coring sites on the Greenland summit and the 
+East Antarctic Plateau. \\
+
+The porous medium of the top $60-80\, \mathrm{m}$ of firn allows for a molecular diffusion process that attenuates
+the water isotope signal from the time of deposition until  pore close--off. The process takes place in the
+vapor phase and it can be described by Fick's second law as:
+\begin{equation}
+\frac{\partial \delta}{\partial t} = D \left( t \right) \frac{\partial^2 \delta}{\partial z^2} - 
+\dot{\varepsilon}_z \left( t \right) z ~\frac{\partial \delta}{\partial z} \enspace 
+\label{eq.diffusion}
+\end{equation}
+where $\delta$ refers to the water isotope ratio signal,
+$D \left( t \right)$ is the diffusivity coefficient, $\dot{\varepsilon}_z\left(t\right)$
+the vertical strain rate and  $z$ is the vertical axis of a coordinate system, 
+with its origin being fixed within the considered layer.
+The attenuation of the isotopic signal results in loss of information.
+However the dependence of $\dot{\varepsilon}_z\left(t\right)$  and $D \left( t \right)$ 
+on temperature and accumulation presents the possibility of using the process as a tool
+to infer these two paleoclimatic parameters. A solution to Eq. \ref{eq.diffusion} can be given by
+the convolution of the initial isotopic profile $\delta'$ with a Gaussian filter $\mathcal{G}$ as:
+\begin{equation}
+\delta \left( z\right) = \mathcal{S} \left( z \right) \left[ \delta ' \left( z \right) 
+\ast \mathcal{G} \left( z \right) \right]
+\label{eq.convolution}
+\end{equation}
+where the Gaussian filter is described as:
+\begin{equation}
+\mathcal{G}\left(z \right) = \frac{1}{\sigma \sqrt{2\pi}} \, e^{\frac{-z^2}{2 \sigma^2}} \enspace ,
+\label{eq.gaussian}
+\end{equation}
+and $\mathcal{S}$ is the total thinning of the layer at depth $z$ described by
+\begin{equation}
+\mathcal{S} \left( z \right) = e^{\int_0^{z} \dot{\varepsilon}_z \left( z' \right) \mathrm{d}z'} \enspace .
+\label{eq.thinning}
+\end{equation}
+In Eq. \ref{eq.gaussian}, the standard deviation term $\sigma^2$ represents the average 
+displacement of a water molecule along the z--axis and is commonly referred to as the diffusion length.
+The $\sigma^2$ quantity is a direct measure of diffusion and its accurate estimate is critical
+to any attempt of reconstructing temperatures that are based on the isotope diffusion thermometer.  
+The diffusion length is directly related to the diffusivity coefficient and the strain rate 
+(as the strain rate is approximately proportional to the densification rate in the firn column)
+and it can therefore be regarded as a sensor of firn temperature as well as accumulation rate.
+
+
+The differential equation describing the evolution of $\sigma^2$ with time  can be 
+given by \citep{Johnsen1977}: 
+\begin{equation}
+\frac{\mathrm{d}\sigma^2}{\mathrm{d}t} - 2\,\dot{\varepsilon}_z\!\left( t \right) \sigma^2 = 
+2D\!\left( t \right) \enspace .
+\label{eq.diflength}
+\end{equation}
+In the case of firn the following approximation can be made for the strain rate:
+\begin{equation}
+\dot{\varepsilon}_z \left(
+	t \right) \approx -\frac{\mathrm{d\rho}}{\,\,\,\mathrm{d t}}\,\frac{\,1\,}{\,\rho\,},
+\label{eq.strainrate}
+\end{equation}
+with $\rho$ representing the density.
+Then for the firn column, Eq. \ref{eq.diflength} can be solved hereby yielding a solution for $\sigma^2$:
+\begin{equation}
+\sigma^2 \left( \rho \right) = \frac{\,1\,}{\rho^2}\int_{\rho_o}^{\rho}2\rho^2 
+{\left( \frac{\mathrm{d}\rho}{\mathrm{d}t}\right)}^{-1}\! D \!\left( \rho \right) \,\mathrm{d}\rho , 
+\label{eq.difflengthintegration}
+\end{equation}
+where  $\rho_o$ is the surface density. 
+Under the assumption that the diffusivity coefficient $D\left(\rho\right)$ and the
+densification rate   $\frac{\mathrm{d}\rho}{\mathrm{d}t}$ are known,
+integration from surface density $\rho_o$ to the close--off density $\rho_{co}$
+can be performed yielding a model based estimate for the diffusion length.
+In this work we make use of the Herron--Langway densification model (\textbf{H--L hereafter})
+and the diffusivity rate parametrization introduced by \cite{Johnsen2000} (see Appendix \ref{sec:appendix_firn_diffusion}).
+Both $\frac{\mathrm{d}\rho}{\mathrm{d}t}$  and $D\left(\rho\right)$ are quantities that are dependent on 
+both the temperature and the accumulation. This dependence of the diffusion length on temperature
+and accumulation provide the basis for the use of firn diffusion as a proxy of temperature 
+and/or accumulation.
+
+In Fig. \ref{fig:diffusion_length_profiles} we evaluate Eq. \ref{eq.difflengthintegration} for all three isotopic ratios 
+of water (\delOx, \delOxb, \delD) using boundary conditions characteristic of ice core sites from the Greenland
+and the Antarctic Ice Cap.
+We acknowledge that high resolution measurements of \delOxb~currently are unavailable, 
+but synthetic \delOxb~signals have been evaluated in order to demonstrate its potential as a diffusion-based temperature proxy.
+For the first case we consider relatively warm and humid conditions (\textbf{WH} hereafter)
+representative of Greenlandic ice coring sites
+(e.g. GISP2, GRIP, NorthGRIP) with a surface temperature $T_{\mathrm{sur}} = -29 \,^{\circ} \mathrm{C}$ and 
+annual accumulation $A = 0.22 \;\mathrm{myr^{-1}\, w.\, eq.}$
+For the second case we consider cold and dry conditions (\textbf{CD} hereafter)
+representative of Antarctic ice coring sites
+(e.g. Dome C, Vostok) with a surface temperature $T_{\mathrm{sur}} = -55 \,^{\circ} \mathrm{C}$ and 
+annual accumulation $A = 0.032 \;\mathrm{myr^{-1}\, w.\, eq.}$
+
+
+
+\begin{figure}[]	
+\vspace*{2mm}
+	\begin{center}
+			\includegraphics[width=0.6\textwidth]{Figure_1}
+			\caption{Diffusion length and density profiles (black) for the WH (solid lines) and CD (dashed lines) 
+				scenarios for diffusion of the \delOx~(blue color), \delOxb~(purple color) and \delD~(red color) isotope signals. } 		
+		\label{fig:diffusion_length_profiles}
+		\end{center}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Isotope diffusion in the solid phase}
+\label{ice_diffusion_section}
+Below the close-off depth, diffusion occurs in solid ice driven by the isotopic
+gradients within the lattice of the ice crystals. This process is orders of magnitude slower than 
+firn diffusion. Several studies exist that deal with the estimate of the diffusivity 
+coefficient in ice \citep{Blicks1966, Delibaltas1966, Itagaki1964, Livingston1997, Ramseier1967}.
+The differences resulting from the various diffusivity coefficients are small and certainly
+negligible for the case of our study where the influence of solid ice diffusion is practically negligible.
+As done before by other similar firn diffusion studies \citep{Johnsen2000, Simonsen2011, Gkinis2014}
+we make use of the parametrization given in \cite{Ramseier1967} as:
+\begin{equation}
+D_{\mathrm{ice}} = 9.2 \cdot 10^{-4} \cdot \exp \left(- \frac{7186}{T} \right) \mathrm{ m^2 s^{-1}} . 
+\label{eq.icediffusivity}
+\end{equation}
+Assuming that a depth--age scale as well as a thinning function are available for the 
+ice core a solution for the ice diffusion length is given by (see Appendix \ref{sec:appendix_ice_diffusion} for details):
+\begin{equation}
+\sigma_{\mathrm{ice}}^2 \!\left( t' \right) = 
+S\! \left( t' \right)^2 \,\int_0^{t'} 2 D_{\mathrm{ice}} \!\left( t \right) S \!\left( t \right) ^{-2} \,\mathrm{d} t.
+\label{eq.icediffusion}
+\end{equation}
+In Fig. \ref{fig:ice_diffusion_multi} we have calculated ice diffusion lengths for four different cores (NGRIP, NEEM, Dome C, EDML).
+For the calculation of the diffusivities we have used high precision measurements of 
+temperature borehole profiles and assumed a steady state condition. 
+As it can be seen, for the low temperature/low accumulation sites of Dome C and EDML, $\sigma_{\mathrm{ice}}$
+is lower. As the temperature of the ice increases closer to the bedrock $\sigma_{\mathrm{ice}}$ increases monotonically.
+For the special case of the Dome C core (with a bottom age exceeding 800,000 years), $\sigma_{\mathrm{ice}}$
+reaches values as high as 15 $\mathrm{cm}$.
+
+
+
+\begin{figure}[]
+	\vspace*{2mm}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{./Figure_2}
+		\caption{The ice diffusion length plotted with respect to age [b2k]
+			for some selected sites from Greenland and Antarctica.
+			NGRIP is represented by blue, NEEM is represented by green, 
+			Dome C is represented by grey and EDML is represented by magenta.} 
+		\label{fig:ice_diffusion_multi}
+	\end{center}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Reconstructing firn temperatures}  \label{sec:methods}
+\subsection{The single isotopologue diffusion}\label{sec:single_diffusion}
+
+The simplest implementation of the water isotope diffusion thermometer focuses on the
+assessment of the diffusion rates of one isotopologue in firn.
+Implementation of Eq. \ref{eq.difflengthintegration}, yields diffusion length values 
+from surface to close--off and below with ice thinning disregarded for now. 
+
+
+A fundamental property of the convolution operation is that it is equivalent to  multiplication
+ in the frequency domain. The transfer function for the diffusion process will be given by the
+Fourier transform of the Gaussian filter that will itself be a Gaussian function described by 
+\citep{Abramowitz1964, Gkinis2014}:
+\begin{equation}
+\label{ftrans_gaussian}
+\mathfrak{F}
+[ \mathcal{G} (z) ] =
+\hat{\mathcal{G}} = {e}^{\frac{-k^2 \sigma^2}{2}} {} \enspace .
+\end{equation}%e10
+In Eq. \ref{ftrans_gaussian}, $k = 2\pi / \lambda$ where $\lambda$ is the wavelength of the 
+isotopic time series. 
+In Fig. \ref{fig:transfer_function} we illustrate the effect of the diffusion transfer function on a range of wavelengths
+for $\sigma = 1,\, 2,\, 4\; \mathrm{and} \;8 \;	\mathrm{cm.}$ 
+Wavelengths in the order of $50\,\mathrm{cm}$ and above remain largely unaltered while signals with 
+wavelengths shorter than $20\,\mathrm{cm}$ are heavily attenuated. 
+
+
+An estimate of the value of the 
+diffusion length $\sigma$ can be obtained by looking at the power spectrum of the diffused 
+isotopic time series. Assuming a noise signal $\eta \left( k \right)$
+apparent in the time series a model describing the power spectrum is given by: 
+\begin{equation}
+P_s =    P_0 {e}^{-k^2 \sigma^2} + {\vert \hat{\eta} \left( k \right) \vert} ^{2}. 
+\label{eq:powerspectrum}
+\end{equation}
+We find that the noise signal is generally described well by autoregression of order 1 (AR-1).
+The power spectral density of the latter may be written as \citep{Kay1981}:
+\begin{equation}
+|\hat{\eta}(k )|^2 = \frac{\sigma_{\mathrm{\eta}}^2 \Delta}
+ {\left| 1-a_1 \exp{\left( -i k  \Delta \right) } \right|^2} {},
+\end{equation}
+where $a_1$ is the AR-1 coefficient, $\sigma_{\mathrm{\eta}}^2$ is the variance of the noise signal 
+and $\Delta$ is the sample size.
+
+
+In Fig. \ref{fig:synthetic_power_spectra}, an example of power spectra based on a synthetic time series is shown. 
+A description of how the synthetic time series is generated is provided in Appendix \ref{sec:appendix_synthetic}.
+This time series represent a WH scenario with an applied diffusion length of  $8.40 \, \mathrm{cm}$.
+%The time series is generated using an AR-1 process with coefficient $r_1$ and variance $\varepsilon$
+%\begin{equation}
+%\delta_{\mathrm{n}} - r_1 \delta_{\mathrm{n-1}} = \varepsilon_{\mathrm{n}}.
+%\label{eq:ar1}
+%\end{equation}
+%The time series is subsequently diffused with a $8.2\,\mathrm{cm}$ diffusion length Gaussian filter 
+%and sampled discretely at $2.5\,\mathrm{cm}$ resolution. 
+%We also added measurement noise equal to $0.09 \permil$ (1 standard deviation).
+The spectral estimate of the time series $\mathbb{P}_s$ 
+is calculated using Burg's spectral estimation method
+\citep{Kay1981} and specifically the algorithm presented in \cite{Andersen1974}. 
+Using a least--squares approach we optimize the fit of $P_s$ to $\mathbb{P}_s$ by varying the four 
+parameters $P_0$, $\sigma^2$, $a_1$ and $\sigma_{\mathrm{\eta}}^2$.
+In the case of Fig. \ref{fig:synthetic_power_spectra},
+the $\vert P_s - \mathbb{P}_s \vert^2$ least squares optimization resulted in 
+$P_0=0.35\,\permil^2\cdot \mathrm{m}$, $\sigma = 8.45 \, \mathrm{cm}$. $a_1 = 0.05$ and $\sigma_{\mathrm{\eta}}^2 =0.005 \, \permil^2$.
+
+
+Assuming a diffusion length $\widehat{\sigma}_i^2$ is obtained for depth $z_i$ by means of 
+$\vert P_s - \mathbb{P}_s \vert^2$ minimization, one can calculate the equivalent diffusion 
+length at the bottom of the firn column $\sigma^2_{\mathrm{firn}}$ in order to estimate firn temperatures
+by means of Eq. \ref{eq.difflengthintegration}. 
+In order to do this, one needs to take into account three necessary corrections
+- (1) sampling diffusion, (2) ice diffusion and (3) thinning. 
+The first concerns the artifactually imposed
+diffusion due to the sampling of the ice core. 
+In the case of a discrete sampling scheme with resolution $\Delta$ the additional 
+diffusion length is (see Appendix \ref{sec:appendix_sampling_diffusion}): 
+\begin{equation}
+\sigma^2_{\mathrm{dis}} = \frac{2\Delta^2}{\pi^2}\ln{\left(\frac{\pi}{2}\right)}
+\label{sampling_sigma}
+\end{equation}
+In the case of high resolution measurements carried out with CFA measurement systems, there
+exist a number of ways to characterize the sampling diffusion length. 
+Typically the step or impulse response of the CFA system can be measured yielding a Gaussian 
+filter specific for the CFA system \citep{Gkinis2011, Emanuelsson2015}. 
+The Gaussian filter can be characterized by a diffusion 
+length $\sigma^2_{\mathrm{cfa}}$ that can be directly used to perform a sampling correction.
+The second correction concerns the ice diffusion as described in Sec. \ref{ice_diffusion_section}.
+The quantities $\sigma^2_{\mathrm{ice}}$ and $\sigma^2_{\mathrm{dis}}$ can be subtracted from 
+$\widehat{\sigma}_i^2$ yielding a scaled value   of $\sigma^2_{\mathrm{firn}}$ due to ice flow thinning.
+As a result,  we can finally obtain $\sigma^2_{\mathrm{firn}}$ as:
+\begin{equation} 
+\sigma^2_\text{firn} = \frac{\widehat{\sigma}_i^2 - \sigma^2_\text{dis} - \sigma^2_\text{ice}}{{\mathcal{S}(z)}^{2}}.
+\label{eq.firn_data}
+\end{equation}
+
+When an estimate of $\sigma^2_{\mathrm{firn}}$ is obtained the integrated firn column temperature can be calculated 
+by finding the roots of the equation:
+\begin{equation}
+\left(\frac{\rho_{co}}{\rho_i} \right)^2  \sigma^2(\rho = \rho_{\mathrm{co}},T(z), A(z)) - \sigma^2_\text{firn} = 0 
+\end{equation}
+where $\sigma^2$ is the result of the integration in Eq. \ref{eq.difflengthintegration} from surface to 
+close--off density ($\rho_o  \rightarrow \rho_{\mathrm{co}}$). In this work we use a Newton-Raphson numerical scheme 
+\citep{RECIPES} for the calculation of the roots of the equation.
+
+
+As it can be seen, the accuracy of the $\sigma^2_\text{firn}$ estimation and subsequently 
+of the temperature reconstruction 
+obtained based on it, depends on the three correction terms  $\sigma^2_{\mathrm{ice}}$, 
+$\sigma^2_{\mathrm{dis}}$ and the ice flow thinning $\mathcal{S}(z)$. For relatively shallow depths 
+where $\sigma^2_{\mathrm{ice}}$
+is relatively small compared to $\widehat{\sigma}_i^2$, ice diffusion can be accounted for with 
+simple assumptions on the  borehole temperature profile and the ice flow. 
+In a similar way, 
+$\sigma^2_{\mathrm{dis}}$ is a well constrained parameter and depends only on the sampling
+resolution $\Delta$ for discrete sampling schemes or the smoothing of the CFA measurement system.
+
+
+Equation \ref{eq.firn_data} reveals an interesting property of the single isotopologue temperature estimation
+technique. As seen, the result of the $\sigma^2_{\mathrm{firn}}$ calculation depends strongly on the 
+ice flow thinning quantity $\mathcal{S}(z)^2$. Possible errors in the estimation of $\mathcal{S}(z)^2$ due to imperfections
+in the modelling of the ice flow will inevitably be propagated to the $\sigma^2_{\mathrm{firn}}$ value
+thus biasing the temperature estimation. Even though this appears to be a disadvantage in the method,
+in some instances, it can be a useful tool for assessing the accuracy of ice flow models. 
+Provided that for certain sections of the ice core there is a temperature estimate available based on 
+other reconstruction methods  (borehole thermometry, \delN / \delAr) it is possible to estimate 
+ice flow induced thinning of the ice core layers. Following this approach \cite{Gkinis2014} proposed
+a correction in the existing accumulation rate history for the NorthGRIP ice core.
+%%%
+
+
+\begin{figure}[]
+	\vspace*{2mm}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{Figure_3}
+		\caption{The smoothing effect of the diffusion transfer function demonstrated on 
+			a range of different wavelengths for $\sigma = 1,\, 2,\, 4\; \mathrm{and} \;8 \;	\mathrm{cm}$.} 
+		\label{fig:transfer_function}
+	\end{center}
+\end{figure}
+
+
+\begin{figure}[]	
+	\vspace*{2mm}	
+	\begin{center}		
+		\includegraphics[width=0.65\textwidth]{Figure_4}		
+		\caption{PSD of a synthetic \delOx~time series plotted with respect to frequency (blue curve).
+				The red curve represents the complete model fit (Eq. \ref{eq:powerspectrum}).
+				The green dashed curve represents the input diffusion 
+				and the the solid green curve represents the estimated diffusion length
+				of the signal. The black curve represents the noise part of the fit.}
+		\label{fig:synthetic_power_spectra}	
+	\end{center}
+\end{figure}
+
+\subsection*{The annual spectral signal interference}
+For some of the processed ice core data, we observed a prominent spectral feature 
+at the low frequency area coinciding with the annual water isotopic signal
+(i.e. an annual peak in the spectum).
+The annual peak is prominent in ice cores with boundary conditions that mitigate the effects
+of firn diffusion, notably low temperatures and high accumulation rates.
+The resulting effect of such a spectral signature, is the artifactual biasing of the diffusion length estimation 
+towards lower values and thus colder temperatures.
+Figure \ref{fig:filter_function} shows the PSD of the $\delta$D series for a mid Holocene section from the GRIP ice core
+(drill site characteristics in Table \ref{tbl:drill_sites}). 
+A prominent spectral feature  is visible at  $f\approx6 \,\mathrm{cycles\,m^{-1}}$. This frequency is comparable to the 
+expected frequency of the annual signal at $6.1\,\mathrm{cycles\,m^{-1}}$ as estimated from the annual layer thickness reconstruction 
+of the GICC05 timescale \citep{Vinther2006}.
+
+
+In order to evade the influence of the annual spectral signal on the diffusion length estimation, we propose the use of a weight 
+function $w(f)$ in the spectrum as:
+\begin{equation}\label{eq:weight_function}
+w(f)= \left\{
+\begin{array}{ll}
+0 &  f_{\lambda} - \mathrm{d}f_{\lambda} \leq f \leq	 f_{\lambda} + \mathrm{d}f_{\lambda}\\ 
+1                           &    f<f_{\lambda} - \mathrm{d}f_{\lambda}, f>f_{\lambda} + \mathrm{d}f_{\lambda}
+\end{array} \right. {}
+\end{equation}
+where $f_\lambda$ is the frequency of the annual layer signal based on the reconstructed 
+annual layer thickness $\lambda$ and $\mathrm{d}f_{\lambda}$ is the range around the frequency $f_{\lambda}$
+at which the annual signal is detectable.
+The weight function is multiplied with the optimization norm $\vert P_s - \mathbb{P}_s \vert^2$.
+Figure \ref{fig:filter_function} also illustrates the effect of the weight function on the estimation of $P_s$ and subsequently 
+the diffusion length value. When the weight function is used during the optimization process, there is an increase in the
+diffusion length value by 0.2 cm, owing essentially to the exclusion of the annual signal peak from the minimization 
+of $\vert P_s - \mathbb{P}_s \vert^2$.
+While the value of $f_{\lambda}$ can be roughly predicted the value of $\mathrm{d}f_{\lambda}$ usually requires visual 
+inspection of the spectrum. Annual peak corrections are included in the study of the ice core time series introduced in Sec.
+\ref{sec:icecore_results}.
+
+
+\begin{figure}[]
+	\vspace*{2mm}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{Figure_5}
+		\caption{The interference of the annual spectral signal is seen
+			in the PSD of the \delD~GRIP mid Holocene section. The regular fit is represented by the solid lines
+			and the dashed lines represent the case where the weight function $w(f)$ 
+			has filtered out this artifactual bias.} \label{fig:filter_function}
+	\end{center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{The differential diffusion signal}\label{sec:diff_diffusion}
+A second-order temperature reconstruction technique is possible based on the differential signal between
+\delOx~and \delD. Due to the difference in the fractionation factors and the air diffusivities between the oxygen and deuterium isotopologues,
+a differential diffusion signal is created in the firn column. Based on the calculation of the diffusion lengths
+presented in Fig. \ref{fig:diffusion_length_profiles} we then compute the differential diffusion lengths ${}^{17}\Delta\sigma^2$
+and ${}^{18}\Delta\sigma^2$ where
+\begin{equation}
+{}^{17}\Delta\sigma^2 =  \sigma^2_{17} - \sigma^2_{\mathrm{D}} \mathrm{\,\,\,and\,\,}{}^{18}\Delta\sigma^2 =  \sigma^2_{18} - \sigma^2_{\mathrm{D}}.
+\end{equation}
+As it can be seen in Fig. \ref{fig:diff_diffusion_example} the differential diffusion length signal is slightly larger for the case 
+of ${}^{17}\Delta\sigma^2$ when compared to  ${}^{18}\Delta\sigma^2$. 
+
+
+
+
+One obvious complication of the differential diffusion technique is the requirement for dual measurements of the water 
+isotopologues, preferably performed on the same sample.
+The evolution of IRMS techniques targeting the analysis of \delD~\citep{BIGELEISEN1952, Vaughn1998, Gehre1996, Begley1997} in ice cores has allowed for dual isotopic records
+at high resolutions. With the advent of CRDS techniques and their customisation for CFA measurements,
+simultaneous high resolution measurements of both \delOx~and \delD~have become a routine procedure.
+
+The case of \delOxb~is more complicated as the greater abundance of $^{13}$C than $^{17}$O rules out the
+possibility for an IRMS measurement  at mass/charge ratio ($m/z$) of 45 or 29 using 
+CO$_2$ equilibration or reduction to CO respectively. Alternative approaches that exist include the
+electrolysis method with CuSO$_4$ developed by  \cite{Meijer1998} as well as the fluorination method
+presented by \cite{Baker2002} and implemented by \cite{Barkan2005} for dual-inlet IRMS systems.
+These techniques target the measurement of the $^{17}${O}$_{\mathrm{excess}}$ parameter and are inferior for
+\delOxb~measurements at high precision and have a very low sample throughput.
+As a result, high resolution \delOxb~measurements from ice cores are currently non existent. 
+Recent innovations however in CRDS spectroscopy \citep{Steig2014} allow for simultaneous 
+triple isotopic measurements of \delD, \delOx~and \delOxb~in a way that  a precise and accurate measurement 
+for both \delOxb~and $^{17}${O}$_{\mathrm{excess}}$ is possible. Therefore high resolution ice core datasets of
+\delD, \delOx~and \delOxb~should be expected in the near future. 
+
+The following analysis is focused on the ${}^{18}\Delta\sigma^2$ signal but it applies equally to 
+the ${}^{17}\Delta\sigma^2$.
+The stronger attenuation of the \delOx~signal with respect to the \delD~signal can be visually observed in the 
+power spectral densities of the two signals. As seen in Fig. \ref{fig:spectral_diff_diffusion_example} the $\mathbb{P}_{\mathrm{S18}}$
+signal reaches the noise level at a lower frequency when compared to the $\mathbb{P}_{\mathrm{SD}}$ signal.
+At low frequencies  with high signal to noise ratio we can calculate the logarithm of the ratio of the two power spectral densities as
+(i.e. neglecting the noise term):
+\begin{equation} \label{eq:diff_regression}
+\ln \left(\frac{P_\mathrm{D}}{P_{18}}\right) \approx k^2\left( \sigma^2_{18} - \sigma^2_{\mathrm{D}}\right) + 
+\ln\left(\frac{P_{0_\mathrm{D}}}{P_{0_{18}}}\right) =
+ {}^{18}\Delta \sigma^2\,k^2  + C.
+\end{equation}
+As seen in Eq. \ref{eq:diff_regression} and Fig. \ref{fig:spectral_diff_diffusion_example} 
+(\delOx~and \delD~synthetic data generated as in Sec. \ref{sec:single_diffusion}) an estimate of the
+${}^{18}\Delta\sigma^2$ parameter can be obtained by a linear fit of 
+$\ln \left({P_\mathrm{D}}/{P_{18}}\right)$ in the low frequency area, 
+thus requiring only two parameters $({}^{18}\Delta\sigma^2\mathrm{ \,and\, } C)$ to be tuned.
+An interesting aspect of the differential diffusion method, is that in contrast to the single isotopologue diffusion length,
+${}^{18}\Delta\sigma^2_\mathrm{firn}$ is a quantity that is independent of the sampling and solid ice diffusion thus eliminating the
+uncertainties associated with these two parameters. This can be seen by simply using Eq. \ref{eq.firn_data}:
+\begin{equation}
+{}^{18}\Delta\sigma^2_{\mathrm{firn}} = \frac{\hat{\sigma}_{18}^2 - \sigma_{\mathrm{dis}}^2 - \sigma_{\mathrm{ice}}^2}{\mathcal{S}(z)^2} -  
+\frac{\hat{\sigma}_\mathrm{D}^2 - 
+	\sigma_{\mathrm{dis}}^2 - \sigma_{\mathrm{ice}}^2}{\mathcal{S}(z)^2} =  \frac{\hat{\sigma}_{18}^2 - 
+	\hat{\sigma}_\mathrm{D}^2}{\mathcal{S}(z)^2}
+\end{equation}
+Accurate estimates of the thinning function however play a key role in the differential diffusion technique.
+One more complication of the differential diffusion technique is the selection of the frequency range in 
+which one chooses to apply the linear regression. Often visual inspection is required in order to 
+designate a cut-off frequency until which the linear regression can be applied. In most cases 
+identifying the cut-off frequency, or at least a reasonable area around it is  reasonably straight-forward
+though in a small number of cases spectral features in the low frequency area seem to have a strong 
+influence on the slope of the linear regression and thus on the ${}^{18}\Delta\sigma^2$. As a result,
+visual inspection of the regression result is always advised in order to avoid biases.
+
+Another  way of estimating the differential diffusion signal is to subtract the single diffusion 
+spectral estimates $\sigma^2_{18}$ and $\sigma^2_{\mathrm{D}}$. 
+Theoretically this approach should be inferior to the linear fit approach due to the fact that 
+more degrees of freedom are involved in the estimation of $\sigma^2_{18}$ and 
+$\sigma^2_{\mathrm{D}}$ (8 versus 2; 3 if the cutoff frequency is included).
+Here we will test both approaches.
+
+
+
+\subsection*{Linear correlation method}
+An alternative way to calculate the differential diffusion signal ${}^{18}\Delta\sigma^2$,
+can be based on the assumption that the initial precipitated isotopic signal presents a \Dxs~
+that is invariable with time and as a consequence of this, the correlation signal between \delOx~and \delD~(hereafter \delcorrel) is expected
+to have a maximum value at the time of deposition .
+The \Dxs~signal is defined as the deviation from the metoric water line $\mathrm{d_{xs}}= \delta\mathrm{D}- 8\cdot\delta^{18}\mathrm{O} $ \citep{craig}.
+From the moment of deposition, the difference in diffusion between the \delOx~and \delD~signals results
+in a decrease of the \delcorrel~ value. Hence, diffusing the \delD~signal 
+with a Gaussian kernel of standard deviation equal to ${}^{18}\Delta\sigma^2$ will maximize 
+the value of \delcorrel~\citep{vanderWel2015a} as shown in Fig. \ref{fig:correlation_example}.  
+Thus, the ${}^{18}\Delta\sigma^2$ value is found when the \delcorrel~value has its maximum.
+
+This type of estimation is independent of spectral estimates of the \delOx~and \delD~time series
+and does not pose any requirements for measurement noise characterization or selection of
+cut-off frequencies. However uncertainties related to the densification and ice flow processes, affect
+this method equally as they do for the spectrally based differential diffusion temperature estimation. 
+In this study, we test the applicability of the method on synthetic and real ice core data.
+We acknowledge that the assumption that the \Dxs~signal is constant with time is 
+not entirely consistent with the fact that there is a small seasonal cycle in the \Dxs~signal \citep{Johnsen1989}.
+It is thus likely to result in inaccuracies.
+
+
+\begin{figure}[]	
+\vspace*{2mm}	
+\begin{center}		
+	\includegraphics[width=0.7\textwidth]{Figure_6}		
+	\caption{Differential diffusion lengths for the WH (solid lines) and CD 
+		(dashed lines) scenarios for ${}^{18}\Delta\sigma^2$  (blue) and ${}^{17}\Delta\sigma^2$ (purple).
+		The density profiles are given in black.} 		
+	\label{fig:diff_diffusion_example}	
+\end{center}
+\end{figure}
+
+
+
+\begin{figure}[]	
+\vspace*{2mm}	
+\begin{center}		
+	\includegraphics[width=0.7\textwidth]{Figure_7}		
+	\caption{PSDs of \delOx~(blue) and \delD~(red) with respect to frequency where
+		the inner subplot shows the $\ln \left({P_\mathrm{D}}/{P_{18}}\right)$ relation with respect to  $k^2$. 
+		The ${}^{18}\Delta\sigma^2$ value is determined from the slope of the linear fit in the subplot.
+		The chosen cutoff frequency is marked by the vertical dashed line in both plots.} 		
+	\label{fig:spectral_diff_diffusion_example}	
+\end{center}
+\end{figure}
+
+
+\begin{figure}[]	
+	\vspace*{2mm}	
+	\begin{center}		
+		\includegraphics[width=0.7\textwidth]{Figure_8}		
+		\caption{Correlation coefficient (\delcorrel) between the \delOx~and the forward--diffused \delD~series 
+		as a function of the estimated ${}^{18}\Delta\sigma^2$.  
+		The synthetic data represent a CD scenario.} 		
+		\label{fig:correlation_example}	
+	\end{center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{The diffusion length ratio}
+
+A third way of using the diffusion lengths as proxies for temperature can be based on the calculation 
+of the ratio of two different diffusion lengths. From Eq. \ref{eq.difflengthintegration} we can evaluate the ratio 
+of two different isotopologues $j$ and $k$ as:
+\begin{equation}
+\frac{\sigma_j^2 \left( \rho \right)}{\sigma_k^2 \left( \rho \right)} = \frac{\displaystyle \frac{\,1\,}{\rho^2} \int 2\rho^2 
+{\left( \frac{\mathrm{d}\rho}{\mathrm{d}t}\right)}^{-1}\! D_j \!\left( \rho \right) \,\mathrm{d}\rho}
+{\displaystyle  \frac{\,1\,}{\rho^2} \displaystyle \int2\rho^2 
+{\left( \frac{\mathrm{d}\rho}{\mathrm{d}t}\right)}^{-1}\! D_k \!\left( \rho \right) \,\mathrm{d}\rho},
+\label{eq.difflengthratio}
+\end{equation}
+and by substituting the firn diffusivities as defined in Appendix \ref{sec:appendix_firn_diffusion} and according to 
+\cite{Johnsen2000} we get:
+\begin{equation}
+ \frac{\sigma_j^2 \left( \rho \right)}{\sigma_k^2 \left( \rho \right)} = 
+\frac{D_{\mathrm{a}j} \alpha_k}{D_{\mathrm{a}k} \alpha_j}\,
+\frac{\displaystyle \frac{\,1\,}{\rho^2} \int 2\rho^2 
+{\left( \frac{\mathrm{d}\rho}{\mathrm{d}t}\right)}^{-1}\!  \frac{m\,p}{R\,T\,\tau}
+\left(\frac{\,1\,}{\,\rho\,} - \frac{\,1\,}{\,\rho_{\mathrm{ice}}\,}\right) \,\mathrm{d}\rho}
+{\displaystyle \frac{\,1\,}{\rho^2}  \int2\rho^2 
+{\left( \frac{\mathrm{d}\rho}{\mathrm{d}t}\right)}^{-1}\!  \frac{m\,p}{R\,T\tau}
+\left(\frac{\,1\,}{\,\rho\,} - \frac{\,1\,}{\,\rho_{\mathrm{ice}}\,}\right) \,\mathrm{d}\rho} = 
+\frac{D_{\mathrm{a}j} \alpha_k}{D_{\mathrm{a}k} \alpha_j}.
+\label{eq.difflengthratio_b}
+\end{equation}
+As a result, the ratio of the diffusion lengths is dependent on temperature through the parameterizations
+of the fractionation factors and carries no dependence to parameters related to the densification rates nor the 
+atmospheric pressure. Additionally, it is a quantity that is independent of depth.
+Here we give the analytical expressions of all the isotopologues combinations by substituting the diffusivities and the fractionation
+factors:
+\begin{align}
+\sigma^2_{18}/\sigma^2_{\mathrm{D}} & = 0.93274\cdot \exp(16288/T^2-11.839/T)\\
+\sigma^2_{17}/\sigma^2_{\mathrm{D}} & = 0.933\cdot \exp(16288/T^2-6.263/T)\\
+\sigma^2_{18}/\sigma^2_{17} & = 0.99974\cdot \exp(-5.57617/T)
+\label{eq.difflengthratio_c}
+\end{align}
+
+A data-based diffusion length ratio estimate can be obtained by estimating the single 
+diffusion length values as described in Sec. \ref{sec:single_diffusion}
+and thereafter applying the necessary corrections as in Eq. \ref{eq.firn_data}. 
+An interesting aspect of the ratio estimation is that it is not dependent on the
+ice flow thinning as seen below
+\begin{equation} 
+\left( \frac{\sigma^2_{18}}{\sigma^2_\mathrm{D}} \right)_{\mathrm{firn}}  =
+\frac{ \hat{\sigma}^2_{18} - \sigma^2_{\mathrm{dis}} - \sigma^2_{\mathrm{ice}} }{\hat{\sigma}^2_{\mathrm{D}} - 
+	\sigma^2_{\mathrm{dis}} - \sigma^2_{\mathrm{ice}} }.
+\end{equation}
+while the method still depends on the sampling and ice diffusion.
+\begin{figure}[]	
+	\vspace*{2mm}	
+	\begin{center}		
+		\includegraphics[width=0.7\textwidth]{Figure_9}		
+		\caption{The diffusion length ratios $\sigma^2_{18}/\sigma^2_{\mathrm{D}}$ and $\sigma^2_{17}/\sigma^2_{\mathrm{D}}$
+			with respect to temperature.
+			The $\sigma^2_{18}/\sigma^2_{17}$ is almost constant at $0.95$ and omitted here due to its very low temperature sensitivity.} 		
+		\label{fig:diff_len_ratio}	
+	\end{center}
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}\label{sec:results}
+\subsection{Synthetic data test} \label{sec:synthetic_results}
+We present here a test of accuracy and precision for the estimates of the various 
+quantities used for diffusion based temperature estimations outlined in Sec. \ref{sec:methods}. The tests consist of the generation of
+synthetic data for \delOxb, \delOx~and \delD~and subsequent numerical diffusion with diffusion 
+lengths as calculated for the WH and CD boundary conditions (as presented in Fig. \ref{fig:diffusion_length_profiles}).
+The time series are then sampled at a resolution of $2.5\,\mathrm{cm}$ and white measurement noise is added. Eventually,
+estimates of diffusion lengths for all three isotopologues are obtained using the techniques we have described 
+in the previous sections. The full description of how the synthetic data are generated is outlined in Appendix \ref{sec:appendix_synthetic}.
+
+The process of time series generation is repeated 500 times. 
+For each iteration, the quantities $\sigma_{17}$, $\sigma_{18}$,
+$\sigma_\mathrm{D}$, ${}^{17}\Delta\sigma^2$, ${}^{18}\Delta\sigma^2$ and 
+the ratios $\sigma^2_{18}/\sigma^2_{\mathrm{D}}$,
+$\sigma^2_{17}/\sigma^2_{\mathrm{D}}$ and $\sigma^2_{18}/\sigma^2_{17}$ are estimated. 
+The differential diffusion signals are estimated 
+using the three different techniques as described in Sec. \ref{sec:diff_diffusion}.
+We designate the subtraction technique with
+I, the linear regression with II and the correlation method with III. 
+For every value of the diffusion estimates we calculate a firn temperature.
+Finally for the total of the 500 iterations we calculate a mean firn temperature $\overline{T}$, 
+a standard deviation and a mean bias as: 
+\begin{equation}
+\text{MB} = \frac{1}{N} \sum_{i = 1}^{N} T_i - T_{\text{sur}} = \overline{T} - T_{\text{sur}},
+\end{equation}
+where $i = 1,2,\dots,N$ signifies the iteration number, $T_i$ is the synthetic 
+data-based estimated temperature and $T_{\text{sur}}$ is the model forcing  
+surface temperature for the WH and CD scenarios.
+For each technique, the precision $s_{\bar{T}}$ is calculated by averaging 
+the squared standard deviations of all simulations. 
+The results of the experiment are presented in Table \ref{tbl:synthetic_diff_lens} and the calculated 
+mean biases are illustrated in Fig. \ref{fig:synthetic_data_bias}.
+The diffusion length ratio approach yields very large uncertainty bars (see Table \ref{tbl:synthetic_diff_lens}) and thus these results are not 
+included in Fig. \ref{fig:synthetic_data_bias}. 
+
+
+\begin{figure*}[]
+	\vspace*{2mm}
+	\begin{center}
+		\includegraphics[width=\textwidth]{Figure_10}
+		\caption{Mean biases for the single and differential diffusion.
+			The error bars represent 1 std of the estimated temperatures.}  \label{fig:synthetic_data_bias}
+	\end{center}
+\end{figure*}
+
+\begin{table*}[]
+	\center
+	\begin{tabular}{r r r r r r r } 
+		\toprule
+		& &  CD & &  &WH&\\
+		\midrule
+		 &	Applied diffusion  &	Est. diffusion & Est. T [$^o\mathrm{C}$] &	
+		Applied diffusion	&	Est. diffusion 	& Est. T  [$^o\mathrm{C}$]\\
+		\midrule
+		$\sigma_{18}$	&	 $5.73$	 $\mathrm{cm}$&	$ 5.81\pm 0.13$ $\mathrm{cm}$	 &  $  -54.9 \pm 0.5 $ 	&	$8.40$  $\mathrm{cm}$&	$ 8.43 \pm 0.20$ $\mathrm{cm}$	& $ -29.0 \pm 0.6 $\\ 
+		$\sigma_{\mathrm{D}}$&	$5.13$ $\mathrm{cm}$	&$ 5.20 \pm 0.10 $ $\mathrm{cm}$	 &	$-55.0  \pm 0.4 $ &	$ 7.77$	 $\mathrm{cm}$&	$7.78 \pm 0.20 $	$\mathrm{cm}$& 	$ -29.1\pm 0.6 $\\ 
+		$\sigma_{17}$&	$5.80$ $\mathrm{cm}$	&$5.94 \pm 0.12 $ $\mathrm{cm}$	 &	$ -54.7 \pm 0.4$ &	$ 8.50$	 $\mathrm{cm}$&	$8.61 \pm 0.16 $	$\mathrm{cm}$& 	$-28.8 \pm 0.5 $\\ 	
+		${}^{18}\Delta\sigma^2$  I &$ 6.5	$ $\mathrm{cm^2}$&	$ 6.8\pm 1.3 $ $\mathrm{cm^2}$	& $ -54.6 \pm 2.3$   &	$10.2$  $\mathrm{cm^2}$	&	$10.6 \pm 2.2$ $\mathrm{cm^2}$	&$ -28.7 \pm 3.6 $\\
+		${}^{18}\Delta\sigma^2$  II& $6.5$ $\mathrm{cm^2}$	&	$6.5 \pm 0.6$ $\mathrm{cm^2}$	& $ -54.8 \pm 1.1$	&	$ 10.2$ $\mathrm{cm^2}$	&$10.3 \pm 0.9 $	 $\mathrm{cm^2}$& $-28.7 \pm 1.2$\\
+		${}^{18}\Delta\sigma^2$  III& $6.5$ $\mathrm{cm^2}$	&	$5.9 \pm 0.3$ $\mathrm{cm^2}$		&  $-56.0  \pm 0.5$	&	$10.2$	 $\mathrm{cm^2}$&	 $10.0 \pm0.5 $  $\mathrm{cm^2}$& $-29.4 \pm 0.9 $\\
+		${}^{17}\Delta\sigma^2$  I &$ 7.3	$ $\mathrm{cm^2}$&	$ 8.3 \pm 1.2 $ $\mathrm{cm^2}$	& $-53.5  \pm 1.5$   &	$11.9$  $\mathrm{cm^2}$	&	$ 13.6\pm 1.6 $ $\mathrm{cm^2}$	&$-26.7 \pm 1.9$\\
+		${}^{17}\Delta\sigma^2$  II& $7.3$ $\mathrm{cm^2}$	&	$7.4 \pm 0.6$ $\mathrm{cm^2}$	& $-54.9  \pm 0.9 $	&	$11.9$ $\mathrm{cm^2}$	&$ 12.2\pm 0.8$	 $\mathrm{cm^2}$& $-28.5 \pm 1.1 $\\
+		$\sigma^2_{18}/\sigma^2_{17} $&$	0.975$& $ 0.957\pm 0.040 $ 	& --------------	&$0.977$*	& 	$0.959 \pm 0.027$* 	& -------------- \\
+		$\sigma^2_{18}/\sigma^2_\mathrm{D} $&$	1.24$& $1.25 \pm 0.05 $ 	& $-56.9 \pm 12.9$	&$1.17$	& 	$1.18 \pm 0.04$ 	& $-30.7 \pm 16.0$\\
+		$\sigma^2_{17}/\sigma^2_\mathrm{D} $&$	1.28$& $ 1.31 \pm 0.05 $ 	& $  -63.4 \pm 8.9$	&$1.20$	& 	$1.23 \pm 0.03$ 	& $ -40.0 \pm 9.9 $\\
+		\bottomrule		
+	\end{tabular}
+	\caption{Simulations of a synthetic CD and WH scenario. The applied diffusion lengths are shown 
+		together with the estimated diffusion lengths and the corresponding temperatures. }
+	\label{tbl:synthetic_diff_lens}
+\end{table*}
+
+\subsection{Ice core data test} \label{sec:icecore_results}
+We also use a number of high resolution, high precision ice core data, in order to benchmark the 
+diffusion temperature reconstruction techniques that we have  presented.
+The aim of this benchmark test is to utilize the various  reconstruction techniques for a range of
+boundary conditions that is (a) as broad as possible with respect to mean annual surface temperature 
+and accumulation and (b) representative of existing polar ice core sites.
+Additionally, we have made an effort in focusing on ice core  data sets that reflect conditions as close as possible to 
+present. As a result, the majority of the data sets presented here are from relatively shallow depths and as a result
+reflect climatic conditions typical of the late Holocene. Where this was not possible due to limited data availability,
+we have used data originating from deeper sections of the ice cores with an age  
+of about 10ka b2k reflecting conditions of  the early Holocene. In Table \ref{tbl:drill_sites} we provide relevant 
+information for each data set as well as the present 
+temperature and accumulation conditions for the drill site from which each data set originates.
+
+The data sets were produced using a variety of techniques
+both with respect to the analysis itself (IRMS/CRDS), as well as with respect to the sample resolution and preparation
+(discrete/CFA). The majority of the data sets were analysed using CRDS instrumentation. In particular the L1102i, L2120i and L2130i
+variants of the picarro CRDS analyser were utilized for both discrete and CFA measurements of \delOx~and \delD.
+The rest of the data sets were analysed using IRMS techniques with either $\mathrm{CO}_2$ equilibration or 
+high temperature carbon reduction. For the case of the NEEM early Holocene data set, we work with two data sections that span the same 
+depth interval and consist of discretely sampled and CFA measured data respectively.
+Additionally, the Dome C and Dome F data sections represent conditions typical for the East Antarctic Plateau and are sampled
+using a different approach ($2.5 \, \mathrm{cm}$ resolution discrete samples for the Dome C section and high resolution CFA measurements
+for the Dome F section).
+
+
+In a way similar to the synthetic data test, we apply the various reconstruction techniques on every ice core data
+section, we estimate the corresponding diffusion parameters and subsequently the temperatures
+corresponding to them. No reconstruction techniques involving \delOxb ~are presented here due to lack of 
+\delOxb ~data. In order to achieve an uncertainty estimation for every reconstruction, we 
+perform a sensitivity test that is based on 1000 repetitions. Assuming that every ice core section 
+consists of $J$ \delOx ~ and \delD ~points, then a repetition is based on a 
+data subsection with size $J'$ that varies in the interval $\left[ J/2, J \right]$. This ``jittering''
+of the subsection size happens around the midpoint of every section and $J'$ is 
+drawn from a uniform distribution. Eventually, for every reconstruction method and every ice core site, we
+calculate a mean and a standard deviation for the diffusion estimate, as well as a mean and a standard 
+deviation for the temperature. We would like to point out 
+that this type of sensitivity test does not take into account uncertainties originating from 
+the densification or diffusion physical quantities and their parameterizations, or inaccuracies 
+due to the ice flow thinning model or solid ice and sampling diffusion estimates. 
+Results are presented in Table \ref{tbl:icecore_results}. 
+The estimated temperatures for ice cores covering the late-mid Holocene and early Holocene are 
+shown in Fig. \ref{fig:all_temps} and \ref{fig:early_temps} respectively.
+
+
+\subsection{The fractionation factors} \label{sec:results_fractionation}
+
+The influence of the fractionation factors ($\alpha_{18}$, $\alpha_\mathrm{D}$) on the reconstructed temperatures are
+tested on ice core data sets representative of a broad range of temperatures. By comparing the results of different parameterization schemes, it is possible to quantify the influence of the choice of parametrization on the absolute temperature estimates. This is especially relevant for temperatures below $-40\mathrm{^oC}$, as the confidence of the parameterized fractionation factors have been shown to be low for such cold temperatures \citep{Ellehoj2013}. 
+Similar to the ice core data test (Sec. \ref{sec:icecore_results}), the corresponding diffusion parameters and subsequently the temperatures are based on
+a sensitivity test of 1000 repetitions.
+The results are displayed in Fig. \ref{fig:fractionation_temps}, where the temperatures resulting from the parametrizations of
+\cite{Majoube1971} ($\alpha_{18}$) and \cite{Merlivat1967} ($\alpha_\mathrm{D}$) are compared to the temperatures resulting from the parametrizations of \cite{Ellehoj2013} ($\alpha_{18}$, $\alpha_\mathrm{D}$) and \cite{Lamb2015} ($\alpha_\mathrm{D}$).
+In the latter case, the parameterization of $\alpha_{18}$ from \cite{Majoube1971} is used for the dual diffusion length methods.
+
+
+\begin{sidewaystable}[]
+\center
+	\caption{Ice core data sections and the corresponding drill site characteristic. Sources of data: \citep{Steig2013}$^\mathrm{1}$, 
+		\citep{Oerter2004}$^\mathrm{2}$, \citep{Svensson2015}$^\mathrm{3}$, \citep{Gkinis2011b}$^\mathrm{4}$,\citep{Gkinis2011}$^\mathrm{5}$. Drill site characteristic sources:		
+		\citep{Bantaetal2008}$^\mathrm{a}$, \citep{Oerter2004,Veres2013}$^\mathrm{b}$, \citep{Watanabeetal2003,Kawamuraetal2003}$^\mathrm{c}$,
+			\citep{Lorius1979}$^\mathrm{d}$, \citep{NGRIPmembers2004,Gkinis2014}$^\mathrm{e}$, \citep{Johnsen2000}$^\mathrm{f}$, \citep{Guillevic2013,Rasmussen2013}$^\mathrm{g}$.
+		 }\label{tbl:drill_sites}
+	\begin{tabular}{l c c c c c c c c c} 
+		\toprule
+		Site Name &Depth & Age  & Present T  &
+		 A & P & Thinning& Meas. & Analysis&$\Delta$\\
+		 &[$\mathrm{m}$]&[$\mathrm{ka b2k}$]&[$^\mathrm{o}\mathrm{C}$]& [$\mathrm{m \, ice \, yr^{-1}}$]&
+		  [$\mathrm{Atm}$]& & &&[$\mathrm{cm}$]\\
+		\midrule
+		GRIP mid$^\mathrm{f}$&$753-776$ & 3.7 &$-31.6 $ & 0.23 & 0.65 & 0.71&$\delta$D, $\delta^{18}$O&2130&2.5\\
+		GRIP late$^\mathrm{f}$&$514-531$  &2.4 &$-31.6 $ &0.23 & 0.65  &  0.79&$\delta$D, $\delta^{18}$O&2130&2.5\\	
+		WAIS 2005A$^\mathrm{a,1}$ &$260-290$  & 1.1 & $-31.1$ &0.22 & 0.77 & 0.92 &  	 $\delta^{18}$O&1102&5.0\\
+		EDML$^\mathrm{b,2}$ & $123-178$&1.6&$-44.6$ & 0.08 & 0.67 & 0.93&$\delta$D, $\delta^{18}$O&IRMS&5.0\\		
+		NEEM$^\mathrm{g}$&$174-194 $&0.8 &$-29.0$ & 0.22 &  0.72 &  0.31&$\delta$D, $\delta^{18}$O&2120&2.5\\       
+		NGRIP$^\mathrm{e}$ &$174-194$ &0.9 &$-31.5$ & 0.20 & 0.67  & 0.49& $\delta^{18}$O&IRMS&2.5\\			
+		Dome F$^\mathrm{c,3}$& $302-307$& 9.6 & $-57.3$ &0.04 & 0.61  &  0.93 &$\delta$D, $\delta^{18}$O&CFA1102&0.5\\
+		Dome C$^\mathrm{d,4}$ &$308-318$ & 9.9 &$-53.5 $ &0.04 & 0.65 &   0.93&$\delta$D, $\delta^{18}$O&IRMS&2.5\\
+		GRIP early$^\mathrm{f}$&$1449-1466$ & 9.4 &$-31.6 $ & 0.23 & 0.65  &  0.42&$\delta$D, $\delta^{18}$O&2130&2.5\\
+		NEEM dis$^\mathrm{g,5}$ &$1380-1392 $&10.9 &$-29.0$ & 0.22 &  0.72 &  0.31&$\delta$D, $\delta^{18}$O&2120&5.0\\       
+		NEEM CFA$^\mathrm{g,5}$& $1382-1399$& 10.9 &$-29.0 $& 0.22 & 0.72  & 0.31&$\delta$D, $\delta^{18}$O&CFA1102&0.5\\			
+		NGRIP I$^\mathrm{e}$&$1300-1320$ &9.1 &$-31.5$ & 0.18 & 0.67  & 0.55& $\delta^{18}$O&IRMS&5.0\\			
+		NGRIP II$^\mathrm{e}$ &$1300-1320$ & 9.1 &$-31.5$ & 0.18 & 0.67  & 0.55&$\delta^{18}$O&IRMS&5.0\\				
+		\bottomrule	
+	\end{tabular}
+\end{sidewaystable}
+
+
+\begin{figure*}[]
+	\vspace*{2mm}
+	\begin{center}
+		\includegraphics[width=\textwidth]{Figure_11}
+		\caption{Late-mid Holocene section with reconstructed temperatures from the $\sigma^2_{18}$ (blue circles), 
+			 $\sigma^2_{\mathrm{D}}$ (red circles), $\Delta\sigma^2$ I (green squares),
+			 $\Delta\sigma^2$ II (brown squares), $\Delta\sigma^2$ III (magenta squares) and
+			 ${\sigma^2_{18}}/{\sigma^2_\mathrm{D}}$ (grey triangles) methods.
+			The black stars represent the present annual mean temperatures at the sites.}  \label{fig:all_temps}
+	\end{center}
+\end{figure*}
+
+
+
+\begin{figure*}[]
+	\vspace*{2mm}
+	\begin{center}
+		\includegraphics[width=\textwidth]{Figure_12}
+		\caption{Early Holocene section with reconstructed temperatures from the $\sigma^2_{18}$ (blue circles), 
+			$\sigma^2_{\mathrm{D}}$ (red circles), $\Delta\sigma^2$ I (green squares),
+			$\Delta\sigma^2$ II (brown squares), $\Delta\sigma^2$ III (magenta squares) and
+			${\sigma^2_{18}}/{\sigma^2_\mathrm{D}}$ (grey triangles) methods.
+			The black stars represent the present annual mean temperatures at the sites.}  \label{fig:early_temps}
+	\end{center}
+\end{figure*}
+
+
+\begin{table}[]
+\center
+	\caption{Ice core results with the estimated firn diffusion lengths and their corresponding temperatures [$^\mathrm{o}$C].
+		  The units for the $\sigma_{18}$ and the $\sigma_{\mathrm{D}}$ values are expressed in $\mathrm{cm}$ and the unit for ${}^{18}\Delta\sigma^2$
+		is expressed in $\mathrm{cm}^2$.  }\label{tbl:icecore_results}
+	\begin{tabular}{l c c c c c c} 
+		\toprule
+		Site Name & $\sigma_{18}$ & $\sigma_{\mathrm{D}}$ & ${}^{18}\Delta\sigma^2$  I & ${}^{18}\Delta\sigma^2$  II & ${}^{18}\Delta\sigma^2$  III & $\sigma^2_{18}/\sigma^2_{\mathrm{D}}$\\
+		\midrule
+		GRIP mid & 7.83 $\pm$ 0.15$\,\mathrm{cm}$& 7.20 $\pm$ 0.13$\,\mathrm{cm}$& 9.4 $\pm$ 0.9$\,\mathrm{cm}^2$& 9.6 $\pm$ 0.6$\,\mathrm{cm}^2$& 0.2$\pm$ 0.1$\,\mathrm{cm}^2$& 1.18$\pm$ 0.02\\
+		& -32.9$\pm$ 0.5$\,^\mathrm{o}$C & -33.0$\pm$ 0.5$\,^\mathrm{o}$C& -32.7 $\pm$ 1.6$\,^\mathrm{o}$C& -32.3 $\pm$ 1.0$\,^\mathrm{o}$C& -82.0 $\pm$ 3.9$\,^\mathrm{o}$C& -34.2 $\pm$ 6.7$\,^\mathrm{o}$C\\
+	
+		GRIP late&8.52 $\pm$ 0.09$\,\mathrm{cm}$& 7.92 $\pm$ 0.14$\,\mathrm{cm}$& 9.9 $\pm$ 0.8$\,\mathrm{cm}^2$& 8.6 $\pm$ 0.6$\,\mathrm{cm}^2$& 4.8$\pm$ 0.5$\,\mathrm{cm}^2$& 1.16$\pm$ 0.02\\
+		& -30.7 $\pm$ 0.3$\,^\mathrm{o}$C & -30.5 $\pm$ 0.5$\,^\mathrm{o}$C& -31.9 $\pm$ 1.3$\,^\mathrm{o}$C& -34.2 $\pm$ 0.9$\,^\mathrm{o}$C& -43.0 $\pm$ 1.4$\,^\mathrm{o}$C& -24.4 $\pm$ 7.7$\,^\mathrm{o}$C\\
+
+		WAIS 2005A &6.95 $\pm$ 0.04$\,\mathrm{cm}$&--------------& --------------& --------------&--------------&--------------\\
+		& -31.4 $\pm$ 0.1$\,^\mathrm{o}$C &-------------- &--------------&-------------- & --------------& --------------\\
+
+		EDML &7.73 $\pm$ 0.04$\,\mathrm{cm}$& 7.13 $\pm$ 0.04$\,\mathrm{cm}$& 8.9 $\pm$ 0.3$\,\mathrm{cm}^2$& 8.2 $\pm$ 0.2$\,\mathrm{cm}^2$& 7.2$\pm$ 0.1$\,\mathrm{cm}^2$& 1.18$\pm$ 0.01\\
+		& -42.8 $\pm$ 0.1$\,^\mathrm{o}$C & -42.5 $\pm$ 0.1$\,^\mathrm{o}$C& -44.6 $\pm$ 0.5$\,^\mathrm{o}$C& -45.9 $\pm$ 0.3$\,^\mathrm{o}$C& -47.7 $\pm$ 0.3$\,^\mathrm{o}$C& -32.2 $\pm$ 2.6$\,^\mathrm{o}$C\\
+		
+		NEEM&7.97 $\pm$ 0.20$\,\mathrm{cm}$& 7.20 $\pm$ 0.31$\,\mathrm{cm}$& 11.7 $\pm$ 1.5$\,\mathrm{cm}^2$& 10.2 $\pm$ 1.1$\,\mathrm{cm}^2$& 4.5$\pm$ 2.0$\,\mathrm{cm}^2$& 1.23$\pm$ 0.05\\
+		& -31.9 $\pm$ 0.7$\,^\mathrm{o}$C & -32.5 $\pm$ 1.1$\,^\mathrm{o}$C& -28.5 $\pm$ 2.3$\,^\mathrm{o}$C& -30.8 $\pm$ 1.8$\,^\mathrm{o}$C& -45.8 $\pm$ 10.3$\,^\mathrm{o}$C& -49.2 $\pm$ 15.1$\,^\mathrm{o}$C\\
+		
+		NGRIP &8.65 $\pm$ 0.19 $\mathrm{cm}$&-------------- &--------------&-------------- & --------------&-------------- \\
+		& -31.6 $\pm$ 0.6$\,^\mathrm{o}$C &--------------& --------------& --------------& --------------&--------------\\	
+	
+		Dome F&5.76 $\pm$ 0.15$\,\mathrm{cm}$& 4.92 $\pm$ 0.04$\,\mathrm{cm}$& 9.0 $\pm$ 1.8$\,\mathrm{cm}^2$& 5.4 $\pm$ 0.8$\,\mathrm{cm}^2$& 4.4$\pm$ 1.9$\,\mathrm{cm}^2$& 1.37$\pm$ 0.08\\
+		& -57.6 $\pm$ 0.6$\,^\mathrm{o}$C & -58.5 $\pm$ 0.2$\,^\mathrm{o}$C& -54.2 $\pm$ 2.7$\,^\mathrm{o}$C& -60.4 $\pm$ 2.1$\,^\mathrm{o}$C& -63.7 $\pm$ 5.6$\,^\mathrm{o}$C& -80.7 $\pm$ 14.0$\,^\mathrm{o}$C\\
+	
+		Dome C &6.97 $\pm$ 0.14$\,\mathrm{cm}$& 6.34 $\pm$ 0.05$\,\mathrm{cm}$& 8.4 $\pm$ 1.9$\,\mathrm{cm}^2$& 6.7 $\pm$ 1.1$\,\mathrm{cm}^2$& 0.4$\pm$ 0.4$\,\mathrm{cm}^2$& 1.21$\pm$ 0.05\\
+		& -52.8 $\pm$ 0.4$\,^\mathrm{o}$C & -52.5 $\pm$ 0.2$\,^\mathrm{o}$C& -54.4 $\pm$ 2.9$\,^\mathrm{o}$C& -56.9 $\pm$ 2.2$\,^\mathrm{o}$C& -88.8 $\pm$ 6.8$\,^\mathrm{o}$C& -42.1 $\pm$ 16.6$\,^\mathrm{o}$C\\
+	
+		GRIP early &9.32 $\pm$ 0.22$\,\mathrm{cm}$& 8.25 $\pm$ 0.03$\,\mathrm{cm}$& 18.7 $\pm$ 4.0$\,\mathrm{cm}^2$& 20.4 $\pm$ 1.9$\,\mathrm{cm}^2$& 6.6$\pm$ 1.1$\,\mathrm{cm}^2$& 1.27$\pm$ 0.06\\
+		& -28.2 $\pm$ 0.7$\,^\mathrm{o}$C & -29.4 $\pm$ 0.1$\,^\mathrm{o}$C& -21.6 $\pm$ 4.2$\,^\mathrm{o}$C& -19.7 $\pm$ 1.6$\,^\mathrm{o}$C& -38.4 $\pm$ 2.5$\,^\mathrm{o}$C& -60.8 $\pm$ 16.4$\,^\mathrm{o}$C\\
+	
+		NEEM dis &10.33 $\pm$ 0.16$\,\mathrm{cm}$& 9.72 $\pm$ 0.19$\,\mathrm{cm}$& 12.1 $\pm$ 1.8$\,\mathrm{cm}^2$& 10.0 $\pm$ 0.8$\,\mathrm{cm}^2$& 1.6$\pm$ 0.2$\,\mathrm{cm}^2$& 1.13$\pm$ 0.02\\
+		& -26.0 $\pm$ 0.4$\,^\mathrm{o}$C & -25.6 $\pm$ 0.5$\,^\mathrm{o}$C& -29.5 $\pm$ 2.4$\,^\mathrm{o}$C& -32.5 $\pm$ 1.3$\,^\mathrm{o}$C& -58.9 $\pm$ 1.5$\,^\mathrm{o}$C& -9.1 $\pm$ 11.5$\,^\mathrm{o}$C\\
+	
+		NEEM CFA&10.27 $\pm$ 0.15$\,\mathrm{cm}$& 9.65 $\pm$ 0.15$\,\mathrm{cm}$& 12.3 $\pm$ 1.0$\,\mathrm{cm}^2$& 11.4 $\pm$ 0.9$\,\mathrm{cm}^2$& 11.2$\pm$ 0.6$\,\mathrm{cm}^2$& 1.13$\pm$ 0.01\\
+		& -26.2 $\pm$ 0.4$\,^\mathrm{o}$C & -25.8 $\pm$ 0.4$\,^\mathrm{o}$C& -29.1 $\pm$ 1.3$\,^\mathrm{o}$C& -30.3 $\pm$ 1.2$\,^\mathrm{o}$C& -30.6 $\pm$ 0.8$\,^\mathrm{o}$C & -12.1 $\pm$ 5.9$\,^\mathrm{o}$C\\
+		
+		NGRIP I&9.68 $\pm$ 0.13$\,\mathrm{cm}$& --------------&--------------& --------------&--------------&--------------\\
+		& -29.1 $\pm$ 0.4$\,^\mathrm{o}$C & --------------&--------------&-------------- &--------------& --------------\\
+		
+		NGRIP II &10.14 $\pm$ 0.12$\,\mathrm{cm}$&-------------- &--------------&--------------&-------------- & --------------\\
+		& -28.8 $\pm$ 0.3$\,^\mathrm{o}$C & --------------&-------------- &-------------- &-------------- &--------------\\
+		\bottomrule	
+	\end{tabular}
+\end{table}
+
+
+
+\begin{figure*}[]
+	\vspace*{2mm}
+	\begin{center}
+		\includegraphics[width=\textwidth]{Figure_13}
+		\caption{Temperature reconstructions based on
+			different fractionation factor parametrizations.
+			The left figure shows the single isotopologue methods and 
+			the right figure shows the dual isotope methods.
+			The circles represent using the fractionation factors of \citet{Majoube1971,Merlivat1967}, 
+			the squares represent \citet{Ellehoj2013} and the triangles represent \citet{Lamb2015,Majoube1971}. }  
+		\label{fig:fractionation_temps}
+	\end{center}
+\end{figure*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Discussion}\label{sec:discussion}
+
+\subsection{Synthetic data}\label{sec:discussion_synthetic}
+Based on the results of the sensitivity experiment with 
+synthetic data, the following can be inferred. Firstly, the three techniques based on the 
+single isotope diffusion, perform similarly and of all the techniques
+tested, yield the highest precision with a $s_{\bar{T}} \approx 0.5 \,{}^{\circ} \text{C}$.
+Additionally, the estimated temperatures $\overline{T}$ are within 1$s_{\bar{T}}$
+of the forcing temperature  $T_{\text{sur}}$, a result pointing to a good performance with respect to 
+the accuracy of the temperature estimation. 
+The precision of the differential diffusion techniques is
+inferior to single diffusion with $s_{\bar{T}} \approx 1.2 \,{}^{\circ} \text{C}$, with the subtraction 
+technique being the least precise of all three differential diffusion approaches. 
+A possible reason for this result may be the fact that the subtraction technique relies on the 
+tuning of 8 optimization parameters as described in Sec. \ref{sec:single_diffusion} and 
+\ref{sec:diff_diffusion}.
+On the contrary the 
+correlation technique appears to be the most precise of the three techniques with precisions 
+that are comparable of those achieved with the single diffusion techniques. All 10 experiments 
+utilizing differential diffusion methods, yield an accuracy that lies within the 2$s_{\bar{T}}$ range
+(1$s_{\bar{T}}$ range for 7 out of 10 experiments). We can conclude that experiments involving the estimation 
+of the diffusion length ratio indicate that the latter are practically unusable due to very high uncertainties
+with $s_{\bar{T}}$ averaging to a value of  $\approx 12 \,{}^{\circ} \text{C}$ for all four experiments.
+A general trend that seems to be apparent for all the experiments, is that the results for the CD forcing yield
+slightly lower uncertainties when compared to those for the WH forcing, likely indicating a
+temperature and accumulation influence in the performance of all the reconstruction techniques. 
+
+
+\subsection{Ice core data}\label{sec:discussion_icecore}
+The precision $s_{\bar{T}}$ of each reconstruction technique has been quantified
+by averaging the squared standard deviations of the reconstructed temperatures (Table \ref{tbl:icecore_results}). 
+Hence, the precision represents the uncertainty of the estimated diffusion signal, 
+and is not an indication of the accuracy of the absolute temperature estimate.
+In accordance with the results from the synthetic data test, the most precise reconstructions are obtained when using the single isotope diffusion methods. 
+The single diffusion methods have a $s_{\bar{T}}$ of $0.5\,^\mathrm{o}\mathrm{C}$, while the differential diffusion methods ${}^{18}\Delta\sigma^2$ I, II and III
+have a $s_{\bar{T}}$ of $2.4\,^\mathrm{o}\mathrm{C}$,
+$1.5\,^\mathrm{o}\mathrm{C}$ and $4.9\,^\mathrm{o}\mathrm{C}$, respectively.
+The correlation-based technique is hereby shown to be the least precise differential diffusion method.
+This differs from the result of the synthetic data, where the correlation-based technique
+was shown to be the most precise. 
+Of the differential diffusion methods, the linear fit of the logarithmic ratio provides the most precise results, 
+with a precision similar to that found from the synthetic data (Sec. \ref{sec:discussion_synthetic}).
+Of all the tested techniques, the diffusion length ratio method is the least precise with 
+a $s_{\bar{T}}$ of $11.8\,^\mathrm{o}\mathrm{C}$. 
+A similar precision was found from the synthetic data.
+
+
+It is not possible to quantify the accuracy of the methods when applied on ice core data,
+as the reconstructed temperatures represent the integrated firn column temperature.
+The reconstructed temperatures should therefore not necessarily be completely identical to present day annual temperatures.
+However, clear outliers can still be inferred from the data as temperature estimates that deviate with
+$-30\,^\mathrm{o}\mathrm{C}$ from the present day annual mean temperatures are unrealistic.
+Alternately, the root-mean-square deviation (RMSD) has been calculated in order to quantify the consistency between the
+reconstructed temperatures of any two methods ($x$ and $y$):
+\begin{equation}
+\mathrm{RMSD} = \sqrt{\frac{\sum_{j = 1}^{n} \left(x_j - y_j\right)^2}{n}},
+\end{equation}
+where $j$ represents the drill site and $n$ the total number of sites.
+
+First we address the correlation-based and diffusion length ratio techniques as these two
+methods result in temperatures that clearly deviate with present day annual mean temperatures.
+Besides the low precision of the diffusion length ratio method, 
+its temperature esimates are highly inconsistent with the results of the 
+other techniques, with RMSDs varying from $21\, ^\mathrm{o}\mathrm{C}$ to $34 \, ^\mathrm{o}\mathrm{C}$. 
+For the correlation-based technique,
+similar high RMSDs are found between the temperature estimates of the ${}^{18}\Delta\sigma^2$ I and III, and the ${}^{18}\Delta\sigma^2$ II and III techniques. Here, the RMSDs are found to be $24.8\,^\mathrm{o}\mathrm{C}$ and $23.8\,^\mathrm{o}\mathrm{C}$, respectively.
+A high RMSD ($24.5\,^\mathrm{o}\mathrm{C}$) is also found when comparing the temperature estimates originating from the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ III methods. 
+The large differences between the correlation-based and spectral-based temperature estimates are particularly pronounced for GRIP, NEEM (Fig. \ref{fig:all_temps}), Dome C and the discretely measured NEEM section (Fig. \ref{fig:early_temps}).
+In addition, it can be seen that the correlation-based method results in significantly different 
+temperatures for the discretely and continuously measured NEEM section.
+A similar difference is not found from the spectral-based methods. Instead, these provide
+consistent temperatures independent of the processing scheme.
+The generally poor performance of the correlation-based method on ice core data contradicts the high accuracy and precision of the synthetic reconstructions, and is most likely caused by an oversimplification of the relationship between $\delta\mathrm{D}$ and $\delta^{18}\mathrm{O}$. The generation of the synthetic data is based on the assumption that $\delta\mathrm{D} = 8\cdot \delta^{18}\mathrm{O} + 10 \permil$. However, this premise neglects the time dependent \Dxs~signal. 
+The correlation-based method can therefore be used to accurately reconstruct synthetic temperatures, while the accuracy and precision are much lower for ice core data,
+as such data has been influenced by the \Dxs~signal.
+In addition, these temperature estimates have been shown to be dependent on the sampling process. The correlation-based method therefore yields uncertain estimates of the differential diffusion length.
+
+
+
+The temperature estimates originating from the $\sigma^2_{18}$ and $\sigma^2_{\mathrm{D}}$ methods are found to have a RMSD of $0.7\,^\mathrm{o}\mathrm{C}$. This shows that the $\sigma^2_{18}$ and $\sigma^2_{\mathrm{D}}$ methods result in similar temperatures, which is consistent with the high accuracies found from the synthetic data test.
+In theory, ${}^{18}\Delta\sigma^2$ should yield even more accurate temperature estimates as it
+is independent of the systematic errors that can arise when correcting for ice and sampling diffusion. 
+However, the RMSD between the temperature estimates of the ${}^{18}\Delta\sigma^2$ I and II techniques is found to be $3.8\,^\mathrm{o}\mathrm{C}$.  
+%Even higher RMSDs is found between the temperature estimates of the ${}^{18}\Delta\sigma^2$ I and III, and the ${}^{18}\Delta\sigma^2$ II and III techniques. Here, the RMSDs are found to be $24.8\,^\mathrm{o}\mathrm{C}$ and $23.8\,^\mathrm{o}\mathrm{C}$, respectively.
+%The large differences between the correlation-based and spectral-based temperature estimates are particularly pronounced for GRIP, NEEM (Fig. \ref{fig:all_temps}), Dome C and the discretely measured NEEM section (Fig. \ref{fig:early_temps}).
+%In addition, it can be seen that the correlation-based method results in significantly different 
+%temperatures for the discretely and continuously measured NEEM section.
+%A similar difference is not found from the spectral-based methods. Instead, these provide
+%consistent temperatures independent of the processing scheme.
+%Finally, a high RMSD ($24.5\,^\mathrm{o}\mathrm{C}$) is also found when comparing the temperature estimates originating from the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ III methods. 
+%
+%
+%The generally poor performance of the correlation-based method on ice core data contradicts the high accuracy and precision of the synthetic reconstructions, and is most likely caused by an oversimplification of the relationship between $\delta\mathrm{D}$ and $\delta^{18}\mathrm{O}$. The generation of the synthetic data is based on the assumption that $\delta\mathrm{D} = 8\cdot \delta^{18}\mathrm{O} + 10 \permil$. However, this premise neglects the time dependent \Dxs~signal. 
+%The correlation-based method can therefore be used to accurately reconstruct synthetic temperatures, while the accuracy and precision are much lower for ice core data,
+%as such data has been influenced by the \Dxs~signal.
+%In addition, these temperature estimates have been shown to be dependent on the sampling process. The correlation-based method therefore yields uncertain estimates of the differential diffusion length.
+The RMSDs between the temperature estimates of the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ I methods, 
+and the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ II methods are found to be  
+$3.9\,^\mathrm{o}\mathrm{C}$ and $4.8\,^\mathrm{o}\mathrm{C}$, respectively. This could therefore indicate that ${}^{18}\Delta\sigma^2$ I yields more accurate reconstructions than ${}^{18}\Delta\sigma^2$ II. 
+However, ${}^{18}\Delta\sigma^2$ II has been shown to have the highest precision. It is therefore difficult to select the most accurate technique.
+One should therefore not have a preferred technique without utilizing both methods 
+on longer ice core sections. 
+Basically, the reconstructed temperatures could be similar when the temperatures have been averaged over a longer record.
+
+%Longer ice core sections can provide the foundation for evaluating how well other parameters are constrained.
+%For instance, a wrong estimate of the thinning profile will scale the diffusion length estimates incorrectly 
+%and this will result in inaccurate temperature reconstructions.
+%High resolution measurements of ice cores spanning the complete Holocene and last glacial maximum would help evaluate how well the accumulation rate history of past climate is reconstructed. 
+%For the NGRIP ice core, a complete temperature profile has been reconstructed using the
+%$\sigma^2_{18}$ method \citep{Gkinis2014}, but the profile had a temperature gradient of around $10 \,\mathrm{^oC}$ between the
+%HCO and present day.  
+%The high gradient was found to be caused by an error in the thinning profile. 
+%This pointed to a necessary adjustment of the ice flow's total thinning function indicating that the
+%currently estimated accumulation rates were overestimated by 10\% at 8ky b2k.
+%This could be examined more thoroughly several places in Greenland and Antarctica 
+%by utilizing the single and differential diffusion techniques on ice cores
+%spanning both the Holocene and last glacial maximum.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{The fractionation factors} \label{sec:fractionation}
+The temperature estimates resulting from the different fractionation factor parametrizations
+are shown in Fig. \ref{fig:fractionation_temps}. 
+For each method, the influence of the choice of parametrization on the reconstructed
+temperatures has been quantified by calculating the RMSD between temperature estimates of two parametrizations.
+Comparing the parametrizations of \citet{Ellehoj2013} to those of \citet{Majoube1971} and \citet{Merlivat1967},
+the RMSDs of reconstructions that are based on the single diffusion lengths $\sigma^2_{18}$ and $\sigma^2_{\mathrm{D}}$ are
+$0.03^\mathrm{o}\mathrm{C}$ and $0.6^\mathrm{o}\mathrm{C}$.
+Thus, it is evident that the choice of fractionation factors has an insignificant effect
+on the results of the $\sigma^2_{18}$ method and a small effect on the results of the $\sigma^2_{\mathrm{D}}$ method.
+The choice of parameterization has a greater effect on the temperatures of the ${}^{18}\Delta\sigma^2$ techniques,
+where the temperature estimate of the ${}^{18}\Delta\sigma^2$ I, II and III techniques have RMSDs of 
+$2.3^\mathrm{o}\mathrm{C}$, $2.3^\mathrm{o}\mathrm{C}$ and $2.5^\mathrm{o}\mathrm{C}$, respectively.
+Comparing the parametrization of \citet{Lamb2015} to that of \citet{Merlivat1967},
+the temperatures of the ${}^{18}\Delta\sigma^2$ I, II and III techniques have RMSDs of 
+$0.9^\mathrm{o}\mathrm{C}$, $0.9^\mathrm{o}\mathrm{C}$ and $1.1^\mathrm{o}\mathrm{C}$, respectively.
+In general, smaller RMSDs are found when comparing with temperature estimates based on the \citet{Lamb2015} parametrization.
+For instance, comparing the temperatures of the ${\sigma^2_{18}}/{\sigma^2_\mathrm{D}}$ technique based on \citet{Lamb2015} with those of \citet{Merlivat1967},
+the ${\sigma^2_{18}}/{\sigma^2_\mathrm{D}}$ technique yields a RMSD of $5.4^\mathrm{o}\mathrm{C}$,
+while the RMSD is $9.7^\mathrm{o}\mathrm{C}$ when comparing the results based on the parametrizations of
+\citet{Ellehoj2013} with those of \citet{Majoube1971} and \citet{Merlivat1967}.
+There are two reasons to why the RMSDs are smaller when comparing with the \citet{Lamb2015} parametrization:
+the parametrized $\alpha_\mathrm{D}$ of \citet{Merlivat1967} differs more with that of \citet{Ellehoj2013} than with that of \citet{Lamb2015},
+and the same $\alpha_{18}$ parametrization is used when comparing with \citet{Lamb2015}.
+
+The ${\sigma^2_{18}}/{\sigma^2_\mathrm{D}}$ method is significantly more influenced by the 
+fractionation factors. 
+The high RMSDs imply that even if the diffusion length ratio is estimated with high confidence,
+the method is still too sensitive to the choice of parameterization.
+This makes the method less suitable as a paleoclimatic thermometer. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conclusions}  %% \conclusions[modified heading if necessary]
+This study assessed the performance of six different diffusion-based temperature reconstruction
+techniques.
+By applying the methods on synthetic data, it was demonstrated that each method could be used to accurately reconstruct unbiased temperatures.
+Moreover, this approach facilitated precision estimates of each method.
+The precision of each technique was further quantified by
+utilizing every variety of the diffusion-based temperature proxy on thirteen high resolution 
+data sets from Greenland and Antarctica.
+The results showed that the single diffusion length methods yielded similar temperatures
+and that they are the most precise of all the presented reconstruction techniques.
+The most precise of the three differential diffusion length techniques was the linear fit of
+the logarithmic ratio.
+The most uncertain way of reconstructing past temperatures was by employing the diffusion length ratio method.
+The results from the correlation-based method were inconsistent to the results obtained through the spectral-based methods,
+and the method was considered to yield uncertain estimates of the differential diffusion length.
+
+It was furthermore shown that the choice of fractionation factor parametrization 
+only had a small impact on the results from the single diffusion length methods, 
+while the influence was slightly higher for the differential diffusion length methods.
+The diffusion length ratio method was highly sensitive to the fractionation factor parametrization,
+and the method is not suitable as a paleoclimatic thermometer. 
+
+In conclusion, despite that the dual diffusion techniques seem to be the more optimal choices 
+due to their independence of sampling and ice diffusion or densification and thinning processes,
+the uncertain estimates should outweigh the theoretical advantages.
+From the combined analyses of the synthetic data and ice core data, this study has demonstrated that methods 
+based on the single isotope diffusion lengths result in the most accurate and precise estimates of past temperatures.	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{acknowledgements}
+The research leading to these results has received funding from the European Research Council under the
+European Union's Seventh Framework Programme (FP7/2007-2013) grant agreement \#610055 as part
+of the ice2ice project.
+The authors acknowledge the support of the Danish National Research Foundation through
+the Centre for Ice and Climate at the Niels Bohr Institute (Copenhagen, Denmark).
+We would like to thank A. Schauer, S. Schoenemann, B. Markle and E. Steig for ongoing fruitful discussions 
+and inspiration through the years on all things related to water isotope analysis and modelling.
+We thank our colleagues at Centre for Ice and Climate for their generous contribution,
+especially those who have assisted in processing the ice cores.
+We also thank the NEEM project for providing the NEEM ice core samples. 
+NEEM is directed and organized by the Center of Ice and Climate at the Niels Bohr Institute and US
+NSF, Office of Polar Programs. 
+It is supported by funding agencies and institutions in Belgium (FNRS-CFB and
+FWO), Canada (NRCan/GSC), China (CAS), Denmark (FIST), France (IPEV, CNRS/INSU, CEA and ANR),
+Germany (AWI), Iceland (RannIs), Japan (NIPR), Korea (KOPRI), The Netherlands (NWO/ALW), Sweden (VR),
+Switzerland (SNF), United Kingdom (NERC) and the USA (US NSF, Office of Polar Programs).
+
+\section*{Co-authorship}
+CH and VG contributed equally to this work.
+
+\begin{appendices}
+	
+
+\section{Firn Diffusivity} \label{sec:appendix_firn_diffusion}
+	
+We express the diffusivity as a function of firn density $\rho$ and we use \citep{Johnsen2000}:
+\begin{equation}
+D\!\left(\rho\right) = \frac{m\,p\,D_{\mathrm{a}i}}{R\,T\,\alpha_\mathrm{i}\,\tau}
+\left(\frac{\,1\,}{\,\rho\,} - \frac{\,1\,}{\,\rho_{\mathrm{ice}}\,}\right).
+\label{eq:firn_diffusivity}
+\end{equation}
+The terms used in Eq. (\ref{eq:firn_diffusivity}) and the parametrization used for them are described below:
+\begin{itemize}
+
+\item{m: molar weight  (kg)}
+
+\item{p: saturation vapor pressure over ice (Pa). We use \citep{Murphy2006}:
+\begin{equation}
+p = \exp \left(9.5504 - \frac{5723.265}{T} + 3.530\,\ln\!\left( T \right) - 0.0073\,T \right)
+\label{eq:sat_vap_pres}
+\end{equation}}
+
+\item{$D_{\mathrm{a}i}$:  diffusivity of water vapor (for isotopologue $i$) in air ($\mathrm{m}^2 \mathrm{s}^{-1}$). 
+For the diffusivity of the abundant isotopologue water vapor $D_{\mathrm{a}}$ we use \citep{Hall1976}:
+\begin{equation}
+D_{\mathrm{a}} = 2.1\cdot 10^{-5} {\left(\frac{T}{T_o}\right)}^{1.94} \left(\frac{P_o}{P}\right) 
+\label{eq:air_diffusivity}
+\end{equation}
+with $P_{\mathrm{o}} = 1 \;\mathrm{Atm}$, $T_{\mathrm{o}} = 273.15 \;\mathrm{K}$  and $P, \,T$ the ambient pressure (Atm) and temperature (K).
+Additionally from \cite{MerlivatandJouzel} $D_{a^2\mathrm{H}} = 0.9755{D_{\mathrm{a}}}$ and 
+$D_{\mathrm{a}^{18}\mathrm{O}} = 0.9723{D_{\mathrm{a}}}$ and from \cite{Barkan2007}
+$D_{\mathrm{a}^{17}\mathrm{O}} = 0.98555{D_{\mathrm{a}}}$.}
+
+\item{R: molar gas constant $R = 8.3144 \,\,(\mathrm{m}^3\mathrm{PaK}^{-1}\mathrm{mol}^{-1})$}
+
+\item{T: Ambient temperature $(\mathrm{K})$}
+
+\item{$\alpha_{\mathrm{i}}$: Ice -- Vapor fractionation factor.  we use the formulations by \cite{Majoube1971} 
+and \cite{Merlivat1967} for $\alpha_{\mathrm{s/v}}^{2}$ and $\alpha_{\mathrm{s/v}}^{18}$ respectively.
+\begin{align}
+\alpha_{\mathrm{Ice/Vapor}} \left(^{2}\mathrm{H}/^{1} \mathrm{H} \right) &=0.9098\exp(16288/T^2)\\
+\alpha_{\mathrm{Ice/Vapor}} \left( ^{18}\mathrm{O}/^{16} \mathrm{O} \right) &=  0.9722\exp(11.839/T)\\
+\alpha_{\mathrm{Ice/Vapor}} \left( ^{17}\mathrm{O}/^{16} \mathrm{O}\right)  & = \exp\left(0.529\ln\left[\alpha_{\mathrm{Ice/Vapor}} \left( ^{18}\mathrm{O}/^{16} \mathrm{O} \right)\right] \right)
+\label{eq1617_ch4_app}
+\end{align}}
+
+\item{$\tau$: The firn tortuosity. We use \citep{Schwander1988}:
+\begin{equation}
+\frac{\,1\,}{\,\tau\,} = 1 - b\cdot\left(\frac{\rho}{\rho_{\mathrm{ice}}}\right)^2 \,\,\,\,\,\rho \le 
+\frac{\rho_{\mathrm{ice}}}{\sqrt{b}},\,\,b = 1.3
+\label{eq:firn_tort}
+\end{equation}
+Based on Eq. (\ref{eq:firn_tort}), $\,\,\tau \rightarrow \infty$ for $\rho>804.3\,\mathrm{kg\cdot m}^{-3}$
+}
+	
+
+\end{itemize}
+
+
+\section{Ice Diffusivity} \label{sec:appendix_ice_diffusion}
+The solid ice diffusivity parametrization we use in this study is based on \cite{Ramseier1967} 
+as it is consistent with previous studies.
+In this section we provide the reader with parametrizations from other studies. 
+We assume an Arrhenius type relationship for the ice diffusivity of the form:
+\begin{equation}
+D_{\mathrm{ice}} = D_o \exp \left(- \frac{X}{T} \right) \;\mathrm{ [m^2 s^{-1}]} . 
+\label{eq.icediffusivity_generic}
+\end{equation}
+In Eq. \ref{eq.icediffusivity_generic}, $D_o$ is the pre-exponential factor in $\mathrm{m^2s^{-1}}$
+and $X$ is the Arrhenius coefficient where $X = Q/R$ with $Q$ being the activation energy in 
+$\mathrm{kcalmol^{-1}}$ and R the universal gas constant $(8.314 \; \mathrm{JK^{-1}mol^{-1}})$.
+
+Results from four experimental studies are summarized in Table \ref{table_ice_diffusivities}. Together with 
+the pre-exponential factors  and the activation energies, we also evaluate the four different expressions 
+of ice diffusivities for the temperature of $T = 245 \mathrm{K}$.
+
+When $D_{\mathrm{ice}}$ is known, a $\sigma_{\mathrm{ice}}$ calculation can be obtained by solving Eq. \ref{eq.diflength}.
+Using the integrating factor $F = \exp \left( \int -2 \dot{\varepsilon}_z\left(t\right)  \mathrm{d} t \right)$ we get:
+\begin{equation}
+\frac{\mathrm{d}}{\mathrm{d}t} \left( \sigma_{\mathrm{ice}}^2\,e^{\int  -2\dot{\varepsilon}_{\mathrm{z}} \left( t
+\right) \mathrm{d} t} \right) = 2 D_{\mathrm{ice}}  \left( t \right) \,e^{\int -2\dot{\varepsilon}_{\mathrm{z}} \left( t \right) \mathrm{d} t}
+\label{eq38_ch4}
+\end{equation}
+This finally yields the ice diffusion length for a layer with age $t'$ that has undergone 
+ice flow thinning $S(t')$:
+\begin{equation}
+\sigma_{\mathrm{ice}}^2 \left( t' \right) = 
+{S \left( t' \right)}^{2} \,\int_0^{t'} 2 D_{\mathrm{ice}} \left( t \right) S \left( t \right) ^{-2} \,\mathrm{d} t
+\label{eq39_ch4}
+\end{equation}
+
+\begin{table*}[h]
+\center
+	\caption{Four experimental studies with their estimated activation energies ($Q$), 
+		the pre-exponential factors ($D_0$), the activation energies ($X$), 
+		and the corresponding ice diffusivities for the temperature of $T = 245 \,\mathrm{K}$ ($D_{245}$).}
+	\label{table_ice_diffusivities}
+	\begin{tabular}{l l l l r } 
+		\toprule
+		& $D_o \; [\mathrm{m^2s^{-1}}]$  &  $Q\; [\mathrm{kcalmol^{-1}}]$ & $X \; [\mathrm{K^{-1}}]$& $D_{245}\;  [\mathrm{m^2s^{-1}}]$\\
+		\midrule
+		\cite{Ramseier1967}& $9.2\cdot10^{-4}$  &  $  14.28 $ & $ 7186.5 $& $1.68 \cdot 10^{-16}$\\
+		\cite{Itagaki1964}& $ 0.014 $  &  $  14.97 $ & $ 7534.2 $& $6.18 \cdot 10^{-16}$\\
+		\cite{Blicks1966}& $ 2.5\cdot10^{-3} $  &  $  14.51 $ & $ 7302.4 $& $2.85 \cdot 10^{-16}$\\
+		\cite{Delibaltas1966}& $ 2.6\cdot10^{-3} $  &  $  15.66 $ & $ 7881.9 $& $2.83 \cdot 10^{-16}$\\
+		\bottomrule		
+	\end{tabular}
+\end{table*}
+
+%%%%%%%%%
+\section{Generating synthetic data}	\label{sec:appendix_synthetic}
+
+The time series are generated using an AR-1 process with coefficient $r_1$ and variance $\varepsilon$
+\begin{equation}
+\delta_{\mathrm{n}} - r_1 \delta_{\mathrm{n-1}} = \varepsilon_{\mathrm{n}}.
+\label{eq:appen_ar1}
+\end{equation}
+For the AR-1 process we use $r_1 = 0.3$ and $\varepsilon = 120\,\permil^2$ for CD and $200\,\permil^2$ for WH.
+Each data section is $20\, \mathrm{m}$ long and has an initial spacing of 
+$10^{-3}\, \mathrm{m}$. The \delD~and \delOxb~series are then
+generated assuming a \Dxs~signal of $10\,\permil$ and an
+$\Delta^{17}\mathrm{O}$ signal of 0 per meg:
+\begin{align} 
+\delta\mathrm{D} = 8 \cdot \delta^{18}\mathrm{O} + 10 \permil&\\
+\Delta^{17}\mathrm{O} = \ln(\delta^{17}\mathrm{O}+1) - 0.528&\ln(\delta^{18}\mathrm{O} +1)
+\end{align}
+
+The time series are then forward-diffused by means of numerical convolution 
+with a Gaussian filter of variance $\sigma^2$ equal to the diffusion length 
+for every case (Table \ref{tbl:synthetic_diff_lens}). 
+Sampling with a discrete scheme of $\Delta = 0.025\, \mathrm{m}$ and 
+addition of white measurement noise completes the process
+of the time series generation. We use a noise level of $0.05\,\permil, \,0.07\,\permil$ and $0.5\,\permil$ 
+for \delOxb, \delOx~and \delD~respectively, with the numbers 
+being representative of measurement noise we have been 
+observing over years of ice core measurements in our laboratory.
+
+For a WH scenario, the sampled outputs of the synthetic data before and after diffusion is shown in Fig. \ref{fig:appendix_synthetic_data}.
+Applying the forward-diffusion smoothens the large amplitudes of the high frequencies. 
+This effect is further illustrated in Fig. \ref{fig:appendix_synthetic_PSD} which shows the PSD of the sampled signal before and after diffusion.
+
+\begin{figure*}[]
+	\vspace*{2mm}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{Figure_14}
+		\caption{Synthetic generated \delOx~series (WH) which both have been sampled. Blue curve represents the data before
+			diffusion, and the green curve represents the data after diffusion. $\sigma=8.4\,\mathrm{cm}$.}  \label{fig:appendix_synthetic_data}
+	\end{center}
+\end{figure*}
+
+\begin{figure*}[]
+	\vspace*{2mm}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{Figure_15}
+		\caption{PSD of the synthetic generated \delOx~series (from Fig. \ref{fig:appendix_synthetic_data}). Blue curve represents the PSD before
+			diffusion, and the green curve represents the PSD after diffusion. }  \label{fig:appendix_synthetic_PSD}
+	\end{center}
+\end{figure*}
+
+
+%%%%%%%%%
+\section{Discrete sampling diffusion} \label{sec:appendix_sampling_diffusion}
+The sample diffusion length $\sigma_{\mathrm{dis}}$ is estimated by setting the transfer function of a Gaussian filter 
+equal to a rectangular filter with width of the sample size $\Delta$.
+The transfer function for the Gaussian filter in Eq. \ref{eq.gaussian} is found by its Fourier transform:
+\begin{equation} \label{eq:Gaussian_filter}
+\mathfrak{F}\left[\mathcal{G}\right] = \hat{\mathcal{G}} = e^{-\frac{k^2 \sigma^2_{\mathrm{dis}}}{2}}.    
+\end{equation}
+A regular rectangle function is defined as:
+\begin{equation}
+\text{rect(t)}   = \begin{cases} 1 & 	\text{for } -\frac{1}{2} < t < \frac{1}{2} \\
+\frac{1}{2} & \text{for }     t = |\frac{1}{2}|   \\
+0  & \text{for }     t > |\frac{1}{2}|  %
+\end{cases}
+\end{equation}
+This can be transformed into a rectangular function ($\Pi(t)$) with width $\Delta$ and amplitude A:
+\begin{equation}
+\Pi(t) = A \cdot \text{rect}(t\cdot\Delta), \indent \text{for } -\frac{\Delta}{2} < t < \frac{\Delta}{2}.
+\end{equation}
+Normalization yields an amplitude of  $A = 1/\Delta$. The Fourier transformation of the rectangular pulse is written as:
+\begin{equation} \label{eq:rectangular}
+\hat{\Pi}(f) = \int_{-\infty}^{\infty} \Pi(t) e^{- 2 \pi i f t} \mathrm{d}t = \int_{-\Delta/2}^{\Delta/2} \frac{1}{\Delta} e^{- 2 \pi i f_{\mathrm{Nq}} t} \mathrm{d}t,
+\end{equation}
+where $f_{\mathrm{Nq}} = 1/(2 \Delta)$ is the Nyquist frequency.
+Setting equations \ref{eq:Gaussian_filter} and \ref{eq:rectangular} equal to each other:
+\begin{equation}
+e^{-\frac{k^2 \sigma^2_{dis}}{2}} =  \int_{-\Delta/2}^{\Delta/2} \frac{1}{\Delta} e^{- 2 \pi i f_{nq} t} \mathrm{d}t,
+\end{equation}
+where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for the discrete sampling diffusion length:
+\begin{equation}  \label{eq:sample_diff}
+\sigma^2_{\mathrm{dis}} = \frac{2\Delta^2}{\pi^2} \ln\left(\frac{\pi}{2}\right).
+\end{equation}
+
+\end{appendices}
+
+%% REFERENCES
+
+
+\bibliographystyle{agsm}
+\bibliography{reference}
+
+
+
+\end{document}
