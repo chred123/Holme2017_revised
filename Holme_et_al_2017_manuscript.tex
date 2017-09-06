@@ -352,14 +352,14 @@ In Fig. \ref{fig:diffusion_length_profiles},
 the transition between zone 1 and zone 2 densification (at the critical density $\rho_\mathrm{c} = 550\, \mathrm{kg m}^{-3}$) is 
 evident as a kink in both the densification and diffusion model.
 
-For the first case we consider relatively warm and humid conditions (case \textbf{A} hereafter)
-representative of Greenlandic ice coring sites
-(e.g. GISP2, GRIP, NorthGRIP) with a surface temperature $T_{\mathrm{sur}} = -29 \,^{\circ} \mathrm{C}$ and 
-annual accumulation $A = 0.22 \;\mathrm{myr^{-1}\, w.\, eq.}$
-For the second case we consider cold and dry conditions (case \textbf{B} hereafter)
+For the first case we consider cold and dry conditions (case \textbf{A} hereafter)
 representative of Antarctic ice coring sites
 (e.g. Dome C, Vostok) with a surface temperature $T_{\mathrm{sur}} = -55 \,^{\circ} \mathrm{C}$ and 
 annual accumulation $A = 0.032 \;\mathrm{myr^{-1}\, w.\, eq.}$
+For the second case we consider relatively warm and humid conditions (case \textbf{B} hereafter)
+representative of Greenlandic ice coring sites
+(e.g. GISP2, GRIP, NorthGRIP) with a surface temperature $T_{\mathrm{sur}} = -29 \,^{\circ} \mathrm{C}$ and 
+annual accumulation $A = 0.22 \;\mathrm{myr^{-1}\, w.\, eq.}$
 In this study, drill sites that have a vast amount of melt layers have been excluded. 
 Melt layers will stop the mixing between the air in the firn and the surrounding atmosphere earlier than the natural densification process. 
 This will result in a small diffusion length. 
@@ -533,8 +533,7 @@ close--off density ($\rho_o  \rightarrow \rho_{\mathrm{co}}$). In this work we u
 While performing temperature reconstructions, the input parameters to Eq. \ref{eq:T_reconstruction} 
 ($A$, $\rho_{co}$, $\rho_o$, surface pressure $P$, $\mathcal{S}$ and $\sigma_{ice}$) are drawn from a Gaussian distribution with a predefined uncertainty (Table \ref{tbl:model_unc}).
 This resembles uncertainties in the densification process, diffusion quantities and their parameterizations and inaccuracies in the 
-ice flow thinning model.
-
+ice flow thinning model. 
 \begin{table}[H]
 	\center
 	\caption{The standard deviations of the input parameters. 
@@ -544,7 +543,7 @@ ice flow thinning model.
 		\toprule
 		Parameter & $A$  & $\rho_{co}$  & $\rho_o$  & $P$  & $\mathcal{S}$ & $\sigma_{ice}$ \\
 		\midrule
-		Uncertainty &	$\pm 5 \% A_\mathrm{mean} $  &  $\pm20 \, \mathrm{kg m^{-3}}$  &  $\pm30 \, \mathrm{kg m^{-3}}$   &    $\pm 2 \% P_\mathrm{mean} $  &     $\pm 1 \% \mathcal{S}_\mathrm{mean} $ 	 & $\pm 5 \% \sigma_{ice_\mathrm{mean}} $ \\
+		Uncertainty &	$\pm 5 \% A_\mathrm{mean} $  &  $\pm20 \, \mathrm{kg m^{-3}}$  &  $\pm30 \, \mathrm{kg m^{-3}}$   &    $\pm 2 \% P_\mathrm{mean} $  &     $\pm 1 \% \mathcal{S}_\mathrm{mean} $ 	 & $\pm 2 \% \sigma_{ice_\mathrm{mean}} $ \\
 		\bottomrule		
 	\end{tabular}
 \end{table}
@@ -913,7 +912,7 @@ using the three different techniques as described in Sec. \ref{sec:diff_diffusio
 We designate the subtraction technique with
 I, the linear regression with II and the correlation method with III. 
 For every value of the diffusion estimates we calculate a firn temperature where
-the uncertainties related to the firn diffusion model (parameters $A$, $P$, $\rho_o$ and $\rho_{co}$ in Table \ref{tbl:model_unc}) are included. 
+the uncertainties related to the firn diffusion model ($A$, $\rho_{co}$, $\rho_o$, $P$, $\mathcal{S}$ and $\sigma_{ice}$ in Table \ref{tbl:model_unc}) are included. 
 Finally for the total of the 500 iterations we calculate a mean firn temperature $\overline{T}$, 
 a standard deviation and a mean bias as: 
 \begin{equation}
@@ -921,7 +920,7 @@ a standard deviation and a mean bias as:
 \end{equation}
 where $i = 1,2,\dots,N$ signifies the iteration number, $T_i$ is the synthetic 
 data-based estimated temperature and $T_{\text{sur}}$ is the model forcing  
-surface temperature for the WH and CD scenarios.
+surface temperature for the case A and B scenarios.
 For each technique, the precision $s_{\bar{T}}$ is calculated by averaging 
 the squared standard deviations of all simulations. 
 The results of the experiment are presented in Table \ref{tbl:synthetic_diff_lens} and the calculated 
@@ -943,45 +942,45 @@ included in Fig. \ref{fig:synthetic_data_bias}.
 	\center
 	\begin{tabular}{r r r r r r r } 
 		\toprule
-		& &  CD & &  &WH&\\
+		& &  Case A & &  & Case B&\\
 		\midrule
-		 &	Applied diffusion  &	Est. diffusion & Est. T [$^o\mathrm{C}$] &	
-		Applied diffusion	&	Est. diffusion 	& Est. T  [$^o\mathrm{C}$]\\
+		 &	Applied firn diffusion  &	Est. firn diffusion & Est. T [$^o\mathrm{C}$] &	
+		Applied firn diffusion	&	Est. firn diffusion 	& Est. T  [$^o\mathrm{C}$]\\
 		\midrule
-		$\sigma_{18}$	&	 $5.82$	 $\mathrm{cm}$&	$ 5.84\pm 0.13$ $\mathrm{cm}$	 &  $  -55.2 \pm 0.9 $ 	&	$8.50$  $\mathrm{cm}$&	$ 8.50 \pm 0.21$ $\mathrm{cm}$	& $ -29.2 \pm 1.1 $\\ 
+		$\sigma_{18}$	&	 $4.66$	 $\mathrm{cm}$&	$ 5.84\pm 0.13$ $\mathrm{cm}$	 &  $  -54.8 \pm 1.0 $ 	&	$8.50$  $\mathrm{cm}$&	$ 8.51 \pm 0.20$ $\mathrm{cm}$	& $ -28.8 \pm 1.2 $\\ 
 	
 	
-		$\sigma_{\mathrm{D}}$&	$5.22$ $\mathrm{cm}$	&$ 5.23 \pm 0.11 $ $\mathrm{cm}$	 &	$-55.2  \pm 0.9 $ &	$ 7.86$	 $\mathrm{cm}$&	$7.85 \pm 0.17 $	$\mathrm{cm}$& 	$ -29.3\pm 1.0 $\\ 
+		$\sigma_{\mathrm{D}}$&	$4.18$ $\mathrm{cm}$	&$ 5.23 \pm 0.11 $ $\mathrm{cm}$	 &	$-54.9  \pm 0.9 $ &	$ 7.86$	 $\mathrm{cm}$&	$7.86 \pm 0.18 $	$\mathrm{cm}$& 	$ -28.9\pm 1.1 $\\ 
 	
 	
-		$\sigma_{17}$&	$5.89$ $\mathrm{cm}$	&$5.98 \pm 0.10 $ $\mathrm{cm}$	 &	$ -55.0 \pm 0.9$ &	$ 8.60$	 $\mathrm{cm}$&	$8.56 \pm 0.11 $	$\mathrm{cm}$& 	$-29.3 \pm 0.9 $\\ 	
+		$\sigma_{17}$&	$4.72$ $\mathrm{cm}$	&$5.98 \pm 0.10 $ $\mathrm{cm}$	 &	$ -54.7 \pm 0.9$ &	$ 8.59$	 $\mathrm{cm}$&	$8.54 \pm 0.13 $	$\mathrm{cm}$& 	$-29.0 \pm 1.0 $\\ 	
 	
 	
-		${}^{18}\Delta\sigma^2$  I &$ 6.6	$ $\mathrm{cm^2}$&	$ 6.8\pm 1.4 $ $\mathrm{cm^2}$	& $ -55.1 \pm 2.3$   &	$10.5$  $\mathrm{cm^2}$	&	$10.8 \pm 2.5$ $\mathrm{cm^2}$	&$ -28.9 \pm 4.1 $\\
+		${}^{18}\Delta\sigma^2$  I &$ 4.2	$ $\mathrm{cm^2}$&	$ 6.8\pm 1.4 $ $\mathrm{cm^2}$	& $ -54.6 \pm 2.2$   &	$10.3$  $\mathrm{cm^2}$	&	$10.7 \pm 2.0$ $\mathrm{cm^2}$	&$ -28.5 \pm 3.5 $\\
 	
 	
-		${}^{18}\Delta\sigma^2$  II& $6.6$ $\mathrm{cm^2}$	&	$6.6 \pm 0.7$ $\mathrm{cm^2}$	& $ -55.3 \pm 1.5$	&	$ 10.5$ $\mathrm{cm^2}$	&$10.5 \pm 1.0 $	 $\mathrm{cm^2}$& $-28.9 \pm 1.8$\\
+		${}^{18}\Delta\sigma^2$  II& $4.2$ $\mathrm{cm^2}$	&	$6.6 \pm 0.7$ $\mathrm{cm^2}$	& $ -54.9 \pm 1.7$	&	$ 10.3$ $\mathrm{cm^2}$	&$10.5 \pm 1.2 $	 $\mathrm{cm^2}$& $-28.6 \pm 2.2$\\
 	
 	
-		${}^{18}\Delta\sigma^2$  III& $6.6$ $\mathrm{cm^2}$	&	$6.0 \pm 0.3$ $\mathrm{cm^2}$		&  $-56.4  \pm 1.1$	&	$10.5$	 $\mathrm{cm^2}$&	 $10.3 \pm 0.6 $  $\mathrm{cm^2}$& $-29.3 \pm 1.4 $\\
+		${}^{18}\Delta\sigma^2$  III& $4.2$ $\mathrm{cm^2}$	&	$6.0 \pm 0.3$ $\mathrm{cm^2}$		&  $-57.2  \pm 1.1$	&	$10.3$	 $\mathrm{cm^2}$&	 $9.7 \pm 0.6 $  $\mathrm{cm^2}$& $-30.0 \pm 1.4 $\\
 	
 	
-		${}^{17}\Delta\sigma^2$  I &$ 7.4	$ $\mathrm{cm^2}$&	$ 8.4 \pm 0.8 $ $\mathrm{cm^2}$	& $-54.0  \pm 1.4$   &	$12.2$  $\mathrm{cm^2}$	&	$ 11.7\pm 2.2 $ $\mathrm{cm^2}$	&$-30.0 \pm 3.3$\\
+		${}^{17}\Delta\sigma^2$  I &$ 4.8	$ $\mathrm{cm^2}$&	$ 8.4 \pm 0.8 $ $\mathrm{cm^2}$	& $-53.7  \pm 1.4$   &	$12.0$  $\mathrm{cm^2}$	&	$ 12.2\pm 2.0 $ $\mathrm{cm^2}$	&$-30.2 \pm 3.2$\\
 	
 	
-		${}^{17}\Delta\sigma^2$  II& $7.5$ $\mathrm{cm^2}$	&	$7.5 \pm 0.6$ $\mathrm{cm^2}$	& $-55.3  \pm 1.3 $	&	$12.2$ $\mathrm{cm^2}$	&$ 12.5\pm 0.8$	 $\mathrm{cm^2}$& $-28.7 \pm 1.5 $\\
+		${}^{17}\Delta\sigma^2$  II& $4.8$ $\mathrm{cm^2}$	&	$7.5 \pm 0.6$ $\mathrm{cm^2}$	& $-54.9  \pm 1.5 $	&	$12.0$ $\mathrm{cm^2}$	&$ 12.4\pm 1.0$	 $\mathrm{cm^2}$& $-28.3 \pm 1.7 $\\
 	
 	
-		$\sigma^2_{18}/\sigma^2_{17} $&$	0.976$& $ 0.956\pm 0.028 $ 	& --------------	&$0.977$*	& 	$0.988 \pm 0.037$* 	& -------------- \\
+		$\sigma^2_{18}/\sigma^2_{17} $&$	0.975$& $ 0.956\pm 0.028 $ 	& --------------	&$0.977$*	& 	$0.993 \pm 0.035$* 	& -------------- \\
 	
 	
-		$\sigma^2_{18}/\sigma^2_\mathrm{D} $&$	1.24$& $1.24 \pm 0.04 $ 	& $-55.8 \pm 12.5$	&$1.17$	& 	$1.17 \pm 0.04$ 	& $-27.3 \pm 24.3$\\
+		$\sigma^2_{18}/\sigma^2_\mathrm{D} $&$	1.24$& $1.24 \pm 0.04 $ 	& $-56.6 \pm 11.1$	&$1.17$	& 	$1.17 \pm 0.03$ 	& $-28.2 \pm 19.3$\\
 	
 	
-		$\sigma^2_{17}/\sigma^2_\mathrm{D} $&$	1.27$& $ 1.30 \pm 0.03 $ 	& $  -62.5 \pm 7.5$	&$1.20$	& 	$1.19 \pm 0.04$ 	& $ -19.8 \pm 28 $\\
+		$\sigma^2_{17}/\sigma^2_\mathrm{D} $&$	1.28$& $ 1.30 \pm 0.03 $ 	& $  -62.8 \pm 7.0$	&$1.20$	& 	$1.18 \pm 0.04$ 	& $ -16.1 \pm 27 $\\
 		\bottomrule		
 	\end{tabular}
-	\caption{Simulations of a synthetic CD and WH scenario. The applied diffusion lengths are shown 
+	\caption{Simulations with synthetic data. The applied diffusion lengths are shown 
 		together with the estimated diffusion lengths and the corresponding temperatures. }
 	\label{tbl:synthetic_diff_lens}
 \end{table*}
@@ -1188,21 +1187,18 @@ the accuracy of the temperature estimation.
 
 The precision of the differential diffusion techniques is slightly
 inferior to single diffusion with the subtraction 
-technique being the least precise of all three differential diffusion approaches ($s_{\bar{T}} \approx 2.8 \,{}^{\circ} \text{C}$). 
+technique being the least precise of all three differential diffusion approaches ($s_{\bar{T}} \approx 2.6 \,{}^{\circ} \text{C}$). 
 A possible reason for this result may be the fact that the subtraction technique relies on the 
 tuning of 8 optimization parameters as described in Sec. \ref{sec:single_diffusion} and 
 \ref{sec:diff_diffusion}.
 Both the linear fit and the correlation techniques yield precision estimates of $1.8 \,{}^{\circ} \text{C}$ and 
- $1.5 \,{}^{\circ} \text{C}$, respectively.
-On the contrary, both the linear fit and the correlation techniques yield similar precise estimates that
-are almost 
-On the contrary the 
-correlation technique appears to be the most precise of the three techniques with precisions 
-that are comparable of those achieved with the single diffusion techniques ($s_{\bar{T}} \approx 1.3 \,{}^{\circ} \text{C}$). All 10 experiments 
-utilizing differential diffusion methods, yield an accuracy that lies within the 2$s_{\bar{T}}$ range
-(1$s_{\bar{T}}$ range for 7 out of 10 experiments). We can conclude that experiments involving the estimation 
+ $1.3 \,{}^{\circ} \text{C}$, respectively.
+Despite the high precision of the correlation technique, the tests shows that the technique has a bias toward colder temperatures. 
+The linear fit is therefore the most optimal of the differential diffusion techniques.
+All 10 experiments utilizing differential diffusion methods, yield an accuracy that lies within the 2$s_{\bar{T}}$ range
+(1$s_{\bar{T}}$ range for 9 out of 10 experiments). We can conclude that experiments involving the estimation 
 of the diffusion length ratio indicate that the latter are practically unusable due to very high uncertainties
-with $s_{\bar{T}}$ averaging to a value of  $\approx 12 \,{}^{\circ} \text{C}$ for all four experiments.
+with $s_{\bar{T}}$ averaging to a value of  $\approx 16 \,{}^{\circ} \text{C}$ for all four experiments.
 A general trend that seems to be apparent for all the experiments, is that the results for the CD forcing yield
 slightly lower uncertainties when compared to those for the WH forcing, likely indicating a
 temperature and accumulation influence in the performance of all the reconstruction techniques. 
@@ -1537,8 +1533,13 @@ $\Delta^{17}\mathrm{O}$ signal of 0 per meg:
 \end{align}
 
 The time series are then forward-diffused by means of numerical convolution 
-with a Gaussian filter of variance $\sigma^2$ equal to the diffusion length 
+with a Gaussian filter of variance $\sigma^2_{input}$ equal to the diffusion length 
 for every case (Table \ref{tbl:synthetic_diff_lens}). 
+This input diffusion length is calculated as:
+\begin{equation}
+\sigma^2_{input} = \sigma^2 \cdot \mathcal{S}^2 + \sigma^2_{ice},
+\end{equation}
+where $\sigma^2 $ is the firn diffusion. For both case A and B, the ice diffusion is $\sigma_{ice} = 10^{-3}\,\mathrm{m}$ with a thinning of $\mathcal{S} = 0.80$.
 Sampling with a discrete scheme of $\Delta = 0.025\, \mathrm{m}$ and 
 addition of white measurement noise completes the process
 of the time series generation. We use a noise level of $0.05\,\permil, \,0.07\,\permil$ and $0.5\,\permil$ 
@@ -1546,7 +1547,7 @@ for \delOxb, \delOx~and \delD~respectively, with the numbers
 being representative of measurement noise we have been 
 observing over years of ice core measurements in our laboratory.
 
-For a WH scenario, the sampled outputs of the synthetic data before and after diffusion is shown in Fig. \ref{fig:appendix_synthetic_data}.
+For a case B scenario, the sampled outputs of the synthetic data before and after diffusion is shown in Fig. \ref{fig:appendix_synthetic_data}.
 Applying the forward-diffusion smoothens the large amplitudes of the high frequencies. 
 This effect is further illustrated in Fig. \ref{fig:appendix_synthetic_PSD} which shows the PSD of the sampled signal before and after diffusion.
 
