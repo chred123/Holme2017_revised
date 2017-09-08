@@ -1,0 +1,813 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.1)  17 AUG 2016 11:11
+entering extended mode
+**./Holmeetal2016_SOM.tex
+(Holmeetal2016_SOM.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 70 language(s) loaded.
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran
+.cls"
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+** ATTENTION: Single column mode is not typically used with IEEE publications.
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is an 11 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.
+sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts
+.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.st
+y"
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.cf
+g"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 143.
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex
+.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwar
+err.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmd
+s.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count94
+))
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx
+.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
+ty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
+.sty"
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics
+.cfg"
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+)
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.s
+ty"
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.s
+ty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.st
+y"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen128
+))
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen129
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.st
+y"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen130
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks18
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks19
+\eqnshift@=\dimen131
+\alignsep@=\dimen132
+\tagshift@=\dimen133
+\tagwidth@=\dimen134
+\totwidth@=\dimen135
+\lineht@=\dimen136
+\@envbody=\toks20
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wasysym\wasysym.s
+ty"
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow
+.sty"
+\bigstrutjot=\dimen137
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktabs
+.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen138
+\lightrulewidth=\dimen139
+\cmidrulewidth=\dimen140
+\belowrulesep=\dimen141
+\belowbottomsep=\dimen142
+\aboverulesep=\dimen143
+\abovetopsep=\dimen144
+\cmidrulesep=\dimen145
+\cmidrulekern=\dimen146
+\defaultaddspace=\dimen147
+\@cmidla=\count107
+\@cmidlb=\count108
+\@aboverulesep=\dimen148
+\@belowrulesep=\dimen149
+\@thisruleclass=\count109
+\@lastruleclass=\count110
+\@thisrulewidth=\dimen150
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lineno\lineno.sty
+"
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count111
+\output=\toks22
+\linenoprevgraf=\count112
+\linenumbersep=\dimen151
+\linenumberwidth=\dimen152
+\c@linenumber=\count113
+\c@pagewiselinenumber=\count114
+\c@LN@truepage=\count115
+\c@internallinenumber=\count116
+\c@internallinenumbers=\count117
+\quotelinenumbersep=\dimen153
+\bframerule=\dimen154
+\bframesep=\dimen155
+\bframebox=\box30
+LaTeX Info: Redefining \\ on input line 3056.
+) ("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\soul\soul.sty"
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks23
+\SOUL@lasttoken=\toks24
+\SOUL@cmds=\toks25
+\SOUL@buffer=\toks26
+\SOUL@token=\toks27
+\SOUL@spaceskip=\skip47
+\SOUL@ttwidth=\dimen156
+\SOUL@uldp=\dimen157
+\SOUL@ulht=\dimen158
+) ("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fixme\fixme.sty
+"
+Package: fixme 2013/01/28 v4.2 Collaborative annotations for LaTeX2e
+ ("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.st
+y"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks28
+\verbatim@line=\toks29
+\verbatim@in@stream=\read1
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.s
+ty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval
+.tex"
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutil
+s.tex"
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+)
+\XKV@depth=\count118
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@fixmecount=\count119
+\c@fxnotecount=\count120
+\c@fxwarningcount=\count121
+\c@fxerrorcount=\count122
+\c@fxfatalcount=\count123
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.s
+ty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip48
+\LTright=\skip49
+\LTpre=\skip50
+\LTpost=\skip51
+\LTchunksize=\count124
+\LTcapwidth=\dimen159
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count125
+\LT@rows=\count126
+\c@LT@tables=\count127
+\c@LT@chunks=\count128
+\LT@p@ftn=\toks32
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\supertabular\supe
+rtabular.sty"
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count129
+\ST@wd=\dimen160
+\ST@rightskip=\skip52
+\ST@leftskip=\skip53
+\ST@parfillskip=\skip54
+\ST@pageleft=\dimen161
+\ST@headht=\dimen162
+\ST@tailht=\dimen163
+\ST@pagesofar=\dimen164
+\ST@pboxht=\dimen165
+\ST@lineht=\dimen166
+\ST@stretchht=\dimen167
+\ST@prevht=\dimen168
+\ST@toadd=\dimen169
+\ST@dimen=\dimen170
+\ST@pbox=\box35
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtoo
+ls.sty"
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count130
+\calc@Bcount=\count131
+\calc@Adimen=\dimen171
+\calc@Bdimen=\dimen172
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count132
+\calc@Cskip=\skip57
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup
+.sty"
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count133
+\l_MT_multwidth_dim=\dimen173
+\origjot=\skip58
+\l_MT_shortvdotswithinadjustabove_dim=\dimen174
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen175
+\l_MT_above_intertext_sep=\dimen176
+\l_MT_below_intertext_sep=\dimen177
+\l_MT_above_shortintertext_sep=\dimen178
+\l_MT_below_shortintertext_sep=\dimen179
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.s
+ty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.
+sty"
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen180
+\captionmargin@=\dimen181
+\captionwidth=\dimen182
+\caption@tempdima=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
+lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
+ {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
+nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
+e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
+malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
+ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
+ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
+\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
+\fi .
+\c@ContinuedFloat=\count134
+Package caption Info: longtable package is loaded.
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption
+.sty"
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaptio
+n.sty"
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+\c@subfigure=\count135
+\c@subtable=\count136
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preprint\authblk.
+sty"
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip59
+\@affilsep=\skip60
+\c@Maxaffil=\count137
+\c@authors=\count138
+\c@affil=\count139
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.sty
+"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip61
+\bibsep=\skip62
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count140
+) (Holmeetal2016_SOM.aux)
+\openout1 = `Holmeetal2016_SOM.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+
+-- Lines per column: 52 (exact).
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
+kii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count141
+\scratchdimen=\dimen187
+\scratchbox=\box36
+\nofMPsegments=\count142
+\nofMParguments=\count143
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count144
+\MPscratchDim=\dimen188
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
+\everyMPtoPDFconversion=\toks34
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftex
+cmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluat
+ex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.
+sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
+-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.s
+ty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefi
+nekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoption
+s.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetk
+eys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcm
+ds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 125.
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 125.
+ ("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 125.
+
+("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 149.
+ [1{C:/Users/Holmes/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2] [3] [4] [5] [6]
+Package epstopdf Info: Source file: <./ice_diffusion.eps>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 78033 bytes
+(epstopdf)             Output file: <./ice_diffusion-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 24987 bytes
+(epstopdf)             Command: <epstopdf --outfile=./ice_diffusion-eps-convert
+ed-to.pdf ./ice_diffusion.eps>
+(epstopdf)             \includegraphics on input line 747.
+Package epstopdf Info: Output file is already uptodate.
+
+<./ice_diffusion-eps-converted-to.pdf, id=33, 591.20876pt x 507.8975pt>
+File: ./ice_diffusion-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./ice_diffusion-eps-converted-to.pdf>
+Package pdftex.def Info: ./ice_diffusion-eps-converted-to.pdf used on input lin
+e 747.
+(pdftex.def)             Requested size: 284.52756pt x 244.43903pt.
+Package epstopdf Info: Source file: <./diffusionlength_map.eps>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 931799 bytes
+(epstopdf)             Output file: <./diffusionlength_map-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 169531 bytes
+(epstopdf)             Command: <epstopdf --outfile=./diffusionlength_map-eps-c
+onverted-to.pdf ./diffusionlength_map.eps>
+(epstopdf)             \includegraphics on input line 756.
+Package epstopdf Info: Output file is already uptodate.
+
+<./diffusionlength_map-eps-converted-to.pdf, id=34, 676.5275pt x 470.75874pt>
+File: ./diffusionlength_map-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./diffusionlength_map-eps-converted-to.pdf>
+Package pdftex.def Info: ./diffusionlength_map-eps-converted-to.pdf used on inp
+ut line 756.
+(pdftex.def)             Requested size: 512.1496pt x 356.38683pt.
+Package epstopdf Info: Source file: <spectral_estimate01.eps>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 375106 bytes
+(epstopdf)             Output file: <spectral_estimate01-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 87790 bytes
+(epstopdf)             Command: <epstopdf --outfile=spectral_estimate01-eps-con
+verted-to.pdf spectral_estimate01.eps>
+(epstopdf)             \includegraphics on input line 765.
+Package epstopdf Info: Output file is already uptodate.
+
+<spectral_estimate01-eps-converted-to.pdf, id=35, 556.0775pt x 747.79375pt>
+File: spectral_estimate01-eps-converted-to.pdf Graphic file (type pdf)
+
+<use spectral_estimate01-eps-converted-to.pdf>
+Package pdftex.def Info: spectral_estimate01-eps-converted-to.pdf used on input
+ line 765.
+(pdftex.def)             Requested size: 312.9803pt x 420.88397pt.
+Package epstopdf Info: Source file: <spectral_estimate02.eps>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 934991 bytes
+(epstopdf)             Output file: <spectral_estimate02-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 157214 bytes
+(epstopdf)             Command: <epstopdf --outfile=spectral_estimate02-eps-con
+verted-to.pdf spectral_estimate02.eps>
+(epstopdf)             \includegraphics on input line 778.
+Package epstopdf Info: Output file is already uptodate.
+
+<spectral_estimate02-eps-converted-to.pdf, id=36, 752.8125pt x 647.41875pt>
+File: spectral_estimate02-eps-converted-to.pdf Graphic file (type pdf)
+
+<use spectral_estimate02-eps-converted-to.pdf>
+Package pdftex.def Info: spectral_estimate02-eps-converted-to.pdf used on input
+ line 778.
+(pdftex.def)             Requested size: 284.52756pt x 244.69792pt.
+Package epstopdf Info: Source file: <spectral_estimate04.eps>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 104686 bytes
+(epstopdf)             Output file: <spectral_estimate04-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 25985 bytes
+(epstopdf)             Command: <epstopdf --outfile=spectral_estimate04-eps-con
+verted-to.pdf spectral_estimate04.eps>
+(epstopdf)             \includegraphics on input line 792.
+Package epstopdf Info: Output file is already uptodate.
+
+<spectral_estimate04-eps-converted-to.pdf, id=37, 551.05875pt x 543.02875pt>
+File: spectral_estimate04-eps-converted-to.pdf Graphic file (type pdf)
+
+<use spectral_estimate04-eps-converted-to.pdf>
+Package pdftex.def Info: spectral_estimate04-eps-converted-to.pdf used on input
+ line 792.
+(pdftex.def)             Requested size: 227.62204pt x 224.30869pt.
+Package epstopdf Info: Source file: <spectral_estimate03.eps>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 201565 bytes
+(epstopdf)             Output file: <spectral_estimate03-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 60111 bytes
+(epstopdf)             Command: <epstopdf --outfile=spectral_estimate03-eps-con
+verted-to.pdf spectral_estimate03.eps>
+(epstopdf)             \includegraphics on input line 806.
+Package epstopdf Info: Output file is already uptodate.
+
+<spectral_estimate03-eps-converted-to.pdf, id=38, 560.0925pt x 433.62pt>
+File: spectral_estimate03-eps-converted-to.pdf Graphic file (type pdf)
+
+<use spectral_estimate03-eps-converted-to.pdf>
+Package pdftex.def Info: spectral_estimate03-eps-converted-to.pdf used on input
+ line 806.
+(pdftex.def)             Requested size: 256.0748pt x 198.25679pt.
+Package epstopdf Info: Source file: <discrete_sampling01.eps>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 555386 bytes
+(epstopdf)             Output file: <discrete_sampling01-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 109542 bytes
+(epstopdf)             Command: <epstopdf --outfile=discrete_sampling01-eps-con
+verted-to.pdf discrete_sampling01.eps>
+(epstopdf)             \includegraphics on input line 820.
+Package epstopdf Info: Output file is already uptodate.
+
+<discrete_sampling01-eps-converted-to.pdf, id=39, 617.30624pt x 541.02126pt>
+File: discrete_sampling01-eps-converted-to.pdf Graphic file (type pdf)
+
+<use discrete_sampling01-eps-converted-to.pdf>
+Package pdftex.def Info: discrete_sampling01-eps-converted-to.pdf used on input
+ line 820.
+(pdftex.def)             Requested size: 256.0748pt x 224.43707pt.
+Package epstopdf Info: Source file: <density_NGRIP_fof1.eps>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 197071 bytes
+(epstopdf)             Output file: <density_NGRIP_fof1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 54470 bytes
+(epstopdf)             Command: <epstopdf --outfile=density_NGRIP_fof1-eps-conv
+erted-to.pdf density_NGRIP_fof1.eps>
+(epstopdf)             \includegraphics on input line 827.
+Package epstopdf Info: Output file is already uptodate.
+
+<density_NGRIP_fof1-eps-converted-to.pdf, id=40, 447.6725pt x 394.47375pt>
+File: density_NGRIP_fof1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use density_NGRIP_fof1-eps-converted-to.pdf>
+Package pdftex.def Info: density_NGRIP_fof1-eps-converted-to.pdf used on input 
+line 827.
+(pdftex.def)             Requested size: 256.0748pt x 225.6469pt.
+Package epstopdf Info: Source file: <mc_test_results.eps>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 287950 bytes
+(epstopdf)             Output file: <mc_test_results-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 74126 bytes
+(epstopdf)             Command: <epstopdf --outfile=mc_test_results-eps-convert
+ed-to.pdf mc_test_results.eps>
+(epstopdf)             \includegraphics on input line 838.
+Package epstopdf Info: Output file is already uptodate.
+
+<mc_test_results-eps-converted-to.pdf, id=41, 443.6575pt x 594.22pt>
+File: mc_test_results-eps-converted-to.pdf Graphic file (type pdf)
+
+<use mc_test_results-eps-converted-to.pdf>
+Package pdftex.def Info: mc_test_results-eps-converted-to.pdf used on input lin
+e 838.
+(pdftex.def)             Requested size: 284.52756pt x 381.07927pt.
+Package epstopdf Info: Source file: <./strain_uncertainty.eps>
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 201242 bytes
+(epstopdf)             Output file: <./strain_uncertainty-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2016-08-12 09:46:45
+(epstopdf)                    size: 49287 bytes
+(epstopdf)             Command: <epstopdf --outfile=./strain_uncertainty-eps-co
+nverted-to.pdf ./strain_uncertainty.eps>
+(epstopdf)             \includegraphics on input line 848.
+Package epstopdf Info: Output file is already uptodate.
+
+<./strain_uncertainty-eps-converted-to.pdf, id=42, 585.18625pt x 448.67625pt>
+File: ./strain_uncertainty-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./strain_uncertainty-eps-converted-to.pdf>
+Package pdftex.def Info: ./strain_uncertainty-eps-converted-to.pdf used on inpu
+t line 848.
+(pdftex.def)             Requested size: 284.52756pt x 218.16226pt.
+
+
+FiXme Summary: Number of notes: 0,
+(FiXme)        Number of warnings: 0,
+(FiXme)        Number of errors: 0,
+(FiXme)        Number of fatal errors: 0,
+(FiXme)        Total: 0.
+
+[7 <./ice_diffusion-eps-converted-to.pdf>] [8 <./diffusionlength_map-eps-conver
+ted-to.pdf>] [9 <./spectral_estimate01-eps-converted-to.pdf>] [10 <./spectral_e
+stimate02-eps-converted-to.pdf> <./spectral_estimate04-eps-converted-to.pdf>]
+[11 <./spectral_estimate03-eps-converted-to.pdf> <./discrete_sampling01-eps-con
+verted-to.pdf>] [12 <./density_NGRIP_fof1-eps-converted-to.pdf>] [13 <./mc_test
+_results-eps-converted-to.pdf>] [14 <./strain_uncertainty-eps-converted-to.pdf>
+] (Holmeetal2016_SOM.aux) ) 
+Here is how much of TeX's memory you used:
+ 7027 strings out of 493622
+ 111296 string characters out of 3134732
+ 191081 words of memory out of 3000000
+ 10272 multiletter control sequences out of 15000+200000
+ 45795 words of font info for 109 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 53i,12n,92p,890b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/f
+onts/enc/dvips/fontname/8r.enc}<C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Holmes/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Holmes
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi5.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Holmes/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Holmes/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Holmes
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/
+Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr9.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Holmes/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Holmes/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Use
+rs/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy9.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmr8a.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on Holmeetal2016_SOM.pdf (14 pages, 1036812 bytes).
+PDF statistics:
+ 354 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

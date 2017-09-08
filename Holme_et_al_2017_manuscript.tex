@@ -116,11 +116,11 @@ In addition, a benchmark test is applied to thirteen high resolution data sets
 from Greenland and Antarctica, which represent a broad range of mean annual surface temperatures and accumulation rates. 
 The presented methods are found to accurately reconstruct the temperatures of the synthetic data, 
 and the estimated temperatures are shown to be unbiased. Both the benchmark test and the synthetic data test demonstrate 
-that the most precise reconstructions are obtained when using the single isotope diffusion lengths, with precisions around $0.5\,^\mathrm{o}\mathrm{C}$. 
+that the most precise reconstructions are obtained when using the single isotope diffusion lengths, with precisions around $1.0\,^\mathrm{o}\mathrm{C}$. 
 In the benchmark test, the single isotope diffusion lengths are also found to reconstruct consistent temperatures with a 
 root-mean-square-deviation of $0.7\,^\mathrm{o}\mathrm{C}$. The techniques employing the differential diffusion signals are more uncertain, 
-where the most precise method has a precision of $1.5\,^\mathrm{o}\mathrm{C}$. 
-The diffusion length ratio method is the least precise with a precision of $11.8\,^\mathrm{o}\mathrm{C}$. 
+where the most precise method has a precision of $1.9\,^\mathrm{o}\mathrm{C}$. 
+The diffusion length ratio method is the least precise with a precision of $13.7\,^\mathrm{o}\mathrm{C}$. 
 The absolute temperature estimates from this method are also shown to be highly sensitive to the choice of fractionation factor parameterization. 
 From the combined analyses of the water isotope diffusion methods of the synthetic data and ice core data, this study demonstrates that methods 
 based on the single isotope diffusion lengths result in the most accurate and precise estimates of past temperatures.	
@@ -155,22 +155,14 @@ as a proxy of past temperatures \citep{Jouzel1984, Jouzel1997, Johnsen2001}.
 
 
 The use of the isotopic paleothermometer presents some notable limitations.
-The linear relationship between \delOx~and temperature commonly referred to as the ``spatial slope''
+The constant linear relationship between \delOx~and temperature commonly referred to as the ``spatial slope''
 may hold for present conditions, 
 but studies based on borehole temperature reconstruction \citep{Cuffey1994, JOHNSEN1995a} 
-as well as the gravitational fractionation of the \delN~signal in polar firn 
-\citep{Schwander1988, Severinghaus1998, Severinghaus1999} have
+as well as the thermal fractionation of the \delN~signal in polar firn 
+\citep{Severinghaus1998, Severinghaus1999} have
 independently underlined the inaccuracy of the spatial isotope slope when it is extrapolated to past climatic 
 conditions. 
 Even though qualitatively the \delOx~signal comprises past temperature information, it fails
-to provide a quantitative picture on the magnitudes of past climatic changes.
-
-However previous studies based on more physical principles such as the 
-borehole temperature reconstruction \citep{Cuffey1994, JOHNSEN1995a} 
-as well as the thermal fractionation of the \delN~signal in polar firn 
-\citep{Schwander1988, Severinghaus1998, Severinghaus1999} have
-independently underlined the inaccuracy of the spatial isotope slope when it is extrapolated to past climatic 
-conditions. Even though qualitatively the \delOx~signal comprises past temperature information, it fails
 to provide a quantitative picture on the magnitudes of past climatic changes.
 
 \cite{Johnsen1977, WhillansGrootes1985} and \cite{Johnsen2000} set the foundations for the quantitative description 
@@ -179,12 +171,7 @@ of deposition until pore close--off. Even though the main purpose of \cite{Johns
 how to reconstruct the part of the signal that was attenuated during the diffusive processes, the authors
 make a clear reference to the possibility of using the assessment of the diffusive rates as a proxy for
 past firn temperatures. 
-%In a seminal paper in 2000, \cite{Johnsen2000} set the foundations for the quantitative description 
-%of the diffusive processes the water isotopic signal undergoes in the porous firn layer from the time
-%of deposition until pore close--off. Even though the main purpose of that work was to investigate
-%how to reconstruct the part of the signal that was attenuated during the diffusive processes, the authors
-%make a clear reference to the possibility of using the assessment of the diffusive rates as a proxy for
-%past firn temperatures. 
+
 The temperature reconstruction method based on isotope firn diffusion requires 
 data of high resolution. Moreover, if one would like to look into the differential diffusion signal, 
 datasets of both \delOx~and \delD~are required. Such data sets have until recently not been easy to
@@ -221,7 +208,7 @@ Such a bias has been shown to exist for the NorthGRIP ice core \citep{Gkinis2014
 due to the \cite{DJmodel} ice flow model overestimating  the past accumulation rates for the site. 
 In order to include as much data as possible, approximately half of the datasets used here
 have an age of 9-10 ka. This age coincides with the timing of the early Holocene Climate Optimum around 5-9 ka (\textbf{HCO} hereafter). 
-For Greenlandic drill sites, temperatures were up to $3 \,^\mathrm{o}$C higher than present day during the HCO \citep{Dorthe1998}.
+For Greenlandic drill sites, temperatures were up to $3 \,^\mathrm{o}$C warmer than present day during the HCO \citep{Dorthe1998}.
 Another aspect of this study is that it uses water isotopic data sets of \delOx~and 
 \delD~measured using different analytical techniques, namely Isotope Ratio Mass Spectroscopy 
 (\textbf{IRMS} hereafter) as  well as Cavity Ring Down Spectroscopy (\textbf{CRDS} hereafter).
@@ -289,7 +276,7 @@ The diffusion length is directly related to the diffusivity coefficient and the 
 and it can therefore be regarded as a measure of firn temperature as well as accumulation rate.
 
 
-The differential equation describing the evolution of $\sigma^2$ with time  can be 
+The differential equation describing the evolution of $\sigma^2$ with time is 
 given by \citep{Johnsen1977}: 
 \begin{equation}
 \frac{\mathrm{d}\sigma^2}{\mathrm{d}t} - 2\,\dot{\varepsilon}_z\!\left( t \right) \sigma^2 = 
@@ -318,13 +305,13 @@ In this work we make use of the Herron--Langway densification model (\textbf{H--
 and the diffusivity rate parametrization introduced by \cite{Johnsen2000} (see Appendix \ref{sec:appendix_firn_diffusion}).
 $\frac{\mathrm{d}\rho}{\mathrm{d}t}$ depends on temperature and overburden pressure
 and $D\left(\rho\right)$ depends on temperature and firn connectivity.
-This dependence of the diffusion length on temperature
+The dependence of the diffusion length on temperature
 and accumulation provide the basis for the use of firn diffusion as a proxy of temperature 
 or accumulation. In order to reconstruct the temperature, the accumulation rate is assumed
 known and vice versa.
-
+%%% Probably delete figure below and compress section
 In the firn diffusion model, a seasonal temperature signal that propagates down in the firn is included (see Appendix \ref{sec:firn_temp_profile}).
-The seasonal temperature variation affects the firn diffusion length nonlinearly due to the saturation vapor pressure's exponential
+The seasonal temperature variation affects the firn diffusion length nonlinearly in the upper $10-12 \, \mathrm{m}$ due to the saturation vapor pressure's exponential
 dependence on temperature.
 The difference between a diffusion model with a constant firn temperature profile and having a seasonal temperature variation is seen in Fig. \ref{fig:firn_diffusion_model}.
 Including a seasonal cycle in the firn diffusion model corrects a bias in the diffusion model of $0.1\,\mathrm{cm}$.
@@ -944,44 +931,47 @@ included in Fig. \ref{fig:synthetic_data_bias}.
 		\toprule
 		& &  Case A & &  & Case B&\\
 		\midrule
-		 &	Applied firn diffusion  &	Est. firn diffusion & Est. T [$^o\mathrm{C}$] &	
-		Applied firn diffusion	&	Est. firn diffusion 	& Est. T  [$^o\mathrm{C}$]\\
+		 &	Applied diffusion  &	Est. diffusion & Est. T [$^o\mathrm{C}$] &	
+		Applied diffusion	&	Est. diffusion 	& Est. T  [$^o\mathrm{C}$]\\
 		\midrule
-		$\sigma_{18}$	&	 $4.66$	 $\mathrm{cm}$&	$ 5.84\pm 0.13$ $\mathrm{cm}$	 &  $  -54.8 \pm 1.0 $ 	&	$8.50$  $\mathrm{cm}$&	$ 8.51 \pm 0.20$ $\mathrm{cm}$	& $ -28.8 \pm 1.2 $\\ 
+		$\sigma_{18}$	&	 $5.82$	 $\mathrm{cm}$&	$ 5.85\pm 0.14$ $\mathrm{cm}$	 &  $  -54.8 \pm 1.0 $ 	&	$8.50$  $\mathrm{cm}$&	$ 8.51 \pm 0.20$ $\mathrm{cm}$	& $ -28.8 \pm 1.2 $\\ 
 	
 	
-		$\sigma_{\mathrm{D}}$&	$4.18$ $\mathrm{cm}$	&$ 5.23 \pm 0.11 $ $\mathrm{cm}$	 &	$-54.9  \pm 0.9 $ &	$ 7.86$	 $\mathrm{cm}$&	$7.86 \pm 0.18 $	$\mathrm{cm}$& 	$ -28.9\pm 1.1 $\\ 
+		$\sigma_{\mathrm{D}}$&	$5.22$ $\mathrm{cm}$	&$ 5.23 \pm 0.12 $ $\mathrm{cm}$	 &	$-54.9  \pm 0.9 $ &	$ 7.86$	 $\mathrm{cm}$&	$7.86 \pm 0.18 $	$\mathrm{cm}$& 	$ -28.9\pm 1.1 $\\ 
 	
 	
-		$\sigma_{17}$&	$4.72$ $\mathrm{cm}$	&$5.98 \pm 0.10 $ $\mathrm{cm}$	 &	$ -54.7 \pm 0.9$ &	$ 8.59$	 $\mathrm{cm}$&	$8.54 \pm 0.13 $	$\mathrm{cm}$& 	$-29.0 \pm 1.0 $\\ 	
+		$\sigma_{17}$&	$5.90$ $\mathrm{cm}$	&$5.97 \pm 0.11 $ $\mathrm{cm}$	 &	$ -54.7 \pm 0.9$ &	$ 8.59$	 $\mathrm{cm}$&	$8.54 \pm 0.13 $	$\mathrm{cm}$& 	$-29.0 \pm 1.0 $\\ 	
 	
 	
-		${}^{18}\Delta\sigma^2$  I &$ 4.2	$ $\mathrm{cm^2}$&	$ 6.8\pm 1.4 $ $\mathrm{cm^2}$	& $ -54.6 \pm 2.2$   &	$10.3$  $\mathrm{cm^2}$	&	$10.7 \pm 2.0$ $\mathrm{cm^2}$	&$ -28.5 \pm 3.5 $\\
+		${}^{18}\Delta\sigma^2$  I &$ 6.6	$ $\mathrm{cm^2}$&	$ 6.9\pm 1.1 $ $\mathrm{cm^2}$	& $ -54.6 \pm 2.2$   &	$10.3$  $\mathrm{cm^2}$	&	$10.7 \pm 2.0$ $\mathrm{cm^2}$	&$ -28.5 \pm 3.5 $\\
 	
 	
-		${}^{18}\Delta\sigma^2$  II& $4.2$ $\mathrm{cm^2}$	&	$6.6 \pm 0.7$ $\mathrm{cm^2}$	& $ -54.9 \pm 1.7$	&	$ 10.3$ $\mathrm{cm^2}$	&$10.5 \pm 1.2 $	 $\mathrm{cm^2}$& $-28.6 \pm 2.2$\\
+		${}^{18}\Delta\sigma^2$  II& $6.6$ $\mathrm{cm^2}$	&	$6.7 \pm 0.8$ $\mathrm{cm^2}$	& $ -54.9 \pm 1.7$	&	$ 10.3$ $\mathrm{cm^2}$	&$10.5 \pm 1.2 $	 $\mathrm{cm^2}$& $-28.6 \pm 2.2$\\
 	
 	
-		${}^{18}\Delta\sigma^2$  III& $4.2$ $\mathrm{cm^2}$	&	$6.0 \pm 0.3$ $\mathrm{cm^2}$		&  $-57.2  \pm 1.1$	&	$10.3$	 $\mathrm{cm^2}$&	 $9.7 \pm 0.6 $  $\mathrm{cm^2}$& $-30.0 \pm 1.4 $\\
+		${}^{18}\Delta\sigma^2$  III& $6.6$ $\mathrm{cm^2}$	&	$5.5 \pm 0.3$ $\mathrm{cm^2}$		&  $-57.2  \pm 1.1$	&	$10.3$	 $\mathrm{cm^2}$&	 $9.7 \pm 0.6 $  $\mathrm{cm^2}$& $-30.0 \pm 1.4 $\\
 	
 	
-		${}^{17}\Delta\sigma^2$  I &$ 4.8	$ $\mathrm{cm^2}$&	$ 8.4 \pm 0.8 $ $\mathrm{cm^2}$	& $-53.7  \pm 1.4$   &	$12.0$  $\mathrm{cm^2}$	&	$ 12.2\pm 2.0 $ $\mathrm{cm^2}$	&$-30.2 \pm 3.2$\\
+		${}^{17}\Delta\sigma^2$  I &$ 7.5	$ $\mathrm{cm^2}$&	$ 8.3 \pm 0.7 $ $\mathrm{cm^2}$	& $-53.7  \pm 1.4$   &	$12.0$  $\mathrm{cm^2}$	&	$ 12.2\pm 2.0 $ $\mathrm{cm^2}$	&$-30.2 \pm 3.2$\\
 	
 	
-		${}^{17}\Delta\sigma^2$  II& $4.8$ $\mathrm{cm^2}$	&	$7.5 \pm 0.6$ $\mathrm{cm^2}$	& $-54.9  \pm 1.5 $	&	$12.0$ $\mathrm{cm^2}$	&$ 12.4\pm 1.0$	 $\mathrm{cm^2}$& $-28.3 \pm 1.7 $\\
+		${}^{17}\Delta\sigma^2$  II& $7.5$ $\mathrm{cm^2}$	&	$7.5 \pm 0.5$ $\mathrm{cm^2}$	& $-54.9  \pm 1.5 $	&	$12.0$ $\mathrm{cm^2}$	&$ 12.4\pm 1.0$	 $\mathrm{cm^2}$& $-28.3 \pm 1.7 $\\
 	
 	
-		$\sigma^2_{18}/\sigma^2_{17} $&$	0.975$& $ 0.956\pm 0.028 $ 	& --------------	&$0.977$*	& 	$0.993 \pm 0.035$* 	& -------------- \\
+		$\sigma^2_{18}/\sigma^2_{17} $&$	0.975$& $ 0.960\pm 0.027 $ 	& --------------	&$0.977$*	& 	$0.993 \pm 0.035$* 	& -------------- \\
 	
 	
-		$\sigma^2_{18}/\sigma^2_\mathrm{D} $&$	1.24$& $1.24 \pm 0.04 $ 	& $-56.6 \pm 11.1$	&$1.17$	& 	$1.17 \pm 0.03$ 	& $-28.2 \pm 19.3$\\
+		$\sigma^2_{18}/\sigma^2_\mathrm{D} $&$	1.24$& $1.25 \pm 0.04 $ 	& $-56.6 \pm 11.1$	&$1.17$	& 	$1.17 \pm 0.03$ 	& $-28.2 \pm 19.3$\\
 	
 	
-		$\sigma^2_{17}/\sigma^2_\mathrm{D} $&$	1.28$& $ 1.30 \pm 0.03 $ 	& $  -62.8 \pm 7.0$	&$1.20$	& 	$1.18 \pm 0.04$ 	& $ -16.1 \pm 27 $\\
+		$\sigma^2_{17}/\sigma^2_\mathrm{D} $&$	1.28$& $ 1.31 \pm 0.03 $ 	& $  -62.8 \pm 7.0$	&$1.20$	& 	$1.18 \pm 0.04$ 	& $ -16.1 \pm 27 $\\
 		\bottomrule		
 	\end{tabular}
-	\caption{Simulations with synthetic data. The applied diffusion lengths are shown 
-		together with the estimated diffusion lengths and the corresponding temperatures. }
+	\caption{Simulations with synthetic data of a case A ($T_{\mathrm{sur}} = -55.0 \,^{\circ} \mathrm{C}$) 
+			and B ($T_{\mathrm{sur}} = -29.0 \,^{\circ} \mathrm{C}$). 
+			The diffusion lengths in the tabular are the firn diffusion lengths.
+			Thus, this is before sampling, ice diffusion and thinning affected the input diffusion length.
+			The estimated firn diffusion lengths are after correcting for sampling, ice diffusion and thinning (with their corresponding uncertainties).  }
 	\label{tbl:synthetic_diff_lens}
 \end{table*}
 
@@ -1113,44 +1103,44 @@ In the latter case, the parameterization of $\alpha_{18}$ from \cite{Majoube1971
 		\toprule
 		Site Name & $\sigma_{18}$ & $\sigma_{\mathrm{D}}$ & ${}^{18}\Delta\sigma^2$  I & ${}^{18}\Delta\sigma^2$  II & ${}^{18}\Delta\sigma^2$  III & $\sigma^2_{18}/\sigma^2_{\mathrm{D}}$\\
 		\midrule
-		GRIP mid & 7.83 $\pm$ 0.15$\,\mathrm{cm}$& 7.20 $\pm$ 0.13$\,\mathrm{cm}$& 9.4 $\pm$ 0.9$\,\mathrm{cm}^2$& 9.6 $\pm$ 0.6$\,\mathrm{cm}^2$& 0.2$\pm$ 0.1$\,\mathrm{cm}^2$& 1.18$\pm$ 0.02\\
-		& -32.9$\pm$ 0.5$\,^\mathrm{o}$C & -33.0$\pm$ 0.5$\,^\mathrm{o}$C& -32.7 $\pm$ 1.6$\,^\mathrm{o}$C& -32.3 $\pm$ 1.0$\,^\mathrm{o}$C& -82.0 $\pm$ 3.9$\,^\mathrm{o}$C& -34.2 $\pm$ 6.7$\,^\mathrm{o}$C\\
+		GRIP mid & 7.83 $\pm$ 0.17$\,\mathrm{cm}$& 7.20 $\pm$ 0.16$\,\mathrm{cm}$& 9.4 $\pm$ 1.0$\,\mathrm{cm}^2$& 9.6 $\pm$ 0.7$\,\mathrm{cm}^2$& 0.2$\pm$ 0.1$\,\mathrm{cm}^2$& 1.18$\pm$ 0.02\\
+		& -33.0$\pm$ 1.1$\,^\mathrm{o}$C & -33.0$\pm$ 1.0$\,^\mathrm{o}$C& -32.7 $\pm$ 2.0$\,^\mathrm{o}$C& -32.3 $\pm$ 1.5$\,^\mathrm{o}$C& -80.6 $\pm$ 2.9$\,^\mathrm{o}$C& -34.4 $\pm$ 6.6$\,^\mathrm{o}$C\\
 	
-		GRIP late&8.52 $\pm$ 0.09$\,\mathrm{cm}$& 7.92 $\pm$ 0.14$\,\mathrm{cm}$& 9.9 $\pm$ 0.8$\,\mathrm{cm}^2$& 8.6 $\pm$ 0.6$\,\mathrm{cm}^2$& 4.8$\pm$ 0.5$\,\mathrm{cm}^2$& 1.16$\pm$ 0.02\\
-		& -30.7 $\pm$ 0.3$\,^\mathrm{o}$C & -30.5 $\pm$ 0.5$\,^\mathrm{o}$C& -31.9 $\pm$ 1.3$\,^\mathrm{o}$C& -34.2 $\pm$ 0.9$\,^\mathrm{o}$C& -43.0 $\pm$ 1.4$\,^\mathrm{o}$C& -24.4 $\pm$ 7.7$\,^\mathrm{o}$C\\
+		GRIP late&8.52 $\pm$ 0.12$\,\mathrm{cm}$& 7.92 $\pm$ 0.16$\,\mathrm{cm}$& 9.9 $\pm$ 0.8$\,\mathrm{cm}^2$& 8.6 $\pm$ 0.5$\,\mathrm{cm}^2$& 4.8$\pm$ 0.5$\,\mathrm{cm}^2$& 1.16$\pm$ 0.02\\
+		& -30.6 $\pm$ 1.1$\,^\mathrm{o}$C & -30.5 $\pm$ 1.1$\,^\mathrm{o}$C& -31.8 $\pm$ 1.8$\,^\mathrm{o}$C& -34.1 $\pm$ 1.5$\,^\mathrm{o}$C& -43.0 $\pm$ 1.7$\,^\mathrm{o}$C& -24.4 $\pm$ 8.7$\,^\mathrm{o}$C\\
 
-		WAIS 2005A &6.95 $\pm$ 0.04$\,\mathrm{cm}$&--------------& --------------& --------------&--------------&--------------\\
-		& -31.4 $\pm$ 0.1$\,^\mathrm{o}$C &-------------- &--------------&-------------- & --------------& --------------\\
+		WAIS 2005A &6.95 $\pm$ 0.15$\,\mathrm{cm}$&--------------& --------------& --------------&--------------&--------------\\
+		& -31.5 $\pm$ 1.0$\,^\mathrm{o}$C &-------------- &--------------&-------------- & --------------& --------------\\
 
-		EDML &7.73 $\pm$ 0.04$\,\mathrm{cm}$& 7.13 $\pm$ 0.04$\,\mathrm{cm}$& 8.9 $\pm$ 0.3$\,\mathrm{cm}^2$& 8.2 $\pm$ 0.2$\,\mathrm{cm}^2$& 7.2$\pm$ 0.1$\,\mathrm{cm}^2$& 1.18$\pm$ 0.01\\
-		& -42.8 $\pm$ 0.1$\,^\mathrm{o}$C & -42.5 $\pm$ 0.1$\,^\mathrm{o}$C& -44.6 $\pm$ 0.5$\,^\mathrm{o}$C& -45.9 $\pm$ 0.3$\,^\mathrm{o}$C& -47.7 $\pm$ 0.3$\,^\mathrm{o}$C& -32.2 $\pm$ 2.6$\,^\mathrm{o}$C\\
+		EDML &7.72 $\pm$ 0.09$\,\mathrm{cm}$& 7.12 $\pm$ 0.08$\,\mathrm{cm}$& 8.9 $\pm$ 0.3$\,\mathrm{cm}^2$& 8.1 $\pm$ 0.3$\,\mathrm{cm}^2$& 7.1$\pm$ 0.2$\,\mathrm{cm}^2$& 1.18$\pm$ 0.01\\
+		& -42.8 $\pm$ 0.9$\,^\mathrm{o}$C & -42.5 $\pm$ 0.9$\,^\mathrm{o}$C& -44.6 $\pm$ 1.1$\,^\mathrm{o}$C& -45.9 $\pm$ 1.0$\,^\mathrm{o}$C& -47.6 $\pm$ 1.0 $\,^\mathrm{o}$C& -32.4 $\pm$ 3.1$\,^\mathrm{o}$C\\
 		
-		NEEM&7.97 $\pm$ 0.20$\,\mathrm{cm}$& 7.20 $\pm$ 0.31$\,\mathrm{cm}$& 11.7 $\pm$ 1.5$\,\mathrm{cm}^2$& 10.2 $\pm$ 1.1$\,\mathrm{cm}^2$& 4.5$\pm$ 2.0$\,\mathrm{cm}^2$& 1.23$\pm$ 0.05\\
-		& -31.9 $\pm$ 0.7$\,^\mathrm{o}$C & -32.5 $\pm$ 1.1$\,^\mathrm{o}$C& -28.5 $\pm$ 2.3$\,^\mathrm{o}$C& -30.8 $\pm$ 1.8$\,^\mathrm{o}$C& -45.8 $\pm$ 10.3$\,^\mathrm{o}$C& -49.2 $\pm$ 15.1$\,^\mathrm{o}$C\\
+		NEEM&7.98 $\pm$ 0.22$\,\mathrm{cm}$& 7.20 $\pm$ 0.32$\,\mathrm{cm}$& 11.8 $\pm$ 1.6$\,\mathrm{cm}^2$& 10.2 $\pm$ 1.1$\,\mathrm{cm}^2$& 4.5$\pm$ 2.0$\,\mathrm{cm}^2$& 1.23$\pm$ 0.05\\
+		& -31.8 $\pm$ 1.1$\,^\mathrm{o}$C & -32.4 $\pm$ 1.4$\,^\mathrm{o}$C& -28.4 $\pm$ 2.6$\,^\mathrm{o}$C& -30.7 $\pm$ 2.1$\,^\mathrm{o}$C& -45.9 $\pm$ 10.1$\,^\mathrm{o}$C& -49.3 $\pm$ 15.0$\,^\mathrm{o}$C\\
 		
-		NGRIP &8.65 $\pm$ 0.19 $\mathrm{cm}$&-------------- &--------------&-------------- & --------------&-------------- \\
-		& -31.6 $\pm$ 0.6$\,^\mathrm{o}$C &--------------& --------------& --------------& --------------&--------------\\	
+		NGRIP &8.65 $\pm$ 0.22 $\mathrm{cm}$&-------------- &--------------&-------------- & --------------&-------------- \\
+		& -31.6 $\pm$ 1.1$\,^\mathrm{o}$C &--------------& --------------& --------------& --------------&--------------\\	
 	
-		Dome F&5.76 $\pm$ 0.15$\,\mathrm{cm}$& 4.92 $\pm$ 0.04$\,\mathrm{cm}$& 9.0 $\pm$ 1.8$\,\mathrm{cm}^2$& 5.4 $\pm$ 0.8$\,\mathrm{cm}^2$& 4.4$\pm$ 1.9$\,\mathrm{cm}^2$& 1.37$\pm$ 0.08\\
-		& -57.6 $\pm$ 0.6$\,^\mathrm{o}$C & -58.5 $\pm$ 0.2$\,^\mathrm{o}$C& -54.2 $\pm$ 2.7$\,^\mathrm{o}$C& -60.4 $\pm$ 2.1$\,^\mathrm{o}$C& -63.7 $\pm$ 5.6$\,^\mathrm{o}$C& -80.7 $\pm$ 14.0$\,^\mathrm{o}$C\\
+		Dome F&5.76 $\pm$ 0.15$\,\mathrm{cm}$& 4.92 $\pm$ 0.06$\,\mathrm{cm}$& 9.0 $\pm$ 1.8$\,\mathrm{cm}^2$& 5.4 $\pm$ 0.8$\,\mathrm{cm}^2$& 4.4$\pm$ 1.9$\,\mathrm{cm}^2$& 1.37$\pm$ 0.08\\
+		& -57.6 $\pm$ 1.0$\,^\mathrm{o}$C & -58.5 $\pm$ 0.8$\,^\mathrm{o}$C& -54.2 $\pm$ 2.8$\,^\mathrm{o}$C& -60.4 $\pm$ 2.2$\,^\mathrm{o}$C& -63.7 $\pm$ 5.7$\,^\mathrm{o}$C& -80.9 $\pm$ 14.0$\,^\mathrm{o}$C\\
+
+		Dome C &6.97 $\pm$ 0.15$\,\mathrm{cm}$& 6.34 $\pm$ 0.08$\,\mathrm{cm}$& 8.4 $\pm$ 1.9$\,\mathrm{cm}^2$& 6.7 $\pm$ 1.1$\,\mathrm{cm}^2$& 0.4$\pm$ 0.4$\,\mathrm{cm}^2$& 1.21$\pm$ 0.05\\
+		& -52.8 $\pm$ 1.0 $\,^\mathrm{o}$C & -52.5 $\pm$ 0.9$\,^\mathrm{o}$C& -54.3 $\pm$ 3.0$\,^\mathrm{o}$C& -56.9 $\pm$ 2.3$\,^\mathrm{o}$C& -88.8 $\pm$ 5.9 $\,^\mathrm{o}$C& -42.8 $\pm$ 18.4$\,^\mathrm{o}$C\\
 	
-		Dome C &6.97 $\pm$ 0.14$\,\mathrm{cm}$& 6.34 $\pm$ 0.05$\,\mathrm{cm}$& 8.4 $\pm$ 1.9$\,\mathrm{cm}^2$& 6.7 $\pm$ 1.1$\,\mathrm{cm}^2$& 0.4$\pm$ 0.4$\,\mathrm{cm}^2$& 1.21$\pm$ 0.05\\
-		& -52.8 $\pm$ 0.4$\,^\mathrm{o}$C & -52.5 $\pm$ 0.2$\,^\mathrm{o}$C& -54.4 $\pm$ 2.9$\,^\mathrm{o}$C& -56.9 $\pm$ 2.2$\,^\mathrm{o}$C& -88.8 $\pm$ 6.8$\,^\mathrm{o}$C& -42.1 $\pm$ 16.6$\,^\mathrm{o}$C\\
+		GRIP early &9.31 $\pm$ 0.24$\,\mathrm{cm}$& 8.25 $\pm$ 0.09$\,\mathrm{cm}$& 18.7 $\pm$ 4.0$\,\mathrm{cm}^2$& 20.4 $\pm$ 1.9$\,\mathrm{cm}^2$& 6.6$\pm$ 1.1$\,\mathrm{cm}^2$& 1.27$\pm$ 0.06\\
+		& -28.2 $\pm$ 1.2$\,^\mathrm{o}$C & -29.4 $\pm$ 1.0$\,^\mathrm{o}$C& -21.5 $\pm$ 4.4$\,^\mathrm{o}$C& -19.6 $\pm$ 2.1$\,^\mathrm{o}$C& -38.4 $\pm$ 2.7$\,^\mathrm{o}$C& -60.9 $\pm$ 16.4$\,^\mathrm{o}$C\\
 	
-		GRIP early &9.32 $\pm$ 0.22$\,\mathrm{cm}$& 8.25 $\pm$ 0.03$\,\mathrm{cm}$& 18.7 $\pm$ 4.0$\,\mathrm{cm}^2$& 20.4 $\pm$ 1.9$\,\mathrm{cm}^2$& 6.6$\pm$ 1.1$\,\mathrm{cm}^2$& 1.27$\pm$ 0.06\\
-		& -28.2 $\pm$ 0.7$\,^\mathrm{o}$C & -29.4 $\pm$ 0.1$\,^\mathrm{o}$C& -21.6 $\pm$ 4.2$\,^\mathrm{o}$C& -19.7 $\pm$ 1.6$\,^\mathrm{o}$C& -38.4 $\pm$ 2.5$\,^\mathrm{o}$C& -60.8 $\pm$ 16.4$\,^\mathrm{o}$C\\
+		NEEM dis &10.33 $\pm$ 0.19$\,\mathrm{cm}$& 9.72 $\pm$ 0.20$\,\mathrm{cm}$& 12.1 $\pm$ 1.8$\,\mathrm{cm}^2$& 10.0 $\pm$ 0.9$\,\mathrm{cm}^2$& 1.6$\pm$ 0.2$\,\mathrm{cm}^2$& 1.13$\pm$ 0.02\\
+		& -25.9 $\pm$ 1.1$\,^\mathrm{o}$C & -25.5 $\pm$ 1.1$\,^\mathrm{o}$C& -29.3 $\pm$ 2.7$\,^\mathrm{o}$C& -32.3 $\pm$ 1.8$\,^\mathrm{o}$C& -59.2 $\pm$ 2.0 $\,^\mathrm{o}$C& -4.2 $\pm$ 18.3$\,^\mathrm{o}$C\\
 	
-		NEEM dis &10.33 $\pm$ 0.16$\,\mathrm{cm}$& 9.72 $\pm$ 0.19$\,\mathrm{cm}$& 12.1 $\pm$ 1.8$\,\mathrm{cm}^2$& 10.0 $\pm$ 0.8$\,\mathrm{cm}^2$& 1.6$\pm$ 0.2$\,\mathrm{cm}^2$& 1.13$\pm$ 0.02\\
-		& -26.0 $\pm$ 0.4$\,^\mathrm{o}$C & -25.6 $\pm$ 0.5$\,^\mathrm{o}$C& -29.5 $\pm$ 2.4$\,^\mathrm{o}$C& -32.5 $\pm$ 1.3$\,^\mathrm{o}$C& -58.9 $\pm$ 1.5$\,^\mathrm{o}$C& -9.1 $\pm$ 11.5$\,^\mathrm{o}$C\\
-	
-		NEEM CFA&10.27 $\pm$ 0.15$\,\mathrm{cm}$& 9.65 $\pm$ 0.15$\,\mathrm{cm}$& 12.3 $\pm$ 1.0$\,\mathrm{cm}^2$& 11.4 $\pm$ 0.9$\,\mathrm{cm}^2$& 11.2$\pm$ 0.6$\,\mathrm{cm}^2$& 1.13$\pm$ 0.01\\
-		& -26.2 $\pm$ 0.4$\,^\mathrm{o}$C & -25.8 $\pm$ 0.4$\,^\mathrm{o}$C& -29.1 $\pm$ 1.3$\,^\mathrm{o}$C& -30.3 $\pm$ 1.2$\,^\mathrm{o}$C& -30.6 $\pm$ 0.8$\,^\mathrm{o}$C & -12.1 $\pm$ 5.9$\,^\mathrm{o}$C\\
+		NEEM CFA&10.27 $\pm$ 0.19$\,\mathrm{cm}$& 9.65 $\pm$ 0.18$\,\mathrm{cm}$& 12.3 $\pm$ 1.1$\,\mathrm{cm}^2$& 11.4 $\pm$ 0.9$\,\mathrm{cm}^2$& 11.2$\pm$ 0.6$\,\mathrm{cm}^2$& 1.13$\pm$ 0.01\\
+		& -26.1 $\pm$ 1.1$\,^\mathrm{o}$C & -25.7 $\pm$ 1.1$\,^\mathrm{o}$C& -29.0 $\pm$ 1.8$\,^\mathrm{o}$C& -30.1 $\pm$ 1.7$\,^\mathrm{o}$C& -30.4 $\pm$ 1.4$\,^\mathrm{o}$C & -5.7 $\pm$ 14.2$\,^\mathrm{o}$C\\
 		
-		NGRIP I&9.68 $\pm$ 0.13$\,\mathrm{cm}$& --------------&--------------& --------------&--------------&--------------\\
-		& -29.1 $\pm$ 0.4$\,^\mathrm{o}$C & --------------&--------------&-------------- &--------------& --------------\\
+		NGRIP I&9.68 $\pm$ 0.16$\,\mathrm{cm}$& --------------&--------------& --------------&--------------&--------------\\
+		& -29.0 $\pm$ 1.1$\,^\mathrm{o}$C & --------------&--------------&-------------- &--------------& --------------\\
 		
-		NGRIP II &10.14 $\pm$ 0.12$\,\mathrm{cm}$&-------------- &--------------&--------------&-------------- & --------------\\
-		& -28.8 $\pm$ 0.3$\,^\mathrm{o}$C & --------------&-------------- &-------------- &-------------- &--------------\\
+		NGRIP II &10.14 $\pm$ 0.17$\,\mathrm{cm}$&-------------- &--------------&--------------&-------------- & --------------\\
+		& -27.8 $\pm$ 1.0$\,^\mathrm{o}$C & --------------&-------------- &-------------- &-------------- &--------------\\
 		\bottomrule	
 	\end{tabular}
 \end{table}
@@ -1210,9 +1200,9 @@ by averaging the squared standard deviations of the reconstructed temperatures (
 Hence, the precision represents the uncertainty of the estimated diffusion signal, 
 and is not an indication of the accuracy of the absolute temperature estimate.
 In accordance with the results from the synthetic data test, the most precise reconstructions are obtained when using the single isotope diffusion methods. 
-The single diffusion methods have a $s_{\bar{T}}$ of $0.5\,^\mathrm{o}\mathrm{C}$, while the differential diffusion methods ${}^{18}\Delta\sigma^2$ I, II and III
-have a $s_{\bar{T}}$ of $2.4\,^\mathrm{o}\mathrm{C}$,
-$1.5\,^\mathrm{o}\mathrm{C}$ and $4.9\,^\mathrm{o}\mathrm{C}$, respectively.
+The single diffusion methods have a $s_{\bar{T}}$ of $1.1\,^\mathrm{o}\mathrm{C}$, while the differential diffusion methods ${}^{18}\Delta\sigma^2$ I, II and III
+have a $s_{\bar{T}}$ of $2.6\,^\mathrm{o}\mathrm{C}$,
+$1.9\,^\mathrm{o}\mathrm{C}$ and $4.8\,^\mathrm{o}\mathrm{C}$, respectively.
 The correlation-based technique is hereby shown to be the least precise differential diffusion method.
 This differs from the result of the synthetic data, where the correlation-based technique
 was shown to be the most precise. 
@@ -1241,7 +1231,7 @@ Besides the low precision of the diffusion length ratio method,
 its temperature esimates are highly inconsistent with the results of the 
 other techniques, with RMSDs varying from $21\, ^\mathrm{o}\mathrm{C}$ to $34 \, ^\mathrm{o}\mathrm{C}$. 
 For the correlation-based technique,
-similar high RMSDs are found between the temperature estimates of the ${}^{18}\Delta\sigma^2$ I and III, and the ${}^{18}\Delta\sigma^2$ II and III techniques. Here, the RMSDs are found to be $24.8\,^\mathrm{o}\mathrm{C}$ and $23.8\,^\mathrm{o}\mathrm{C}$, respectively.
+similar high RMSDs are found between the temperature estimates of the ${}^{18}\Delta\sigma^2$ I and III, and the ${}^{18}\Delta\sigma^2$ II and III techniques. Here, the RMSDs are found to be $24.6\,^\mathrm{o}\mathrm{C}$ and $23.5\,^\mathrm{o}\mathrm{C}$, respectively.
 A high RMSD ($24.5\,^\mathrm{o}\mathrm{C}$) is also found when comparing the temperature estimates originating from the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ III methods. 
 The large differences between the correlation-based and spectral-based temperature estimates are particularly pronounced for GRIP, NEEM (Fig. \ref{fig:all_temps}), Dome C and the discretely measured NEEM section (Fig. \ref{fig:early_temps}).
 In addition, it can be seen that the correlation-based method results in significantly different 
@@ -1261,7 +1251,7 @@ is independent of the systematic errors that can arise when correcting for ice a
 However, the RMSD between the temperature estimates of the ${}^{18}\Delta\sigma^2$ I and II techniques is found to be $3.8\,^\mathrm{o}\mathrm{C}$.  
 The RMSDs between the temperature estimates of the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ I methods, 
 and the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ II methods are found to be  
-$3.9\,^\mathrm{o}\mathrm{C}$ and $4.8\,^\mathrm{o}\mathrm{C}$, respectively. This could therefore indicate that ${}^{18}\Delta\sigma^2$ I yields more accurate reconstructions than ${}^{18}\Delta\sigma^2$ II. 
+$3.9\,^\mathrm{o}\mathrm{C}$ and $4.6\,^\mathrm{o}\mathrm{C}$, respectively. This could therefore indicate that ${}^{18}\Delta\sigma^2$ I yields more accurate reconstructions than ${}^{18}\Delta\sigma^2$ II. 
 However, ${}^{18}\Delta\sigma^2$ II has been shown to have the highest precision. It is therefore difficult to select the most accurate technique.
 One should therefore not have a preferred technique without utilizing both methods 
 on longer ice core sections. 
@@ -1417,6 +1407,51 @@ Based on Eq. (\ref{eq:firn_tort}), $\,\,\tau \rightarrow \infty$ for $\rho>804.3
 
 \end{itemize}
 
+%%%%%%%%%%% 
+\section{The firn temperature profile} \label{sec:firn_temp_profile}
+Temperature variations in the firn column affects the amount of firn diffusion.  
+Seasonal temperature variations can penetrate down to a depth of $10-12\, \mathrm{m}$. 
+The temperature profile $T$ is modeled by solving the general heat transfer equation:
+\begin{equation} \label{eq:crank2}
+\frac{\partial T}{\partial t} = \kappa\frac{\partial^2 T}{\partial z^2} - \left(w - \left( \frac{\kappa}{\rho}+ \frac{\partial \kappa}{\partial \rho}\right) \frac{\partial \rho}{\partial z}\right) \frac{\partial T}{\partial z},
+\end{equation}
+where $\rho$ is the density, $w$ is the vertical velocity and $\kappa$ is the thermal diffusivity of firn.
+Here the internal heat production and the heat transport in the horizontal plane have been neglected.
+The thermal diffusivity of firn depends on density and the thermal diffusivity of ice ($\kappa_{ice}$) \citep{Schwander1997}:
+\begin{equation}
+\kappa = \kappa_{ice}\left(\frac{\rho}{\rho_i}\right)^{1-0.5(\rho/\rho_i)},
+\end{equation}
+where $\rho_i$ is the density of ice.
+The thermal diffusivity of ice is defined as \citep{Paterson}:
+\begin{equation}
+\kappa_{ice} = \frac{k}{\rho_i c_p} = \frac{9.828\cdot \exp(-5.7 \cdot 10^{-3}T)\cdot 3.16\cdot 10^7}{\rho_i(152.5 + 7.122T)},
+\end{equation}
+where $c_p$ is the specific heat capacity and $k$ is the thermal conductivity of ice.
+This allows for the computation of changes in thermal diffusivity with density:
+\begin{equation}
+\frac{\partial \kappa}{\partial \rho}= \kappa \left(\frac{1}{\rho} -\frac{1}{2\rho_i}\right)\left(1 + \ln\left(\frac{\rho}{\rho_i}\right)\right).
+\end{equation}
+The surface temperature is parameterized as fluctuations around the mean annual temperature ($T_{mean}$) as in \cite{Simonsen2011}:
+\begin{equation}
+T_{surf}(t) = T_{mean} + A \cos\left(b t\right) + B \cos\left(2 b t\right),
+\end{equation}
+where $A = 16.5$, $B= 3.0$ and $b = 0.5236$ are constants controlling the temperature amplitude and narrowness of the summer peak.
+
+Figure \ref{fig:firn_temp_profle} shows what temperature a snow package experiences as it moves downwards.
+The heat equation is solved numerically by using a Crank-Nicolson scheme \citep{durran}.
+\begin{figure*}[]
+	\vspace*{2mm}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{firn_temp_profile.eps}
+		\caption{Each solid colored line represent the temperature in one month of a year. 
+			The temperature a snow layer experiences as it moves down through the snow
+			is represented by the black dashed line. 
+			The temperature is constant around 10-12 m. $T_{\mathrm{mean}} = -29 \,^{\circ} \mathrm{C}$,
+			$A = 0.22 \;\mathrm{myr^{-1}\,ice.\, eq.}$}  \label{fig:firn_temp_profle}
+	\end{center}
+\end{figure*}
+
+%%%%%%%%%%
 
 \section{Ice Diffusivity} \label{sec:appendix_ice_diffusion}
 The solid ice diffusivity parametrization we use in this study is based on \cite{Ramseier1967} 
@@ -1468,49 +1503,6 @@ ice flow thinning $S(t')$:
 	\end{tabular}
 \end{table*}
 
-%%%%%%%%%%% 
-\section{The firn temperature profile} \label{sec:firn_temp_profile}
-Temperature variations in the firn column affects the amount of firn diffusion.  
-Seasonal temperature variations can penetrate down to a depth of $10-12\, \mathrm{m}$. 
-The temperature profile $T$ is modeled by solving the general heat transfer equation:
-\begin{equation} \label{eq:crank2}
-\frac{\partial T}{\partial t} = \kappa\frac{\partial^2 T}{\partial z^2} - \left(w - \left( \frac{\kappa}{\rho}+ \frac{\partial \kappa}{\partial \rho}\right) \frac{\partial \rho}{\partial z}\right) \frac{\partial T}{\partial z},
-\end{equation}
-where $\rho$ is the density, $w$ is the vertical velocity and $\kappa$ is the thermal diffusivity of firn.
-Here the internal heat production and the heat transport in the horizontal plane have been neglected.
-The thermal diffusivity of firn depends on density and the thermal diffusivity of ice ($\kappa_{ice}$) \citep{Schwander1997}:
-\begin{equation}
-\kappa = \kappa_{ice}\left(\frac{\rho}{\rho_i}\right)^{1-0.5(\rho/\rho_i)},
-\end{equation}
-where $\rho_i$ is the density of ice.
-The thermal diffusivity of ice is defined as \citep{Paterson}:
-\begin{equation}
-\kappa_{ice} = \frac{k}{\rho_i c_p} = \frac{9.828\cdot \exp(-5.7 \cdot 10^{-3}T)\cdot 3.16\cdot 10^7}{\rho_i(152.5 + 7.122T)},
-\end{equation}
-where $c_p$ is the specific heat capacity and $k$ is the thermal conductivity of ice.
-This allows for the computation of changes in thermal diffusivity with density:
-\begin{equation}
-\frac{\partial \kappa}{\partial \rho}= \kappa \left(\frac{1}{\rho} -\frac{1}{2\rho_i}\right)\left(1 + \ln\left(\frac{\rho}{\rho_i}\right)\right).
-\end{equation}
-The surface temperature is parameterized as fluctuations around the mean annual temperature ($T_{mean}$) as in \cite{Simonsen2011}:
-\begin{equation}
-T_{surf}(t) = T_{mean} + A \cos\left(b t\right) + B \cos\left(2 b t\right),
-\end{equation}
-where $A = 16.5$, $B= 3.0$ and $b = 0.5236$ are constants controlling the temperature amplitude and narrowness of the summer peak.
-
-Figure \ref{fig:firn_temp_profle} shows what temperature a snow package experiences as it moves downwards.
-The heat equation is solved numerically by using a Crank-Nicolson scheme \citep{durran}.
-\begin{figure*}[]
-	\vspace*{2mm}
-	\begin{center}
-		\includegraphics[width=0.9\textwidth]{firn_temp_profile.eps}
-		\caption{Each solid colored line represent the temperature in one month of a year. 
-				The temperature a snow layer experiences as it moves down through the snow
-				is represented by the black dashed line. 
-				The temperature is constant around 10-12 m. $T_{\mathrm{mean}} = -29 \,^{\circ} \mathrm{C}$,
-				$A = 0.22 \;\mathrm{myr^{-1}\,ice.\, eq.}$}  \label{fig:firn_temp_profle}
-	\end{center}
-\end{figure*}
 
 
 

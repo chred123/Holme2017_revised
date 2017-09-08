@@ -1,0 +1,1405 @@
+% This file was created with JabRef 2.10.
+% Encoding: ISO8859_1
+
+
+@Book{Abramowitz1964,
+  Title                    = {Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables},
+  Author                   = {Milton Abramowitz and Irene A. Stegun},
+  Publisher                = {Dover},
+  Year                     = {1964},
+
+  Address                  = {New York},
+  Edition                  = {ninth Dover printing, tenth GPO printing},
+
+  Owner                    = {vasilis},
+  Timestamp                = {2016.07.12}
+}
+
+@Article{Akaike,
+  Title                    = {{Fitting Autoregressive Models For Prediction}},
+  Author                   = {H. Akaike},
+  Journal                  = {Annals of the Institute of Statistical Mathematics},
+  Year                     = {1969},
+  Number                   = {1},
+  Volume                   = {21}
+}
+
+@Article{Andersen1974,
+  Title                    = {{On The Calculation Of Filter Coefficients For Maximum Entropy Spectral Analysis}},
+  Author                   = {N. Andersen},
+  Journal                  = {Geophysics},
+  Year                     = {1974},
+  Number                   = {1},
+  Volume                   = {39}
+}
+
+@Article{Baker2002,
+  Title                    = {A technique for the determination of O-18/O-16 and O-17/O-16 isotopic ratios in water from small liquid and solid samples},
+  Author                   = {Baker, L. and Franchi, I. A. and Maynard, J. and Wright, I. P. and Pillinger, C. T.},
+  Journal                  = {Analytical Chemistry},
+  Year                     = {2002},
+
+  Month                    = apr,
+  Number                   = {7},
+  Pages                    = {1665--1673},
+  Volume                   = {74},
+
+  __markedentry            = {[vasilis:6]},
+  Abstract                 = {We have developed a new technique in which a solid reagent, cobalt(III) fluoride, is used to prepare oxygen gas for isotope ratio measurement from water derived either from direct injection or from the pyrolysis of solid samples. The technique uses continuous flow, isotope ratio monitoring, gas chromatography/mass spectrometry (irmGC/ MS) to measure the delta(18)O and delta(17)O of the oxygen gas. Water from appropriate samples is evolved by a procedure of stepped pyrolysis (0-1000 degreesC, typically in 50 degreesC increments) under a flowing stream of helium carrier gas. The method has considerable advantages over others used for water analysis in that it is quick; requires only small samples, typically 1-50 mg of whole rock samples (corresponding to similar to0.2 mumol of H2O); and the reagent is easy and safe to handle. Reproducibility in isotope ratio measurement obtained from pyrolysis of samples of a terrestrial solid standard are delta(18)O +/- 0.54, delta(17)O +/- 0.33, and Delta(17)O +/- 0.10parts per thousand, 1sigma in all cases. The technique was developed primarily for the analysis of meteorites, and the efficiency of the method is illustrated herein by results from water standards, solid reference materials, and a sample of the Murchison CM2 meteorite.},
+  Af                       = {Baker, LEOLEOLFranchi, IAEOLEOLMaynard, JEOLEOLWright, IPEOLEOLPillinger, CT},
+  C1                       = {Open Univ, Planetary & Space Sci Res Inst, Milton Keynes MK7 6AA, Bucks, England.},
+  Doi                      = {10.1021/ac010509s},
+  File                     = {:Baker2002.pdf:PDF},
+  Ga                       = {538XZ},
+  J9                       = {ANAL CHEM},
+  Ji                       = {Anal. Chem.},
+  Keywords                 = {CARBONACEOUS CHONDRITES; SNC METEORITES; MARS; GEOCHEMISTRY; ATMOSPHERE; HYDROGEN},
+  La                       = {English},
+  Nr                       = {23},
+  Owner                    = {vasilis},
+  Pa                       = {1155 16TH ST, NW, WASHINGTON, DC 20036 USA},
+  Pg                       = {9},
+  Pi                       = {WASHINGTON},
+  Pm                       = {12033258},
+  Publisher                = {Amer Chemical Soc},
+  Rp                       = {Baker, L (reprint author), Open Univ, Planetary & Space Sci Res Inst, Walton Hall, Milton Keynes MK7 6AA, Bucks, England.},
+  Sc                       = {Chemistry},
+  Sn                       = {0003-2700},
+  Tc                       = {24},
+  Timestamp                = {2016.10.07},
+  U1                       = {2},
+  U2                       = {15},
+  Ut                       = {WOS:000174841600039},
+  Wc                       = {Chemistry, Analytical},
+  Z9                       = {25}
+}
+
+@Article{Barkan2007,
+  Title                    = {Diffusivity fractionations of (H2O)-O-16/(H2O)-O-17 and (H2O)-O-16/(H2O)-O-18 in air and their implications for isotope hydrology},
+  Author                   = {Barkan, E. and Luz, B.},
+  Journal                  = {Rapid Communications In Mass Spectrometry},
+  Year                     = {2007},
+  Number                   = {18},
+  Pages                    = {2999--3005},
+  Volume                   = {21},
+
+  Abstract                 = {We have determined the isotope effects of O-17 and O-18 substitution of O-16 in H2O on molecular diffusivities of water vapor in air by the use of evaporation experiments. The derived diffusion fractionation coefficients (17)alpha(diff) and (18)alpha(diff) are 1.0146 +/- 0.0002 and 1.0283 +/- 0.0003, respectively. We also determined, for the first time, the ratio In((17)alpha(diff))/In((18)alpha(diff)) as 0.5185 +/- 0.0002. This ratio, which is in excellent agreement with the theoretical value of 0.5184, is significantly smaller than the ratio in vapor-liquid equilibrium (0.529). We show how this new experimental information gives rise to O-17 excess in meteoric water, and how it can be applied in isotope hydrology. Copyright (c) 2007 John Wiley & Sons, Ltd.},
+  Af                       = {Barkan, EugeniEOLEOLLuz, Boaz},
+  C1                       = {Hebrew Univ Jerusalem, Inst Earth Sci, IL-91904 Jerusalem, Israel.},
+  Doi                      = {10.1002/rcm.3180},
+  Em                       = {eugenib@cc.huji.ac.il},
+  File                     = {:Barkan2007.pdf:PDF},
+  Ga                       = {210LN},
+  J9                       = {RAPID COMMUN MASS SP},
+  Ji                       = {Rapid Commun. Mass Spectrom.},
+  Keywords                 = {HYDROGEN ISOTOPES; WATER; OXYGEN; PRODUCTIVITY; TEMPERATURE; EVAPORATION; ATMOSPHERE; LIQUID; CYCLE},
+  La                       = {English},
+  Nr                       = {27},
+  Owner                    = {vasilis},
+  Pa                       = {THE ATRIUM, SOUTHERN GATE, CHICHESTER PO19 8SQ, W SUSSEX, ENGLAND},
+  Pg                       = {7},
+  Pi                       = {CHICHESTER},
+  Publisher                = {John Wiley \& Sons Ltd},
+  Rp                       = {Barkan, E (reprint author), Hebrew Univ Jerusalem, Inst Earth Sci, IL-91904 Jerusalem, Israel.},
+  Sc                       = {Chemistry; Spectroscopy},
+  Sn                       = {0951-4198},
+  Tc                       = {41},
+  Timestamp                = {2014.07.23},
+  Ut                       = {WOS:000249457800011},
+  Wc                       = {Chemistry, Analytical; Spectroscopy},
+  Z9                       = {42}
+}
+
+@Article{Barkan2005,
+  Title                    = {High precision measurements of O-17/O-16 and O-18/O-16 ratios in H2O},
+  Author                   = {Barkan, E. and Luz, B.},
+  Journal                  = {Rapid Communications In Mass Spectrometry},
+  Year                     = {2005},
+  Number                   = {24},
+  Pages                    = {3737--3742},
+  Volume                   = {19},
+
+  Abstract                 = {We have optimized the method of water fluorination using the solid reagent CoF3 to produce O-2. This allows isotope ratio measurements by dual-inlet mass spectrometry with very high precision of 0.01 to 0.03 parts per thousand for both delta(17)O and delta(18)O. Using this method, delta(17)O and delta(18)O of atmospheric O-2 were determined as 12.08 and 23.88 parts per thousand vs. VSMOW, respectively. Likewise, delta(17)O and delta(18)O of GISP were -13.12 and -24.73 parts per thousand, and for SLAP they were -29.48 and -55.11 parts per thousand vs. VSMOW, respectively. Analysis of these data in a ln(delta(17)O + 1) vs. ln(delta(18)O+ 1) plot yields a line with a regression coefficient (lambda) of 0.5279 +/- 0.0001 (R-2 = 0.999999). We also determined the fractionation factors 17 alpha and 18 alpha in liquid-vapor equilibrium, and found that the ratio In 17 alpha/ln(1) 8 alpha is constant (0.529 +/- 0.001) over the temperature range 11.4 to 41.5 degrees C. Copyright (c) 2005 John Wiley & Sons, Ltd.},
+  C1                       = {Hebrew Univ Jerusalem, Inst Earth Sci, IL-91904 Jerusalem, Israel.},
+  Doi                      = {10.1002/rcm.2250},
+  Em                       = {eugenib@cc.huji.ac.il},
+  File                     = {:Barkan2005.pdf:PDF},
+  Ga                       = {996ET},
+  J9                       = {RAPID COMMUN MASS SPECTROM},
+  Ji                       = {Rapid Commun. Mass Spectrom.},
+  Keywords                 = {TRIPLE-ISOTOPE COMPOSITION; ATMOSPHERIC OXYGEN; MASS-SPECTROMETRY; CARBON-DIOXIDE; WATER SAMPLES; FRACTIONATION; DELTA-O-17; SYSTEM; AIR; CO2},
+  La                       = {English},
+  Nr                       = {30},
+  Owner                    = {vasilis},
+  Pa                       = {THE ATRIUM, SOUTHERN GATE, CHICHESTER PO19 8SQ, W SUSSEX, ENGLAND},
+  Pg                       = {6},
+  Pi                       = {CHICHESTER},
+  Publisher                = {John Wiley \& Sons Ltd},
+  Rp                       = {Barkan, E, Hebrew Univ Jerusalem, Inst Earth Sci, IL-91904 Jerusalem,EOLEOLIsrael.},
+  Sc                       = {Biochemical Research Methods; Chemistry, Analytical; Spectroscopy},
+  Sn                       = {0951-4198},
+  Tc                       = {42},
+  Timestamp                = {2011.04.11},
+  Ut                       = {ISI:000234157900019}
+}
+
+@Article{Barkan2005,
+  Title                    = {High precision measurements of O-17/O-16 and O-18/O-16 ratios in H2O},
+  Author                   = {Barkan, E. and Luz, B.},
+  Journal                  = {Rapid Communications In Mass Spectrometry},
+  Year                     = {2005},
+  Number                   = {24},
+  Pages                    = {3737--3742},
+  Volume                   = {19},
+
+  Abstract                 = {We have optimized the method of water fluorination using the solid reagent CoF3 to produce O-2. This allows isotope ratio measurements by dual-inlet mass spectrometry with very high precision of 0.01 to 0.03 parts per thousand for both delta(17)O and delta(18)O. Using this method, delta(17)O and delta(18)O of atmospheric O-2 were determined as 12.08 and 23.88 parts per thousand vs. VSMOW, respectively. Likewise, delta(17)O and delta(18)O of GISP were -13.12 and -24.73 parts per thousand, and for SLAP they were -29.48 and -55.11 parts per thousand vs. VSMOW, respectively. Analysis of these data in a ln(delta(17)O + 1) vs. ln(delta(18)O+ 1) plot yields a line with a regression coefficient (lambda) of 0.5279 +/- 0.0001 (R-2 = 0.999999). We also determined the fractionation factors 17 alpha and 18 alpha in liquid-vapor equilibrium, and found that the ratio In 17 alpha/ln(1) 8 alpha is constant (0.529 +/- 0.001) over the temperature range 11.4 to 41.5 degrees C. Copyright (c) 2005 John Wiley & Sons, Ltd.},
+  C1                       = {Hebrew Univ Jerusalem, Inst Earth Sci, IL-91904 Jerusalem, Israel.},
+  Doi                      = {10.1002/rcm.2250},
+  Em                       = {eugenib@cc.huji.ac.il},
+  File                     = {:Barkan2005.pdf:PDF},
+  Ga                       = {996ET},
+  J9                       = {RAPID COMMUN MASS SPECTROM},
+  Ji                       = {Rapid Commun. Mass Spectrom.},
+  Keywords                 = {TRIPLE-ISOTOPE COMPOSITION; ATMOSPHERIC OXYGEN; MASS-SPECTROMETRY; CARBON-DIOXIDE; WATER SAMPLES; FRACTIONATION; DELTA-O-17; SYSTEM; AIR; CO2},
+  La                       = {English},
+  Nr                       = {30},
+  Owner                    = {vasilis},
+  Pa                       = {THE ATRIUM, SOUTHERN GATE, CHICHESTER PO19 8SQ, W SUSSEX, ENGLAND},
+  Pg                       = {6},
+  Pi                       = {CHICHESTER},
+  Publisher                = {John Wiley \& Sons Ltd},
+  Rp                       = {Barkan, E, Hebrew Univ Jerusalem, Inst Earth Sci, IL-91904 Jerusalem,EOLEOLIsrael.},
+  Sc                       = {Biochemical Research Methods; Chemistry, Analytical; Spectroscopy},
+  Sn                       = {0951-4198},
+  Tc                       = {42},
+  Timestamp                = {2011.04.11},
+  Ut                       = {ISI:000234157900019}
+}
+
+@Article{Begley1997,
+  Title                    = {High-precision $\delta\mathrm{^{2}H}$ and $\delta\mathrm{^{18}O}$ measurement for water and volatile organic compounds by continuous-flow pyrolysis isotope ratio mass spectrometry},
+  Author                   = {Begley, I. S. and Scrimgeour, C. M.},
+  Journal                  = {Analytical Chemistry},
+  Year                     = {1997},
+
+  Month                    = apr,
+  Number                   = {8},
+  Pages                    = {1530--1535},
+  Volume                   = {69},
+
+  Abstract                 = {An on-line pyrolysis technique is described for analysis of delta(2)H and delta(18)O by continuous-flow isotope ratio mass spectrometry. A pyrolysis furnace packed;vith nickel, on which carbon is deposited as required, is shown to give efficient conversion of nanomole quantities of sample material to H-2 and CO. A water trap and postpyrolysis gas chromatograph separate analyte gases from traces of H2O and CO2. The isotope ratio mass spectrometer used gives adequate separation of (HH+)-H-2-H-1 and He-4(+) to allow use of He as carrier gas. The pyrolysis technique provides a rapid method for analysis of water with a precision of +/-2 parts per thousand for delta(2)H and +/-0.3 parts per thousand for delta(18)O. Similar precisions are obtained for injections of 0.5 mu L of urine and volatile organic compounds. Memory between samples is <2% for both delta(2)H and delta(18)O measurement. The technique is accurate over a wide range of enrichment for both delta(2)H and delta(18)O and is suitable for use in natural abundance and tracer studies of liquid samples.},
+  File                     = {:Begley1997.pdf:PDF},
+  Ga                       = {WT631},
+  J9                       = {ANAL CHEM},
+  Ji                       = {Anal. Chem.},
+  Keywords                 = {HYDROGEN; ZINC; GAS},
+  La                       = {English},
+  Nr                       = {25},
+  Owner                    = {vasilis},
+  Pa                       = {1155 16TH ST, NW, WASHINGTON, DC 20036},
+  Pg                       = {6},
+  Pi                       = {WASHINGTON},
+  Publisher                = {Amer Chemical Soc},
+  Rp                       = {Begley, IS, SCOTTISH CROP RES INST, DEPT CHEM, DUNDEE DD2 5DA, SCOTLAND.},
+  Sc                       = {Chemistry, Analytical},
+  Sn                       = {0003-2700},
+  Tc                       = {71},
+  Timestamp                = {2010.01.31},
+  Ut                       = {ISI:A1997WT63100010}
+}
+
+@Article{Bigeleisen1952,
+  Title                    = {Conversion Of Hydrogenic Materials To Hydrogen For Isotopic Analysis},
+  Author                   = {Bigeleisen, J. and Perlman, M. L. and Prosser, H. C.},
+  Journal                  = {Analytical Chemistry},
+  Year                     = {1952},
+  Number                   = {8},
+  Pages                    = {1356--1357},
+  Volume                   = {24},
+
+  File                     = {:Bigeleisen1952.pdf:PDF},
+  Ga                       = {UK606},
+  J9                       = {ANAL CHEM},
+  Ji                       = {Anal. Chem.},
+  La                       = {English},
+  Nr                       = {11},
+  Owner                    = {vasilis},
+  Pa                       = {1155 16TH ST, NW, WASHINGTON, DC 20036},
+  Pg                       = {2},
+  Pi                       = {WASHINGTON},
+  Publisher                = {Amer Chemical Soc},
+  Sc                       = {Chemistry, Analytical},
+  Sn                       = {0003-2700},
+  Tc                       = {387},
+  Timestamp                = {2010.02.01},
+  Ut                       = {ISI:A1952UK60600024}
+}
+
+@Article{BIGELEISEN1952,
+  Title                    = {Conversion Of Hydrogenic Materials To Hydrogen For Isotopic Analysis},
+  Author                   = {Bigeleisen, J. and Perlman, M. L. and Prosser, H. C.},
+  Journal                  = {Analytical Chemistry},
+  Year                     = {1952},
+  Number                   = {8},
+  Pages                    = {1356--1357},
+  Volume                   = {24},
+
+  File                     = {:Bigeleisen1952.pdf:PDF},
+  Ga                       = {UK606},
+  J9                       = {ANAL CHEM},
+  Ji                       = {Anal. Chem.},
+  La                       = {English},
+  Nr                       = {11},
+  Owner                    = {vasilis},
+  Pa                       = {1155 16TH ST, NW, WASHINGTON, DC 20036},
+  Pg                       = {2},
+  Pi                       = {WASHINGTON},
+  Publisher                = {Amer Chemical Soc},
+  Sc                       = {Chemistry, Analytical},
+  Sn                       = {0003-2700},
+  Tc                       = {387},
+  Timestamp                = {2010.02.01},
+  Ut                       = {ISI:A1952UK60600024}
+}
+
+@Article{Blicks1966,
+  Title                    = {Diffusion Von Protonen (tritonen) In Reinen Und Dotierten Eis-einkristallen},
+  Author                   = {Blicks, H. and Dengel, O. and Riehl, N.},
+  Journal                  = {Physik Der Kondensiterten Materie},
+  Year                     = {1966},
+  Number                   = {5},
+  Pages                    = {375--381},
+  Volume                   = {4},
+
+  Af                       = {BLICKS, HEOLEOLDENGEL, OEOLEOLRIEHL, N},
+  File                     = {:Blicks1966.pdf:PDF},
+  Ga                       = {73726},
+  J9                       = {PHYS KONDENS MATER},
+  La                       = {English},
+  Nr                       = {14},
+  Owner                    = {vasilis},
+  Pg                       = {0},
+  Sc                       = {Physics},
+  Sn                       = {0031-9236},
+  Tc                       = {0},
+  Timestamp                = {2014.02.26},
+  Ut                       = {WOS:A19667372600006},
+  Wc                       = {Physics, Condensed Matter},
+  Z9                       = {0}
+}
+
+@Article{Brand2009,
+  Title                    = {Cavity ring-down spectroscopy versus high-temperature conversion isotope ratio mass spectrometry; a case study on $\delta\mathrm{^{2}H}$ and $\delta\mathrm{^{18}O}$ of pure water samples and alcohol/water mixtures},
+  Author                   = {Brand, W. A. and Geilmann, Heike and Crosson, Eric R. and Rella, Chris W.},
+  Journal                  = {Rapid Communications in Mass Spectrometry},
+  Year                     = {2009},
+  Number                   = {12},
+  Pages                    = {1879--1884},
+  Volume                   = {23},
+
+  Abstract                 = {No Abstract.},
+  File                     = {:Brand2009.pdf:PDF},
+  Owner                    = {vasilis},
+  Timestamp                = {2009.12.03},
+  Url                      = {http://dx.doi.org/10.1002/rcm.4083}
+}
+
+@PhdThesis{Burg,
+  Title                    = {{ Maximum Energy Spectral Analysis}},
+  Author                   = {J. P. Burg },
+  School                   = {Stanford University},
+  Year                     = {1975}
+}
+
+@Article{Cias1992,
+  Title                    = {{Evidence for an early Holocene climatic optimum in the Antarctic deep ice-core record}},
+  Author                   = {P. Cias and J. R. Petit and J. Jouzel and C. Lorius and N. I. Barkov and V. Lipenkov and V. Nicolaïev},
+  Journal                  = {Climate Dynamics.},
+  Year                     = {1992},
+  Volume                   = {6},
+
+  Page                     = {169-177}
+}
+
+@Article{craig,
+  Title                    = {{Isotopic Variations in Meteroric Water}},
+  Author                   = {H. Craig},
+  Journal                  = {Science},
+  Year                     = {1961},
+  Volume                   = {Vol. 133, no. 3465, pp. 1702-1703}
+}
+
+@Article{Crosson2008,
+  Title                    = {A cavity ring-down analyzer for measuring atmospheric levels of methane, carbon dioxide, and water vapor},
+  Author                   = {Crosson, E. R.},
+  Journal                  = {Applied Physics B-Lasers And Optics},
+  Year                     = {2008},
+
+  Month                    = sep,
+  Number                   = {3},
+  Pages                    = {403--408},
+  Volume                   = {92},
+
+  Abstract                 = {Researchers investigating global climate change need measurements of greenhouse gases with extreme precision and accuracy to enable the development and benchmarking of better climate models. Existing atmospheric monitors based on non-dispersive infrared (NDIR) sensors have known problems - they are non-linear, sensitive to water vapor concentration, and susceptible to drift. Many cannot easily be simultaneously calibrated across different sites to the level of accuracy required for use in atmospheric studies. We present results from field trials by Pennsylvania State University and the National Oceanographic and Atmospheric Administration (NOAA) of a newly available analyzer, based on cavity ring-down spectroscopy (CRDS), capable of measuring the concentrations of carbon dioxide (CO2) and water vapor (H2O). In addition, we present data from a new analyzer which measures CO2, methane (CH4), and H2O.},
+  Af                       = {Crosson, E. R.},
+  C1                       = {Picarro Inc, Sunnyvale, CA USA.},
+  Di                       = {10.1007/s00340-008-3135-y},
+  Em                       = {ecrosson@picarro.com},
+  File                     = {:Crosson2008.pdf:PDF},
+  Ga                       = {341HA},
+  J9                       = {APPL PHYS B-LASERS OPT},
+  Ji                       = {Appl. Phys. B-Lasers Opt.},
+  La                       = {English},
+  Nr                       = {8},
+  Owner                    = {vasilis},
+  Pa                       = {233 SPRING ST, NEW YORK, NY 10013 USA},
+  Pg                       = {6},
+  Pi                       = {NEW YORK},
+  Publisher                = {Springer},
+  Rp                       = {Crosson, ER, Picarro Inc, 480 Oakmead Pkwy, Sunnyvale, CA USA.},
+  Sc                       = {Optics; Physics, Applied},
+  Sn                       = {0946-2171},
+  Tc                       = {6},
+  Timestamp                = {2010.02.02},
+  Ut                       = {ISI:000258703600013}
+}
+
+@Article{Cuffey1994,
+  Title                    = {Calibration Of the Delta-O-18 isotopic paleothermometer for central Greenland, using borehole temperatures},
+  Author                   = {Cuffey, K. M. and Alley, R. B. and Grootes, P. M. and Bolzan, J. M. and Anandakrishnan, S.},
+  Journal                  = {Journal Of Glaciology},
+  Year                     = {1994},
+  Number                   = {135},
+  Pages                    = {341--349},
+  Volume                   = {40},
+
+  Abstract                 = {We calibrate the delta(18)O paleothermometer for central Greenland using borehole temperatures, a thermal model forced by a measured delta(18)O record and a formal inverse technique. The calibration is determined mostly by temperature fluctuations of the last several centuries, including the Little Ice Age. Results are generally insensitive to model variables, including initial condition, basal boundary condition, parameterization of snow thermal properties, ice thickness and likely errors in temperature and isotope measurements. Results of this borehole calibration also seem to be in agreement with modern spatial gradients of delta(18)O and temperature. We suggest that calibrations of isotopic paleothermometers using borehole temperatures are a useful paleoclimate tool, because they are independent of spatial gradients and include the effects of prehistoric temperatures over Ice sheets.},
+  File                     = {:Cuffey1994.pdf:PDF},
+  Owner                    = {v.gkinis},
+  Sn                       = {0022-1430},
+  Timestamp                = {2008.01.22},
+  Ut                       = {ISI:A1994PB98700012}
+}
+
+@Article{Dorthe1998,
+  Title                    = {{Past temperatures directly from the Greenland Ice Sheet}},
+  Author                   = {D. Dahl-Jensen and K. Mosegaard and N. Gundestrup and G. D. Clow and S. J. Johnsen and A. W. Hansen and N. Balling},
+  Journal                  = {Science.},
+  Year                     = {1998},
+  Pages                    = {268-271},
+  Volume                   = {282, vol: 5387}
+}
+
+@Article{Dansgaard,
+  Title                    = {Stable isotopes in precipitation},
+  Author                   = {W. Dansgaard},
+  Journal                  = {Tellus B},
+  Year                     = {1964},
+  Volume                   = {Vol: 16, Issue 4, pages: 436-468}
+}
+
+@Article{Dansgaard2,
+  Title                    = {The $^{18}${O}-abundance in fresh water},
+  Author                   = {W. Dansgaard},
+  Journal                  = {Geochimica et Cosmochimica Acta},
+  Year                     = {1954},
+  Volume                   = {Volume 6, Issues 5–6, pp: 241–260}
+}
+
+@Article{DJmodel,
+  Title                    = {{A flow model and a time scale for the ice core from Camp Century, Greenland}},
+  Author                   = {W. Dansgaard and S. J. Johnsen},
+  Journal                  = {Journal of Glaciology},
+  Year                     = {1969},
+  Number                   = {53},
+  Volume                   = {8}
+}
+
+@Article{Delibaltas1966,
+  Title                    = {Diffusion Von $^{18}\text{O}$ In Eis-einkristallen},
+  Author                   = {Delibaltas, P. and Dengel, O. and Helmreich, D. and Riehl, N. and Simon, H.},
+  Journal                  = {Physik Der Kondensiterten Materie},
+  Year                     = {1966},
+  Number                   = {3},
+  Pages                    = {166--170},
+  Volume                   = {5},
+
+  Af                       = {DELIBALT.PEOLEOLDENGEL, OEOLEOLHELMREIC.DEOLEOLRIEHL, NEOLEOLSIMON, H},
+  Doi                      = {10.1007/BF02422709},
+  File                     = {:Delibaltas1966.pdf:PDF},
+  Ga                       = {81516},
+  J9                       = {PHYS KONDENS MATER},
+  La                       = {English},
+  Nr                       = {13},
+  Owner                    = {vasilis},
+  Pg                       = {0},
+  Sc                       = {Physics},
+  Sn                       = {0031-9236},
+  Tc                       = {44},
+  Timestamp                = {2014.02.26},
+  Ut                       = {WOS:A19668151600002},
+  Wc                       = {Physics, Condensed Matter},
+  Z9                       = {44}
+}
+
+@Article{Ellehoj2013,
+  Title                    = {{Ice-vapor equilibrium fractionation factor of hydrogen and oxygen isotopes: Experimental investigations and implications for stable water isotope studies}},
+  Author                   = {M. D. Ellehoj and H. C. Steen-Larsen and S. J. Johnsen and M. B. Madsen },
+  Journal                  = {Rapid Communications in Mass Spectrometry},
+  Year                     = {2013},
+  Volume                   = {27, pp. 2149-2158}
+}
+
+@Article{Emanuelsson2015,
+  Title                    = {High-resolution continuous-flow analysis setup for water isotopic measurement from ice cores using laser spectroscopy},
+  Author                   = {Emanuelsson, B. D. and Baisden, W. T. and Bertler, N. A. N. and Keller, E. D. and Gkinis, V.},
+  Journal                  = {Atmos. Meas. Tech.},
+  Year                     = {2015},
+
+  Month                    = jul,
+  Number                   = {7},
+  Pages                    = {2869--2883},
+  Volume                   = {8},
+
+  File                     = {:Emanuelsson2015.pdf:PDF},
+  ISSN                     = {1867-8548},
+  Owner                    = {vasilis},
+  Publisher                = {Copernicus Publications},
+  Timestamp                = {2015.07.27},
+  Url                      = {http://www.atmos-meas-tech.net/8/2869/2015/}
+}
+
+@Article{Epstein1951,
+  Title                    = {Carbonate-water isotopic temperature scale},
+  Author                   = {Epstein, S. and Buchsbaum, R. and LOWENSTAM, H. and Urey, H.C.},
+  Journal                  = {Geological Society of America Bulletin},
+  Year                     = {1951},
+  Number                   = {4},
+  Pages                    = {417},
+  Volume                   = {62},
+
+  File                     = {:Epstein1951.pdf:PDF},
+  Owner                    = {vasilis},
+  Publisher                = {Geological Society of America},
+  Timestamp                = {2016.06.14}
+}
+
+@Article{Fick,
+  Title                    = {{Ueber Diffusion}},
+  Author                   = {A. Fick},
+  Journal                  = {Annalen der Physik.},
+  Year                     = {1855},
+  Volume                   = {170, issue: 1,pp: 59-86}
+}
+
+@Article{Gehre1996,
+  Title                    = {Sample preparation device for quantitative hydrogen isotope analysis using chromium metal},
+  Author                   = {Gehre, M. and Hoefling, R. and Kowski, P. and Strauch, G.},
+  Journal                  = {Analytical Chemistry},
+  Year                     = {1996},
+
+  Month                    = dec,
+  Number                   = {24},
+  Pages                    = {4414--4417},
+  Volume                   = {68},
+
+  Abstract                 = {A new technique for the sample preparation, directly coupled to an isotope ratio mass spectrometer (IRMS) for D/H determination, is described, The method is suitable for the preparation of fresh and saline waters as web as different organic compounds (gaseous or liquid). One microliter of water or hydrogen equivalent is injected and reduced by means of chromium metal in a specially designed reaction furnace, and then the hydrogen gas flows directly into the IRMS to be analyzed by standard/sample comparison. The reproducibility is about 1 parts per thousand, The accuracy of this method is confirmed by analysis of IAEA standard waters VSMOW, GISP, and SLAP. All aqueous samples including liquid food samples as well as methane gas were injected as original compounds and directly measured without any preparation.},
+  File                     = {:Gehre1996.pdf:PDF},
+  Ga                       = {VX786},
+  J9                       = {ANAL CHEM},
+  Ji                       = {Anal. Chem.},
+  Keywords                 = {MASS-SPECTROMETRY; ZINC REAGENT; WATER; BRINES},
+  La                       = {English},
+  Nr                       = {23},
+  Owner                    = {vasilis},
+  Pa                       = {1155 16TH ST, NW, WASHINGTON, DC 20036},
+  Pg                       = {4},
+  Pi                       = {WASHINGTON},
+  Publisher                = {Amer Chemical Soc},
+  Rp                       = {Gehre, M, UFZ LEIPZIG HALLE GMBH, CTR ENVIRONM RES LEIPZIG HALLE,EOLEOLPERMOSERSTR 15, D-04318 LEIPZIG, GERMANY.},
+  Sc                       = {Chemistry, Analytical},
+  Sn                       = {0003-2700},
+  Tc                       = {73},
+  Timestamp                = {2009.12.03},
+  Ut                       = {ISI:A1996VX78600017}
+}
+
+@PhdThesis{VasPhd,
+  Title                    = {{ High resolution water isotope data from ice cores}},
+  Author                   = {V. Gkinis },
+  School                   = {University of Copenhagen},
+  Year                     = {2011}
+}
+
+@Article{Gkinis2011,
+  Title                    = {Water isotopic ratios from a continuously melted ice core sample},
+  Author                   = {Gkinis, V. and Popp, T. J. and Blunier, T. and Bigler, M. and Schupbach, S. and Kettner, E. and Johnsen, S. J.},
+  Journal                  = {Atmospheric Measurement Techniques},
+  Year                     = {2011},
+  Number                   = {11},
+  Pages                    = {2531--2542},
+  Volume                   = {4},
+
+  Abstract                 = {A new technique for on-line high resolution isotopic analysis of liquid water, tailored for ice core studies is presented. We built an interface between a Wavelength Scanned Cavity Ring Down Spectrometer (WS-CRDS) purchased from Picarro Inc. and a Continuous Flow Analysis (CFA) system. The system offers the possibility to perform simultaneuous water isotopic analysis of delta(18)O and delta D on a continuous stream of liquid water as generated from a continuously melted ice rod. Injection of sub mu l amounts of liquid water is achieved by pumping sample through a fused silica capillary and instantaneously vaporizing it with 100% efficiency in a home made oven at a temperature of 170 degrees C. A calibration procedure allows for proper reporting of the data on the VSMOW-SLAP scale. We apply the necessary corrections based on the assessed performance of the system regarding instrumental drifts and dependance on the water concentration in the optical cavity. The melt rates are monitored in order to assign a depth scale to the measured isotopic profiles. Application of spectral methods yields the combined uncertainty of the system at below 0.1% and 0.5 parts per thousand for delta(18)O and delta D, respectively. This performance is comparable to that achieved with mass spectrometry. Dispersion of the sample in the transfer lines limits the temporal resolution of the technique. In this work we investigate and assess these dispersion effects. By using an optimal filtering method we show how the measured profiles can be corrected for the smoothing effects resulting from the sample dispersion. Considering the significant advantages the technique offers, i.e. simultaneuous measurement of delta(18)O and delta D, potentially in combination with chemical components that are traditionally measured on CFA systems, notable reduction on analysis time and power consumption, we consider it as an alternative to traditional isotope ratio mass spectrometry with the possibility to be deployed for field ice core studies. We present data acquired in the field during the 2010 season as part of the NEEM deep ice core drilling project in North Greenland.},
+  Af                       = {Gkinis, V.EOLEOLPopp, T. J.EOLEOLBlunier, T.EOLEOLBigler, M.EOLEOLSchuepbach, S.EOLEOLKettner, E.EOLEOLJohnsen, S. J.},
+  C1                       = {[Gkinis, V.; Popp, T. J.; Blunier, T.; Kettner, E.; Johnsen, S. J.] Univ Copenhagen, Niels Bohr Inst, Ctr Ice & Climate, DK-2100 Copenhagen, Denmark.EOLEOL[Bigler, M.; Schuepbach, S.] Univ Bern, Phys Inst Climate & Environm Phys, CH-3012 Bern, Switzerland.EOLEOL[Bigler, M.; Schuepbach, S.] Univ Bern, Oeschger Ctr Climate Change Res, CH-3012 Bern, Switzerland.EOLEOL[Johnsen, S. J.] Univ Iceland, Inst Sci, IS-107 Reykjavik, Iceland.},
+  Doi                      = {10.5194/amt-4-2531-2011},
+  Em                       = {v.gkinis@nbi.ku.dk},
+  File                     = {:Gkinis2011.pdf:PDF},
+  Fu                       = {Marie Curie Research Training Network for Ice Sheet and ClimateEOLEOLEvolution[MRTN-CT-2006-036127]},
+  Fx                       = {We would like to thank Dorthe Dahl Jensen for supporting our research.EOLEOLNumerous drillers, core processors and general field assistants haveEOLEOLcontributed to the NEEM ice core drilling project with weeks ofEOLEOLintensive field work. Withought this collective effort, the measurementsEOLEOLwe present here would not be possible. Bruce Vaughn and James White haveEOLEOLcontributed to this project with valuable comments and ideas. ThisEOLEOLproject was partly funded by the Marie Curie Research Training NetworkEOLEOLfor Ice Sheet and Climate Evolution (MRTN-CT-2006-036127).},
+  Ga                       = {863AS},
+  J9                       = {ATMOS MEAS TECH},
+  Ji                       = {Atmos. Meas. Tech.},
+  Keywords                 = {CONTINUOUS-FLOW ANALYSIS; RING-DOWN SPECTROSCOPY; MASS-SPECTROMETRY; DEUTERIUM-EXCESS; CARBON-DIOXIDE; PRECIPITATION; TEMPERATURE; DELTA-O-18; METHANE; RECORDS},
+  La                       = {English},
+  Nr                       = {40},
+  Owner                    = {vasilis},
+  Pa                       = {BAHNHOFSALLEE 1E, GOTTINGEN, 37081, GERMANY},
+  Pg                       = {12},
+  Pi                       = {GOTTINGEN},
+  Publisher                = {Copernicus Gesellschaft Mbh},
+  Rp                       = {Gkinis, V (reprint author), Univ Copenhagen, Niels Bohr Inst, Ctr Ice & Climate, Juliane Maries Vej 30, DK-2100 Copenhagen, Denmark},
+  Sc                       = {Meteorology & Atmospheric Sciences},
+  Sn                       = {1867-1381},
+  Tc                       = {1},
+  Timestamp                = {2012.01.19},
+  Ut                       = {WOS:000298135800011},
+  Wc                       = {Meteorology & Atmospheric Sciences},
+  Z9                       = {1}
+}
+
+@Article{Gkinis2014,
+  Title                    = {{Water isotope diffusion rates from the NorthGRIP ice core for the last 16,000 years - glaciological and paleoclimatic implications}},
+  Author                   = {V. Gkinis and S. B. Simonsen and S. L. Buchardt and J. W. C. White and B. M. Vinther},
+  Journal                  = {Earth and Planetary Science Letters},
+  Year                     = {2014},
+  Volume                   = {405},
+
+  Page                     = {132-141}
+}
+
+@Article{Hall1976a,
+  Title                    = {Survival of ice particles falling from cirrus clouds in subsaturated air},
+  Author                   = {Hall, W. D. and Pruppacher, H. R.},
+  Journal                  = {Journal of the Atmospheric Sciences},
+  Year                     = {1976},
+  Number                   = {10},
+  Pages                    = {1995--2006},
+  Volume                   = {33},
+
+  Af                       = {HALL, WDEOLEOLPRUPPACHER, HR},
+  C1                       = {UNIV CALIF LOS ANGELES,DEPT METEOROL,LOS ANGELES,CA 90024},
+  Doi                      = {10.1175/1520-0469(1976)033<1995:TSOIPF>2.0.CO;2},
+  File                     = {:Hall1976.pdf:PDF},
+  Ga                       = {CJ600},
+  J9                       = {J ATMOS SCI},
+  Ji                       = {J. Atmos. Sci.},
+  La                       = {English},
+  Nr                       = {44},
+  Owner                    = {vasilis},
+  Pa                       = {45 BEACON ST, BOSTON, MA 02108-3693},
+  Pg                       = {12},
+  Pi                       = {BOSTON},
+  Publisher                = {Amer Meteorological Soc},
+  Sc                       = {Meteorology & Atmospheric Sciences},
+  Sn                       = {0022-4928},
+  Tc                       = {90},
+  Timestamp                = {2011.08.11},
+  Ut                       = {WOS:A1976CJ60000012},
+  Wc                       = {Meteorology & Atmospheric Sciences},
+  Z9                       = {90}
+}
+
+@Article{Hall1976,
+  Title                    = {The survival of ice particles falling from Cirrus Clouds in subsaturated air},
+  Author                   = {W. D. Hall and H. R. Pruppacher},
+  Journal                  = {Nature},
+  Year                     = {1970},
+  Number                   = {1242},
+  Volume                   = {226}
+}
+
+@Article{Herron,
+  Title                    = {{Firn Densification: An Empiricial Model}},
+  Author                   = {M. M. Herron and C. C. Langway},
+  Journal                  = {Journal of Glaciology},
+  Year                     = {1980},
+  Number                   = {93},
+  Volume                   = {25}
+}
+
+@Article{Huber2005,
+  Title                    = {On-line systems for continuous water and gas isotope ratio measurements},
+  Author                   = {Huber, C. and Leuenberger, M.},
+  Journal                  = {Isotopes In Environmental And Health Studies},
+  Year                     = {2005},
+
+  Month                    = sep,
+  Number                   = {3},
+  Pages                    = {189--205},
+  Volume                   = {41},
+
+  Abstract                 = {New continuous on- line techniques for water and air extracted from ice cores are developed. Water isotope ratio determination on any of the water phases ( water vapour, water, ice) is of great relevance in different research fields, such as climate and paleoclimate studies, geological surveys, and hydrological studies. The conventional techniques for water isotopes are available in different layouts but all of them are rather time- consuming. Here we report new fast on- line techniques that process water as well as ice samples. The analysis time is only similar to 5 min per sample which includes equilibration and processing. Measurement precision and accuracy are better than 0.1 parts per thousand and 1 parts per thousand for delta(18)O and delta D, respectively, comparable to conventional techniques. The new on- line techniques are able to analyze a wide range of aqueous samples. This allows, for the first time, to make continuous isotope measurements on ice cores. Similarly, continuous and fast analysis of aqueous samples can be of great value for hydrological, geological and perhaps medical applications. Furthermore, a new technique for the on- line analysis of air isotopes extracted from ice cores is developed. This technique allows rapid analyses with high resolution of the main air components nitrogen, oxygen, and argon. Measurement precision is comparable to precisions obtained by conventional techniques. It is now possible to measure delta(15)N and delta(18)O(atm) over entire ice cores helping to synchronize chronologies, to assess gas age - ice age differences, and to calibrate the paleothermometry for rapid temperature changes. This new on- line air extraction and analyzing technique complements the water methods in an ideal way as it separates the air from the melt- water of an ice sample. The remaining water waste flux can directly be analyzed by the water methods.},
+  C1                       = {Univ Bern, Inst Phys, CH-3012 Bern, Switzerland.},
+  De                       = {gas; helium-2; IRMS; isotope analysis; nitrogen-15; on-lineEOLEOLmeasurements; oxygen-18; water},
+  Di                       = {10.1080/10256010500229942},
+  Em                       = {leuenberger@climate.unibe.ch},
+  File                     = {:Huber2005.pdf:PDF},
+  Ga                       = {974RP},
+  J9                       = {ISOT ENVIRON HEALTH STUD},
+  Ji                       = {Isot. Environ. Health Stud.},
+  Keywords                 = {ABRUPT CLIMATE-CHANGE; ANTARCTIC ICE CORE; MASS-SPECTROMETRY; ATMOSPHERIC CO2; POLAR ICE; CENTRAL GREENLAND; OXYGEN-ISOTOPE; TRAPPED AIR; AGE SCALE; GRIP ICE},
+  La                       = {English},
+  Nr                       = {49},
+  Owner                    = {vasilis},
+  Pa                       = {4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND},
+  Pg                       = {17},
+  Pi                       = {ABINGDON},
+  Publisher                = {Taylor \& Francis Ltd},
+  Rp                       = {Leuenberger, M, Univ Bern, Inst Phys, Sidlerstr 5, CH-3012 Bern,EOLEOLSwitzerland.},
+  Sc                       = {Chemistry, Inorganic & Nuclear; Environmental Sciences},
+  Sn                       = {1025-6016},
+  Tc                       = {4},
+  Timestamp                = {2010.08.20},
+  Ut                       = {ISI:000232609400002}
+}
+
+@Article{Itagaki1964,
+  Title                    = {Self-Diffusion in Single Crystals of Ice},
+  Author                   = {Itagaki, Kazuhiko},
+  Journal                  = {J. Phys. Soc. Jpn.},
+  Year                     = {1964},
+
+  Month                    = jun,
+  Number                   = {6},
+  Pages                    = {1081--1081},
+  Volume                   = {19},
+
+  Booktitle                = {Journal of the Physical Society of Japan},
+  Doi                      = {10.1143/JPSJ.19.1081},
+  ISSN                     = {0031-9015},
+  Owner                    = {vasilis},
+  Publisher                = {Japanese Physical Society},
+  Timestamp                = {2014.03.17}
+}
+
+@Article{Johnsen2000,
+  Title                    = {{Diffusion of stable isotopes in polar firn and ice: the isotope effect in firn diffusion}},
+  Author                   = {S.J. Johnsen and H. B. Clausen and K. M. Cuffey and G. Hoffmann and J. Schwander and T. Creyts},
+  Journal                  = {Physics of Ice Core Records},
+  Year                     = {2000},
+
+  Page                     = {121-140}
+}
+
+@Article{Johnsen1977,
+  Title                    = {{Stable Isotope Homogenization of Polar Firn and Ice}},
+  Author                   = {S. J. Johnsen},
+  Journal                  = {Isotopes and Impurities in Snow and Ice},
+  Year                     = {1977},
+  Pages                    = {210--219}
+}
+
+@Article{JOHNSEN1995a,
+  Title                    = {Greenland paleotemperatures derived from Grip bore hole temperature and ice core isotope profiles},
+  Author                   = {Johnsen, S. J. and Dahl Jensen, D. and Dansgaard, W. and Gundestrup, N.},
+  Journal                  = {Tellus Series B-Chemical And Physical Meteorology},
+  Year                     = {1995},
+
+  Month                    = nov,
+  Number                   = {5},
+  Pages                    = {624--629},
+  Volume                   = {47},
+
+  File                     = {:/Users/vasilis/Documents/ref's/JOHNSEN1995a.pdf:PDF},
+  Owner                    = {v.gkinis},
+  Sn                       = {0280-6509},
+  Timestamp                = {2008.01.21},
+  Ut                       = {ISI:A1995TH99600009}
+}
+
+@Article{Johnsen2001a,
+  Title                    = {Oxygen isotope and palaeotemperature records from six {G}reenland ice-core stations: {C}amp {C}entury, {D}ye-3, {GRIP}, {GISP2}, {R}enland and {N}orth{GRIP}},
+  Author                   = {S. J. Johnsen and D. Dahl-Jensen and N. Gundestrup and J. P. Steffensen and H. B. Clausen and H. Miller and V. Masson-Delmotte and A. E. Sveinbjörnsdottir and J. White},
+  Journal                  = {Journal of Quaternary Science},
+  Year                     = {2001},
+  Volume                   = {16 (4)},
+
+  Page                     = {299-307}
+}
+
+@Article{Johnsen2001,
+  Title                    = {Oxygen isotope and palaeotemperature records from six Greenland ice-core stations: Camp Century, Dye-3, GRIP, GISP2, Renland and NorthGRIP},
+  Author                   = {Johnsen, S. J. and DahlJensen, D. and Gundestrup, N. and Steffensen, J. P. and Clausen, H. B. and Miller, H. and Masson-Delmotte, V. and Sveinbjornsdottir, A. E. and White, J.},
+  Journal                  = {Journal Of Quaternary Science},
+  Year                     = {2001},
+  Number                   = {4},
+  Pages                    = {299--307},
+  Volume                   = {16},
+
+  File                     = {:JOHNSEN2001.pdf:PDF},
+  Owner                    = {v.gkinis},
+  Sn                       = {0267-8179},
+  Timestamp                = {2008.01.21},
+  Ut                       = {ISI:000169009600002}
+}
+
+@Article{Johnsen1989,
+  Title                    = {The origin of {A}rctic precipitation under present and glacial conditions},
+  Author                   = {S. J. Johnsen and J. White},
+  Journal                  = {Tellus},
+  Year                     = {1989},
+  Volume                   = {41B, 452-468}
+}
+
+@Article{Jouzel1997,
+  Title                    = {Validity of the temperature reconstruction from water isotopes in ice cores},
+  Author                   = {Jouzel, J. and Alley, R. B. and Cuffey, K. M. and Dansgaard, W. and Grootes, P. and Hoffmann, G. and Johnsen, S. J. and Koster, R. D. and Peel, D. and Shuman, C. A. and Stievenard, M. and Stuiver, M. and White, J.},
+  Journal                  = {Journal Of Geophysical Research-Oceans},
+  Year                     = {1997},
+
+  Month                    = nov,
+  Number                   = {C12},
+  Pages                    = {26471--26487},
+  Volume                   = {102},
+
+  Abstract                 = {Well-documented present-day distributions of stable water isotopes (HDO and (H2O)-O-18) show the existence, in middle and high latitudes, of a linear relationship between the mean annual isotope content of precipitation (delta D and delta(18)O) and the mean annual temperature at the precipitation site. Paleoclimatologists have used this relationship, which is particularly well obeyed over Greenland and Antarctica, to infer paleotemperatures from ice core data. There is, however, growing evidence that spatial and temporal isotope/ surface temperature slopes differ, thus complicating the use of stable water isotopes as paleothermometers. In this paper we review empirical estimates of temporal slopes in polar regions and relevant information that can be inferred from isotope models: simple, Rayleigh-type distillation models and (particularly over Greenland) general circulation models (GCMs) fitted with isotope tracer diagnostics. Empirical estimates of temporal slopes appear consistently lower than present-day spatial slopes and are dependent on the timescale considered. This difference is most probably due to changes in the evaporative origins of moisture, changes in the seasonality of the precipitation, changes in the strength of the inversion layer, or some combination of these changes. Isotope models have not yet been used to evaluate the relative influences of these different factors. The apparent disagreement in the temporal and spatial slopes clearly makes calibrating the isotope paleothermometer difficult. Nevertheless, the use of a (calibrated) isotope paleothermometer appears justified; empirical estimates and most (though not all) GCM results support the practice of interpreting ice core isotope records in terms of local temperature changes.},
+  File                     = {:/Users/vasilis/Documents/ref's/Jouzel1997.pdf:PDF},
+  Owner                    = {vasilis},
+  Timestamp                = {2008.02.19},
+  Ut                       = {ISI:A1997YJ67100013}
+}
+
+@Article{Jouzel1984,
+  Title                    = {Deuterium and oxygen 18 in precipitation: modeling of the isotopic effects during snow formation},
+  Author                   = {Jouzel, J. and Merlivat, L.},
+  Journal                  = {Journal of Geophysical Research-Atmospheres},
+  Year                     = {1984},
+  Number                   = {D7},
+  Pages                    = {11749 -- 11759},
+  Volume                   = {89},
+
+  Owner                    = {vasilis},
+  Publisher                = {American Geophysical Union},
+  Timestamp                = {2016.06.14}
+}
+
+@Article{Kay1981,
+  Title                    = {{Spectrum Analysis - A Modern Perspective}},
+  Author                   = {S. M. Kay and S. L. Marple},
+  Journal                  = {Proceedings of the IEEE},
+  Year                     = {1981},
+  Number                   = {11},
+  Volume                   = {69}
+}
+
+@Article{Kaye,
+  Title                    = {{Spectrum Analysis - A Modern Perspective}},
+  Author                   = {S. M. Kay and S. L. Marple},
+  Journal                  = {Proceedings of the IEEE},
+  Year                     = {1981},
+  Number                   = {11},
+  Volume                   = {69}
+}
+
+@Article{Kobashi2011,
+  Title                    = {{High variability of Greenland surface temperature over the past 4000 years estimated from trapped air in an ice core}},
+  Author                   = {T. Kobashi and K. Kawamura and J.P. Severinghaus and J.-M. Barnola and T. Nakaegawa and B.M. Vinther and S.J. Johnsen and J.E. Box},
+  Journal                  = {Geophysics Res. Lett.},
+  Year                     = {2011},
+  Number                   = {L21501},
+  Volume                   = {38}
+}
+
+@Misc{Lamb2015,
+  Title                    = {Laboratory measurements of {HDO/H$_2$O} isotopic fractionation during ice deposition in simulated cirrus clouds},
+
+  Author                   = {Kara Lamb and Ben Clouser and Maximilien Bolot and Laszlo Sarkozy and Volker Ebert and Harald Saathoff and Ottmar Möhler and Elisabeth Moyer},
+  Note                     = {preprint},
+  Year                     = {2015},
+
+  Journal                  = {arXiv}
+}
+
+@Article{Livingston2002,
+  Title                    = {General trends for bulk diffusion in ice and surface diffusion on ice},
+  Author                   = {Livingston, F. E. and Smith, J. A. and George, S. M.},
+  Journal                  = {Journal of Physical Chemistry A},
+  Year                     = {2002},
+
+  Month                    = jul,
+  Number                   = {26},
+  Pages                    = {6309--6318},
+  Volume                   = {106},
+
+  Abstract                 = {Experimental measurements of bulk diffusion in ice and surface diffusion on ice were performed using laser resonant desorption (LRD) techniques. Bulk diffusion in ice was examined using ice sandwich structures and continuous source experiments together with LRD depth-profiling analysis. Surface diffusion was monitored using prepare-refill-probe LRD experiments. New experimental results were obtained for the bulk diffusion of NH3 and CH3OH. These species probably exist as hydrates in the ice. The LRD measurements for CH3OH hydrate diffusion, combined with previous results, provide evidence for a vacancy-mediated diffusion mechanism. The diffusion rates for NH3 hydrates are much larger than diffusion rates for H2O self-diffusion in ice and are attributed to the disruption of the ice lattice. LRD prepare-refill-probe experiments revealed that surface diffusion was not measurable for almost all of the species examined on ice. Only butane displayed a measurable surface mobility that was attributed to its unique size and chemical nature. These new measurements of bulk diffusion in ice and surface diffusion on ice should be useful in developing our understanding of kinetic processes in and on ice that are relevant to heterogeneous atmospheric chemistry and ice core analysis.},
+  Af                       = {Livingston, FEEOLEOLSmith, JAEOLEOLGeorge, SM},
+  C1                       = {Univ Colorado, Dept Chem & Biochem, Boulder, CO 80309 USAEOLEOLUniv Colorado, Dept Chem Engn, Boulder, CO 80309 USA},
+  Doi                      = {10.1021/jp014438c},
+  File                     = {:Livingston2002.pdf:PDF},
+  Ga                       = {569GJ},
+  J9                       = {J PHYS CHEM A},
+  Ji                       = {J. Phys. Chem. A},
+  Keywords                 = {INDUCED THERMAL-DESORPTION; LASER RESONANT DESORPTION; X-RAY TOPOGRAPHY; PARTICLE CONVERSION; CLATHRATE HYDRATE; HDO DIFFUSION; HYDROGEN-BOND; MULTILAYERS; KINETICS; HCL, ice, self diffusion},
+  La                       = {English},
+  Nr                       = {64},
+  Owner                    = {vasilis},
+  Pa                       = {1155 16TH ST, NW, WASHINGTON, DC 20036 USA},
+  Pg                       = {10},
+  Pi                       = {WASHINGTON},
+  Publisher                = {Amer Chemical Soc},
+  Rp                       = {George, SM (reprint author), Univ Colorado, Dept Chem & Biochem, Boulder, CO 80309 USA},
+  Sc                       = {Chemistry; Physics},
+  Sn                       = {1089-5639},
+  Tc                       = {26},
+  Timestamp                = {2011.08.17},
+  Ut                       = {WOS:000176592700012},
+  Wc                       = {Chemistry, Physical; Physics, Atomic, Molecular & Chemical},
+  Z9                       = {26}
+}
+
+@Article{Livingston1997,
+  Title                    = {Diffusion of HDO into single-crystal (H2O)-O-16 ice multilayers: Comparison with (H2O)-O-18},
+  Author                   = {Livingston, F. E. and Whipple, G. C. and George, S. M.},
+  Journal                  = {Journal of Physical Chemistry B},
+  Year                     = {1997},
+
+  Month                    = aug,
+  Number                   = {32},
+  Pages                    = {6127--6131},
+  Volume                   = {101},
+
+  Abstract                 = {The diffusion of HDO into ultrathin single-crystal (H2O)-O-16 ice multilayers was investigated using a novel combination of laser-induced thermal desorption (LITD) probing and isothermal desorption depth-profiling. The single-crystal hexagonal ice multilayers were grown epitaxially on a Ru(001) metal substrate, and the diffusion coefficients were measured perpendicular to the basal (0001) facet. The measured HDO diffusion coefficients ranged from D = (2.2 +/- 0.3) x 10(-16) to D = (3.9 +/- 0.4) x 10(-14) cm(2)/s over the temperature range 153-170 K. Arrhenius analysis of the temperature-dependent diffusion coefficients yielded a diffusion activation energy of E-A = 17.0 +/- 1.0 kcal/mol and a preexponential factor of D-0 = (4.2 +/- 0.8) x 10(8) cm(2)/s. The similarity of the diffusion coefficients for HDO and (H2O)-O-18 indicates that H/D exchange does not contribute significantly to HDO diffusion in ice. The agreement between the diffusion kinetics for HDO and (H2O)-O-18 argues that the HDO diffusion occurs via a molecular transport mechanism. The large diffusion preexponentials for both HDO and (H2O)-O-18 diffusion into the ultrathin ice multilayers also suggest that built transport properties in ice may be perturbed by close proximity to the ice surface.},
+  Af                       = {Livingston, FEEOLEOLWhipple, GCEOLEOLGeorge, SM},
+  C1                       = {UNIV COLORADO,DEPT CHEM & BIOCHEM,BOULDER,CO 80309},
+  Cl                       = {HANOVER, NH},
+  Ct                       = {Symposium on Physics and Chemistry of Ice 1996},
+  Cy                       = {AUG 27-31, 1996},
+  Doi                      = {10.1021/jp963252o},
+  File                     = {:Livingston1997.pdf:PDF},
+  Ga                       = {XP913},
+  J9                       = {J PHYS CHEM B},
+  Ji                       = {J. Phys. Chem. B},
+  Keywords                 = {INDUCED THERMAL-DESORPTION; X-RAY TOPOGRAPHY; SURFACE-DIFFUSION; HYDROGEN-CHLORIDE; TRANSITION LAYER; DEFECTS; COEFFICIENTS; NITRATE; OZONE; H2O; ice; self diffusion; bulk diffusio},
+  La                       = {English},
+  Nr                       = {42},
+  Owner                    = {vasilis},
+  Pa                       = {1155 16TH ST, NW, WASHINGTON, DC 20036},
+  Pg                       = {5},
+  Pi                       = {WASHINGTON},
+  Publisher                = {Amer Chemical Soc},
+  Sc                       = {Chemistry},
+  Sn                       = {1089-5647},
+  Tc                       = {25},
+  Timestamp                = {2011.08.17},
+  Ut                       = {WOS:A1997XP91300013},
+  Wc                       = {Chemistry, Physical},
+  Z9                       = {26}
+}
+
+@Article{Majoube1971,
+  Title                    = {{Fractionation factor of $^{18}${O} between water vapour and ice}},
+  Author                   = {M. Majoube},
+  Journal                  = {Nature},
+  Year                     = {1970},
+  Number                   = {1242},
+  Volume                   = {226}
+}
+
+@Article{Meijer1998,
+  Title                    = {The use of electrolysis for accurate delta O-17 and delta O-18 isotope measurements in water},
+  Author                   = {Meijer, H. A. J. and Li, W. J.},
+  Journal                  = {Isotopes In Environmental And Health Studies},
+  Year                     = {1998},
+  Number                   = {4},
+  Pages                    = {349--369},
+  Volume                   = {34},
+
+  Abstract                 = {We present a new system to measure the relative isotopic abundances of both rare isotopes of oxygen in water. Using electrolysis with CuSO4 as electrolyte, water is transformed into oxygen gas. This gas is subsequently analyzed with a standard Isotope Ratio Mass Spectrometer. We investigated the features of the system in detail. The results for delta(17)O and delta(18)O are carefully calibrated against delta(18)O of VSMOW using our "conventional" H2O-CO2 equilibrium system. For the electrolysis system, we obtain an accuracy (including calibration) of 0.10 parts per thousand for delta(18)O, and 0.07 parts per thousand for delta(17)O. Finally, we demonstrate the usefulness and accuracy of the system by analyzing a large set of natural waters (both fresh and salt waters). We establish the O-17 and O-18 relation to be of the type: 1 + delta(17)O = (1 + delta(18)O)(lambda), and find lambda to be 0.5281 +/- 0.0015. We conclude that the O-17 fractionation in water appears to be completely analogous to that of O-18. Still, measurements concerning the equilibrium and kinetic fractionation of the evaporation process are needed. The new method is an excellent alternative to the traditional H2O-CO2 equilibrium method. Moreover, its capability to also measure O-17 may be fruitfully exploited, e.g., in biomedical studies extending the doubly labelled water technique, or in studies of stratospheric water.},
+  C1                       = {Univ Groningen, Ctr IsotopenOnderzoek, NL-9747 AG Groningen, Netherlands.EOLEOLUniv Sci & Technol, Dept Chem, Beijing, Peoples R China.},
+  De                       = {electrolysis; isotope analysis; oxygen 17; oxygen 18; water},
+  Em                       = {meijer@phys.rug.nl},
+  File                     = {:/Users/vasilis/Documents/ref's/Meijer1998.pdf:PDF},
+  Ga                       = {171CW},
+  J9                       = {ISOT ENVIRON HEALTH STUD},
+  Ji                       = {Isot. Environ. Health Stud.},
+  Keywords                 = {OXYGEN ISOTOPES; STRATOSPHERIC CO2; CARBON-DIOXIDE; HEAVY OZONE; METEORITES; HYDROGEN; ENERGY; FRACTIONATION; CHEMISTRY; CATHODES},
+  La                       = {English},
+  Nr                       = {49},
+  Owner                    = {vasilis},
+  Pa                       = {C/O STBS LTD, PO BOX 90, READING RG1 8JL, BERKS, ENGLAND},
+  Pg                       = {21},
+  Pi                       = {READING},
+  Publisher                = {Gordon Breach Sci Publ Ltd},
+  Rp                       = {Meijer, HAJ, Univ Groningen, Ctr IsotopenOnderzoek, Nijenborgh 4,EOLEOLNL-9747 AG Groningen, Netherlands.},
+  Sc                       = {Chemistry, Inorganic & Nuclear; Environmental Sciences},
+  Sn                       = {1025-6016},
+  Tc                       = {69},
+  Timestamp                = {2009.11.16},
+  Ut                       = {ISI:000078845700005}
+}
+
+@Article{MerlivatandJouzel,
+  Title                    = {{Global Climatic Interpretation of the {D}euterium-{O}xygen 18 Relationship for Precipitation}},
+  Author                   = {L. Merlivat and J. Jouzel},
+  Journal                  = {Journal of Geophysical Research},
+  Year                     = {1979},
+  Number                   = {8},
+  Volume                   = {84}
+}
+
+@Article{MerlivatJouzel1979,
+  Title                    = {{Global Climate Interpretation of the Deuterium-Oxygen 18 Relationship for Precipitation}},
+  Author                   = {L. Merlivat and J. Jouzel},
+  Journal                  = {Journal of Geophysical Research},
+  Year                     = {1979},
+  Volume                   = {84}
+}
+
+@Article{Merlivat1967,
+  Title                    = {Fractionnement Isotopique Lors Des Changements Detat Solide-Vapeur Et Liquide-Vapeur De Leau A Des Temperatures Inferieures A 0 Degrees C},
+  Author                   = {Merlivat, L. and Nief, G.},
+  Journal                  = {Tellus},
+  Year                     = {1967},
+  Number                   = {1},
+  Pages                    = {122--127},
+  Volume                   = {19},
+
+  File                     = {:Merlivat1967.pdf:PDF},
+  Ga                       = {90282},
+  J9                       = {TELLUS},
+  La                       = {English},
+  Nr                       = {8},
+  Owner                    = {vasilis},
+  Pa                       = {35 NORRE SOGADE, PO BOX 2148, DK-1016 COPENHAGEN, DENMARK},
+  Pg                       = {0},
+  Pi                       = {COPENHAGEN},
+  Publisher                = {Munksgaard Int Publ Ltd},
+  Sc                       = {Geosciences, Multidisciplinary},
+  Sn                       = {0040-2826},
+  Tc                       = {81},
+  Timestamp                = {2010.05.04},
+  Ut                       = {ISI:A19679028200013}
+}
+
+@Book{IAEA,
+  Title                    = {{Environmental Isotopes in the Hydrological Cycle Principles and Applications}},
+  Author                   = {J. Mook},
+  Publisher                = {International Atomic Energy Agency},
+  Year                     = {2000}
+}
+
+@Article{Murphy2006,
+  Title                    = {Review of the vapour pressures of ice and supercooled water for atmospheric applications},
+  Author                   = {D. M. Murphy and T. Koop},
+  Journal                  = {Q.J.R. Meteorol. Soc.},
+  Year                     = {2006},
+  Volume                   = {131, 1539–1565}
+}
+
+@Article{NGRIPmembers2004,
+  Title                    = {High-resolution record of Northern Hemisphere climate extending into the last interglacial period},
+  Author                   = {NGRIP members,},
+  Journal                  = {Nature},
+  Year                     = {2004},
+  Number                   = {7005},
+  Pages                    = {147--151},
+  Volume                   = {431},
+
+  Abstract                 = {Two deep ice cores from central Greenland, drilled in the 1990s, have played a key role in climate reconstructions of the Northern Hemisphere, but the oldest sections of the cores were disturbed in chronology owing to ice folding near the bedrock. Here we present an undisturbed climate record from a North Greenland ice core, which extends back to 123,000 years before the present, within the last interglacial period. The oxygen isotopes in the ice imply that climate was stable during the last interglacial period, with temperatures 5 degreesC warmer than today. We find unexpectedly large temperature differences between our new record from northern Greenland and the undisturbed sections of the cores from central Greenland, suggesting that the extent of ice in the Northern Hemisphere modulated the latitudinal temperature gradients in Greenland. This record shows a slow decline in temperatures that marked the initiation of the last glacial period. Our record reveals a hitherto unrecognized warm period initiated by an abrupt climate warming about 115,000 years ago, before glacial conditions were fully developed. This event does not appear to have an immediate Antarctic counterpart, suggesting that the climate see-saw between the hemispheres (which dominated the last glacial period) was not operating at this time.},
+  C1                       = {Univ Copenhagen, Niels Bohr Inst Astron Phys & Geophys, DK-2100 Copenhagen OE, Denmark.EOLEOLNagaoka Univ Technol, Nagaoka, Niigata 9402188, Japan.EOLEOLCNRS, Lab Glaciol & Geophys Environm, F-38402 St Martin Dheres, France.EOLEOLUniv Bern, Inst Phys, CH-3012 Bern, Switzerland.EOLEOLColumbia Univ, Lamont Doherty Earth Observ, Palisades, NY 10964 USA.EOLEOLCtr Etud Saclay, Inst Pierre Simon Laplace, Lab Sci Climat & Environm, UMR CEA CNRS, F-91191 Gif Sur Yvette, France.EOLEOLAlfred Wegener Inst Polar & Marine Res, D-27515 Bremerhaven, Germany.EOLEOLNatl Inst Polar Res, Itabashi Ku, Tokyo 1738515, Japan.EOLEOLNord Volcanol Inst, IS-108 Reykjavik, Iceland.EOLEOLStockholm Univ, Dept Phys Geog & Quaternary Geol, S-10691 Stockholm, Sweden.EOLEOLFree Univ Brussels, Fac Sci, Dept Sci Terre & Environm, B-1050 Brussels, Belgium.EOLEOLRes Inst Humanity & Nat, Kamigyo Ku, Kyoto 6020878, Japan.EOLEOLUniv Colorado, INSTAAR, Boulder, CO 80309 USA.EOLEOLKitami Inst Technol, Kitami, Hokkaido 0908507, Japan.EOLEOLNatl Energy Author, IS-108 Reykjavik, Iceland.},
+  Ca                       = {N Greenland Ice Core Project},
+  Di                       = {10.1038/nature02805},
+  Em                       = {ddj@gfy.ku.dkEOLEOLsigfus@gfy.ku.dk},
+  File                     = {:NGRIPmembers2004.pdf:PDF},
+  Ga                       = {852HI},
+  J9                       = {NATURE},
+  Ji                       = {Nature},
+  Keywords                 = {GREENLAND ICE-SHEET; TEMPERATURE-CHANGE; CORE PROJECT; SEA-LEVEL; GLACIAL CYCLES; OXYGEN-ISOTOPE; BASAL MELT; GRIP; ANTARCTICA; NORTHGRIP},
+  La                       = {English},
+  Nr                       = {50},
+  Owner                    = {vasilis},
+  Pa                       = {MACMILLAN BUILDING, 4 CRINAN ST, LONDON N1 9XW, ENGLAND},
+  Pg                       = {5},
+  Pi                       = {LONDON},
+  Publisher                = {Nature Publishing Group},
+  Rp                       = {DahlJensen, D, Univ Copenhagen, Niels Bohr Inst Astron Phys & Geophys,EOLEOLJuliane Maries Vej 30, DK-2100 Copenhagen OE, Denmark.},
+  Sc                       = {Multidisciplinary Sciences},
+  Sn                       = {0028-0836},
+  Tc                       = {308},
+  Timestamp                = {2010.02.19},
+  Ut                       = {ISI:000223746000034}
+}
+
+@Article{Oerter2004,
+  Title                    = {{The EPICA ice core Droning Maud Land: first results from stable-isotope measurements}},
+  Author                   = {H. Oerter and W. Graf and H. Meyer and F. Wilhelms},
+  Journal                  = {Ann. Glaciol.},
+  Year                     = {2004},
+  Volume                   = {39},
+
+  Page                     = {307-312}
+}
+
+@Book{RECIPES,
+  Title                    = {Numerical Recipes: The Art of Scientific Computing},
+  Author                   = {Press, William H. and Teukolsky, Saul A. and Vetterling, William T. and Flannery, Brian P. },
+  Publisher                = {{Cambridge University Press}},
+  Year                     = {2007},
+  Month                    = {August},
+
+  Abstract                 = {{Co-authored by four leading scientists from academia and industry, Numerical Recipes Third Edition starts with basic mathematics and computer science and proceeds to complete, working routines. Widely recognized as the most comprehensive, accessible and practical basis for scientific computing, this new edition incorporates more than 400 Numerical Recipes routines, many of them new or upgraded. The executable C++ code, now printed in color for easy reading, adopts an object-oriented style particularly suited to scientific applications. The whole book is presented in the informal, easy-to-read style that made earlier editions so popular. Find more information at <a href = "http://www.nr.com">www.nr.com or <a href = "http://www.cambridge.org/numericalrecipes">www.cambridge.org/numericalrecipes. New key features: <ul> <li>2 new chapters, 25 new sections, 25\% longer than Second Edition</li> <li>Thorough upgrades throughout the text</li> <li>Over 100 completely new routines and upgrades of many more.</li> <li>New Classification and Inference chapter, including Gaussian mixture models, HMMs, hierarchical clustering, Support Vector Machines</li><li>New Computational Geometry chapter covers KD trees, quad- and octrees, Delaunay triangulation, and algorithms for lines, polygons, triangles, and spheres</li> <li>New sections include interior point methods for linear programming, Monte Carlo Markov Chains, spectral and pseudospectral methods for PDEs, and many new statistical distributions</li> <li>An expanded treatment of ODEs with completely new routines</li> </ul> Plus comprehensive coverage of <ul> <li>linear algebra, interpolation, special functions, random numbers, nonlinear sets of equations, optimization, eigensystems, Fourier methods and wavelets, statistical tests, ODEs and PDEs, integral equations, and inverse theory</li> </ul> And much, much more! For more information, or to buy the book, visit <a href = "http://www.cambridge.org/numericalrecipes">www.cambridge.org/numericalrecipes. For support, or to subscribe to an online version, please visit <a href = "http://www.nr.com">www.nr.com.}},
+  Citeulike-article-id     = {1386464},
+  HowPublished             = {Hardcover},
+  ISBN                     = {0521880688},
+  Keywords                 = {numerical\_recipes},
+  Owner                    = {vasilis},
+  Posted-at                = {2008-04-02 14:38:12},
+  Priority                 = {2},
+  Timestamp                = {2016.09.14}
+}
+
+@Article{Ramseier1967,
+  Title                    = {Self-Diffusion Of Tritium In Natural And Synthetic Ice Monocrystals},
+  Author                   = {Ramseier, R. O.},
+  Journal                  = {Journal Of Applied Physics},
+  Year                     = {1967},
+  Number                   = {6},
+  Pages                    = {2553--2556},
+  Volume                   = {38},
+
+  File                     = {:Ramseier1967.pdf:PDF},
+  Ga                       = {95883},
+  J9                       = {J APPL PHYS},
+  Ji                       = {J. Appl. Phys.},
+  Keywords                 = {ice, self diffusion, diffusion, isotopes},
+  La                       = {English},
+  Nr                       = {26},
+  Owner                    = {vasilis},
+  Pa                       = {CIRCULATION FULFILLMENT DIV, 500 SUNNYSIDE BLVD, WOODBURY, NY 11797-2999},
+  Pg                       = {0},
+  Pi                       = {WOODBURY},
+  Publisher                = {Amer Inst Physics},
+  Sc                       = {Physics, Applied},
+  Sn                       = {0021-8979},
+  Tc                       = {69},
+  Timestamp                = {2010.05.05},
+  Ut                       = {ISI:A19679588300032}
+}
+
+@Article{Rasmussen2014,
+  Title                    = {A stratigraphic framework for abrupt climatic changes during the Last Glacial period based on three synchronized Greenland ice-core records: refining and extending the INTIMATE event stratigraphy},
+  Author                   = {Rasmussen, Sune O. and Bigler, Matthias and Blockley, Simon P. and Blunier, Thomas and Buchardt, Susanne L. and Clausen, Henrik B. and Cvijanovic, Ivana and Dahl-Jensen, Dorthe and Johnsen, Sigfus J. and Fischer, Hubertus and Gkinis, Vasileios and Guillevic, Myriam and Hoek, Wim Z. and Lowe, J. John and Pedro, Joel B. and Popp, Trevor and Seierstad, Inger K. and Steffensen, Jorgen Pederrgen Peder and Svensson, Anders M. and Vallelonga, Paul and Vinther, Bo M. and Walker, Mike J.C. and Wheatley, Joe J. and Winstrup, Mai},
+  Journal                  = {Quaternary Science Reviews},
+  Year                     = {2014},
+
+  Month                    = dec,
+  Number                   = {0},
+  Pages                    = {14--28},
+  Volume                   = {106},
+
+  Booktitle                = {Dating, Synthesis, and Interpretation of Palaeoclimatic Records and Model-data Integration: Advances of the INTIMATE project(INTegration of Ice core, Marine and TErrestrial records, COST Action ES0907)},
+  File                     = {:Rasmussen2014.pdf:PDF},
+  ISSN                     = {0277-3791},
+  Keywords                 = {Sequence of glacial climate events, INTIMATE event stratigraphy, Synchronized ice core records, Definition of interstadials, Definition of stadials},
+  Owner                    = {vasilis},
+  Timestamp                = {2015.03.10}
+}
+
+@Article{Schoenemann2014,
+  Title                    = {Triple water-isotopologue record from WAIS Divide, Antarctica: Controls on glacial-interglacial changes in 17Oexcess of precipitation},
+  Author                   = {Schoenemann, Spruce W. and Steig, Eric J. and Ding, Qinghua and Markle, Bradley R. and Schauer, Andrew J.},
+  Journal                  = {J. Geophys. Res. Atmos.},
+  Year                     = {2014},
+  Number                   = {14},
+  Pages                    = {2014JD021770--},
+  Volume                   = {119},
+
+  File                     = {:Schoenemann2014.pdf:PDF},
+  ISSN                     = {2169-8996},
+  Keywords                 = {oxygen isotopes, 17Oexcess, deuterium excess, Antarctica, ice core, sea ice, 0473 Paleoclimatology and paleoceanography, 0454 Isotopic composition and chemistry, 0724 Ice cores, 0750 Sea ice, 1626 Global climate models},
+  Owner                    = {vasilis},
+  Timestamp                = {2014.08.18},
+  Url                      = {http://dx.doi.org/10.1002/2014JD021770}
+}
+
+@Article{Schwander1996,
+  Title                    = {{Gas diffusion in firn}},
+  Author                   = {J. Schwander},
+  Journal                  = {Chemical exchange between the atmosphere and polar snow},
+  Year                     = {1996},
+  Pages                    = {527--540}
+}
+
+@Article{Schwander1988,
+  Title                    = {{Air mixing in firn and the age of the air at pore close-off}},
+  Author                   = {J. Schwander and B. Stauffer and A. Sigg},
+  Journal                  = {Annals of Glaciology},
+  Year                     = {1988},
+  Pages                    = {pp. 141 --145}
+}
+
+@Article{Severinghaus1999,
+  Title                    = {Abrupt climate change at the end of the last glacial period inferred from trapped air in polar ice},
+  Author                   = {Severinghaus, J. P. and Brook, E. J.},
+  Journal                  = {Science},
+  Year                     = {1999},
+
+  Month                    = oct,
+  Number                   = {5441},
+  Pages                    = {930--934},
+  Volume                   = {286},
+
+  Abstract                 = {The last glacial period was terminated by an abrupt warming event in the North Atlantic similar to 15,000 years before the present, and warming events of similar age have been reported from Low Latitudes. Understanding the mechanism of this termination requires that the precise relative timing of abrupt climate warming in the tropics versus the North Atlantic be known. Nitrogen and argon isotopes in trapped air in Greenland ice show that the Greenland Summit warmed 9 +/- 3 degrees C over a period of several decades, beginning 14,672 years ago. Atmospheric methane concentrations rose abruptly over a similar to 50-year period and began their increase 20 to 30 years after the onset of the abrupt Greenland warming. These data suggest that tropical climate became warmer or wetter (or both) similar to 20 to 80 years after the onset of Greenland warming, supporting a North Atlantic rather than a tropical trigger for the climate event.},
+  C1                       = {Univ Calif San Diego, Scripps Inst Oceanog, La Jolla, CA 92037 USA.EOLEOLWashington State Univ, Dept Geol, Vancouver, WA 98686 USA.},
+  File                     = {:/Users/vasilis/Documents/ref's/Severinghaus1999.pdf:PDF},
+  Ga                       = {250BE},
+  J9                       = {SCIENCE},
+  Ji                       = {Science},
+  Keywords                 = {YOUNGER DRYAS EVENT; PAST 110,000 YEARS; NORTH-ATLANTIC; GREENLAND CLIMATE; OCEAN; CORE; TRANSITION; MODEL; ACCUMULATION; TEMPERATURE},
+  La                       = {English},
+  Nr                       = {52},
+  Owner                    = {vasilis},
+  Pa                       = {1200 NEW YORK AVE, NW, WASHINGTON, DC 20005 USA},
+  Pg                       = {5},
+  Pi                       = {WASHINGTON},
+  Publisher                = {Amer Assoc Advancement Science},
+  Rp                       = {Severinghaus, JP, Univ Calif San Diego, Scripps Inst Oceanog, 9500EOLEOLGilman Dr, La Jolla, CA 92037 USA.},
+  Sc                       = {Multidisciplinary Sciences},
+  Sn                       = {0036-8075},
+  Tc                       = {169},
+  Timestamp                = {2008.12.08},
+  Ut                       = {ISI:000083368500036}
+}
+
+@Article{Severinghaus1998,
+  Title                    = {Timing of abrupt climate change at the end of the Younger Dryas interval from thermally fractionated gases in polar ice},
+  Author                   = {Severinghaus, J. P. and Sowers, T. and Brook, E. J. and Alley, R. B. and Bender, M. L.},
+  Journal                  = {Nature},
+  Year                     = {1998},
+
+  Month                    = jan,
+  Number                   = {6663},
+  Pages                    = {141--146},
+  Volume                   = {391},
+
+  Abstract                 = {Rapid temperature change fractionates gas Isotopes in unconsolidated snow, producing a signal that is preserved in trapped air bubbles as the snow forms ice, The fractionation of nitrogen and argon isotopes at the end of the Younger Dryas cold interval, recorded in Greenland ice, demonstrates that warming at this time was abrupt. This warming coincides with the onset of a prominent rise in atmospheric methane concentration, indicating that the climate change was synchronous (within a few decades) over a region of at least hemispheric extent, and providing constraints on previously proposed mechanisms of climate change at this time, The depth of the nitrogen-isotope signal relative to the depth of the climate change recorded in the Ice matrix indicates that, during the Younger Dryas, the summit of Greenland was 15 +/- 3 degrees C colder than today.},
+  C1                       = {Univ Rhode Isl, Grad Sch Oceanog, Narragansett, RI 02882 USA.EOLEOLPenn State Univ, Dept Geosci, University Pk, PA 16802 USA.EOLEOLWashington State Univ, Dept Geol, Vancouver, WA 98686 USA.EOLEOLWashington State Univ, Dept Environm Sci, Vancouver, WA 98686 USA.},
+  Em                       = {jeffs@gsosun1.gso.uri.edu},
+  File                     = {:Severinghaus1998.pdf:PDF},
+  Ga                       = {YQ378},
+  J9                       = {NATURE},
+  Ji                       = {Nature},
+  Keywords                 = {ATMOSPHERIC METHANE; CORE RECORD; GREENLAND; AIR; FIRN; OCEAN; MODEL; DEGLACIATION; ANTARCTICA; EVENT},
+  La                       = {English},
+  Nr                       = {47},
+  Owner                    = {vasilis},
+  Pa                       = {PORTERS SOUTH, 4 CRINAN ST, LONDON, ENGLAND N1 9XW},
+  Pg                       = {6},
+  Pi                       = {LONDON},
+  Publisher                = {Macmillan Magazines Ltd},
+  Rp                       = {Severinghaus, JP, Univ Rhode Isl, Grad Sch Oceanog, Narragansett, RIEOLEOL02882 USA.},
+  Sc                       = {Multidisciplinary Sciences},
+  Sn                       = {0028-0836},
+  Tc                       = {264},
+  Timestamp                = {2011.03.21},
+  Ut                       = {ISI:000071380900040}
+}
+
+@Article{Simonsen2011,
+  Title                    = {{Past surface temperatures at the NorthGRIP drill site from the difference in firn diffusion of water isotopes }},
+  Author                   = {S. B. Simonsen and S. J. Johnsen and T. J. Popp and B. M. Vinther and V. Gkinis and H. C. Steen-Larsen},
+  Journal                  = {Climate of the Past},
+  Year                     = {2011},
+  Volume                   = {7},
+
+  Page                     = {1327-1335}
+}
+
+@Article{HC2015,
+  Title                    = {{Moisture sources and synoptic to seasonal variability of North Atlantic water vapor isotopic composition}},
+  Author                   = {H. C. Steen-Larsen and A. E. Sveinbjörnsdottir and Th. Jonsson and F. Ritter and J.-L. Bonne and V. Masson-Delmotte and H. Sodemann and T. Blunier and D. Dahl-Jensen and B. M. Vinther},
+  Journal                  = {Journal of Geophysical Research: Atmospheres},
+  Year                     = {2015},
+  Volume                   = {120}
+}
+
+@Article{Steig2014,
+  Title                    = {Calibrated high-precision 17O-excess measurements using cavity ring-down spectroscopy with laser-current-tuned cavity resonance},
+  Author                   = {Steig, E. J. and Gkinis, V. and Schauer, A. J. and Schoenemann, S. W. and Samek, K. and Hoffnagle, J. and Dennis, K. J. and Tan, S. M.},
+  Journal                  = {Atmos. Meas. Tech.},
+  Year                     = {2014},
+
+  Month                    = aug,
+  Number                   = {8},
+  Pages                    = {2421--2435},
+  Volume                   = {7},
+
+  File                     = {:Steig2014.pdf:PDF},
+  ISSN                     = {1867-8548},
+  Owner                    = {vasilis},
+  Publisher                = {Copernicus Publications},
+  Timestamp                = {2014.09.18},
+  Url                      = {http://www.atmos-meas-tech.net/7/2421/2014/}
+}
+
+@Article{Ulrych,
+  Title                    = {{Maximum Entropy Spectral Analysis and Autoregressive Decomposition}},
+  Author                   = {T. J. Ulrych and T. N. Bishop},
+  Journal                  = {Reviews of Geophysics and Space Physics},
+  Year                     = {1975},
+  Number                   = {1},
+  Volume                   = {13}
+}
+
+@Article{Vaughn1998,
+  Title                    = {An automated system for hydrogen isotope analysis of water},
+  Author                   = {Vaughn, B. H. and White, J. W. C. and Delmotte, M. and Trolier, M. and Cattani, O. and Stievenard, M.},
+  Journal                  = {Chemical Geology},
+  Year                     = {1998},
+
+  Month                    = nov,
+  Number                   = {3-4},
+  Pages                    = {309--319},
+  Volume                   = {152},
+
+  Abstract                 = {An automated inlet system has been developed for deuterium/hydrogen isotope analysis of water using on-line reduction to hydrogen. A modified HPLC autosampler introduces precise aliquots of water (0.5 to 5 mu l) into a heated expansion chamber which is connected via a capillary to hot uranium where the water is reduced to uranium oxide, and hydrogen for analysis. The 600 degrees C uranium reduction furnace is kept at analyzer pressure in the mass spectrometer, which maximizes the lifetime of the reductant to handle more than 4000 injections per 0.5 g of depleted uranium. This is a flow-through system, and unlike zinc or catalyst methods, some 'memory' effects are encountered, requiring two injections to obtain a delta(D) precision of less than +/-1%, and four injections far a precision of less than +/-0.5%. Sample preparation is limited to pipetting water into an autosampler vial. The computer-controlled system provides extended unattended operation allowing, for instance, large runs of samples that can occupy the instrument over entire weekends. (C) 1998 Elsevier Science B.V. All rights reserved.},
+  C1                       = {Univ Colorado, INSTAAR, Boulder, CO 80309 USA.EOLEOLUniv Colorado, Dept Geol Sci, Boulder, CO 80309 USA.EOLEOLCE Saclay, LMCE, Lab Modelisat Climat & Environm, F-91191 Gif Sur Yvette, France.},
+  De                       = {isotopes; mass spectroscopy; hydrogen; deuterium; uranium; sampleEOLEOLpreparation},
+  Em                       = {bruce.vaughn@colorado.edu},
+  File                     = {:Vaughn1998.pdf:PDF},
+  Ga                       = {137CQ},
+  J9                       = {CHEM GEOL},
+  Ji                       = {Chem. Geol.},
+  Keywords                 = {ZINC; DEUTERIUM},
+  La                       = {English},
+  Nr                       = {20},
+  Owner                    = {vasilis},
+  Pa                       = {PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS},
+  Pg                       = {11},
+  Pi                       = {AMSTERDAM},
+  Publisher                = {Elsevier Science Bv},
+  Rp                       = {Vaughn, BH, Univ Colorado, INSTAAR, Campus Box 450, Boulder, CO 80309EOLEOLUSA.},
+  Sc                       = {Geochemistry & Geophysics},
+  Sn                       = {0009-2541},
+  Tc                       = {32},
+  Timestamp                = {2010.02.18},
+  Ut                       = {ISI:000076897500006}
+}
+
+@Article{Veres2013,
+  Title                    = {{The Antarctic ice core chronology (AICC2012): an optimized multi-parameter and multi-site dating approach for the last 120 thousand years}},
+  Author                   = {D. Veres and L. Bazin and A. Landais and H. Toye Mahamadou Kele and B. B. Lemieux-Dudon and F. Parrenin and P. Martinerie and E. Blayo and T. Blunier and E. Capron and J. Chappellaz and S. O. Rasmussen and M. Severi and A. Svensson and B. Vinther and E. W. Wolff},
+  Journal                  = {Climate of the Past},
+  Year                     = {2013},
+  Volume                   = {9},
+
+  Page                     = {1733-1748}
+}
+
+@Article{Vinther2009,
+  Title                    = {{H}olocene thinning of the {G}reenland ice sheet},
+  Author                   = {B. M. Vinther and S. L. Buchardt and H. B. Clausen and D. Dahl-Jensen and S. J. Johnsen and D. A. Fisher and R. M. Koerner and D. Raynaud and V. Lipenkov and K. K. Andersen and T. Blunier and S. O. Rasmussen and J. P. Steffensen and A. M. Svensson},
+  Journal                  = {Nature},
+  Year                     = {2009},
+  Volume                   = {461}
+}
+
+@Article{Vinther2006,
+  Title                    = {A synchronized dating of three Greenland ice cores throughout the Holocene},
+  Author                   = {Vinther, B. M. and Clausen, H. B. and Johnsen, S. J. and Rasmussen, S. O. and Andersen, K. K. and Buchardt, S. L. and Dahl-Jensen, D. and Seierstad, I. K. and Siggaard-Andersen, M. L. and Steffensen, J. P. and Svensson, A. and Olsen, J. and Heinemeier, J.},
+  Journal                  = {Journal Of Geophysical Research-Atmospheres},
+  Year                     = {2006},
+  Number                   = {D13},
+  Pages                    = {D13102},
+  Volume                   = {111},
+
+  Af                       = {Vinther, B. M.EOLEOLClausen, H. B.EOLEOLJohnsen, S. J.EOLEOLRasmussen, S. O.EOLEOLAndersen, K. K.EOLEOLBuchardt, S. L.EOLEOLDahl-Jensen, D.EOLEOLSeierstad, I. K.EOLEOLSiggaard-Andersen, M. -L.EOLEOLSteffensen, J. P.EOLEOLSvensson, A.EOLEOLOlsen, J.EOLEOLHeinemeier, J.},
+  Di                       = {10.1029/2005JD006921},
+  File                     = {:Vinther2006.pdf:PDF},
+  Owner                    = {vasilis},
+  Sn                       = {0148-0227},
+  Timestamp                = {2010.01.30},
+  Ut                       = {ISI:000238952900003}
+}
+
+@Article{vanderWel2015a,
+  Title                    = {Estimation and calibration of the water isotope differential diffusion length in ice core records},
+  Author                   = {van der Wel, G. and Fischer, H. and Oerter, H. and Meyer, H. and Meijer, H. A. J.},
+  Journal                  = {The Cryosphere},
+  Year                     = {2015},
+
+  Month                    = aug,
+  Number                   = {4},
+  Pages                    = {1601--1616},
+  Volume                   = {9},
+
+  File                     = {:vanderWel2015a.pdf:PDF},
+  ISSN                     = {1994-0424},
+  Owner                    = {vasilis},
+  Publisher                = {Copernicus Publications},
+  Timestamp                = {2015.08.31},
+  Url                      = {http://www.the-cryosphere.net/9/1601/2015/}
+}
+
+@Article{Watanabeetal2003,
+  Title                    = {{D}ating of the {D}ome {F}uji, {A}ntarctica deep ice core},
+  Author                   = {Watanabe, O. and Shoji, H. and Satow, K and, Motoyama, H. and Fujii, Y. and Narita, H. and Aoki S.},
+  Journal                  = {Mem. Natl Inst. Polar Res., Spec. Issue},
+  Year                     = {2003},
+  Pages   			= {25--37},
+  Volume                   = {57}
+}
+
+@Article{Fegyveresietal2011,
+  Title                    = {{Late-Holocene climate evolution at the WAIS Divide site, West Antarctica: bubble number-density estimates}},
+  Author                   = {Fegyveresi, J. M. and Alley, R. B. and Spencer, M. K. and Fitzpatrick, J. J. and Steig, E. J. and White, J. W. C. and McConnell, J. R. and Taylor, K. C.},
+  Journal                  = {Journal of Glaciology},
+  Year                     = {2011},
+  Number   	     = {204},
+  Volume                   = {57}
+}
+
+@Article{Steig2013,
+  Title                    = {{Recent climate and ice-sheet change in West Antarctica compared to the past 2000 years}},
+  Author                   = {Steig, E. J and Ding, Q. and White, J. W. C. and Küttel, M. and Rupper, S. B. and Neumann, T. A. and Neff, P. D. and Gallant, A. J. E. and Mayewski, P. A. and
+					Taylor, K. C. and Hoffmann, G. and Dixon, D. A. and Schoenemann, S. and Markle B. M. and Schneider, D. P. and Fudge, T. J and Schauer, A. J. and Teel, R. P. and Vaughn, B. and Burgener, L and Williams, J. and Korotkikh, E.},
+  Journal                  = {Nature Geoscience},
+ Volume                   = {6},
+  Year                     = {2013},
+  Di                     = {10.1038/NGEO1778}
+
+}
+
+@Article{Lorius1979,
+  Title                    = {{A 30,000-yr isotope climatic record from Antarctic ice}},
+  Author                   = {Lorius, C. and Merlivat, L. and Jouzel, J. and Pourchet, M.},
+  Journal                  = {Nature},
+ Volume                   = {280},
+  Year                     = {1979},
+  Pages   			= {644 -- 648}
+
+}
+
+@Article{Guillevic2013,
+  Title                    = {{Spatial gradients of temperature, accumulation and $\delta^{18}$O-ice in Greenland over a series of Dansgaard–-Oeschger events}},
+  Author                   = {M. Guillevic and L. Bazin and A. Landais and P. Kindler and A. Orsi and V. Masson-Delmotte and T. Blunier and S. L. Buchardt and E. Capron and M . Leuenberger and P. Martinerie and F. Prie and B. M. Vinther},
+  Journal                  = {Climate of the Past},
+ Volume                   = {9},
+  Year                     = {2013},
+  Pages   			= {1029–1051},
+ Di                     = {10.5194/cp--9--1029--2013}
+}
+
+@Article{Rasmussen2013,
+  Title                    = {{A first chronology for the North Greenland Eemian Ice Drilling (NEEM) ice core}},
+  Author                   = {S. O. Rasmussen and P. M. Abbott and T. Blunier and A.J. Bourne and E. Brook and S. L. Buchardt and C. Buizert and J. Chappellaz and H. B. Clausen and
+                                   E. Cook and D. Dahl-Jensen and S. M. Davies and M. Guillevic and S. Kipfstuhl and T. Laepple and I. K. Seierstad and J.P. Severinghaus and
+                                        J. P. Steffensen and C. Stowasser and A. Svensson and P. Vallelonga and B. M. Vinther and F. Wilhelms and M. Winstrup},
+  Journal                  = {Climate of the Past},
+ Volume                   = {9},
+  Year                     = {2013},
+  Pages   			= {2713--2730},
+ Di                     = {10.5194/cp--9--2713--2730}
+}

@@ -1,0 +1,27 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2016.4.9)  7 SEP 2017 15:01
+entering extended mode
+**"C:/Users/Holmes/Desktop/PhD/Dissertation/Holme 2017 revised/reference.bib"
+("C:/Users/Holmes/Desktop/PhD/Dissertation/Holme 2017 revised/reference.bib"
+Overfull \hbox (14.9961pt too wide) in paragraph at lines 49--58
+[]\tenrm @ArticleBarkan2007, Ti-tle = Dif-fu-siv-ity frac-tion-a-tions of (H$[]
+$O)-O-16/(H$[]$O)-O-17 and (H$[]$O)-O-16/(H$[]$O)-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm A
+.\tenrm r
+.\tenrm t
+.etc.
+
+! Undefined control sequence.
+l.70 ...          = {High-precision $\delta\mathrm
+                                                  {^{2}H}$ and $\delta\mathr...
+
+? 
+! Emergency stop.
+l.70 ...          = {High-precision $\delta\mathrm
+                                                  {^{2}H}$ and $\delta\mathr...
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
