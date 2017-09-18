@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.1)  15 SEP 2017 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.1)  18 SEP 2017 15:33
 entering extended mode
 **./Holme_et_al_2017_manuscript.tex
 (Holme_et_al_2017_manuscript.tex
@@ -553,28 +553,21 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip72
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count150
-) (Holme_et_al_2017_manuscript.aux
-
-LaTeX Warning: Label `fig:NGRIP_late' multiply defined.
-
-
-LaTeX Warning: Label `NGRIP_late_holo' multiply defined.
-
-)
+) (Holme_et_al_2017_manuscript.aux)
 \openout1 = `Holme_et_al_2017_manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 
 -- Lines per column: 33 (exact).
 Package caption Info: Begin \AtBeginDocument code.
@@ -656,38 +649,55 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 101.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 104.
 
 
 ("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 101.
+LaTeX Font Info:    Try loading font information for U+msa on input line 104.
  ("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
 "
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+LaTeX Font Info:    Try loading font information for U+msb on input line 104.
 
 ("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 101.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 104.
  ("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd
 "
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 ) [1{C:/Users/Holmes/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 149.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 152.
 
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 226--237
+Underfull \hbox (badness 10000) in paragraph at lines 229--240
 
  []
 
-[4] [5]
+[4]
+
+Package caption Warning: \label without proper reference on input line 368.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:diffusion_length_profiles' on page 5 undefined on
+ input line 334.
+
+
+Package caption Warning: \label without proper reference on input line 368.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:diffusion_length_profiles' on page 5 undefined on
+ input line 339.
+
+[5]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 354.
+               Default added (so using `tbp') on input line 357.
 
 Package epstopdf Info: Source file: <Figure_1.eps>
 (epstopdf)                    date: 2016-12-15 16:55:15
@@ -697,18 +707,18 @@ Package epstopdf Info: Source file: <Figure_1.eps>
 (epstopdf)                    size: 36321 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_1-eps-converted-to.p
 df Figure_1.eps>
-(epstopdf)             \includegraphics on input line 357.
+(epstopdf)             \includegraphics on input line 360.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_1-eps-converted-to.pdf, id=32, 689.57625pt x 574.145pt>
 File: Figure_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_1-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_1-eps-converted-to.pdf used on input line 357.
+Package pdftex.def Info: Figure_1-eps-converted-to.pdf used on input line 360.
 (pdftex.def)             Requested size: 281.85587pt x 234.67383pt.
  [6 <./Figure_1-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 401.
+               Default added (so using `tbp') on input line 405.
 
 Package epstopdf Info: Source file: <./Figure_2.eps>
 (epstopdf)                    date: 2016-10-18 15:23:13
@@ -718,24 +728,24 @@ Package epstopdf Info: Source file: <./Figure_2.eps>
 (epstopdf)                    size: 27645 bytes
 (epstopdf)             Command: <epstopdf --outfile=./Figure_2-eps-converted-to
 .pdf ./Figure_2.eps>
-(epstopdf)             \includegraphics on input line 404.
+(epstopdf)             \includegraphics on input line 408.
 Package epstopdf Info: Output file is already uptodate.
 <./Figure_2-eps-converted-to.pdf, id=81, 698.61pt x 492.84125pt>
 File: ./Figure_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figure_2-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figure_2-eps-converted-to.pdf used on input line 404
+Package pdftex.def Info: ./Figure_2-eps-converted-to.pdf used on input line 408
 .
 (pdftex.def)             Requested size: 281.85587pt x 198.84007pt.
  [7 <./Figure_2-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for U+euf on input line 430.
+LaTeX Font Info:    Try loading font information for U+euf on input line 434.
 
 ("C:\Users\Holmes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\ueuf.fd"
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [8] [9]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 568.
+               Default added (so using `tbp') on input line 572.
 
 Package epstopdf Info: Source file: <Figure_3.eps>
 (epstopdf)                    date: 2016-10-18 15:23:13
@@ -745,18 +755,18 @@ Package epstopdf Info: Source file: <Figure_3.eps>
 (epstopdf)                    size: 15897 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_3-eps-converted-to.p
 df Figure_3.eps>
-(epstopdf)             \includegraphics on input line 571.
+(epstopdf)             \includegraphics on input line 575.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_3-eps-converted-to.pdf, id=115, 516.93124pt x 515.9275pt>
 File: Figure_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_3-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_3-eps-converted-to.pdf used on input line 571.
+Package pdftex.def Info: Figure_3-eps-converted-to.pdf used on input line 575.
 (pdftex.def)             Requested size: 281.85587pt x 281.32056pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 579.
+               Default added (so using `tbp') on input line 583.
 
 Package epstopdf Info: Source file: <Figure_4.eps>
 (epstopdf)                    date: 2016-12-22 13:30:59
@@ -766,18 +776,18 @@ Package epstopdf Info: Source file: <Figure_4.eps>
 (epstopdf)                    size: 36902 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_4-eps-converted-to.p
 df Figure_4.eps>
-(epstopdf)             \includegraphics on input line 582.
+(epstopdf)             \includegraphics on input line 586.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_4-eps-converted-to.pdf, id=116, 1112.155pt x 835.12pt>
 File: Figure_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_4-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_4-eps-converted-to.pdf used on input line 582.
+Package pdftex.def Info: Figure_4-eps-converted-to.pdf used on input line 586.
 (pdftex.def)             Requested size: 305.33789pt x 229.28279pt.
  [10] [11 <./Figure_3-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 637.
+               Default added (so using `tbp') on input line 641.
 
 Package epstopdf Info: Source file: <Figure_5.eps>
 (epstopdf)                    date: 2016-10-19 15:40:45
@@ -787,19 +797,28 @@ Package epstopdf Info: Source file: <Figure_5.eps>
 (epstopdf)                    size: 13187 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_5-eps-converted-to.p
 df Figure_5.eps>
-(epstopdf)             \includegraphics on input line 640.
+(epstopdf)             \includegraphics on input line 644.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_5-eps-converted-to.pdf, id=141, 641.39626pt x 484.81125pt>
 File: Figure_5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_5-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_5-eps-converted-to.pdf used on input line 640.
+Package pdftex.def Info: Figure_5-eps-converted-to.pdf used on input line 644.
 (pdftex.def)             Requested size: 281.85587pt x 213.05128pt.
- [12 <./Figure_4-eps-converted-to.pdf>]
-[13 <./Figure_5-eps-converted-to.pdf>] [14]
+
+
+Package caption Warning: \label without proper reference on input line 368.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:diffusion_length_profiles' on page 12 undefined o
+n input line 659.
+
+[12 <./Figure_4-eps-converted-to.pdf>] [13 <./Figure_5-eps-converted-to.pdf>]
+[14]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 751.
+               Default added (so using `tbp') on input line 755.
 
 Package epstopdf Info: Source file: <Figure_6.eps>
 (epstopdf)                    date: 2016-12-15 16:55:10
@@ -809,18 +828,18 @@ Package epstopdf Info: Source file: <Figure_6.eps>
 (epstopdf)                    size: 39785 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_6-eps-converted-to.p
 df Figure_6.eps>
-(epstopdf)             \includegraphics on input line 754.
+(epstopdf)             \includegraphics on input line 758.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_6-eps-converted-to.pdf, id=211, 691.58376pt x 576.1525pt>
 File: Figure_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_6-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_6-eps-converted-to.pdf used on input line 754.
+Package pdftex.def Info: Figure_6-eps-converted-to.pdf used on input line 758.
 (pdftex.def)             Requested size: 328.82707pt x 273.9478pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 764.
+               Default added (so using `tbp') on input line 768.
 
 Package epstopdf Info: Source file: <Figure_7.eps>
 (epstopdf)                    date: 2016-10-18 15:23:13
@@ -830,18 +849,18 @@ Package epstopdf Info: Source file: <Figure_7.eps>
 (epstopdf)                    size: 16670 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_7-eps-converted-to.p
 df Figure_7.eps>
-(epstopdf)             \includegraphics on input line 767.
+(epstopdf)             \includegraphics on input line 771.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_7-eps-converted-to.pdf, id=212, 744.7825pt x 587.19376pt>
 File: Figure_7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_7-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_7-eps-converted-to.pdf used on input line 767.
+Package pdftex.def Info: Figure_7-eps-converted-to.pdf used on input line 771.
 (pdftex.def)             Requested size: 328.82707pt x 259.25307pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 777.
+               Default added (so using `tbp') on input line 781.
 
 Package epstopdf Info: Source file: <Figure_8.eps>
 (epstopdf)                    date: 2016-10-27 13:12:31
@@ -851,18 +870,18 @@ Package epstopdf Info: Source file: <Figure_8.eps>
 (epstopdf)                    size: 5358 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_8-eps-converted-to.p
 df Figure_8.eps>
-(epstopdf)             \includegraphics on input line 780.
+(epstopdf)             \includegraphics on input line 784.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_8-eps-converted-to.pdf, id=213, 547.04375pt x 424.58624pt>
 File: Figure_8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_8-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_8-eps-converted-to.pdf used on input line 780.
+Package pdftex.def Info: Figure_8-eps-converted-to.pdf used on input line 784.
 (pdftex.def)             Requested size: 328.82707pt x 255.22017pt.
  [15]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 840.
+               Default added (so using `tbp') on input line 844.
 
 Package epstopdf Info: Source file: <Figure_9.eps>
 (epstopdf)                    date: 2016-10-18 15:23:13
@@ -872,19 +891,27 @@ Package epstopdf Info: Source file: <Figure_9.eps>
 (epstopdf)                    size: 9887 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_9-eps-converted-to.p
 df Figure_9.eps>
-(epstopdf)             \includegraphics on input line 843.
+(epstopdf)             \includegraphics on input line 847.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_9-eps-converted-to.pdf, id=217, 545.03625pt x 434.62375pt>
 File: Figure_9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_9-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_9-eps-converted-to.pdf used on input line 843.
+Package pdftex.def Info: Figure_9-eps-converted-to.pdf used on input line 847.
 (pdftex.def)             Requested size: 328.82707pt x 262.21536pt.
- [16 <./Figure_6-eps-converted-to.pdf>]
-[17 <./Figure_7-eps-converted-to.pdf>]
+
+
+Package caption Warning: \label without proper reference on input line 368.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:diffusion_length_profiles' on page 16 undefined o
+n input line 864.
+
+[16 <./Figure_6-eps-converted-to.pdf>] [17 <./Figure_7-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 892.
+               Default added (so using `tbp') on input line 896.
 
 Package epstopdf Info: Source file: <Figure_10.eps>
 (epstopdf)                    date: 2017-09-07 08:40:36
@@ -894,22 +921,22 @@ Package epstopdf Info: Source file: <Figure_10.eps>
 (epstopdf)                    size: 7390 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_10-eps-converted-to.
 pdf Figure_10.eps>
-(epstopdf)             \includegraphics on input line 895.
+(epstopdf)             \includegraphics on input line 899.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_10-eps-converted-to.pdf, id=289, 1120.185pt x 433.62pt>
 File: Figure_10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_10-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_10-eps-converted-to.pdf used on input line 895.
+Package pdftex.def Info: Figure_10-eps-converted-to.pdf used on input line 899.
 
 (pdftex.def)             Requested size: 469.75502pt x 181.84126pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 901.
+               Default added (so using `tbp') on input line 905.
 
 
-Overfull \hbox (1.65332pt too wide) in paragraph at lines 903--947
+Overfull \hbox (1.65332pt too wide) in paragraph at lines 907--951
  [] 
  []
 
@@ -917,11 +944,11 @@ Overfull \hbox (1.65332pt too wide) in paragraph at lines 903--947
 /Figure_10-eps-converted-to.pdf>] [20]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1011.
+               Default added (so using `tbp') on input line 1015.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1043.
+               Default added (so using `tbp') on input line 1047.
 
 Package epstopdf Info: Source file: <Figure_11.eps>
 (epstopdf)                    date: 2017-09-08 14:03:08
@@ -931,19 +958,19 @@ Package epstopdf Info: Source file: <Figure_11.eps>
 (epstopdf)                    size: 8796 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_11-eps-converted-to.
 pdf Figure_11.eps>
-(epstopdf)             \includegraphics on input line 1046.
+(epstopdf)             \includegraphics on input line 1050.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_11-eps-converted-to.pdf, id=321, 1156.32pt x 564.1075pt>
 File: Figure_11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_11-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_11-eps-converted-to.pdf used on input line 1046
+Package pdftex.def Info: Figure_11-eps-converted-to.pdf used on input line 1050
 .
 (pdftex.def)             Requested size: 469.75502pt x 229.1681pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1057.
+               Default added (so using `tbp') on input line 1061.
 
 Package epstopdf Info: Source file: <Figure_12.eps>
 (epstopdf)                    date: 2017-09-08 14:02:50
@@ -953,28 +980,28 @@ Package epstopdf Info: Source file: <Figure_12.eps>
 (epstopdf)                    size: 9685 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_12-eps-converted-to.
 pdf Figure_12.eps>
-(epstopdf)             \includegraphics on input line 1060.
+(epstopdf)             \includegraphics on input line 1064.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_12-eps-converted-to.pdf, id=322, 1156.32pt x 564.1075pt>
 File: Figure_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_12-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_12-eps-converted-to.pdf used on input line 1060
+Package pdftex.def Info: Figure_12-eps-converted-to.pdf used on input line 1064
 .
 (pdftex.def)             Requested size: 469.75502pt x 229.1681pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1070.
+               Default added (so using `tbp') on input line 1074.
 
 
-Overfull \hbox (20.46855pt too wide) in paragraph at lines 1075--1119
+Overfull \hbox (20.46855pt too wide) in paragraph at lines 1079--1123
  [] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1123.
+               Default added (so using `tbp') on input line 1127.
 
 Package epstopdf Info: Source file: <Figure_13.eps>
 (epstopdf)                    date: 2017-09-15 07:57:46
@@ -984,20 +1011,20 @@ Package epstopdf Info: Source file: <Figure_13.eps>
 (epstopdf)                    size: 18862 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_13-eps-converted-to.
 pdf Figure_13.eps>
-(epstopdf)             \includegraphics on input line 1126.
+(epstopdf)             \includegraphics on input line 1130.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_13-eps-converted-to.pdf, id=323, 1445.4pt x 726.715pt>
 File: Figure_13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_13-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_13-eps-converted-to.pdf used on input line 1126
+Package pdftex.def Info: Figure_13-eps-converted-to.pdf used on input line 1130
 .
 (pdftex.def)             Requested size: 469.75502pt x 236.17957pt.
  [21] [22] [23 <./Figure_11-eps-converted-to.pdf> <./Figure_12-eps-converted-to
 .pdf>] [24] [25 <./Figure_13-eps-converted-to.pdf>] [26] [27] [28] [29] [30]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1421.
+               Default added (so using `tbp') on input line 1426.
 
 Package epstopdf Info: Source file: <firn_temp_profile.eps>
 (epstopdf)                    date: 2017-08-18 11:59:42
@@ -1007,14 +1034,14 @@ Package epstopdf Info: Source file: <firn_temp_profile.eps>
 (epstopdf)                    size: 55402 bytes
 (epstopdf)             Command: <epstopdf --outfile=firn_temp_profile-eps-conve
 rted-to.pdf firn_temp_profile.eps>
-(epstopdf)             \includegraphics on input line 1424.
+(epstopdf)             \includegraphics on input line 1429.
 Package epstopdf Info: Output file is already uptodate.
 <firn_temp_profile-eps-converted-to.pdf, id=388, 730.73pt x 381.425pt>
 File: firn_temp_profile-eps-converted-to.pdf Graphic file (type pdf)
 
 <use firn_temp_profile-eps-converted-to.pdf>
 Package pdftex.def Info: firn_temp_profile-eps-converted-to.pdf used on input l
-ine 1424.
+ine 1429.
 (pdftex.def)             Requested size: 422.77664pt x 220.67955pt.
  [31]
 
@@ -1023,7 +1050,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [32 <./firn_temp_profile-eps-converted-to.pdf>] [33]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1525.
+               Default added (so using `tbp') on input line 1530.
 
 Package epstopdf Info: Source file: <Figure_14.eps>
 (epstopdf)                    date: 2016-12-22 10:28:41
@@ -1033,214 +1060,225 @@ Package epstopdf Info: Source file: <Figure_14.eps>
 (epstopdf)                    size: 26358 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_14-eps-converted-to.
 pdf Figure_14.eps>
-(epstopdf)             \includegraphics on input line 1528.
+(epstopdf)             \includegraphics on input line 1533.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_14-eps-converted-to.pdf, id=403, 1734.48pt x 845.1575pt>
 File: Figure_14-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_14-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_14-eps-converted-to.pdf used on input line 1528
+Package pdftex.def Info: Figure_14-eps-converted-to.pdf used on input line 1533
 .
 (pdftex.def)             Requested size: 422.77664pt x 206.00148pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1534.
+               Default added (so using `tbp') on input line 1539.
 
 Package epstopdf Info: Source file: <Figure_15.eps>
-(epstopdf)                    date: 2016-12-22 10:28:16
-(epstopdf)                    size: 63395 bytes
+(epstopdf)                    date: 2017-09-18 10:57:05
+(epstopdf)                    size: 325801 bytes
 (epstopdf)             Output file: <Figure_15-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-22 10:28:49
-(epstopdf)                    size: 25846 bytes
+(epstopdf)                    date: 2017-09-18 10:57:18
+(epstopdf)                    size: 84662 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_15-eps-converted-to.
 pdf Figure_15.eps>
-(epstopdf)             \includegraphics on input line 1537.
+(epstopdf)             \includegraphics on input line 1542.
 Package epstopdf Info: Output file is already uptodate.
-<Figure_15-eps-converted-to.pdf, id=404, 1734.48pt x 845.1575pt>
+<Figure_15-eps-converted-to.pdf, id=404, 775.89874pt x 393.47pt>
 File: Figure_15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_15-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_15-eps-converted-to.pdf used on input line 1537
+Package pdftex.def Info: Figure_15-eps-converted-to.pdf used on input line 1542
 .
-(pdftex.def)             Requested size: 422.77664pt x 206.00148pt.
+(pdftex.def)             Requested size: 422.77664pt x 214.39786pt.
  [34 <./Figure_14-eps-converted-to.pdf>]
 [35 <./Figure_15-eps-converted-to.pdf>]
-<Figure_16.pdf, id=482, 1047.915pt x 289.08pt>
+<Figure_16.pdf, id=447, 1047.915pt x 289.08pt>
 File: Figure_16.pdf Graphic file (type pdf)
  <use Figure_16.pdf>
-Package pdftex.def Info: Figure_16.pdf used on input line 1584.
+Package pdftex.def Info: Figure_16.pdf used on input line 1593.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
-<Figure_17.pdf, id=483, 1047.915pt x 289.08pt>
+<Figure_17.pdf, id=448, 1047.915pt x 289.08pt>
 File: Figure_17.pdf Graphic file (type pdf)
  <use Figure_17.pdf>
-Package pdftex.def Info: Figure_17.pdf used on input line 1592.
+Package pdftex.def Info: Figure_17.pdf used on input line 1601.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [36
 
- <./Figure_16.pdf> <./Figure_17.pdf>] <Figure_25.pdf, id=524, 1047.915pt x 289.
-08pt>
+ <./Figure_16.pdf> <./Figure_17.pdf>] [37]
+<Figure_25.pdf, id=493, 1047.915pt x 289.08pt>
 File: Figure_25.pdf Graphic file (type pdf)
-
-<use Figure_25.pdf>
-Package pdftex.def Info: Figure_25.pdf used on input line 1615.
+ <use Figure_25.pdf>
+Package pdftex.def Info: Figure_25.pdf used on input line 1627.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- <Figure_26.pdf, id=525, 1047.915pt x 289.08pt>
+
+<Figure_26.pdf, id=494, 1047.915pt x 289.08pt>
 File: Figure_26.pdf Graphic file (type pdf)
-
-<use Figure_26.pdf>
-Package pdftex.def Info: Figure_26.pdf used on input line 1623.
-(pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- [37
-
- <./Figure_25.pdf> <./Figure_26.pdf>]
-<Figure_27.pdf, id=570, 1047.915pt x 289.08pt>
-File: Figure_27.pdf Graphic file (type pdf)
- <use Figure_27.pdf>
-Package pdftex.def Info: Figure_27.pdf used on input line 1647.
-(pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
-
-<Figure_28.pdf, id=571, 1047.915pt x 289.08pt>
-File: Figure_28.pdf Graphic file (type pdf)
- <use Figure_28.pdf>
-Package pdftex.def Info: Figure_28.pdf used on input line 1655.
+ <use Figure_26.pdf>
+Package pdftex.def Info: Figure_26.pdf used on input line 1635.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [38
 
- <./Figure_27.pdf> <./Figure_28.pdf>] <Figure_18.pdf, id=606, 614.295pt x 361.3
-5pt>
-File: Figure_18.pdf Graphic file (type pdf)
+ <./Figure_25.pdf> <./Figure_26.pdf>] <Figure_27.pdf, id=538, 1047.915pt x 289.
+08pt>
+File: Figure_27.pdf Graphic file (type pdf)
 
-<use Figure_18.pdf>
-Package pdftex.def Info: Figure_18.pdf used on input line 1679.
-(pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
+<use Figure_27.pdf>
+Package pdftex.def Info: Figure_27.pdf used on input line 1662.
+(pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
+ <Figure_28.pdf, id=539, 1047.915pt x 289.08pt>
+File: Figure_28.pdf Graphic file (type pdf)
+
+<use Figure_28.pdf>
+Package pdftex.def Info: Figure_28.pdf used on input line 1670.
+(pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [39
 
- <./Figure_18.pdf>]
+ <./Figure_27.pdf> <./Figure_28.pdf>]
+<Figure_18.pdf, id=574, 614.295pt x 361.35pt>
 File: Figure_18.pdf Graphic file (type pdf)
  <use Figure_18.pdf>
-Package pdftex.def Info: Figure_18.pdf used on input line 1703.
+Package pdftex.def Info: Figure_18.pdf used on input line 1697.
 (pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
  [40
 
-]
-<Figure_35.pdf, id=624, 614.295pt x 361.35pt>
+ <./Figure_18.pdf>] <Figure_35.pdf, id=589, 614.295pt x 361.35pt>
 File: Figure_35.pdf Graphic file (type pdf)
  <use Figure_35.pdf>
-Package pdftex.def Info: Figure_35.pdf used on input line 1727.
+Package pdftex.def Info: Figure_35.pdf used on input line 1723.
 (pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
- [41
 
- <./Figure_35.pdf>] <Figure_36.pdf, id=639, 614.295pt x 361.35pt>
+[41
+
+ <./Figure_35.pdf>] <Figure_36.pdf, id=604, 614.295pt x 361.35pt>
 File: Figure_36.pdf Graphic file (type pdf)
- <use Figure_36.pdf>
-Package pdftex.def Info: Figure_36.pdf used on input line 1752.
+
+<use Figure_36.pdf>
+Package pdftex.def Info: Figure_36.pdf used on input line 1749.
 (pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
+ [42
 
-[42
-
- <./Figure_36.pdf>] <Figure_19.pdf, id=654, 1047.915pt x 289.08pt>
+ <./Figure_36.pdf>]
+<Figure_19.pdf, id=619, 1047.915pt x 289.08pt>
 File: Figure_19.pdf Graphic file (type pdf)
-
-<use Figure_19.pdf>
-Package pdftex.def Info: Figure_19.pdf used on input line 1776.
+ <use Figure_19.pdf>
+Package pdftex.def Info: Figure_19.pdf used on input line 1774.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- <Figure_20.pdf, id=655, 1047.915pt x 289.08pt>
-File: Figure_20.pdf Graphic file (type pdf)
 
-<use Figure_20.pdf>
-Package pdftex.def Info: Figure_20.pdf used on input line 1784.
+<Figure_20.pdf, id=620, 1047.915pt x 289.08pt>
+File: Figure_20.pdf Graphic file (type pdf)
+ <use Figure_20.pdf>
+Package pdftex.def Info: Figure_20.pdf used on input line 1782.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [43
 
- <./Figure_19.pdf> <./Figure_20.pdf>]
-<Figure_21.pdf, id=697, 1047.915pt x 289.08pt>
+ <./Figure_19.pdf> <./Figure_20.pdf>] <Figure_21.pdf, id=662, 1047.915pt x 289.
+08pt>
 File: Figure_21.pdf Graphic file (type pdf)
- <use Figure_21.pdf>
-Package pdftex.def Info: Figure_21.pdf used on input line 1808.
-(pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
-<Figure_22.pdf, id=698, 1047.915pt x 289.08pt>
+<use Figure_21.pdf>
+Package pdftex.def Info: Figure_21.pdf used on input line 1809.
+(pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
+ <Figure_22.pdf, id=663, 1047.915pt x 289.08pt>
 File: Figure_22.pdf Graphic file (type pdf)
- <use Figure_22.pdf>
-Package pdftex.def Info: Figure_22.pdf used on input line 1816.
+
+<use Figure_22.pdf>
+Package pdftex.def Info: Figure_22.pdf used on input line 1817.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [44
 
- <./Figure_21.pdf> <./Figure_22.pdf>] <Figure_23.pdf, id=739, 1047.915pt x 289.
-08pt>
+ <./Figure_21.pdf> <./Figure_22.pdf>]
+<Figure_23.pdf, id=704, 1047.915pt x 289.08pt>
 File: Figure_23.pdf Graphic file (type pdf)
-
-<use Figure_23.pdf>
-Package pdftex.def Info: Figure_23.pdf used on input line 1840.
+ <use Figure_23.pdf>
+Package pdftex.def Info: Figure_23.pdf used on input line 1844.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- <Figure_24.pdf, id=740, 1047.915pt x 289.08pt>
-File: Figure_24.pdf Graphic file (type pdf)
 
-<use Figure_24.pdf>
-Package pdftex.def Info: Figure_24.pdf used on input line 1848.
+<Figure_24.pdf, id=705, 1047.915pt x 289.08pt>
+File: Figure_24.pdf Graphic file (type pdf)
+ <use Figure_24.pdf>
+Package pdftex.def Info: Figure_24.pdf used on input line 1852.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [45
 
- <./Figure_23.pdf> <./Figure_24.pdf>]
-<Figure_29.pdf, id=775, 1047.915pt x 289.08pt>
+ <./Figure_23.pdf> <./Figure_24.pdf>] <Figure_29.pdf, id=740, 1047.915pt x 289.
+08pt>
 File: Figure_29.pdf Graphic file (type pdf)
- <use Figure_29.pdf>
-Package pdftex.def Info: Figure_29.pdf used on input line 1873.
-(pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
-<Figure_30.pdf, id=776, 1047.915pt x 289.08pt>
+<use Figure_29.pdf>
+Package pdftex.def Info: Figure_29.pdf used on input line 1880.
+(pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
+ <Figure_30.pdf, id=741, 1047.915pt x 289.08pt>
 File: Figure_30.pdf Graphic file (type pdf)
- <use Figure_30.pdf>
-Package pdftex.def Info: Figure_30.pdf used on input line 1881.
+
+<use Figure_30.pdf>
+Package pdftex.def Info: Figure_30.pdf used on input line 1888.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [46
 
- <./Figure_29.pdf> <./Figure_30.pdf>] <Figure_31.pdf, id=811, 1047.915pt x 289.
-08pt>
+ <./Figure_29.pdf> <./Figure_30.pdf>]
+<Figure_31.pdf, id=776, 1047.915pt x 289.08pt>
 File: Figure_31.pdf Graphic file (type pdf)
-
-<use Figure_31.pdf>
-Package pdftex.def Info: Figure_31.pdf used on input line 1906.
+ <use Figure_31.pdf>
+Package pdftex.def Info: Figure_31.pdf used on input line 1916.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- <Figure_32.pdf, id=812, 1047.915pt x 289.08pt>
-File: Figure_32.pdf Graphic file (type pdf)
 
-<use Figure_32.pdf>
-Package pdftex.def Info: Figure_32.pdf used on input line 1914.
+<Figure_32.pdf, id=777, 1047.915pt x 289.08pt>
+File: Figure_32.pdf Graphic file (type pdf)
+ <use Figure_32.pdf>
+Package pdftex.def Info: Figure_32.pdf used on input line 1924.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [47
 
  <./Figure_31.pdf> <./Figure_32.pdf>]
 File: Figure_31.pdf Graphic file (type pdf)
-
-<use Figure_31.pdf>
-Package pdftex.def Info: Figure_31.pdf used on input line 1938.
+ <use Figure_31.pdf>
+Package pdftex.def Info: Figure_31.pdf used on input line 1951.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 File: Figure_32.pdf Graphic file (type pdf)
  <use Figure_32.pdf>
-Package pdftex.def Info: Figure_32.pdf used on input line 1946.
+Package pdftex.def Info: Figure_32.pdf used on input line 1959.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- (Holme_et_al_2017_manuscript.bbl
-[48
+ [48
 
-] [49]
+]
+Package epstopdf Info: Source file: <Figure_37.eps>
+(epstopdf)                    date: 2017-09-18 10:30:01
+(epstopdf)                    size: 118508 bytes
+(epstopdf)             Output file: <Figure_37-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-18 10:31:26
+(epstopdf)                    size: 19049 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figure_37-eps-converted-to.
+pdf Figure_37.eps>
+(epstopdf)             \includegraphics on input line 1987.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figure_37-eps-converted-to.pdf, id=815, 614.295pt x 361.35pt>
+File: Figure_37-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figure_37-eps-converted-to.pdf>
+Package pdftex.def Info: Figure_37-eps-converted-to.pdf used on input line 1987
+.
+(pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
+ (Holme_et_al_2017_manuscript.bbl [49
+
+ <./Figure_37-eps-converted-to.pdf>] [50]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [50]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
  [51]
 Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
  [52]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+ [53]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¦ in font ptmr7t!
- [53])
+ [54])
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -1248,16 +1286,16 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[54] (Holme_et_al_2017_manuscript.aux)
+[55] (Holme_et_al_2017_manuscript.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7950 strings out of 493622
- 124301 string characters out of 3134732
- 221787 words of memory out of 3000000
- 11112 multiletter control sequences out of 15000+200000
+ 7963 strings out of 493622
+ 124590 string characters out of 3134732
+ 221954 words of memory out of 3000000
+ 11124 multiletter control sequences out of 15000+200000
  52159 words of font info for 125 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  44i,13n,77p,793b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1291,9 +1329,9 @@ l/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Holmes/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Holmes/Ap
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Hol
 mes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/wasy/wasy10.pfb>
-Output written on Holme_et_al_2017_manuscript.pdf (54 pages, 1334575 bytes).
+Output written on Holme_et_al_2017_manuscript.pdf (55 pages, 1417199 bytes).
 PDF statistics:
- 949 PDF objects out of 1000 (max. 8388607)
+ 926 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

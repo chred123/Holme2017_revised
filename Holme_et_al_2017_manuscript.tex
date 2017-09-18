@@ -30,10 +30,12 @@
 \usepackage{authblk}
 \usepackage[]{natbib}
 
+
 %%%%% Changes equation/table/figure references to match the Geochimica et Cosmochimica Actra preference in appendices
 \numberwithin{equation}{section}
 \numberwithin{table}{section}
 \numberwithin{figure}{section}
+
 
 
 %%%%% Renewing the keywords command
@@ -50,6 +52,7 @@
 \newcommand{\delcorrel}{$r_{\delta{}^{18}\mathrm{O}/\delta\mathrm{D}}$}
 
 \linenumbers
+
 
 %%%%% Converting the IEEEtran class with letters and latin numbering to arabic numbering
 
@@ -360,8 +363,9 @@ It is therefore difficult to get an accurate estimate of the firn diffusion leng
 				$A = 0.032 \;\mathrm{myr^{-1}}$). 
 				The increase in diffusion of the \delOx~(blue color), \delOxb~(purple color) and \delD~(red color) isotope signals are
 				partially due to the compaction of the firn which moves the ice closer together. } 		
-		\label{fig:diffusion_length_profiles}
+		
 		\end{center}
+	\label{fig:diffusion_length_profiles}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1365,8 +1369,8 @@ $D_{\mathrm{a}^{17}\mathrm{O}} = 0.98555{D_{\mathrm{a}}}$.}
 
 \item{T: Ambient temperature $(\mathrm{K})$}
 
-\item{$\alpha_{\mathrm{i}}$: Ice -- Vapor fractionation factor.  we use the formulations by \cite{Majoube1971} 
-and \cite{Merlivat1967} for $\alpha_{\mathrm{s/v}}^{2}$ and $\alpha_{\mathrm{s/v}}^{18}$ respectively.
+\item{$\alpha_{\mathrm{i}}$: Ice -- Vapor fractionation factor.  we use the formulations by \cite{Majoube1971},
+	 \cite{Merlivat1967} and \cite{Barkan2005} for $\alpha_{\mathrm{s/v}}^{2}$, $\alpha_{\mathrm{s/v}}^{18}$ and $\alpha_{\mathrm{s/v}}^{17}$ respectively.
 \begin{align}
 \alpha_{\mathrm{Ice/Vapor}} \left(^{2}\mathrm{H}/^{1} \mathrm{H} \right) &=0.9098\exp(16288/T^2)\\
 \alpha_{\mathrm{Ice/Vapor}} \left( ^{18}\mathrm{O}/^{16} \mathrm{O} \right) &=  0.9722\exp(11.839/T)\\
@@ -1374,12 +1378,13 @@ and \cite{Merlivat1967} for $\alpha_{\mathrm{s/v}}^{2}$ and $\alpha_{\mathrm{s/v
 \label{eq1617_ch4_app}
 \end{align}}
 
-\item{$\tau$: The firn tortuosity. We use \citep{Schwander1988}:
+\item{$\tau$: The firn tortuosity. We use \citep{Schwander1988} while more recent results include \citet{Freitag2002} and \citet{Adolph2014}:
 \begin{equation}
 \frac{\,1\,}{\,\tau\,} = 1 - b\cdot\left(\frac{\rho}{\rho_{\mathrm{ice}}}\right)^2 \,\,\,\,\,\rho \le 
 \frac{\rho_{\mathrm{ice}}}{\sqrt{b}},\,\,b = 1.3
 \label{eq:firn_tort}
 \end{equation}
+
 Based on Eq. (\ref{eq:firn_tort}), $\,\,\tau \rightarrow \infty$ for $\rho>804.3\,\mathrm{kg\cdot m}^{-3}$
 }
 	
@@ -1388,8 +1393,7 @@ Based on Eq. (\ref{eq:firn_tort}), $\,\,\tau \rightarrow \infty$ for $\rho>804.3
 
 %%%%%%%%%%% 
 \section{The firn temperature profile} \label{sec:firn_temp_profile}
-Temperature variations in the firn column affects the amount of firn diffusion.  
-Seasonal temperature variations can penetrate down to a depth of $10-12\, \mathrm{m}$. 
+Temperature variations in the firn column affect the amount of firn diffusion.  
 The temperature profile $T$ is modeled by solving the general heat transfer equation:
 \begin{equation} \label{eq:crank2}
 \frac{\partial T}{\partial t} = \kappa\frac{\partial^2 T}{\partial z^2} - \left(w - \left( \frac{\kappa}{\rho}+ \frac{\partial \kappa}{\partial \rho}\right) \frac{\partial \rho}{\partial z}\right) \frac{\partial T}{\partial z},
@@ -1416,7 +1420,8 @@ T_{surf}(t) = T_{mean} + A \cos\left(b t\right) + B \cos\left(2 b t\right),
 \end{equation}
 where $A = 16.5$, $B= 3.0$ and $b = 0.5236$ are constants controlling the temperature amplitude and narrowness of the summer peak.
 
-Figure \ref{fig:firn_temp_profle} shows what temperature a snow package experiences as it moves downwards.
+Figure \ref{fig:firn_temp_profle} shows the temperature variation a snow package experiences as it moves downwards.
+The seasonal temperature variation penetrates down to a depth of $10-12\, \mathrm{m}$. 
 The heat equation is solved numerically by using a Crank-Nicolson scheme \citep{durran}.
 \begin{figure*}[]
 	\vspace*{2mm}
@@ -1493,7 +1498,7 @@ The time series are generated using an AR-1 process with coefficient $r_1$ and v
 \delta_{\mathrm{n}} - r_1 \delta_{\mathrm{n-1}} = \varepsilon_{\mathrm{n}}.
 \label{eq:appen_ar1}
 \end{equation}
-For the AR-1 process we use $r_1 = 0.3$ and $\varepsilon = 120\,\permil^2$ for CD and $200\,\permil^2$ for WH.
+For the AR-1 process we use $r_1 = 0.3$ and $\varepsilon = 120\,\permil^2$ for case A and $200\,\permil^2$ for case B.
 Each data section is $20\, \mathrm{m}$ long and has an initial spacing of 
 $10^{-3}\, \mathrm{m}$. The \delD~and \delOxb~series are then
 generated assuming a \Dxs~signal of $10\,\permil$ and an
@@ -1526,7 +1531,7 @@ This effect is further illustrated in Fig. \ref{fig:appendix_synthetic_PSD} whic
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{Figure_14}
-		\caption{Synthetic generated \delOx~series (WH) which both have been sampled. Blue curve represents the data before
+		\caption{Synthetic generated \delOx~series (case B) which both have been sampled. Blue curve represents the data before
 			diffusion, and the green curve represents the data after diffusion. $\sigma=8.4\,\mathrm{cm}$.}  \label{fig:appendix_synthetic_data}
 	\end{center}
 \end{figure*}
@@ -1535,8 +1540,10 @@ This effect is further illustrated in Fig. \ref{fig:appendix_synthetic_PSD} whic
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{Figure_15}
-		\caption{PSD of the synthetic generated \delOx~series (from Fig. \ref{fig:appendix_synthetic_data}). Blue curve represents the PSD before
-			diffusion, and the green curve represents the PSD after diffusion. }  \label{fig:appendix_synthetic_PSD}
+		\caption{Left: PSD of the raw AR-1 time series (case B \delOx~series). 
+			Right: PSD of the \delOx~series (from Fig. \ref{fig:appendix_synthetic_data}). 
+			Blue curve represents the PSD of the sampled time series before diffusion, 
+			and the green curve represents the PSD of the sampled time series after diffusion. }  \label{fig:appendix_synthetic_PSD}
 	\end{center}
 \end{figure*}
 
@@ -1576,13 +1583,15 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 
 \clearpage
 \section{Figures} \label{sec:appendix_spectra_figures}
+Here we provide figures that show the performance of each diffusion technique. 
+For each data section we have the estimated uncorrected diffusion lenghts in a table.
 \subsection{NEEM - late Holocene}
 
 \begin{figure}[H]
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_16}
-		\caption{PSD. Left: d18O. Right: dD}  \label{fig:NEEM_late_fig_1}
+		\caption{NEEM. Late Holocene power spectra of \delOx~(left) and \delD~(right).}  \label{fig:NEEM_late_fig_1}.
 	\end{center}
 \end{figure}
 
@@ -1590,13 +1599,16 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_17}
-		\caption{Differential diffusion fits}  \label{fig:NEEM_late_fig_2}
+		\caption{Differential diffusion techniques applied on NEEM late Holocene data. 
+				Left: linear fit of the logarithmic PSD ratio ($^{18}\Delta\sigma^2$ II). Right: 
+				Correlation between \delOx~and artificially diffused \delD~($^{18}\Delta\sigma^2$ III).}  \label{fig:NEEM_late_fig_2}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for NEEM late Holocene}
+	\caption{Estimated diffusion values for the NEEM late Holocene data.
+			 The values have not been corrected for sampling diffusion, ice diffusion and thinning.}
 	\label{NEEM_holo_tbl}
 	\begin{tabular}{c c c c c} 
 		\toprule
@@ -1613,7 +1625,7 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_25}
-		\caption{PSD. Left: d18O. Right: dD}  \label{fig:NEEM_cfa_fig_1}
+		\caption{NEEM - CFA data. Early Holocene power spectra of \delOx~(left) and \delD~(right)}  \label{fig:NEEM_cfa_fig_1}
 	\end{center}
 \end{figure}
 
@@ -1621,13 +1633,16 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_26}
-		\caption{Differential diffusion fits}  \label{fig:NEEM_cfa_fig_2}
+		\caption{Differential diffusion techniques applied on NEEM early Holocene CFA data. 
+			Left: linear fit of the logarithmic PSD ratio ($^{18}\Delta\sigma^2$ II). Right: 
+			Correlation between \delOx~and artificially diffused \delD~($^{18}\Delta\sigma^2$ III).}  \label{fig:NEEM_cfa_fig_2}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for NEEM early Holocene}
+	\caption{Estimated values for NEEM early Holocene CFA data.
+	The values have not been corrected for sampling diffusion, ice diffusion and thinning.}
 	\label{NEEM_cfa_tbl}
 	\begin{tabular}{c c c c c} 
 		\toprule
@@ -1645,7 +1660,7 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_27}
-		\caption{PSD. Left: d18O. Right: dD}  \label{fig:NEEM_dis_fig_1}
+		\caption{NEEM - discrete data. Early Holocene power spectra of \delOx~(left) and \delD~(right)}  \label{fig:NEEM_dis_fig_1}
 	\end{center}
 \end{figure}
 
@@ -1653,13 +1668,16 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_28}
-		\caption{Differential diffusion fits}  \label{fig:NEEM_dis_fig_2}
+		\caption{Differential diffusion techniques applied on NEEM early Holocene discrete data. 
+			Left: linear fit of the logarithmic PSD ratio ($^{18}\Delta\sigma^2$ II). Right: 
+			Correlation between \delOx~and artificially diffused \delD~($^{18}\Delta\sigma^2$ III).}  \label{fig:NEEM_dis_fig_2}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for discrete NEEM early Holocene data}
+	\caption{Estimated values for NEEM early Holocene discrete data.
+		The values have not been corrected for sampling diffusion, ice diffusion and thinning.}
 	\label{NEEM_dis_tbl}
 	\begin{tabular}{c c c c c} 
 		\toprule
@@ -1677,14 +1695,15 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=.5\textwidth]{Figure_18}
-		\caption{PSD of d18O}  \label{fig:NGRIP_late}
+		\caption{NGRIP. Early Holocene power spectra of \delOx.}  \label{fig:NGRIP_late}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for NGRIP late Holocene}
-	\label{NGRIP_late_holo}
+	\caption{Estimated value for NGRIP late Holocene data.
+		The value has not been corrected for sampling diffusion, ice diffusion and thinning.}
+	\label{NGRIP_late_holo_diff1}
 	\begin{tabular}{c c c c c} 
 		\toprule
 		$\sigma_{18}$ [cm] & $\sigma_\mathrm{D}$ [cm] & $\Delta\sigma^2$ I [cm$^2$] & $\Delta\sigma^2$ [cm$^2$] II & $\Delta\sigma^2$ III [cm$^2$] \\
@@ -1694,29 +1713,6 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\end{tabular}
 \end{table}
 
-\clearpage
-\subsection{NGRIP - early Holocene core 1}
-
-\begin{figure}[H]
-	\vspace*{2mm}
-	\begin{center}
-		\includegraphics[width=.5\textwidth]{Figure_18}
-		\caption{PSD of d18O}  \label{fig:NGRIP_late}
-	\end{center}
-\end{figure}
-
-\begin{table}[H]
-	\center
-	\caption{Estimated values for NGRIP late Holocene}
-	\label{NGRIP_late_holo}
-	\begin{tabular}{c c c c c} 
-		\toprule
-		$\sigma_{18}$ [cm] & $\sigma_\mathrm{D}$ [cm] & $\Delta\sigma^2$ I [cm$^2$] & $\Delta\sigma^2$ [cm$^2$] II & $\Delta\sigma^2$ III [cm$^2$] \\
-		\midrule
-		7.00 &   - &    - &     - &     - \\
-		\bottomrule		
-	\end{tabular}
-\end{table}
 
 \clearpage
 \subsection{NGRIP - early Holocene core 1}
@@ -1725,13 +1721,14 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=.5\textwidth]{Figure_35}
-		\caption{PSD of d18O}  \label{fig:NGRIP_early1}
+		\caption{NGRIP early Holocene core 1. Power spectra of \delOx.}  \label{fig:NGRIP_early1}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for NGRIP early Holocene core 1}
+	\caption{Estimated value for NGRIP early Holocene core 1 data.
+		The value has not been corrected for sampling diffusion, ice diffusion and thinning.}
 	\label{NGRIP_early1_holo}
 	\begin{tabular}{c c c c c} 
 		\toprule
@@ -1750,13 +1747,14 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=.5\textwidth]{Figure_36}
-		\caption{PSD of d18O}  \label{fig:NGRIP_early2}
+		\caption{NGRIP early Holocene core 2. Power spectra of \delOx.}  \label{fig:NGRIP_early2}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for NGRIP early Holocene core 1}
+	\caption{Estimated value for NGRIP early Holocene core 2 data.
+		The value has not been corrected for sampling diffusion, ice diffusion and thinning.}
 	\label{NGRIP_early2_holo}
 	\begin{tabular}{c c c c c} 
 		\toprule
@@ -1774,7 +1772,7 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_19}
-		\caption{PSD. Left: d18O. Right: dD}  \label{fig:GRIP_late_fig_1}
+		\caption{GRIP. Late Holocene power spectra of \delOx~(left) and \delD~(right).}  \label{fig:GRIP_late_fig_1}
 	\end{center}
 \end{figure}
 
@@ -1782,13 +1780,16 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_20}
-		\caption{Differential diffusion fits}  \label{fig:GRIP_late_fig_2}
+		\caption{Differential diffusion techniques applied on GRIP late Holocene data. 
+			Left: linear fit of the logarithmic PSD ratio ($^{18}\Delta\sigma^2$ II). Right: 
+			Correlation between \delOx~and artificially diffused \delD~($^{18}\Delta\sigma^2$ III).}  \label{fig:GRIP_late_fig_2}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for GRIP late Holocene}
+	\caption{Estimated diffusion values for the GRIP late Holocene data.
+		The values have not been corrected for sampling diffusion, ice diffusion and thinning.}
 	\label{GRIP_late_holo}
 	\begin{tabular}{c c c c c} 
 		\toprule
@@ -1806,7 +1807,7 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_21}
-		\caption{PSD. Left: d18O. Right: dD}  \label{fig:GRIP_mid_fig_1}
+		\caption{GRIP. Mid Holocene power spectra of \delOx~(left) and \delD~(right).}  \label{fig:GRIP_mid_fig_1}
 	\end{center}
 \end{figure}
 
@@ -1814,13 +1815,16 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_22}
-		\caption{Differential diffusion fits}  \label{fig:GRIP_mid_fig_2}
+		\caption{Differential diffusion techniques applied on GRIP mid Holocene data. 
+			Left: linear fit of the logarithmic PSD ratio ($^{18}\Delta\sigma^2$ II). Right: 
+			Correlation between \delOx~and artificially diffused \delD~($^{18}\Delta\sigma^2$ III).}  \label{fig:GRIP_mid_fig_2}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for GRIP mid Holocene}
+	\caption{Estimated diffusion values for the GRIP mid Holocene data.
+		The values have not been corrected for sampling diffusion, ice diffusion and thinning.}
 	\label{GRIP_mid_holo}
 	\begin{tabular}{c c c c c} 
 		\toprule
@@ -1838,7 +1842,7 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\centering
 		\includegraphics[width=1\textwidth]{Figure_23}
-		\caption{Early Holocene PSD. Left: d18O. Right: dD}  \label{fig:GRIP_early_fig_1}
+		\caption{GRIP. Early Holocene power spectra of \delOx~(left) and \delD~(right).}  \label{fig:GRIP_early_fig_1}
 %	\end{center}
 \end{figure}
 
@@ -1846,13 +1850,16 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_24}
-		\caption{Early Holocene differential diffusion fits}  \label{fig:GRIP_early_fig_2}
+		\caption{Differential diffusion techniques applied on GRIP early Holocene data. 
+			Left: linear fit of the logarithmic PSD ratio ($^{18}\Delta\sigma^2$ II). Right: 
+			Correlation between \delOx~and artificially diffused \delD~($^{18}\Delta\sigma^2$ III).}  \label{fig:GRIP_early_fig_2}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for GRIP early Holocene}
+	\caption{Estimated diffusion values for the GRIP early Holocene data.
+		The values have not been corrected for sampling diffusion, ice diffusion and thinning.}
 	\label{GRIP_early_holo}
 	\begin{tabular}{c c c c c} 
 		\toprule
@@ -1871,7 +1878,7 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\centering
 	\includegraphics[width=1\textwidth]{Figure_29}
-	\caption{Early Holocene PSD. Left: d18O. Right: dD}  \label{fig:EDML_fig_1}
+	\caption{EDML. Power spectra of \delOx~(left) and \delD~(right).}  \label{fig:EDML_fig_1}
 	%	\end{center}
 \end{figure}
 
@@ -1879,13 +1886,16 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_30}
-		\caption{Early Holocene differential diffusion fits}  \label{fig:EDML_fig_2}
+		\caption{Differential diffusion techniques applied on EDML Holocene data. 
+			Left: linear fit of the logarithmic PSD ratio ($^{18}\Delta\sigma^2$ II). Right: 
+			Correlation between \delOx~and artificially diffused \delD~($^{18}\Delta\sigma^2$ III).}  \label{fig:EDML_fig_2}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for EDML}
+	\caption{Estimated diffusion values for the EDML data.
+		The values have not been corrected for sampling diffusion, ice diffusion and thinning.}
 	\label{EDML}
 	\begin{tabular}{c c c c c} 
 		\toprule
@@ -1904,7 +1914,7 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\centering
 	\includegraphics[width=1\textwidth]{Figure_31}
-	\caption{Dome C PSD. Left: d18O. Right: dD}  \label{fig:DomeC_fig_1}
+	\caption{Dome C. Power spectra of \delOx~(left) and \delD~(right).}  \label{fig:DomeC_fig_1}
 	%	\end{center}
 \end{figure}
 
@@ -1912,13 +1922,16 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_32}
-		\caption{Dome C differential diffusion fits}  \label{fig:DomeC_fig_2}
+		\caption{Differential diffusion techniques applied on Dome C Holocene data. 
+			Left: linear fit of the logarithmic PSD ratio ($^{18}\Delta\sigma^2$ II). Right: 
+			Correlation between \delOx~and artificially diffused \delD~($^{18}\Delta\sigma^2$ III).}  \label{fig:DomeC_fig_2}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for Dome C}
+	\caption{Estimated diffusion values for the Dome C data.
+		The values have not been corrected for sampling diffusion, ice diffusion and thinning.}
 	\label{DomeC}
 	\begin{tabular}{c c c c c} 
 		\toprule
@@ -1936,7 +1949,7 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\centering
 	\includegraphics[width=1\textwidth]{Figure_31}
-	\caption{Dome C PSD. Left: d18O. Right: dD}  \label{fig:DomeF_fig_1}
+	\caption{Dome F. Power spectra of \delOx~(left) and \delD~(right).}  \label{fig:DomeF_fig_1}
 	%	\end{center}
 \end{figure}
 
@@ -1944,13 +1957,16 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Figure_32}
-		\caption{Dome C differential diffusion fits}  \label{fig:DomeF_fig_2}
+		\caption{Differential diffusion techniques applied on Dome F Holocene data. 
+			Left: linear fit of the logarithmic PSD ratio ($^{18}\Delta\sigma^2$ II). Right: 
+			Correlation between \delOx~and artificially diffused \delD~($^{18}\Delta\sigma^2$ III).}  \label{fig:DomeF_fig_2}
 	\end{center}
 \end{figure}
 
 \begin{table}[H]
 	\center
-	\caption{Estimated values for Dome Fuji}
+	\caption{Estimated diffusion values for the Dome F data.
+		The values have not been corrected for sampling diffusion, ice diffusion and thinning.}
 	\label{DomeF}
 	\begin{tabular}{c c c c c} 
 		\toprule
@@ -1961,6 +1977,31 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 	\end{tabular}
 \end{table}
 
+\clearpage
+
+\subsection{WAIS Divide}
+
+\begin{figure}[H]
+	\vspace*{2mm}
+	\begin{center}
+		\includegraphics[width=.5\textwidth]{Figure_37}
+		\caption{WAIS D. Holocene power spectra of \delOx.}  \label{fig:WAIS_D}
+	\end{center}
+\end{figure}
+
+\begin{table}[H]
+	\center
+	\caption{Estimated value for WAIS D Holocene data.
+		The value has not been corrected for sampling diffusion, ice diffusion and thinning.}
+	\label{WAIS_D}
+	\begin{tabular}{c c c c c} 
+		\toprule
+		$\sigma_{18}$ [cm] & $\sigma_\mathrm{D}$ [cm] & $\Delta\sigma^2$ I [cm$^2$] & $\Delta\sigma^2$ [cm$^2$] II & $\Delta\sigma^2$ III [cm$^2$] \\
+		\midrule
+		6.52 &   - &    - &     - &     - \\
+		\bottomrule		
+	\end{tabular}
+\end{table}
 
 \end{appendices}
 

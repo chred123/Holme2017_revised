@@ -5,6 +5,12 @@ Abramowitz, M. \harvardand\ Stegun, I.~A.  \harvardyearleft
   1964\harvardyearright , {\em Handbook of Mathematical Functions with
   Formulas, Graphs, and Mathematical Tables}, 9th edn, Dover.
 
+\harvarditem{Adolph \harvardand\ Albert}{2014}{Adolph2014}
+Adolph, A.~C. \harvardand\ Albert, M.~R.  \harvardyearleft
+  2014\harvardyearright , `{Gas diffusivity and permeability through the firn
+  column at Summit, Greenland: measurements and comparison to microstructural
+  properties}', {\em The Cryosphere} {\bf 8},~319--328.
+
 \harvarditem{Andersen}{1974}{Andersen1974}
 Andersen, N.  \harvardyearleft 1974\harvardyearright , `{On The Calculation Of
   Filter Coefficients For Maximum Entropy Spectral Analysis}', {\em Geophysics}
@@ -142,6 +148,13 @@ Epstein, S., Buchsbaum, R., Lowenstam, H. \harvardand\ Urey, H.
   \harvardyearleft 1951\harvardyearright , `Carbonate-water isotopic
   temperature scale', {\em Geological Society of America Bulletin} {\bf
   62}(4),~417.
+
+\harvarditem[Freitag et~al.]{Freitag, Dorbrindt \harvardand\
+  Kipfstuhl}{2002}{Freitag2002}
+Freitag, J., Dorbrindt, U. \harvardand\ Kipfstuhl, S.  \harvardyearleft
+  2002\harvardyearright , `{A new method for predicting transport properties of
+  polar firn with respect to gases on the pore space scale}', {\em Ann.
+  Glacio.} {\bf 35},~538--544.
 
 \harvarditem[Gehre et~al.]{Gehre, Hoefling, Kowski \harvardand\
   Strauch}{1996}{Gehre1996}

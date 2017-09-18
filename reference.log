@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2016.4.9)  7 SEP 2017 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2016.4.9)  18 SEP 2017 08:38
 entering extended mode
 **"C:/Users/Holmes/Desktop/PhD/Dissertation/Holme 2017 revised/reference.bib"
 ("C:/Users/Holmes/Desktop/PhD/Dissertation/Holme 2017 revised/reference.bib"
-Overfull \hbox (14.9961pt too wide) in paragraph at lines 49--58
+Overfull \hbox (14.9961pt too wide) in paragraph at lines 58--67
 []\tenrm @ArticleBarkan2007, Ti-tle = Dif-fu-siv-ity frac-tion-a-tions of (H$[]
 $O)-O-16/(H$[]$O)-O-17 and (H$[]$O)-O-16/(H$[]$O)-|
 
@@ -15,12 +15,12 @@ $O)-O-16/(H$[]$O)-O-17 and (H$[]$O)-O-16/(H$[]$O)-|
 .etc.
 
 ! Undefined control sequence.
-l.70 ...          = {High-precision $\delta\mathrm
+l.79 ...          = {High-precision $\delta\mathrm
                                                   {^{2}H}$ and $\delta\mathr...
 
 ? 
 ! Emergency stop.
-l.70 ...          = {High-precision $\delta\mathrm
+l.79 ...          = {High-precision $\delta\mathrm
                                                   {^{2}H}$ and $\delta\mathr...
 End of file on the terminal!
 
