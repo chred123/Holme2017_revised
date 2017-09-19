@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.1)  18 SEP 2017 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.1)  19 SEP 2017 15:14
 entering extended mode
 **./Holme_et_al_2017_manuscript.tex
 (Holme_et_al_2017_manuscript.tex
@@ -677,24 +677,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--240
 
  []
 
-[4]
-
-Package caption Warning: \label without proper reference on input line 368.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:diffusion_length_profiles' on page 5 undefined on
- input line 334.
-
-
-Package caption Warning: \label without proper reference on input line 368.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:diffusion_length_profiles' on page 5 undefined on
- input line 339.
-
-[5]
+[4] [5]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 357.
@@ -805,17 +788,8 @@ File: Figure_5-eps-converted-to.pdf Graphic file (type pdf)
 <use Figure_5-eps-converted-to.pdf>
 Package pdftex.def Info: Figure_5-eps-converted-to.pdf used on input line 644.
 (pdftex.def)             Requested size: 281.85587pt x 213.05128pt.
-
-
-Package caption Warning: \label without proper reference on input line 368.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:diffusion_length_profiles' on page 12 undefined o
-n input line 659.
-
-[12 <./Figure_4-eps-converted-to.pdf>] [13 <./Figure_5-eps-converted-to.pdf>]
-[14]
+ [12 <./Figure_4-eps-converted-to.pdf>]
+[13 <./Figure_5-eps-converted-to.pdf>] [14]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 755.
@@ -899,16 +873,8 @@ File: Figure_9-eps-converted-to.pdf Graphic file (type pdf)
 <use Figure_9-eps-converted-to.pdf>
 Package pdftex.def Info: Figure_9-eps-converted-to.pdf used on input line 847.
 (pdftex.def)             Requested size: 328.82707pt x 262.21536pt.
-
-
-Package caption Warning: \label without proper reference on input line 368.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:diffusion_length_profiles' on page 16 undefined o
-n input line 864.
-
-[16 <./Figure_6-eps-converted-to.pdf>] [17 <./Figure_7-eps-converted-to.pdf>]
+ [16 <./Figure_6-eps-converted-to.pdf>]
+[17 <./Figure_7-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 896.
@@ -1024,7 +990,7 @@ Package pdftex.def Info: Figure_13-eps-converted-to.pdf used on input line 1130
 .pdf>] [24] [25 <./Figure_13-eps-converted-to.pdf>] [26] [27] [28] [29] [30]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1426.
+               Default added (so using `tbp') on input line 1422.
 
 Package epstopdf Info: Source file: <firn_temp_profile.eps>
 (epstopdf)                    date: 2017-08-18 11:59:42
@@ -1034,23 +1000,23 @@ Package epstopdf Info: Source file: <firn_temp_profile.eps>
 (epstopdf)                    size: 55402 bytes
 (epstopdf)             Command: <epstopdf --outfile=firn_temp_profile-eps-conve
 rted-to.pdf firn_temp_profile.eps>
-(epstopdf)             \includegraphics on input line 1429.
+(epstopdf)             \includegraphics on input line 1425.
 Package epstopdf Info: Output file is already uptodate.
 <firn_temp_profile-eps-converted-to.pdf, id=388, 730.73pt x 381.425pt>
 File: firn_temp_profile-eps-converted-to.pdf Graphic file (type pdf)
 
 <use firn_temp_profile-eps-converted-to.pdf>
 Package pdftex.def Info: firn_temp_profile-eps-converted-to.pdf used on input l
-ine 1429.
+ine 1425.
 (pdftex.def)             Requested size: 422.77664pt x 220.67955pt.
  [31]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32 <./firn_temp_profile-eps-converted-to.pdf>] [33]
+[32 <./firn_temp_profile-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1530.
+               Default added (so using `tbp') on input line 1526.
 
 Package epstopdf Info: Source file: <Figure_14.eps>
 (epstopdf)                    date: 2016-12-22 10:28:41
@@ -1060,19 +1026,19 @@ Package epstopdf Info: Source file: <Figure_14.eps>
 (epstopdf)                    size: 26358 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_14-eps-converted-to.
 pdf Figure_14.eps>
-(epstopdf)             \includegraphics on input line 1533.
+(epstopdf)             \includegraphics on input line 1529.
 Package epstopdf Info: Output file is already uptodate.
-<Figure_14-eps-converted-to.pdf, id=403, 1734.48pt x 845.1575pt>
+<Figure_14-eps-converted-to.pdf, id=400, 1734.48pt x 845.1575pt>
 File: Figure_14-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_14-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_14-eps-converted-to.pdf used on input line 1533
+Package pdftex.def Info: Figure_14-eps-converted-to.pdf used on input line 1529
 .
 (pdftex.def)             Requested size: 422.77664pt x 206.00148pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1539.
+               Default added (so using `tbp') on input line 1535.
 
 Package epstopdf Info: Source file: <Figure_15.eps>
 (epstopdf)                    date: 2017-09-18 10:57:05
@@ -1082,27 +1048,27 @@ Package epstopdf Info: Source file: <Figure_15.eps>
 (epstopdf)                    size: 84662 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_15-eps-converted-to.
 pdf Figure_15.eps>
-(epstopdf)             \includegraphics on input line 1542.
+(epstopdf)             \includegraphics on input line 1538.
 Package epstopdf Info: Output file is already uptodate.
-<Figure_15-eps-converted-to.pdf, id=404, 775.89874pt x 393.47pt>
+<Figure_15-eps-converted-to.pdf, id=401, 775.89874pt x 393.47pt>
 File: Figure_15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_15-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_15-eps-converted-to.pdf used on input line 1542
+Package pdftex.def Info: Figure_15-eps-converted-to.pdf used on input line 1538
 .
 (pdftex.def)             Requested size: 422.77664pt x 214.39786pt.
- [34 <./Figure_14-eps-converted-to.pdf>]
-[35 <./Figure_15-eps-converted-to.pdf>]
+ [33] [34 <./Figure_14-eps-converted-to.pdf> <./Figure_15-eps-converted-to.pdf>
+] [35]
 <Figure_16.pdf, id=447, 1047.915pt x 289.08pt>
 File: Figure_16.pdf Graphic file (type pdf)
  <use Figure_16.pdf>
-Package pdftex.def Info: Figure_16.pdf used on input line 1593.
+Package pdftex.def Info: Figure_16.pdf used on input line 1589.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
 <Figure_17.pdf, id=448, 1047.915pt x 289.08pt>
 File: Figure_17.pdf Graphic file (type pdf)
  <use Figure_17.pdf>
-Package pdftex.def Info: Figure_17.pdf used on input line 1601.
+Package pdftex.def Info: Figure_17.pdf used on input line 1597.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [36
 
@@ -1110,13 +1076,13 @@ Package pdftex.def Info: Figure_17.pdf used on input line 1601.
 <Figure_25.pdf, id=493, 1047.915pt x 289.08pt>
 File: Figure_25.pdf Graphic file (type pdf)
  <use Figure_25.pdf>
-Package pdftex.def Info: Figure_25.pdf used on input line 1627.
+Package pdftex.def Info: Figure_25.pdf used on input line 1623.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
 <Figure_26.pdf, id=494, 1047.915pt x 289.08pt>
 File: Figure_26.pdf Graphic file (type pdf)
  <use Figure_26.pdf>
-Package pdftex.def Info: Figure_26.pdf used on input line 1635.
+Package pdftex.def Info: Figure_26.pdf used on input line 1631.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [38
 
@@ -1125,13 +1091,13 @@ Package pdftex.def Info: Figure_26.pdf used on input line 1635.
 File: Figure_27.pdf Graphic file (type pdf)
 
 <use Figure_27.pdf>
-Package pdftex.def Info: Figure_27.pdf used on input line 1662.
+Package pdftex.def Info: Figure_27.pdf used on input line 1658.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  <Figure_28.pdf, id=539, 1047.915pt x 289.08pt>
 File: Figure_28.pdf Graphic file (type pdf)
 
 <use Figure_28.pdf>
-Package pdftex.def Info: Figure_28.pdf used on input line 1670.
+Package pdftex.def Info: Figure_28.pdf used on input line 1666.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [39
 
@@ -1139,14 +1105,14 @@ Package pdftex.def Info: Figure_28.pdf used on input line 1670.
 <Figure_18.pdf, id=574, 614.295pt x 361.35pt>
 File: Figure_18.pdf Graphic file (type pdf)
  <use Figure_18.pdf>
-Package pdftex.def Info: Figure_18.pdf used on input line 1697.
+Package pdftex.def Info: Figure_18.pdf used on input line 1693.
 (pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
  [40
 
  <./Figure_18.pdf>] <Figure_35.pdf, id=589, 614.295pt x 361.35pt>
 File: Figure_35.pdf Graphic file (type pdf)
  <use Figure_35.pdf>
-Package pdftex.def Info: Figure_35.pdf used on input line 1723.
+Package pdftex.def Info: Figure_35.pdf used on input line 1719.
 (pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
 
 [41
@@ -1155,7 +1121,7 @@ Package pdftex.def Info: Figure_35.pdf used on input line 1723.
 File: Figure_36.pdf Graphic file (type pdf)
 
 <use Figure_36.pdf>
-Package pdftex.def Info: Figure_36.pdf used on input line 1749.
+Package pdftex.def Info: Figure_36.pdf used on input line 1745.
 (pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
  [42
 
@@ -1163,13 +1129,13 @@ Package pdftex.def Info: Figure_36.pdf used on input line 1749.
 <Figure_19.pdf, id=619, 1047.915pt x 289.08pt>
 File: Figure_19.pdf Graphic file (type pdf)
  <use Figure_19.pdf>
-Package pdftex.def Info: Figure_19.pdf used on input line 1774.
+Package pdftex.def Info: Figure_19.pdf used on input line 1770.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
 <Figure_20.pdf, id=620, 1047.915pt x 289.08pt>
 File: Figure_20.pdf Graphic file (type pdf)
  <use Figure_20.pdf>
-Package pdftex.def Info: Figure_20.pdf used on input line 1782.
+Package pdftex.def Info: Figure_20.pdf used on input line 1778.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [43
 
@@ -1178,13 +1144,13 @@ Package pdftex.def Info: Figure_20.pdf used on input line 1782.
 File: Figure_21.pdf Graphic file (type pdf)
 
 <use Figure_21.pdf>
-Package pdftex.def Info: Figure_21.pdf used on input line 1809.
+Package pdftex.def Info: Figure_21.pdf used on input line 1805.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  <Figure_22.pdf, id=663, 1047.915pt x 289.08pt>
 File: Figure_22.pdf Graphic file (type pdf)
 
 <use Figure_22.pdf>
-Package pdftex.def Info: Figure_22.pdf used on input line 1817.
+Package pdftex.def Info: Figure_22.pdf used on input line 1813.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [44
 
@@ -1192,13 +1158,13 @@ Package pdftex.def Info: Figure_22.pdf used on input line 1817.
 <Figure_23.pdf, id=704, 1047.915pt x 289.08pt>
 File: Figure_23.pdf Graphic file (type pdf)
  <use Figure_23.pdf>
-Package pdftex.def Info: Figure_23.pdf used on input line 1844.
+Package pdftex.def Info: Figure_23.pdf used on input line 1840.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
 <Figure_24.pdf, id=705, 1047.915pt x 289.08pt>
 File: Figure_24.pdf Graphic file (type pdf)
  <use Figure_24.pdf>
-Package pdftex.def Info: Figure_24.pdf used on input line 1852.
+Package pdftex.def Info: Figure_24.pdf used on input line 1848.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [45
 
@@ -1207,13 +1173,13 @@ Package pdftex.def Info: Figure_24.pdf used on input line 1852.
 File: Figure_29.pdf Graphic file (type pdf)
 
 <use Figure_29.pdf>
-Package pdftex.def Info: Figure_29.pdf used on input line 1880.
+Package pdftex.def Info: Figure_29.pdf used on input line 1876.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  <Figure_30.pdf, id=741, 1047.915pt x 289.08pt>
 File: Figure_30.pdf Graphic file (type pdf)
 
 <use Figure_30.pdf>
-Package pdftex.def Info: Figure_30.pdf used on input line 1888.
+Package pdftex.def Info: Figure_30.pdf used on input line 1884.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [46
 
@@ -1221,24 +1187,24 @@ Package pdftex.def Info: Figure_30.pdf used on input line 1888.
 <Figure_31.pdf, id=776, 1047.915pt x 289.08pt>
 File: Figure_31.pdf Graphic file (type pdf)
  <use Figure_31.pdf>
-Package pdftex.def Info: Figure_31.pdf used on input line 1916.
+Package pdftex.def Info: Figure_31.pdf used on input line 1912.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
 <Figure_32.pdf, id=777, 1047.915pt x 289.08pt>
 File: Figure_32.pdf Graphic file (type pdf)
  <use Figure_32.pdf>
-Package pdftex.def Info: Figure_32.pdf used on input line 1924.
+Package pdftex.def Info: Figure_32.pdf used on input line 1920.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [47
 
  <./Figure_31.pdf> <./Figure_32.pdf>]
 File: Figure_31.pdf Graphic file (type pdf)
  <use Figure_31.pdf>
-Package pdftex.def Info: Figure_31.pdf used on input line 1951.
+Package pdftex.def Info: Figure_31.pdf used on input line 1947.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 File: Figure_32.pdf Graphic file (type pdf)
  <use Figure_32.pdf>
-Package pdftex.def Info: Figure_32.pdf used on input line 1959.
+Package pdftex.def Info: Figure_32.pdf used on input line 1955.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
  [48
 
@@ -1251,14 +1217,14 @@ Package epstopdf Info: Source file: <Figure_37.eps>
 (epstopdf)                    size: 19049 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_37-eps-converted-to.
 pdf Figure_37.eps>
-(epstopdf)             \includegraphics on input line 1987.
+(epstopdf)             \includegraphics on input line 1983.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figure_37-eps-converted-to.pdf, id=815, 614.295pt x 361.35pt>
 File: Figure_37-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_37-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_37-eps-converted-to.pdf used on input line 1987
+Package pdftex.def Info: Figure_37-eps-converted-to.pdf used on input line 1983
 .
 (pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
  (Holme_et_al_2017_manuscript.bbl [49
@@ -1286,50 +1252,47 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[55] (Holme_et_al_2017_manuscript.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[55] (Holme_et_al_2017_manuscript.aux) ) 
 Here is how much of TeX's memory you used:
  7963 strings out of 493622
  124590 string characters out of 3134732
- 221954 words of memory out of 3000000
+ 221869 words of memory out of 3000000
  11124 multiletter control sequences out of 15000+200000
  52159 words of font info for 125 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  44i,13n,77p,793b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8
-r.enc}<C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmex10.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Holmes/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Holmes/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Holm
-es/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
-C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi9.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Holmes/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Holmes/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Holmes/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/U
-sers/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r8.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr9.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Holmes/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Holmes/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Use
-rs/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-9.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/euler/eufm10.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Holmes/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Holmes/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Holmes/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Holmes/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Hol
-mes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/wasy/wasy10.pfb>
-Output written on Holme_et_al_2017_manuscript.pdf (55 pages, 1417199 bytes).
+{C:/Users/Holmes/AppData/Local/Programs
+/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users/Holmes/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Holmes/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:
+/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi5.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Holmes/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Holmes/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Holmes
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr5.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr6.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Holmes/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Holmes/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
+s/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5
+.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy6.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Holmes/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/Holmes/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
+vr8a.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmb8a.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
+w/times/utmr8a.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmri8a.pfb><C:/Users/Holmes/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/wasy/wasy10.pfb>
+Output written on Holme_et_al_2017_manuscript.pdf (55 pages, 1416234 bytes).
 PDF statistics:
  926 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

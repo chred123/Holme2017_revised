@@ -363,9 +363,9 @@ It is therefore difficult to get an accurate estimate of the firn diffusion leng
 				$A = 0.032 \;\mathrm{myr^{-1}}$). 
 				The increase in diffusion of the \delOx~(blue color), \delOxb~(purple color) and \delD~(red color) isotope signals are
 				partially due to the compaction of the firn which moves the ice closer together. } 		
-		
+	\label{fig:diffusion_length_profiles}		
 		\end{center}
-	\label{fig:diffusion_length_profiles}
+
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -376,7 +376,7 @@ Below the close-off depth, diffusion occurs in solid ice driven by the isotopic
 gradients within the lattice of the ice crystals. 
 This process is orders of magnitude slower than firn diffusion.
 Several studies exist that deal with the estimate of the diffusivity 
-coefficient in ice \citep{Blicks1966, Delibaltas1966, Itagaki1964, Livingston1997, Ramseier1967}.
+coefficient in ice \citep{Itagaki1964, Blicks1966, Delibaltas1966, Ramseier1967, Livingston1997}.
 The differences resulting from the various diffusivity coefficients are small and certainly
 negligible for the case of our study where the influence of solid ice diffusion is practically negligible.
 As done before by other similar firn diffusion studies \citep{Johnsen2000, Simonsen2011, Gkinis2014}
@@ -407,9 +407,9 @@ reaches values as high as 15 $\mathrm{cm}$.
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{./Figure_2}
 		\caption{The ice diffusion length plotted with respect to age [b2k]
-			for some selected sites from Greenland and Antarctica.
-			NGRIP is represented by blue, NEEM is represented by green, 
-			Dome C is represented by grey and EDML is represented by magenta.} 
+			for some selected sites from Greenland (NGRIP and NEEM) and Antarctica (Dome C and EDML).
+			For the Greenlandic ice cores, ice diffusion starts increasing rapidly as a layer moves
+			closer to the warm bedrock. } 
 		\label{fig:ice_diffusion_multi}
 	\end{center}
 \end{figure}
@@ -475,7 +475,7 @@ Using a least--squares approach we optimize the fit of the model $P_s$ to the da
 parameters $P_0$, $\sigma$, $a_1$ and $\sigma_{\mathrm{\eta}}^2$.
 In the case of Fig. \ref{fig:synthetic_power_spectra},
 the $\vert P_s - \mathbb{P}_s \vert^2$ least squares optimization resulted in 
-$P_0=0.35\,\permil^2\cdot \mathrm{m}$, $\sigma = 8.45 \, \mathrm{cm}$. $a_1 = 0.05$ and $\sigma_{\mathrm{\eta}}^2 =0.005 \, \permil^2$.
+$P_0=0.35\,\permil^2\cdot \mathrm{m}$, $\sigma = 8.45 \, \mathrm{cm}$, $a_1 = 0.05$ and $\sigma_{\mathrm{\eta}}^2 =0.005 \, \permil^2$.
 
 
 Assuming a diffusion length $\widehat{\sigma}_i^2$ is obtained for depth $z_i$ by means of 
@@ -489,7 +489,7 @@ diffusion due to the sampling of the ice core.
 In the case of a discrete sampling scheme with resolution $\Delta$ the additional 
 diffusion length is (see Appendix \ref{sec:appendix_sampling_diffusion}): 
 \begin{equation}
-\sigma^2_{\mathrm{dis}} = \frac{2\Delta^2}{\pi^2}\ln{\left(\frac{\pi}{2}\right)}
+\sigma^2_{\mathrm{dis}} = \frac{2\Delta^2}{\pi^2}\ln{\left(\frac{\pi}{2}\right)}.
 \label{sampling_sigma}
 \end{equation}
 In the case of high resolution measurements carried out with CFA measurement systems, there
@@ -699,7 +699,7 @@ At low frequencies  with high signal to noise ratio we can calculate the logarit
  {}^{18}\Delta \sigma^2\,k^2  + C.
 \end{equation}
 As seen in Eq. \ref{eq:diff_regression} and Fig. \ref{fig:spectral_diff_diffusion_example} 
-(\delOx~and \delD~synthetic data generated as in Sec. \ref{sec:single_diffusion}) an estimate of the
+(synthetic generated \delOx~and \delD~data as in Sec. \ref{sec:single_diffusion}) an estimate of the
 ${}^{18}\Delta\sigma^2$ parameter can be obtained by a linear fit of 
 $\ln \left({P_\mathrm{D}}/{P_{18}}\right)$ in the low frequency area, 
 thus requiring only two parameters $({}^{18}\Delta\sigma^2\mathrm{ \,and\, } C)$ to be tuned.
@@ -710,7 +710,7 @@ uncertainties associated with these two parameters. This can be seen by simply u
 {}^{18}\Delta\sigma^2_{\mathrm{firn}} = \frac{\hat{\sigma}_{18}^2 - \sigma_{\mathrm{dis}}^2 - \sigma_{\mathrm{ice}}^2}{\mathcal{S}(z)^2} -  
 \frac{\hat{\sigma}_\mathrm{D}^2 - 
 	\sigma_{\mathrm{dis}}^2 - \sigma_{\mathrm{ice}}^2}{\mathcal{S}(z)^2} =  \frac{\hat{\sigma}_{18}^2 - 
-	\hat{\sigma}_\mathrm{D}^2}{\mathcal{S}(z)^2}
+	\hat{\sigma}_\mathrm{D}^2}{\mathcal{S}(z)^2}.
 \end{equation}
 Accurate estimates of the thinning function however still play a key role in the differential diffusion technique.
 One more complication of the differential diffusion technique is the selection of the frequency range in 
@@ -732,9 +732,9 @@ Here we will test both approaches.
 
 \subsection*{Linear correlation method}
 An alternative way to calculate the differential diffusion signal ${}^{18}\Delta\sigma^2$
-is based on the assumption that the initial precipitated isotopic signal presents a \Dxs~
-that is invariable with time and as a consequence of this, the correlation signal between \delOx~and \delD~(hereafter \delcorrel) is expected
-to have a maximum value at the time of deposition .
+is based on the assumption that the initial precipitated isotopic signal presents a \Dxs~that
+is invariable with time and as a consequence of this, the correlation signal between \delOx~and \delD~(hereafter \delcorrel) is expected
+to have a maximum value at the time of deposition.
 The \Dxs~signal is defined as the deviation from the metoric water line $\mathrm{d_{xs}}= \delta\mathrm{D}- 8\cdot\delta^{18}\mathrm{O} $ \citep{craig, Dansgaard}.
 From the moment of deposition, the difference in diffusion between the \delOx~and \delD~signals results
 in a decrease of the \delcorrel~ value. Hence, diffusing the \delD~signal 
@@ -1166,16 +1166,14 @@ All 10 experiments utilizing differential diffusion methods, yield an accuracy t
 (1$s_{\bar{T}}$ range for 9 out of 10 experiments). We can conclude that experiments involving the estimation 
 of the diffusion length ratio indicate that the latter are practically unusable due to very high uncertainties
 with $s_{\bar{T}}$ averaging to a value of  $\approx 16 \,{}^{\circ} \text{C}$ for all four experiments.
-A general trend that seems to be apparent for all the experiments, is that the results for the CD forcing yield
-slightly lower uncertainties when compared to those for the WH forcing, likely indicating a
+A general trend that seems to be apparent for all the experiments, is that the results for the case A forcing yield
+slightly lower uncertainties when compared to those for the case B forcing, likely indicating a
 temperature and accumulation influence in the performance of all the reconstruction techniques. 
 
 
 \subsection{Ice core data}\label{sec:discussion_icecore}
 The precision $s_{\bar{T}}$ of each reconstruction technique has been quantified
 by averaging the squared standard deviations of the reconstructed temperatures (Table \ref{tbl:icecore_results}). 
-%Hence, the precision represents the uncertainty of the estimated diffusion signal, 
-%and is not an indication of the accuracy of the absolute temperature estimate.
 In accordance with the results from the synthetic data test, the most precise reconstructions are obtained when using the single isotope diffusion methods. 
 The single diffusion methods have a $s_{\bar{T}}$ of $1.1\,^\mathrm{o}\mathrm{C}$, while the differential diffusion methods ${}^{18}\Delta\sigma^2$ I, II and III
 have a $s_{\bar{T}}$ of $2.6\,^\mathrm{o}\mathrm{C}$,
@@ -1229,8 +1227,6 @@ It is difficult to select the most accurate results as both of the differential 
 before performed well in the accuracy test with the synthetic data.
 One should therefore not have a preferred technique without utilizing both methods on longer ice core sections.
 Basically, the reconstructed temperatures could be similar when the temperatures have been averaged over a longer record.
-
-
 Besides the internal differences in the results of the differential techniques, most of the temperature estimates do not 
 match the results of the single diffusion lengths.
 This is clear from the RMSDs between the temperature estimates of the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ I methods, 
@@ -1378,14 +1374,14 @@ $D_{\mathrm{a}^{17}\mathrm{O}} = 0.98555{D_{\mathrm{a}}}$.}
 \label{eq1617_ch4_app}
 \end{align}}
 
-\item{$\tau$: The firn tortuosity. We use \citep{Schwander1988} while more recent results include \citet{Freitag2002} and \citet{Adolph2014}:
+\item{$\tau$: The firn tortuosity. We use \citet{Schwander1988} as in \cite{Johnsen2000}. More recent results include \citet{Freitag2002} and \citet{Adolph2014}.
 \begin{equation}
 \frac{\,1\,}{\,\tau\,} = 1 - b\cdot\left(\frac{\rho}{\rho_{\mathrm{ice}}}\right)^2 \,\,\,\,\,\rho \le 
 \frac{\rho_{\mathrm{ice}}}{\sqrt{b}},\,\,b = 1.3
 \label{eq:firn_tort}
 \end{equation}
 
-Based on Eq. (\ref{eq:firn_tort}), $\,\,\tau \rightarrow \infty$ for $\rho>804.3\,\mathrm{kg\cdot m}^{-3}$
+Based on Eq. (\ref{eq:firn_tort}), $\,\,\tau \rightarrow \infty$ for $\rho>804.3\,\mathrm{kg \, m}^{-3}$
 }
 	
 
@@ -1525,7 +1521,7 @@ observing over years of ice core measurements in our laboratory.
 
 For a case B scenario, the sampled outputs of the synthetic data before and after diffusion is shown in Fig. \ref{fig:appendix_synthetic_data}.
 Applying the forward-diffusion smoothens the large amplitudes of the high frequencies. 
-This effect is further illustrated in Fig. \ref{fig:appendix_synthetic_PSD} which shows the PSD of the sampled signal before and after diffusion.
+This effect is further illustrated in Fig. \ref{fig:appendix_synthetic_PSD} which shows the PSD of the signal before and after diffusion.
 
 \begin{figure*}[]
 	\vspace*{2mm}
@@ -1584,7 +1580,7 @@ where  $k = 2\pi f_{\mathrm{Nq}}$. This results in the following solution for th
 \clearpage
 \section{Figures} \label{sec:appendix_spectra_figures}
 Here we provide figures that show the performance of each diffusion technique. 
-For each data section we have the estimated uncorrected diffusion lenghts in a table.
+For each data section we have the estimated uncorrected diffusion lengths in a table.
 \subsection{NEEM - late Holocene}
 
 \begin{figure}[H]
@@ -1695,7 +1691,7 @@ For each data section we have the estimated uncorrected diffusion lenghts in a t
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=.5\textwidth]{Figure_18}
-		\caption{NGRIP. Early Holocene power spectra of \delOx.}  \label{fig:NGRIP_late}
+		\caption{NGRIP. Early Holocene power spectrum of \delOx.}  \label{fig:NGRIP_late}
 	\end{center}
 \end{figure}
 
@@ -1721,7 +1717,7 @@ For each data section we have the estimated uncorrected diffusion lenghts in a t
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=.5\textwidth]{Figure_35}
-		\caption{NGRIP early Holocene core 1. Power spectra of \delOx.}  \label{fig:NGRIP_early1}
+		\caption{NGRIP early Holocene core 1. Power spectrum of \delOx.}  \label{fig:NGRIP_early1}
 	\end{center}
 \end{figure}
 
@@ -1747,7 +1743,7 @@ For each data section we have the estimated uncorrected diffusion lenghts in a t
 	\vspace*{2mm}
 	\begin{center}
 		\includegraphics[width=.5\textwidth]{Figure_36}
-		\caption{NGRIP early Holocene core 2. Power spectra of \delOx.}  \label{fig:NGRIP_early2}
+		\caption{NGRIP early Holocene core 2. Power spectrum of \delOx.}  \label{fig:NGRIP_early2}
 	\end{center}
 \end{figure}
 
