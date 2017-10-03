@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.1)  29 SEP 2017 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.1)  3 OCT 2017 17:31
 entering extended mode
 **./Holme_et_al_2017_manuscript.tex
 (Holme_et_al_2017_manuscript.tex
@@ -882,7 +882,7 @@ Package pdftex.def Info: Figure_9-eps-converted-to.pdf used on input line 868.
 [17 <./Figure_9-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 941.
+               Default added (so using `tbp') on input line 1245.
 
 Package epstopdf Info: Source file: <Figure_10.eps>
 (epstopdf)                    date: 2017-09-07 08:40:36
@@ -892,33 +892,33 @@ Package epstopdf Info: Source file: <Figure_10.eps>
 (epstopdf)                    size: 7390 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_10-eps-converted-to.
 pdf Figure_10.eps>
-(epstopdf)             \includegraphics on input line 944.
+(epstopdf)             \includegraphics on input line 1248.
 Package epstopdf Info: Output file is already uptodate.
-<Figure_10-eps-converted-to.pdf, id=343, 1120.185pt x 433.62pt>
+<Figure_10-eps-converted-to.pdf, id=337, 1120.185pt x 433.62pt>
 File: Figure_10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_10-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_10-eps-converted-to.pdf used on input line 944.
-
+Package pdftex.def Info: Figure_10-eps-converted-to.pdf used on input line 1248
+.
 (pdftex.def)             Requested size: 469.75502pt x 181.84126pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 950.
+               Default added (so using `tbp') on input line 1254.
 
 
-Overfull \hbox (1.65332pt too wide) in paragraph at lines 952--996
+Overfull \hbox (1.65332pt too wide) in paragraph at lines 1256--1300
  [] 
  []
 
-[18] [19 <./Figure_10-eps-converted-to.pdf>] [20]
+[18 <./Figure_10-eps-converted-to.pdf>] [19] [20]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1060.
+               Default added (so using `tbp') on input line 1400.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1092.
+               Default added (so using `tbp') on input line 1432.
 
 Package epstopdf Info: Source file: <Figure_11.eps>
 (epstopdf)                    date: 2017-09-29 09:37:28
@@ -928,19 +928,19 @@ Package epstopdf Info: Source file: <Figure_11.eps>
 (epstopdf)                    size: 8901 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_11-eps-converted-to.
 pdf Figure_11.eps>
-(epstopdf)             \includegraphics on input line 1095.
+(epstopdf)             \includegraphics on input line 1435.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_11-eps-converted-to.pdf, id=365, 961.5925pt x 505.89pt>
 File: Figure_11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_11-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_11-eps-converted-to.pdf used on input line 1095
+Package pdftex.def Info: Figure_11-eps-converted-to.pdf used on input line 1435
 .
 (pdftex.def)             Requested size: 469.75502pt x 247.1395pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1106.
+               Default added (so using `tbp') on input line 1446.
 
 Package epstopdf Info: Source file: <Figure_12.eps>
 (epstopdf)                    date: 2017-09-29 09:35:43
@@ -950,28 +950,28 @@ Package epstopdf Info: Source file: <Figure_12.eps>
 (epstopdf)                    size: 9794 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_12-eps-converted-to.
 pdf Figure_12.eps>
-(epstopdf)             \includegraphics on input line 1109.
+(epstopdf)             \includegraphics on input line 1449.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_12-eps-converted-to.pdf, id=366, 961.5925pt x 505.89pt>
 File: Figure_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_12-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_12-eps-converted-to.pdf used on input line 1109
+Package pdftex.def Info: Figure_12-eps-converted-to.pdf used on input line 1449
 .
 (pdftex.def)             Requested size: 469.75502pt x 247.1395pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1119.
+               Default added (so using `tbp') on input line 1459.
 
 
-Overfull \hbox (20.46855pt too wide) in paragraph at lines 1124--1168
+Overfull \hbox (20.46855pt too wide) in paragraph at lines 1464--1508
  [] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1172.
+               Default added (so using `tbp') on input line 1512.
 
 Package epstopdf Info: Source file: <Figure_13.eps>
 (epstopdf)                    date: 2017-09-29 09:41:09
@@ -981,21 +981,21 @@ Package epstopdf Info: Source file: <Figure_13.eps>
 (epstopdf)                    size: 13848 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_13-eps-converted-to.
 pdf Figure_13.eps>
-(epstopdf)             \includegraphics on input line 1175.
+(epstopdf)             \includegraphics on input line 1515.
 Package epstopdf Info: Output file is already uptodate.
 <Figure_13-eps-converted-to.pdf, id=367, 1033.8625pt x 614.295pt>
 File: Figure_13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_13-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_13-eps-converted-to.pdf used on input line 1175
+Package pdftex.def Info: Figure_13-eps-converted-to.pdf used on input line 1515
 .
 (pdftex.def)             Requested size: 469.75502pt x 279.12035pt.
- [21 <./Figure_11-eps-converted-to.pdf>]
-[22] [23 <./Figure_12-eps-converted-to.pdf>] [24] [25 <./Figure_13-eps-converte
-d-to.pdf>] [26] [27] [28] [29] [30]
+ [21] [22] [23 <./Figure_11-eps-converted-to.pdf>] [24 <./Figure_12-eps-convert
+ed-to.pdf>] [25] [26 <./Figure_13-eps-converted-to.pdf>] [27] [28] [29] [30] [3
+1] [32]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1508.
+               Default added (so using `tbp') on input line 1961.
 
 Package epstopdf Info: Source file: <firn_temp_profile.eps>
 (epstopdf)                    date: 2017-08-18 11:59:42
@@ -1005,23 +1005,23 @@ Package epstopdf Info: Source file: <firn_temp_profile.eps>
 (epstopdf)                    size: 55402 bytes
 (epstopdf)             Command: <epstopdf --outfile=firn_temp_profile-eps-conve
 rted-to.pdf firn_temp_profile.eps>
-(epstopdf)             \includegraphics on input line 1511.
+(epstopdf)             \includegraphics on input line 1964.
 Package epstopdf Info: Output file is already uptodate.
-<firn_temp_profile-eps-converted-to.pdf, id=432, 730.73pt x 381.425pt>
+<firn_temp_profile-eps-converted-to.pdf, id=439, 730.73pt x 381.425pt>
 File: firn_temp_profile-eps-converted-to.pdf Graphic file (type pdf)
 
 <use firn_temp_profile-eps-converted-to.pdf>
 Package pdftex.def Info: firn_temp_profile-eps-converted-to.pdf used on input l
-ine 1511.
+ine 1964.
 (pdftex.def)             Requested size: 422.77664pt x 220.67955pt.
- [31]
+ [33]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32 <./firn_temp_profile-eps-converted-to.pdf>]
+[34 <./firn_temp_profile-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1612.
+               Default added (so using `tbp') on input line 2065.
 
 Package epstopdf Info: Source file: <Figure_14.eps>
 (epstopdf)                    date: 2016-12-22 10:28:41
@@ -1031,19 +1031,19 @@ Package epstopdf Info: Source file: <Figure_14.eps>
 (epstopdf)                    size: 26358 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_14-eps-converted-to.
 pdf Figure_14.eps>
-(epstopdf)             \includegraphics on input line 1615.
+(epstopdf)             \includegraphics on input line 2068.
 Package epstopdf Info: Output file is already uptodate.
-<Figure_14-eps-converted-to.pdf, id=444, 1734.48pt x 845.1575pt>
+<Figure_14-eps-converted-to.pdf, id=450, 1734.48pt x 845.1575pt>
 File: Figure_14-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_14-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_14-eps-converted-to.pdf used on input line 1615
+Package pdftex.def Info: Figure_14-eps-converted-to.pdf used on input line 2068
 .
 (pdftex.def)             Requested size: 422.77664pt x 206.00148pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1621.
+               Default added (so using `tbp') on input line 2074.
 
 Package epstopdf Info: Source file: <Figure_15.eps>
 (epstopdf)                    date: 2017-09-18 10:57:05
@@ -1053,17 +1053,17 @@ Package epstopdf Info: Source file: <Figure_15.eps>
 (epstopdf)                    size: 84662 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figure_15-eps-converted-to.
 pdf Figure_15.eps>
-(epstopdf)             \includegraphics on input line 1624.
+(epstopdf)             \includegraphics on input line 2077.
 Package epstopdf Info: Output file is already uptodate.
-<Figure_15-eps-converted-to.pdf, id=445, 775.89874pt x 393.47pt>
+<Figure_15-eps-converted-to.pdf, id=451, 775.89874pt x 393.47pt>
 File: Figure_15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figure_15-eps-converted-to.pdf>
-Package pdftex.def Info: Figure_15-eps-converted-to.pdf used on input line 1624
+Package pdftex.def Info: Figure_15-eps-converted-to.pdf used on input line 2077
 .
 (pdftex.def)             Requested size: 422.77664pt x 214.39786pt.
- [33] [34 <./Figure_14-eps-converted-to.pdf> <./Figure_15-eps-converted-to.pdf>
-] [35]
+ [35] [36 <./Figure_14-eps-converted-to.pdf> <./Figure_15-eps-converted-to.pdf>
+] [37]
 Package epstopdf Info: Source file: <NEEM_late_holo.eps>
 (epstopdf)                    date: 2017-09-27 10:52:20
 (epstopdf)                    size: 135870 bytes
@@ -1072,31 +1072,31 @@ Package epstopdf Info: Source file: <NEEM_late_holo.eps>
 (epstopdf)                    size: 18648 bytes
 (epstopdf)             Command: <epstopdf --outfile=NEEM_late_holo-eps-converte
 d-to.pdf NEEM_late_holo.eps>
-(epstopdf)             \includegraphics on input line 1675.
+(epstopdf)             \includegraphics on input line 2128.
 Package epstopdf Info: Output file is already uptodate.
 
-<NEEM_late_holo-eps-converted-to.pdf, id=491, 692.5875pt x 432.61626pt>
+<NEEM_late_holo-eps-converted-to.pdf, id=498, 692.5875pt x 432.61626pt>
 File: NEEM_late_holo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use NEEM_late_holo-eps-converted-to.pdf>
 Package pdftex.def Info: NEEM_late_holo-eps-converted-to.pdf used on input line
- 1675.
+ 2128.
 (pdftex.def)             Requested size: 281.85587pt x 176.06018pt.
 
-<Figure_16.pdf, id=492, 1047.915pt x 289.08pt>
+<Figure_16.pdf, id=499, 1047.915pt x 289.08pt>
 File: Figure_16.pdf Graphic file (type pdf)
  <use Figure_16.pdf>
-Package pdftex.def Info: Figure_16.pdf used on input line 1684.
+Package pdftex.def Info: Figure_16.pdf used on input line 2137.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
-<Figure_17.pdf, id=493, 1047.915pt x 289.08pt>
+<Figure_17.pdf, id=500, 1047.915pt x 289.08pt>
 File: Figure_17.pdf Graphic file (type pdf)
  <use Figure_17.pdf>
-Package pdftex.def Info: Figure_17.pdf used on input line 1692.
+Package pdftex.def Info: Figure_17.pdf used on input line 2145.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- [36
+ [38
 
- <./NEEM_late_holo-eps-converted-to.pdf> <./Figure_16.pdf>] [37 <./Figure_17.pd
+ <./NEEM_late_holo-eps-converted-to.pdf> <./Figure_16.pdf>] [39 <./Figure_17.pd
 f>]
 Package epstopdf Info: Source file: <NEEM_CFA_holo.eps>
 (epstopdf)                    date: 2017-09-27 10:52:22
@@ -1106,31 +1106,31 @@ Package epstopdf Info: Source file: <NEEM_CFA_holo.eps>
 (epstopdf)                    size: 52579 bytes
 (epstopdf)             Command: <epstopdf --outfile=NEEM_CFA_holo-eps-converted
 -to.pdf NEEM_CFA_holo.eps>
-(epstopdf)             \includegraphics on input line 1718.
+(epstopdf)             \includegraphics on input line 2171.
 Package epstopdf Info: Output file is already uptodate.
 
-<NEEM_CFA_holo-eps-converted-to.pdf, id=545, 692.5875pt x 432.61626pt>
+<NEEM_CFA_holo-eps-converted-to.pdf, id=551, 692.5875pt x 432.61626pt>
 File: NEEM_CFA_holo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use NEEM_CFA_holo-eps-converted-to.pdf>
 Package pdftex.def Info: NEEM_CFA_holo-eps-converted-to.pdf used on input line 
-1718.
+2171.
 (pdftex.def)             Requested size: 281.85587pt x 176.06018pt.
 
-<Figure_25.pdf, id=546, 1047.915pt x 289.08pt>
+<Figure_25.pdf, id=552, 1047.915pt x 289.08pt>
 File: Figure_25.pdf Graphic file (type pdf)
  <use Figure_25.pdf>
-Package pdftex.def Info: Figure_25.pdf used on input line 1726.
+Package pdftex.def Info: Figure_25.pdf used on input line 2179.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
-<Figure_26.pdf, id=547, 1047.915pt x 289.08pt>
+<Figure_26.pdf, id=553, 1047.915pt x 289.08pt>
 File: Figure_26.pdf Graphic file (type pdf)
  <use Figure_26.pdf>
-Package pdftex.def Info: Figure_26.pdf used on input line 1734.
+Package pdftex.def Info: Figure_26.pdf used on input line 2187.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- [38
+ [40
 
- <./NEEM_CFA_holo-eps-converted-to.pdf> <./Figure_25.pdf>] [39 <./Figure_26.pdf
+ <./NEEM_CFA_holo-eps-converted-to.pdf> <./Figure_25.pdf>] [41 <./Figure_26.pdf
 >]
 Package epstopdf Info: Source file: <NEEM_disc_holo.eps>
 (epstopdf)                    date: 2017-09-27 10:52:23
@@ -1140,31 +1140,31 @@ Package epstopdf Info: Source file: <NEEM_disc_holo.eps>
 (epstopdf)                    size: 10394 bytes
 (epstopdf)             Command: <epstopdf --outfile=NEEM_disc_holo-eps-converte
 d-to.pdf NEEM_disc_holo.eps>
-(epstopdf)             \includegraphics on input line 1761.
+(epstopdf)             \includegraphics on input line 2214.
 Package epstopdf Info: Output file is already uptodate.
 
-<NEEM_disc_holo-eps-converted-to.pdf, id=601, 692.5875pt x 432.61626pt>
+<NEEM_disc_holo-eps-converted-to.pdf, id=607, 692.5875pt x 432.61626pt>
 File: NEEM_disc_holo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use NEEM_disc_holo-eps-converted-to.pdf>
 Package pdftex.def Info: NEEM_disc_holo-eps-converted-to.pdf used on input line
- 1761.
+ 2214.
 (pdftex.def)             Requested size: 281.85587pt x 176.06018pt.
 
-<Figure_27.pdf, id=602, 1047.915pt x 289.08pt>
+<Figure_27.pdf, id=608, 1047.915pt x 289.08pt>
 File: Figure_27.pdf Graphic file (type pdf)
  <use Figure_27.pdf>
-Package pdftex.def Info: Figure_27.pdf used on input line 1770.
+Package pdftex.def Info: Figure_27.pdf used on input line 2223.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
-<Figure_28.pdf, id=603, 1047.915pt x 289.08pt>
+<Figure_28.pdf, id=609, 1047.915pt x 289.08pt>
 File: Figure_28.pdf Graphic file (type pdf)
  <use Figure_28.pdf>
-Package pdftex.def Info: Figure_28.pdf used on input line 1778.
+Package pdftex.def Info: Figure_28.pdf used on input line 2231.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- [40
+ [42
 
- <./NEEM_disc_holo-eps-converted-to.pdf> <./Figure_27.pdf>] [41 <./Figure_28.pd
+ <./NEEM_disc_holo-eps-converted-to.pdf> <./Figure_27.pdf>] [43 <./Figure_28.pd
 f>]
 Package epstopdf Info: Source file: <NGRIP_late_holo.eps>
 (epstopdf)                    date: 2017-09-27 10:52:20
@@ -1174,23 +1174,23 @@ Package epstopdf Info: Source file: <NGRIP_late_holo.eps>
 (epstopdf)                    size: 11489 bytes
 (epstopdf)             Command: <epstopdf --outfile=NGRIP_late_holo-eps-convert
 ed-to.pdf NGRIP_late_holo.eps>
-(epstopdf)             \includegraphics on input line 1805.
+(epstopdf)             \includegraphics on input line 2258.
 Package epstopdf Info: Output file is already uptodate.
 
-<NGRIP_late_holo-eps-converted-to.pdf, id=648, 711.65875pt x 280.04625pt>
+<NGRIP_late_holo-eps-converted-to.pdf, id=655, 711.65875pt x 280.04625pt>
 File: NGRIP_late_holo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use NGRIP_late_holo-eps-converted-to.pdf>
 Package pdftex.def Info: NGRIP_late_holo-eps-converted-to.pdf used on input lin
-e 1805.
+e 2258.
 (pdftex.def)             Requested size: 281.85587pt x 110.90976pt.
 
-<Figure_18.pdf, id=649, 614.295pt x 361.35pt>
+<Figure_18.pdf, id=656, 614.295pt x 361.35pt>
 File: Figure_18.pdf Graphic file (type pdf)
  <use Figure_18.pdf>
-Package pdftex.def Info: Figure_18.pdf used on input line 1814.
+Package pdftex.def Info: Figure_18.pdf used on input line 2267.
 (pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
- [42
+ [44
 
  <./NGRIP_late_holo-eps-converted-to.pdf> <./Figure_18.pdf>]
 Package epstopdf Info: Source file: <NGRIP_early_1.eps>
@@ -1201,23 +1201,23 @@ Package epstopdf Info: Source file: <NGRIP_early_1.eps>
 (epstopdf)                    size: 8693 bytes
 (epstopdf)             Command: <epstopdf --outfile=NGRIP_early_1-eps-converted
 -to.pdf NGRIP_early_1.eps>
-(epstopdf)             \includegraphics on input line 1840.
+(epstopdf)             \includegraphics on input line 2293.
 Package epstopdf Info: Output file is already uptodate.
 
-<NGRIP_early_1-eps-converted-to.pdf, id=673, 706.64pt x 289.08pt>
+<NGRIP_early_1-eps-converted-to.pdf, id=680, 706.64pt x 289.08pt>
 File: NGRIP_early_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use NGRIP_early_1-eps-converted-to.pdf>
 Package pdftex.def Info: NGRIP_early_1-eps-converted-to.pdf used on input line 
-1840.
+2293.
 (pdftex.def)             Requested size: 281.85587pt x 115.30353pt.
 
-<Figure_35.pdf, id=674, 614.295pt x 361.35pt>
+<Figure_35.pdf, id=681, 614.295pt x 361.35pt>
 File: Figure_35.pdf Graphic file (type pdf)
  <use Figure_35.pdf>
-Package pdftex.def Info: Figure_35.pdf used on input line 1848.
+Package pdftex.def Info: Figure_35.pdf used on input line 2301.
 (pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
- [43
+ [45
 
  <./NGRIP_early_1-eps-converted-to.pdf> <./Figure_35.pdf>]
 Package epstopdf Info: Source file: <NGRIP_early_2.eps>
@@ -1228,23 +1228,23 @@ Package epstopdf Info: Source file: <NGRIP_early_2.eps>
 (epstopdf)                    size: 8655 bytes
 (epstopdf)             Command: <epstopdf --outfile=NGRIP_early_2-eps-converted
 -to.pdf NGRIP_early_2.eps>
-(epstopdf)             \includegraphics on input line 1874.
+(epstopdf)             \includegraphics on input line 2327.
 Package epstopdf Info: Output file is already uptodate.
 
-<NGRIP_early_2-eps-converted-to.pdf, id=697, 706.64pt x 289.08pt>
+<NGRIP_early_2-eps-converted-to.pdf, id=703, 706.64pt x 289.08pt>
 File: NGRIP_early_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use NGRIP_early_2-eps-converted-to.pdf>
 Package pdftex.def Info: NGRIP_early_2-eps-converted-to.pdf used on input line 
-1874.
+2327.
 (pdftex.def)             Requested size: 281.85587pt x 115.30353pt.
 
-<Figure_36.pdf, id=698, 614.295pt x 361.35pt>
+<Figure_36.pdf, id=704, 614.295pt x 361.35pt>
 File: Figure_36.pdf Graphic file (type pdf)
  <use Figure_36.pdf>
-Package pdftex.def Info: Figure_36.pdf used on input line 1882.
+Package pdftex.def Info: Figure_36.pdf used on input line 2335.
 (pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
- [44
+ [46
 
  <./NGRIP_early_2-eps-converted-to.pdf> <./Figure_36.pdf>]
 Package epstopdf Info: Source file: <GRIP_late_holo.eps>
@@ -1255,31 +1255,31 @@ Package epstopdf Info: Source file: <GRIP_late_holo.eps>
 (epstopdf)                    size: 17047 bytes
 (epstopdf)             Command: <epstopdf --outfile=GRIP_late_holo-eps-converte
 d-to.pdf GRIP_late_holo.eps>
-(epstopdf)             \includegraphics on input line 1907.
+(epstopdf)             \includegraphics on input line 2360.
 Package epstopdf Info: Output file is already uptodate.
 
-<GRIP_late_holo-eps-converted-to.pdf, id=720, 692.5875pt x 432.61626pt>
+<GRIP_late_holo-eps-converted-to.pdf, id=726, 692.5875pt x 432.61626pt>
 File: GRIP_late_holo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use GRIP_late_holo-eps-converted-to.pdf>
 Package pdftex.def Info: GRIP_late_holo-eps-converted-to.pdf used on input line
- 1907.
+ 2360.
 (pdftex.def)             Requested size: 281.85587pt x 176.06018pt.
 
-<Figure_19.pdf, id=721, 1047.915pt x 289.08pt>
+<Figure_19.pdf, id=727, 1047.915pt x 289.08pt>
 File: Figure_19.pdf Graphic file (type pdf)
  <use Figure_19.pdf>
-Package pdftex.def Info: Figure_19.pdf used on input line 1916.
+Package pdftex.def Info: Figure_19.pdf used on input line 2369.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
-<Figure_20.pdf, id=722, 1047.915pt x 289.08pt>
+<Figure_20.pdf, id=728, 1047.915pt x 289.08pt>
 File: Figure_20.pdf Graphic file (type pdf)
  <use Figure_20.pdf>
-Package pdftex.def Info: Figure_20.pdf used on input line 1924.
+Package pdftex.def Info: Figure_20.pdf used on input line 2377.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- [45
+ [47
 
- <./GRIP_late_holo-eps-converted-to.pdf> <./Figure_19.pdf>] [46 <./Figure_20.pd
+ <./GRIP_late_holo-eps-converted-to.pdf> <./Figure_19.pdf>] [48 <./Figure_20.pd
 f>]
 Package epstopdf Info: Source file: <GRIP_mid_holo.eps>
 (epstopdf)                    date: 2017-09-27 10:52:21
@@ -1289,31 +1289,31 @@ Package epstopdf Info: Source file: <GRIP_mid_holo.eps>
 (epstopdf)                    size: 20514 bytes
 (epstopdf)             Command: <epstopdf --outfile=GRIP_mid_holo-eps-converted
 -to.pdf GRIP_mid_holo.eps>
-(epstopdf)             \includegraphics on input line 1951.
+(epstopdf)             \includegraphics on input line 2404.
 Package epstopdf Info: Output file is already uptodate.
 
-<GRIP_mid_holo-eps-converted-to.pdf, id=773, 692.5875pt x 432.61626pt>
+<GRIP_mid_holo-eps-converted-to.pdf, id=779, 692.5875pt x 432.61626pt>
 File: GRIP_mid_holo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use GRIP_mid_holo-eps-converted-to.pdf>
 Package pdftex.def Info: GRIP_mid_holo-eps-converted-to.pdf used on input line 
-1951.
+2404.
 (pdftex.def)             Requested size: 281.85587pt x 176.06018pt.
 
-<Figure_21.pdf, id=774, 1047.915pt x 289.08pt>
+<Figure_21.pdf, id=780, 1047.915pt x 289.08pt>
 File: Figure_21.pdf Graphic file (type pdf)
  <use Figure_21.pdf>
-Package pdftex.def Info: Figure_21.pdf used on input line 1959.
+Package pdftex.def Info: Figure_21.pdf used on input line 2412.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
-<Figure_22.pdf, id=775, 1047.915pt x 289.08pt>
+<Figure_22.pdf, id=781, 1047.915pt x 289.08pt>
 File: Figure_22.pdf Graphic file (type pdf)
  <use Figure_22.pdf>
-Package pdftex.def Info: Figure_22.pdf used on input line 1967.
+Package pdftex.def Info: Figure_22.pdf used on input line 2420.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- [47
+ [49
 
- <./GRIP_mid_holo-eps-converted-to.pdf> <./Figure_21.pdf>] [48 <./Figure_22.pdf
+ <./GRIP_mid_holo-eps-converted-to.pdf> <./Figure_21.pdf>] [50 <./Figure_22.pdf
 >]
 Package epstopdf Info: Source file: <GRIP_early_holo.eps>
 (epstopdf)                    date: 2017-09-27 10:52:22
@@ -1323,31 +1323,31 @@ Package epstopdf Info: Source file: <GRIP_early_holo.eps>
 (epstopdf)                    size: 17146 bytes
 (epstopdf)             Command: <epstopdf --outfile=GRIP_early_holo-eps-convert
 ed-to.pdf GRIP_early_holo.eps>
-(epstopdf)             \includegraphics on input line 1994.
+(epstopdf)             \includegraphics on input line 2447.
 Package epstopdf Info: Output file is already uptodate.
 
-<GRIP_early_holo-eps-converted-to.pdf, id=826, 692.5875pt x 432.61626pt>
+<GRIP_early_holo-eps-converted-to.pdf, id=833, 692.5875pt x 432.61626pt>
 File: GRIP_early_holo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use GRIP_early_holo-eps-converted-to.pdf>
 Package pdftex.def Info: GRIP_early_holo-eps-converted-to.pdf used on input lin
-e 1994.
+e 2447.
 (pdftex.def)             Requested size: 281.85587pt x 176.06018pt.
 
-<Figure_23.pdf, id=827, 1047.915pt x 289.08pt>
+<Figure_23.pdf, id=834, 1047.915pt x 289.08pt>
 File: Figure_23.pdf Graphic file (type pdf)
  <use Figure_23.pdf>
-Package pdftex.def Info: Figure_23.pdf used on input line 2002.
+Package pdftex.def Info: Figure_23.pdf used on input line 2455.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
-<Figure_24.pdf, id=828, 1047.915pt x 289.08pt>
+<Figure_24.pdf, id=835, 1047.915pt x 289.08pt>
 File: Figure_24.pdf Graphic file (type pdf)
  <use Figure_24.pdf>
-Package pdftex.def Info: Figure_24.pdf used on input line 2010.
+Package pdftex.def Info: Figure_24.pdf used on input line 2463.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- [49
+ [51
 
- <./GRIP_early_holo-eps-converted-to.pdf> <./Figure_23.pdf>] [50 <./Figure_24.p
+ <./GRIP_early_holo-eps-converted-to.pdf> <./Figure_23.pdf>] [52 <./Figure_24.p
 df>]
 Package epstopdf Info: Source file: <EDML.eps>
 (epstopdf)                    date: 2017-09-27 10:52:23
@@ -1357,31 +1357,31 @@ Package epstopdf Info: Source file: <EDML.eps>
 (epstopdf)                    size: 19708 bytes
 (epstopdf)             Command: <epstopdf --outfile=EDML-eps-converted-to.pdf E
 DML.eps>
-(epstopdf)             \includegraphics on input line 2038.
+(epstopdf)             \includegraphics on input line 2491.
 Package epstopdf Info: Output file is already uptodate.
 
-<EDML-eps-converted-to.pdf, id=874, 692.5875pt x 432.61626pt>
+<EDML-eps-converted-to.pdf, id=880, 692.5875pt x 432.61626pt>
 File: EDML-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EDML-eps-converted-to.pdf>
-Package pdftex.def Info: EDML-eps-converted-to.pdf used on input line 2038.
+Package pdftex.def Info: EDML-eps-converted-to.pdf used on input line 2491.
 (pdftex.def)             Requested size: 281.85587pt x 176.06018pt.
- <Figure_29.pdf, id=875, 1047.915pt x 289.08pt>
+ <Figure_29.pdf, id=881, 1047.915pt x 289.08pt>
 File: Figure_29.pdf Graphic file (type pdf)
 
 <use Figure_29.pdf>
-Package pdftex.def Info: Figure_29.pdf used on input line 2046.
+Package pdftex.def Info: Figure_29.pdf used on input line 2499.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- <Figure_30.pdf, id=876, 1047.915pt x 289.08pt>
+ <Figure_30.pdf, id=882, 1047.915pt x 289.08pt>
 File: Figure_30.pdf Graphic file (type pdf)
 
 <use Figure_30.pdf>
-Package pdftex.def Info: Figure_30.pdf used on input line 2054.
+Package pdftex.def Info: Figure_30.pdf used on input line 2507.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- [51
+ [53
 
  <./EDML-eps-converted-to.pdf> <./Figure_29.pdf>]
-[52 <./Figure_30.pdf>]
+[54 <./Figure_30.pdf>]
 Package epstopdf Info: Source file: <DomeC_holo.eps>
 (epstopdf)                    date: 2017-09-27 10:52:24
 (epstopdf)                    size: 118550 bytes
@@ -1390,31 +1390,31 @@ Package epstopdf Info: Source file: <DomeC_holo.eps>
 (epstopdf)                    size: 11963 bytes
 (epstopdf)             Command: <epstopdf --outfile=DomeC_holo-eps-converted-to
 .pdf DomeC_holo.eps>
-(epstopdf)             \includegraphics on input line 2082.
+(epstopdf)             \includegraphics on input line 2535.
 Package epstopdf Info: Output file is already uptodate.
 
-<DomeC_holo-eps-converted-to.pdf, id=921, 692.5875pt x 432.61626pt>
+<DomeC_holo-eps-converted-to.pdf, id=927, 692.5875pt x 432.61626pt>
 File: DomeC_holo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use DomeC_holo-eps-converted-to.pdf>
-Package pdftex.def Info: DomeC_holo-eps-converted-to.pdf used on input line 208
-2.
+Package pdftex.def Info: DomeC_holo-eps-converted-to.pdf used on input line 253
+5.
 (pdftex.def)             Requested size: 281.85587pt x 176.06018pt.
 
-<Figure_31.pdf, id=922, 1047.915pt x 289.08pt>
+<Figure_31.pdf, id=928, 1047.915pt x 289.08pt>
 File: Figure_31.pdf Graphic file (type pdf)
  <use Figure_31.pdf>
-Package pdftex.def Info: Figure_31.pdf used on input line 2090.
+Package pdftex.def Info: Figure_31.pdf used on input line 2543.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
-<Figure_32.pdf, id=923, 1047.915pt x 289.08pt>
+<Figure_32.pdf, id=929, 1047.915pt x 289.08pt>
 File: Figure_32.pdf Graphic file (type pdf)
  <use Figure_32.pdf>
-Package pdftex.def Info: Figure_32.pdf used on input line 2098.
+Package pdftex.def Info: Figure_32.pdf used on input line 2551.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- [53
+ [55
 
- <./DomeC_holo-eps-converted-to.pdf> <./Figure_31.pdf>] [54 <./Figure_32.pdf>]
+ <./DomeC_holo-eps-converted-to.pdf> <./Figure_31.pdf>] [56 <./Figure_32.pdf>]
 Package epstopdf Info: Source file: <DomeF_holo.eps>
 (epstopdf)                    date: 2017-09-27 10:52:25
 (epstopdf)                    size: 143985 bytes
@@ -1423,31 +1423,31 @@ Package epstopdf Info: Source file: <DomeF_holo.eps>
 (epstopdf)                    size: 21365 bytes
 (epstopdf)             Command: <epstopdf --outfile=DomeF_holo-eps-converted-to
 .pdf DomeF_holo.eps>
-(epstopdf)             \includegraphics on input line 2125.
+(epstopdf)             \includegraphics on input line 2578.
 Package epstopdf Info: Output file is already uptodate.
 
-<DomeF_holo-eps-converted-to.pdf, id=968, 692.5875pt x 432.61626pt>
+<DomeF_holo-eps-converted-to.pdf, id=975, 692.5875pt x 432.61626pt>
 File: DomeF_holo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use DomeF_holo-eps-converted-to.pdf>
-Package pdftex.def Info: DomeF_holo-eps-converted-to.pdf used on input line 212
-5.
+Package pdftex.def Info: DomeF_holo-eps-converted-to.pdf used on input line 257
+8.
 (pdftex.def)             Requested size: 281.85587pt x 176.06018pt.
 
-<Figure_33.pdf, id=969, 1047.915pt x 289.08pt>
+<Figure_33.pdf, id=976, 1047.915pt x 289.08pt>
 File: Figure_33.pdf Graphic file (type pdf)
  <use Figure_33.pdf>
-Package pdftex.def Info: Figure_33.pdf used on input line 2133.
+Package pdftex.def Info: Figure_33.pdf used on input line 2586.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
 
-<Figure_34.pdf, id=970, 1047.915pt x 289.08pt>
+<Figure_34.pdf, id=977, 1047.915pt x 289.08pt>
 File: Figure_34.pdf Graphic file (type pdf)
  <use Figure_34.pdf>
-Package pdftex.def Info: Figure_34.pdf used on input line 2141.
+Package pdftex.def Info: Figure_34.pdf used on input line 2594.
 (pdftex.def)             Requested size: 469.75502pt x 129.58635pt.
- [55
+ [57
 
- <./DomeF_holo-eps-converted-to.pdf> <./Figure_33.pdf>] [56 <./Figure_34.pdf>]
+ <./DomeF_holo-eps-converted-to.pdf> <./Figure_33.pdf>] [58 <./Figure_34.pdf>]
 Package epstopdf Info: Source file: <Wais_D_late.eps>
 (epstopdf)                    date: 2017-09-28 12:37:13
 (epstopdf)                    size: 111388 bytes
@@ -1456,40 +1456,40 @@ Package epstopdf Info: Source file: <Wais_D_late.eps>
 (epstopdf)                    size: 10379 bytes
 (epstopdf)             Command: <epstopdf --outfile=Wais_D_late-eps-converted-t
 o.pdf Wais_D_late.eps>
-(epstopdf)             \includegraphics on input line 2169.
+(epstopdf)             \includegraphics on input line 2622.
 Package epstopdf Info: Output file is already uptodate.
 
-<Wais_D_late-eps-converted-to.pdf, id=1016, 722.7pt x 289.08pt>
+<Wais_D_late-eps-converted-to.pdf, id=1022, 722.7pt x 289.08pt>
 File: Wais_D_late-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Wais_D_late-eps-converted-to.pdf>
-Package pdftex.def Info: Wais_D_late-eps-converted-to.pdf used on input line 21
-69.
+Package pdftex.def Info: Wais_D_late-eps-converted-to.pdf used on input line 26
+22.
 (pdftex.def)             Requested size: 281.85587pt x 112.74074pt.
 
-<Figure_37.pdf, id=1017, 614.295pt x 361.35pt>
+<Figure_37.pdf, id=1023, 614.295pt x 361.35pt>
 File: Figure_37.pdf Graphic file (type pdf)
  <use Figure_37.pdf>
-Package pdftex.def Info: Figure_37.pdf used on input line 2177.
+Package pdftex.def Info: Figure_37.pdf used on input line 2630.
 (pdftex.def)             Requested size: 234.8775pt x 138.16354pt.
 
-(Holme_et_al_2017_manuscript.bbl [57
+(Holme_et_al_2017_manuscript.bbl [59
 
- <./Wais_D_late-eps-converted-to.pdf> <./Figure_37.pdf>] [58]
+ <./Wais_D_late-eps-converted-to.pdf> <./Figure_37.pdf>] [60]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [59]
+ [61]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
- [60] [61]
+ [62] [63]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¦ in font ptmr7t!
- [62])
+ [64])
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -1497,16 +1497,16 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[63] (Holme_et_al_2017_manuscript.aux)
+[65] (Holme_et_al_2017_manuscript.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8050 strings out of 493622
- 127096 string characters out of 3134732
- 218182 words of memory out of 3000000
- 11196 multiletter control sequences out of 15000+200000
+ 8054 strings out of 493622
+ 127166 string characters out of 3134732
+ 222340 words of memory out of 3000000
+ 11200 multiletter control sequences out of 15000+200000
  52159 words of font info for 125 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  44i,13n,77p,793b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1540,9 +1540,9 @@ l/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Holmes/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Holmes/Ap
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Hol
 mes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/wasy/wasy10.pfb>
-Output written on Holme_et_al_2017_manuscript.pdf (63 pages, 1704712 bytes).
+Output written on Holme_et_al_2017_manuscript.pdf (65 pages, 1707970 bytes).
 PDF statistics:
- 1140 PDF objects out of 1200 (max. 8388607)
+ 1146 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
