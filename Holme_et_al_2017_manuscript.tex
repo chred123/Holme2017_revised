@@ -333,7 +333,7 @@ annual accumulation $A = 0.22 \;\mathrm{myr^{-1}\, ice\, eq.}$
 \begin{figure}[]	
 \vspace*{2mm}
 	\begin{center}
-			\includegraphics[width=0.6\textwidth]{Figure_1}
+			\includegraphics[width=0.7\textwidth]{Figure_1}
 			\caption{Diffusion length and density profiles (black) for case A (solid curves: $T_{\mathrm{sur}} = -29 \,^{\circ} \mathrm{C}$,
 				 $A = 0.22 \;\mathrm{myr^{-1}}$) and B (dashed lines: $T_{\mathrm{sur}} = -55 \,^{\circ} \mathrm{C}$,
 				$A = 0.032 \;\mathrm{myr^{-1}}$). 
@@ -484,8 +484,8 @@ diffusion length is (see Appendix \ref{sec:appendix_sampling_diffusion}):
 \end{equation}
 In the case of high resolution measurements carried out with CFA measurement systems, there
 exist a number of ways to characterize the sampling diffusion length. 
-Typically the step or impulse response of the CFA system can be measured yielding a Gaussian 
-filter specific for the CFA system \citep{Gkinis2011, Emanuelsson2015, Jones2017a}. 
+Typically the step or impulse response of the CFA system can be measured yielding a Gaussian  
+filter specific for the CFA system \citep{Gkinis2011, Maselli2013, Emanuelsson2015, Jones2017a}. 
 The Gaussian filter can be characterized by a diffusion 
 length $\sigma^2_{\mathrm{cfa}}$ that can be directly used to perform a sampling correction.
 The second correction concerns the ice diffusion as described in Sec. \ref{ice_diffusion_section}.
@@ -789,7 +789,7 @@ It is thus likely to result in inaccuracies.
 \begin{figure}[]	
 \vspace*{2mm}	
 \begin{center}		
-	\includegraphics[width=0.7\textwidth]{Figure_7}		
+	\includegraphics[width=0.8\textwidth]{Figure_7}		
 	\caption{PSDs of synthetic \delOx~(blue) and \delD~(red) with respect to frequency where
 		the inner subplot shows the $\ln \left({P_\mathrm{D}}/{P_{18}}\right)$ relation with respect to  $k^2$. 
 		The ${}^{18}\Delta\sigma^2$ value is determined from the slope of the linear fit in the subplot.
@@ -1190,7 +1190,7 @@ while the method still depends on the sampling and ice diffusion.
 A first order test for the achievable accuracy and precision of the presented diffusion temperature reconstruction
 techniques can be performed using synthetic isotopic data. 
 We generate synthetic time series of 
-\delOxb, \delOx~and \delD~ using an AR-1 process and subsequently applying numerical diffusion with diffusion 
+\delOxb, \delOx~and \delD~using an AR-1 process and subsequently applying numerical diffusion with diffusion 
 lengths as calculated for case A and B (as presented in Fig. \ref{fig:diffusion_length_profiles}).
 The time series are then sampled at a resolution of $2.5\,\mathrm{cm}$ and white measurement noise is added. Eventually,
 estimates of diffusion lengths for all three isotopologues are obtained using the techniques we have described 
@@ -1209,7 +1209,7 @@ using the three different techniques as described in Sec. \ref{sec:diff_diffusio
 We designate the subtraction technique with
 I, the linear regression with II and the correlation method with III. 
 For every value of the diffusion estimates we calculate a firn temperature where
-the uncertainties related to the firn diffusion model ($A$, $\rho_{co}$, $\rho_o$, $P$, $\mathcal{S}$ and $\sigma_{ice}$ in Table \ref{tbl:model_unc}) are included. 
+the uncertainties related to the firn diffusion model ($A$, $\rho_{co}$, $\rho_o$, surface pressure $\mathrm{P}$, $\mathcal{S}$ and $\sigma_{ice}$ in Table \ref{tbl:model_unc}) are included. 
 For for the total of the 500 iterations we calculate a mean firn temperature $\overline{T}$, 
 a standard deviation and a mean bias as: 
 \begin{equation}
@@ -1310,7 +1310,7 @@ included in Fig. \ref{fig:synthetic_data_bias}.
 \subsection{Ice core data test} \label{sec:icecore_results}
 We also use a number of high resolution, high precision ice core data, in order to benchmark the 
 diffusion temperature reconstruction techniques that we have  presented.
-The aim of this benchmark test is to utilize the various  reconstruction techniques for a range of
+The aim of this benchmark test is to utilize the various reconstruction techniques for a range of
 boundary conditions that is (a) as broad as possible with respect to mean annual surface temperature 
 and accumulation and (b) representative of existing polar ice core sites.
 Additionally, we have made an effort in focusing on ice core  data sets that reflect conditions as close as possible to 
@@ -1318,7 +1318,7 @@ present. As a result, the majority of the data sets presented here are from rela
 This serves a twofold purpose. 
 Firstly, it reduces the uncertainties regarding the ice flow that are considerably
 larger for the deeper parts of the core. 
-Secondly,  choosing to work with data sections as close to late Holocene
+Secondly, choosing to work with data sections as close to late Holocene
 conditions as possible, allows for a comparison of the estimated temperature to the site's present temperature.
 Although this is technically not a true comparison as the sites' surface temperatures have very likely
 varied during the Holocene, we consider  it as a rough estimate of each techniques accuracy.
@@ -1331,9 +1331,9 @@ temperature and accumulation conditions for each ice core site.
 The data sets were produced using a variety of techniques
 both with respect to the analysis itself (IRMS/CRDS), as well as with respect to the sample resolution and preparation
 (discrete/CFA). 
-The majority of the data sets were analysed using CRDS instrumentation. In particular the L1102i, L2120i and L2130i
+The majority of the data sets were analyzed using CRDS instrumentation. In particular the L1102i, L2120i and L2130i
 variants of the Picarro CRDS analyser were utilized for both discrete and CFA measurements of \delOx~and \delD.
-The rest of the data sets were analysed using IRMS techniques with either $\mathrm{CO}_2$ equilibration or 
+The rest of the data sets were analyzed using IRMS techniques with either $\mathrm{CO}_2$ equilibration or 
 high temperature carbon reduction. 
 For the case of the NEEM early Holocene data set, we work with two data sections that span the same 
 depth interval and consist of discretely sampled and CFA measured data respectively.
@@ -1369,7 +1369,7 @@ influences the reconstructed temperatures of ice core sections.
 This is especially relevant for temperatures below $-40\mathrm{^oC}$, as the confidence of the 
 parameterized fractionation factors has been shown to be low for such cold temperatures \citep{Ellehoj2013}. 
 The low confidence is partly a consequence of two things a) it is difficult to avoid kinetic fractionation 
-and b) the water vapor pressure becomes small which makes it difficult to measure.
+in the measurement system and b) the water vapor pressure becomes small which makes it difficult to measure.
 The experiments are typically performed with a vapor source with a known isotopic composition 
 that condenses out under controlled equilibrium conditions.
 For temperatures below $-40\mathrm{^oC}$, single crystals have been observed growing against the flow of vapor
@@ -1390,12 +1390,12 @@ Moreover, their $\alpha_\mathrm{D}$ deviated significantly from the results of \
 Such discrepancies between the fractionation factor parameterizations underline the importance of addressing 
 how great an impact the potential inaccuracies have on the diffusion-based temperature proxy.
 
-In this test, the procedure followed is common to that in section \ref{sec:icecore_results} where a set of $N = 1000$ repetitions is performed
+In this test, the procedure followed is common to that in Sec. \ref{sec:icecore_results} where a set of $N = 1000$ repetitions is performed
 and both ``jittering'' of the data sets length and perturbation of input model variables takes place.
-The results are displayed in Fig. \ref{fig:fractionation_temps}, where the temperatures resulting from the parameterisations of
-\cite{Majoube1971} ($\alpha_{18}$) and \cite{Merlivat1967} ($\alpha_\mathrm{D}$) are compared to the temperatures resulting from the parameterisations 
+The results are displayed in Fig. \ref{fig:fractionation_temps}, where the temperatures resulting from the parameterizations of
+\cite{Majoube1971} ($\alpha_{18}$) and \cite{Merlivat1967} ($\alpha_\mathrm{D}$) are compared to the temperatures resulting from the parameterizations 
 of \cite{Ellehoj2013} ($\alpha_{18}$, $\alpha_\mathrm{D}$) and \cite{Lamb2015} ($\alpha_\mathrm{D}$).
-In the latter case, the parameterisation of $\alpha_{18}$ from \cite{Majoube1971} is used for the dual diffusion length methods.
+In the latter case, the parameterization of $\alpha_{18}$ from \cite{Majoube1971} is used for the dual diffusion length methods.
 
 \begin{sidewaystable}[]
 	\center
@@ -1475,7 +1475,7 @@ In the latter case, the parameterisation of $\alpha_{18}$ from \cite{Majoube1971
 		& -31.7 $\pm$ 1.1$\,^\mathrm{o}$C &-------------- &--------------&-------------- & --------------& --------------\\
 		
 		EDML &7.72 $\pm$ 0.09$\,\mathrm{cm}$& 7.12 $\pm$ 0.08$\,\mathrm{cm}$& 8.9 $\pm$ 0.3$\,\mathrm{cm}^2$& 8.1 $\pm$ 0.3$\,\mathrm{cm}^2$& 7.1$\pm$ 0.2$\,\mathrm{cm}^2$& 1.18$\pm$ 0.01\\
-		& -42.8 $\pm$ 0.9$\,^\mathrm{o}$C & -42.5 $\pm$ 0.9$\,^\mathrm{o}$C& -44.6 $\pm$ 1.1$\,^\mathrm{o}$C& -45.9 $\pm$ 1.0$\,^\mathrm{o}$C& -47.6 $\pm$ 1.0 $\,^\mathrm{o}$C& -32.4 $\pm$ 3.1$\,^\mathrm{o}$C\\
+		& -42.8 $\pm$ 0.9$\,^\mathrm{o}$C & -42.5 $\pm$ 0.9$\,^\mathrm{o}$C& -44.6 $\pm$ 1.1$\,^\mathrm{o}$C& -45.9 $\pm$ 1.0$\,^\mathrm{o}$C& -47.6 $\pm$ 1.0$\,^\mathrm{o}$C& -32.4 $\pm$ 3.1$\,^\mathrm{o}$C\\
 		
 		NEEM&7.98 $\pm$ 0.22$\,\mathrm{cm}$& 7.20 $\pm$ 0.32$\,\mathrm{cm}$& 11.8 $\pm$ 1.6$\,\mathrm{cm}^2$& 10.2 $\pm$ 1.1$\,\mathrm{cm}^2$& 4.5$\pm$ 2.0$\,\mathrm{cm}^2$& 1.23$\pm$ 0.05\\
 		& -31.8 $\pm$ 1.1$\,^\mathrm{o}$C & -32.4 $\pm$ 1.4$\,^\mathrm{o}$C& -28.4 $\pm$ 2.6$\,^\mathrm{o}$C& -30.7 $\pm$ 2.1$\,^\mathrm{o}$C& -45.9 $\pm$ 10.1$\,^\mathrm{o}$C& -49.3 $\pm$ 15.0$\,^\mathrm{o}$C\\
@@ -1487,13 +1487,13 @@ In the latter case, the parameterisation of $\alpha_{18}$ from \cite{Majoube1971
 		& -57.6 $\pm$ 1.0$\,^\mathrm{o}$C & -58.5 $\pm$ 0.8$\,^\mathrm{o}$C& -54.2 $\pm$ 2.8$\,^\mathrm{o}$C& -60.4 $\pm$ 2.2$\,^\mathrm{o}$C& -63.7 $\pm$ 5.7$\,^\mathrm{o}$C& -80.9 $\pm$ 14.0$\,^\mathrm{o}$C\\
 		
 		Dome C &6.97 $\pm$ 0.15$\,\mathrm{cm}$& 6.34 $\pm$ 0.08$\,\mathrm{cm}$& 8.4 $\pm$ 1.9$\,\mathrm{cm}^2$& 6.7 $\pm$ 1.1$\,\mathrm{cm}^2$& 0.4$\pm$ 0.4$\,\mathrm{cm}^2$& 1.21$\pm$ 0.05\\
-		& -52.8 $\pm$ 1.0 $\,^\mathrm{o}$C & -52.5 $\pm$ 0.9$\,^\mathrm{o}$C& -54.3 $\pm$ 3.0$\,^\mathrm{o}$C& -56.9 $\pm$ 2.3$\,^\mathrm{o}$C& -88.8 $\pm$ 5.9 $\,^\mathrm{o}$C& -42.8 $\pm$ 18.4$\,^\mathrm{o}$C\\
+		& -52.8 $\pm$ 1.0$\,^\mathrm{o}$C & -52.5 $\pm$ 0.9$\,^\mathrm{o}$C& -54.3 $\pm$ 3.0$\,^\mathrm{o}$C& -56.9 $\pm$ 2.3$\,^\mathrm{o}$C& -88.8 $\pm$ 5.9$\,^\mathrm{o}$C& -42.8 $\pm$ 18.4$\,^\mathrm{o}$C\\
 		
 		GRIP early &9.31 $\pm$ 0.24$\,\mathrm{cm}$& 8.25 $\pm$ 0.09$\,\mathrm{cm}$& 18.7 $\pm$ 4.0$\,\mathrm{cm}^2$& 20.4 $\pm$ 1.9$\,\mathrm{cm}^2$& 6.6$\pm$ 1.1$\,\mathrm{cm}^2$& 1.27$\pm$ 0.06\\
 		& -28.2 $\pm$ 1.2$\,^\mathrm{o}$C & -29.4 $\pm$ 1.0$\,^\mathrm{o}$C& -21.5 $\pm$ 4.4$\,^\mathrm{o}$C& -19.6 $\pm$ 2.1$\,^\mathrm{o}$C& -38.4 $\pm$ 2.7$\,^\mathrm{o}$C& -60.9 $\pm$ 16.4$\,^\mathrm{o}$C\\
 		
 		NEEM dis &10.33 $\pm$ 0.19$\,\mathrm{cm}$& 9.72 $\pm$ 0.20$\,\mathrm{cm}$& 12.1 $\pm$ 1.8$\,\mathrm{cm}^2$& 10.0 $\pm$ 0.9$\,\mathrm{cm}^2$& 1.6$\pm$ 0.2$\,\mathrm{cm}^2$& 1.13$\pm$ 0.02\\
-		& -25.9 $\pm$ 1.1$\,^\mathrm{o}$C & -25.5 $\pm$ 1.1$\,^\mathrm{o}$C& -29.3 $\pm$ 2.7$\,^\mathrm{o}$C& -32.3 $\pm$ 1.8$\,^\mathrm{o}$C& -59.2 $\pm$ 2.0 $\,^\mathrm{o}$C& -4.2 $\pm$ 18.3$\,^\mathrm{o}$C\\
+		& -25.9 $\pm$ 1.1$\,^\mathrm{o}$C & -25.5 $\pm$ 1.1$\,^\mathrm{o}$C& -29.3 $\pm$ 2.7$\,^\mathrm{o}$C& -32.3 $\pm$ 1.8$\,^\mathrm{o}$C& -59.2 $\pm$ 2.0$\,^\mathrm{o}$C& -4.2 $\pm$ 18.3$\,^\mathrm{o}$C\\
 		
 		NEEM CFA&10.27 $\pm$ 0.19$\,\mathrm{cm}$& 9.65 $\pm$ 0.18$\,\mathrm{cm}$& 12.3 $\pm$ 1.1$\,\mathrm{cm}^2$& 11.4 $\pm$ 0.9$\,\mathrm{cm}^2$& 11.2$\pm$ 0.6$\,\mathrm{cm}^2$& 1.13$\pm$ 0.01\\
 		& -26.1 $\pm$ 1.1$\,^\mathrm{o}$C & -25.7 $\pm$ 1.1$\,^\mathrm{o}$C& -29.0 $\pm$ 1.8$\,^\mathrm{o}$C& -30.1 $\pm$ 1.7$\,^\mathrm{o}$C& -30.4 $\pm$ 1.4$\,^\mathrm{o}$C & -5.7 $\pm$ 14.2$\,^\mathrm{o}$C\\
@@ -1514,7 +1514,7 @@ In the latter case, the parameterisation of $\alpha_{18}$ from \cite{Majoube1971
 	\begin{center}
 		\includegraphics[width=\textwidth]{Figure_13}
 		\caption{Temperature reconstructions based on
-			different fractionation factor parameterisations.
+			different fractionation factor parameterizations.
 			The left figure shows the single isotopologue methods and 
 			the right figure shows the dual isotope methods.
 			Circles correspond to fractionation factors from \citet{Majoube1971,Merlivat1967}, 
@@ -1529,9 +1529,12 @@ In the latter case, the parameterisation of $\alpha_{18}$ from \cite{Majoube1971
 
 \subsection{Synthetic data}\label{sec:discussion_synthetic}
 Based on the results of the sensitivity experiment with 
-synthetic data, the following can be inferred. Firstly, the three techniques based on the 
+synthetic data, the following can be inferred. 
+Firstly, the three techniques based on the 
 single isotope diffusion, perform similarly and of all the techniques
-tested, yield the highest precision with a $s_{\bar{T}} \approx 1.0 \,{}^{\circ} \text{C}$.
+tested, yield the highest precision with a $s_{\bar{T}} \approx 1.0 \,{}^{\circ} \text{C}$
+(the average precision $s_{\bar{T}}$ of each technique is calculated 
+by averaging the variances of all simulations). 
 Additionally, the estimated temperatures $\overline{T}$ are within 1$s_{\bar{T}}$
 of the forcing temperature  $T_{\text{sur}}$, a result pointing to a good performance with respect to 
 the accuracy of the temperature estimation. 
@@ -1617,41 +1620,28 @@ Nonetheless, we want to emphasize that the presented precisions do not represent
 of the diffusion-based temperature reconstruction techniques. 
 Essentially, the input parameters' uncertainties in the firn diffusion model 
 are both depth and site dependent. 
-In terms of depth, we have a better knowledge about the ice flow thinning at Dome C during the early Holocene period compared
-to that of NGRIP \citep{Gkinis2014}.
-Moreover, parameters such as the close-off density and surface density 
-are often assumed to be better constrained for the Holocene period than in Table \ref{tbl:model_unc}, 
-while their uncertainties increase for the glacial period.
-With respect to site dependence, the accumulation rate has a more uncertain influence on the diffusion
-at low accumulation Antarctic sites as some years experience no precipitation events.
-No deposited snow will prolong the time a layer is exposed to the seasonal temperature fluctuations and firn diffusion.
-This is especially relevant during the glacial where the climate was drier.
-Correspondingly, inaccurate estimates of the CFA system's diffusion length can 
-impact the precision of the reconstructions negatively (see Sec. \ref{sec:outlook}).
-When utilizing the diffusion techniques on long ice core records,
+For instance, we have a better knowledge about the ice flow thinning at a low accumulation site e.g. Dome C 
+compared to that of a high accumulation site e.g. NGRIP for early Holocene ice core data,
+This is a result of the Dome C site's early Holocene period being at a depth of $300\,\mathrm{m}$ while the NGRIP site's
+early Holocene period is at a depth of $1300\,\mathrm{m}$. 
+Additionally, it is more more difficult to estimate the glacial accumulation rate at sites where the
+present day values already are very low.
+Basically, inferring a change 
+between $3\,\mathrm{cm/yr}$ and $1.5\,\mathrm{cm/yr}$ (and how stable this $1.5\,\mathrm{cm/yr}$ estimate is during the glacial) 
+is much harder and with higher uncertainties compared to going from $23\,\mathrm{cm/yr}$ to $10\,\mathrm{cm/yr}$
+(where annual layer thickness information is available from chemistry).
+Similarly, $\rho_{co}$ and $\rho_o$ are better known for Holocene conditions and likely close to present day
+values while glacial conditions represent a regime at which those values may change more considerably.
+Thus, when utilizing the diffusion techniques on long ice core records,
 we propose that the uncertainties of such model parameters and corrections should be
-based on specific characteristics of the ice core site and measurement system.
-
-
-
-
-%We want to emphasize that the presented precisions do not represent the best (or worst) obtainable precision 
-%of the diffusion-based temperature reconstruction techniques. 
-%We perturbate the input parameters to the firn diffusion model (Table \ref{tbl:model_unc})
-%in order to facilitate an optimal comparison between the single and the differential diffusion techniques.
-%Especially for the Holocene period, parameters such as the close-off density
-%and surface density are often assumed to be better constrained.
-%Correspondingly, inaccurate estimates of the CFA system's diffusion length can 
-%impact the precision of the reconstructions negatively (see Sec. \ref{sec:outlook}).
-%When utilizing the diffusion techniques on long ice core records,
-%we propose that the uncertainties of such model parameters should be selected
-%based on specific characteristics of the ice core site and measurement system.
+based on specific characteristics of the ice core site and the part (or depth) of the core under consideration.
 
 
 It is not possible to quantify the accuracy of the methods when applied on short ice core data sections,
 as the reconstructed temperatures represent the integrated firn column temperature.
 Even though the firn diffusion model has a polythermal firn layer due to the seasonal temperature variation,
-we can only estimate a single value of the diffusion length from the data.
+we can only estimate a single value of the diffusion length from the data
+(the exact temperature gradients a layer has experienced is unknown).
 The reconstructed temperatures should therefore not necessarily be completely identical to present day annual temperatures.
 However, clear outliers can still be inferred from the data as temperature estimates that deviate with
 $-30\,^\mathrm{o}\mathrm{C}$ from the present day annual mean temperatures are unrealistic.
@@ -1661,7 +1651,7 @@ methods result in temperatures that clearly deviate with present day annual mean
 Besides the low precision of the diffusion length ratio method, 
 temperature estimates using the the correlation-based and diffusion length ratio techniques 
 are highly inconsistent with the results of the 
-other techniques, with root-mean-square deviations (RMSD) varying from $21\, ^\mathrm{o}\mathrm{C}$ to $34 \, ^\mathrm{o}\mathrm{C}$. 
+other techniques, with root-mean-square deviations (RMSD) varying from $21\,^\mathrm{o}\mathrm{C}$ to $34 \, ^\mathrm{o}\mathrm{C}$. 
 In addition, it can be seen that the correlation-based method results in significantly different 
 temperatures for the discretely and continuously measured NEEM section.
 A similar difference is not found from the spectral-based methods. Instead, these provide
@@ -1672,18 +1662,30 @@ as such data has been influenced by the \Dxs~signal.
 In addition, these temperature estimates have been shown to be dependent on the sampling process. The correlation-based method therefore yields uncertain estimates of the differential diffusion length.
 
 The temperature estimates originating from the $\sigma^2_{18}$ and $\sigma^2_{\mathrm{D}}$ methods are found to have a RMSD of $0.7\,^\mathrm{o}\mathrm{C}$. This shows that the $\sigma^2_{18}$ and $\sigma^2_{\mathrm{D}}$ methods result in similar temperatures, which is consistent with the high accuracies found from the synthetic data test.
-The temperature estimates of the ${}^{18}\Delta\sigma^2$ I method is similar to the present day annual temperature in six out of nine cases. 
+Furthermore, the early Holocene ice core data from Greenland consistently shows reconstructed temperatures warmer than present day (Fig. \ref{fig:early_temps}), 
+which corresponds well with a HCO of around $3\,^\mathrm{o}\mathrm{C}$ warming as found by \citet{Dorthe1998, Vinther2009}.
+With the exception of WAIS D, the estimated temperatures for the late-mid Holocene using the $\sigma^2_{18}$ and $\sigma^2_{\mathrm{D}}$ methods 
+are either slightly warmer or colder than present day (Fig. \ref{fig:all_temps}).
+These sections represent ages ranging from $0.9$ to $3.7$ ka
+and it is not unreasonable to assume that the sites' surface temperatures
+have varied in time. 
+We emphasize that some of the presented ice core sections are as short as $15\,\mathrm{m}$,
+and that such temperature estimates will potentially be more similar to present day when averaged over a long time series.
+
+The temperature estimates of the ${}^{18}\Delta\sigma^2$ I method are similar to the present day annual temperature in six out of nine cases. 
 However, the results of the ${}^{18}\Delta\sigma^2$ I and II techniques have a RMSD of $3.8\,^\mathrm{o}\mathrm{C}$.
 The seemingly accurate performance of the ${}^{18}\Delta\sigma^2$ I method could be either a coincidence or correct. 
-It is difficult to select the most accurate results as both of the differential diffusion techniques
+Two of the similar temperature results are from the NEEM early Holocene data that likely should have had warmer surface temperatures 
+than present day.
+It is therefore difficult to select the most accurate results as both of the differential diffusion techniques
 before performed well in the accuracy test with the synthetic data.
 One should therefore not have a preferred technique without utilizing both methods on longer ice core sections.
 Basically, the reconstructed temperatures could be similar when the temperatures have been averaged over a longer record.
 Besides the internal differences in the results of the differential techniques, most of the temperature estimates do not 
 match the results of the single diffusion lengths.
-This is clear from the RMSDs between the temperature estimates of the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ I methods, 
-and the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ II methods which are found to be  
-$3.9\,^\mathrm{o}\mathrm{C}$ and $4.6\,^\mathrm{o}\mathrm{C}$, respectively.
+%This is clear from the RMSDs between the temperature estimates of the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ I methods, 
+%and the $\sigma^2_{18}$ and ${}^{18}\Delta\sigma^2$ II methods which are found to be  
+%$3.9\,^\mathrm{o}\mathrm{C}$ and $4.6\,^\mathrm{o}\mathrm{C}$, respectively.
 
 
 %It is not possible to quantify the accuracy of the methods when applied on short ice core data sections,
@@ -1776,7 +1778,7 @@ This makes the method less suitable as a paleoclimatic thermometer.
 \subsubsection{Outlook with respect to ice core measurements} \label{sec:outlook}
 It is obvious from the analysis we present here that the type of isotopic analysis chosen has an 
 impact on the quality of the power spectral estimates and subsequently on the diffusion length estimation.
-One such important property of the spectral estimation directly dependent on the nature of the isotopic analysis
+One such important property of the spectral estimation that is directly dependent on the nature of the isotopic analysis
 is the achievable Nyquist frequency, defined by the sampling resolution $\Delta$ of the isotopic time series.
 The value of the Nyquist frequency $f_{\mathrm{Nq}}$ sets the limit in the frequency space until which a power spectral estimate can be obtained.
 The higher the value of  $f_{\mathrm{Nq}}$, the more likely it is that the noise part  ${\vert \hat{\eta} \left( k \right) \vert} ^{2}$ 
@@ -1788,7 +1790,7 @@ This effect manifests particularly in the case of the early Holocene Greenland s
 For the case of the NEEM early Holocene record, one can observe the clear benefit of the higher sampling resolution
 by comparing the discrete ($\Delta = 5 \;\mathrm{cm}$) to the the CFA ($\Delta = 0.5 \;\mathrm{cm}$) data set.
 Characterizing the noise  signal ${\vert \hat{\eta} \left( k \right) \vert} ^{2}$ is more straight forward in the case of the CFA data.
-On the contrary, at these depths of the NEEM core, the resolution of 5 cm results in the spectral estimation
+On the contrary, at these depths of the NEEM core, the resolution of $5 \;\mathrm{cm}$ results in the spectral estimation
 not being able to resolve the noise signal.
 
 The diffusion of the sampling and measurement process itself is a parameter that needs to be 
@@ -1797,7 +1799,7 @@ as well as during the measurement of an ice core with such a system.
 Ideally, one would aim for (a) a dispersive behavior  that resembles as close as possible that of Gaussian
 mixing, (b) a measurement system diffusion length $\sigma_{\mathrm{cfa}}$ that is as low as possible
 and (c) a diffusive behavior that is stable as a function of time.
-Real measurements with CFA systems indicate that most likely due to surface effects
+Real measurements with CFA systems indicate that most likely due to surface effects in the experimental apparatu
 that lead to sample memory, the transfer functions of such systems depart from the ideal model of
 Gaussian dispersion showing a slightly skewed behavior. 
 For some systems, this behavior resembles more that of a slightly skewed Log-Normal distribution \citep{Gkinis2011, Maselli2013, Emanuelsson2015}
@@ -1892,10 +1894,10 @@ p = \exp \left(9.5504 - \frac{5723.265}{T} + 3.530\,\ln\!\left( T \right) - 0.00
 \item{$D_{\mathrm{a}i}$:  diffusivity of water vapor (for isotopologue $i$) in air ($\mathrm{m}^2 \mathrm{s}^{-1}$). 
 For the diffusivity of the abundant isotopologue water vapor $D_{\mathrm{a}}$ we use \citep{Hall1976}:
 \begin{equation}
-D_{\mathrm{a}} = 2.1\cdot 10^{-5} {\left(\frac{T}{T_o}\right)}^{1.94} \left(\frac{P_o}{P}\right) 
+D_{\mathrm{a}} = 2.1\cdot 10^{-5} {\left(\frac{T}{T_o}\right)}^{1.94} \left(\frac{\mathrm{P}_o}{\mathrm{P}}\right) 
 \label{eq:air_diffusivity}
 \end{equation}
-with $P_{\mathrm{o}} = 1 \;\mathrm{Atm}$, $T_{\mathrm{o}} = 273.15 \;\mathrm{K}$  and $P, \,T$ the ambient pressure (Atm) and temperature (K).
+with $\mathrm{P}_{\mathrm{o}} = 1 \;\mathrm{Atm}$, $T_{\mathrm{o}} = 273.15 \;\mathrm{K}$  and $\mathrm{P}, \,T$ the ambient pressure (Atm) and temperature (K).
 Additionally from \cite{MerlivatandJouzel} $D_{a^2\mathrm{H}} = 0.9755{D_{\mathrm{a}}}$ and 
 $D_{\mathrm{a}^{18}\mathrm{O}} = 0.9723{D_{\mathrm{a}}}$ and from \cite{Barkan2007}
 $D_{\mathrm{a}^{17}\mathrm{O}} = 0.98555{D_{\mathrm{a}}}$.}
