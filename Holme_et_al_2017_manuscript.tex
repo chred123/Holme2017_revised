@@ -272,7 +272,7 @@ The differential equation describing the evolution of $\sigma^2$ with time is
 given by \citep{Johnsen1977}: 
 \begin{equation}
 \frac{\mathrm{d}\sigma^2}{\mathrm{d}t} - 2\,\dot{\varepsilon}_z\!\left( t \right) \sigma^2 = 
-2D\!\left( t \right) \enspace .
+2D\!\left( t \right) \enspace.
 \label{eq.diflength}
 \end{equation}
 In the case of firn the following approximation can be made for the strain rate:
@@ -285,7 +285,7 @@ with $\rho$ representing the density.
 Then for the firn column, Eq. \ref{eq.diflength} can be solved hereby yielding a solution for $\sigma^2$:
 \begin{equation}
 \sigma^2 \left( \rho \right) = \frac{\,1\,}{\rho^2}\int_{\rho_o}^{\rho}2\rho^2 
-{\left( \frac{\mathrm{d}\rho}{\mathrm{d}t}\right)}^{-1}\! D \!\left( \rho \right) \,\mathrm{d}\rho , 
+{\left( \frac{\mathrm{d}\rho}{\mathrm{d}t}\right)}^{-1}\! D \!\left( \rho \right) \,\mathrm{d}\rho, 
 \label{eq.difflengthintegration}
 \end{equation}
 where  $\rho_o$ is the surface density. 
@@ -334,9 +334,9 @@ annual accumulation $A = 0.22 \;\mathrm{myr^{-1}\, ice\, eq.}$
 \vspace*{2mm}
 	\begin{center}
 			\includegraphics[width=0.7\textwidth]{Figure_1}
-			\caption{Diffusion length and density profiles (black) for case A (solid curves: $T_{\mathrm{sur}} = -29 \,^{\circ} \mathrm{C}$,
-				 $A = 0.22 \;\mathrm{myr^{-1}}$) and B (dashed lines: $T_{\mathrm{sur}} = -55 \,^{\circ} \mathrm{C}$,
-				$A = 0.032 \;\mathrm{myr^{-1}}$). 
+			\caption{Diffusion length and density profiles (black) for case A (dashed lines: $T_{\mathrm{sur}} = -55 \,^{\circ} \mathrm{C}$,
+				$A = 0.032 \;\mathrm{myr^{-1}}$) and B (solid curves: $T_{\mathrm{sur}} = -29 \,^{\circ} \mathrm{C}$,
+				$A = 0.22 \;\mathrm{myr^{-1}}$). 
 				The increase in diffusion of the \delOx~(blue color), \delOxb~(purple color) and \delD~(red color) isotope signals are
 				partially due to the compaction of the firn which moves the ice closer together. } 		
 	\label{fig:diffusion_length_profiles}		
@@ -457,7 +457,7 @@ where $a_1$ is the AR-1 coefficient and $\sigma_{\mathrm{\eta}}^2$ is the varian
 
 In Fig. \ref{fig:synthetic_power_spectra}, an example of power spectra based on a synthetic time series is shown. 
 A description of how the synthetic time series is generated is provided in Appendix \ref{sec:appendix_synthetic}.
-The diffusion length used for the power spectrum in Fig. \ref{fig:synthetic_power_spectra} is equal to $8.40 \, \mathrm{cm}$.
+The diffusion length used for the power spectrum in Fig. \ref{fig:synthetic_power_spectra} is equal to $8.50 \, \mathrm{cm}$.
 The spectral estimate of the time series $\mathbb{P}_s$ 
 is calculated using Burg's spectral estimation method
 \citep{Kay1981} and specifically the algorithm presented in \cite{Andersen1974}. 
@@ -552,7 +552,7 @@ a correction in the existing accumulation rate history for the NorthGRIP ice cor
 				The red curve represents the complete model fit (Eq. \ref{eq:powerspectrum}).
 				The green dashed curve represents the input diffusion 
 				and the the solid green curve represents the estimated diffusion length
-				of the signal. The black curve represents the noise part of the fit.}
+				of the signal (uncorrected for sampling diffusion). The black curve represents the noise part of the fit.}
 		\label{fig:synthetic_power_spectra}	
 	\end{center}
 \end{figure}
@@ -585,10 +585,12 @@ at which the annual signal is detectable.
 The weight function is multiplied with the optimization norm $\vert P_s - \mathbb{P}_s \vert^2$.
 Figure \ref{fig:filter_function} also illustrates the effect of the weight function on the estimation of $P_s$ and subsequently 
 the diffusion length value. When the weight function is used during the optimization process, there is an increase in the
-diffusion length value by 0.2 cm, owing essentially to the exclusion of the annual signal peak from the minimization 
+diffusion length value by 0.3 cm, owing essentially to the exclusion of the annual signal peak from the minimization 
 of $\vert P_s - \mathbb{P}_s \vert^2$.
 While the value of $f_{\lambda}$ can be roughly predicted, the value of $\mathrm{d}f_{\lambda}$ usually requires visual 
 inspection of the spectrum. 
+We used a weight function of $w(f_{\lambda} - 0.5 \leq f \leq
+f_{\lambda} + 3) = 0$.
 
 
 
@@ -691,7 +693,7 @@ of ${}^{17}\Delta\sigma^2$ when compared to  ${}^{18}\Delta\sigma^2$.
 One obvious complication of the differential diffusion technique is the requirement for dual measurements of the water 
 isotopologues, preferably performed on the same sample.
 The evolution of IRMS techniques targeting the analysis of \delD~\citep{BIGELEISEN1952, Vaughn1998, Gehre1996, Begley1997} in ice cores has allowed for dual isotopic records
-at high resolutions. With the advent of CRDS techniques and their customisation for CFA measurements,
+at high resolutions. With the advent of CRDS techniques and their customization for CFA measurements,
 simultaneous high resolution measurements of both \delOx~and \delD~have become a routine procedure.
 
 The case of \delOxb~is more complicated as the greater abundance of $^{13}$C than $^{17}$O rules out the
@@ -753,7 +755,7 @@ Here we will test both approaches.
 
 \subsection*{Linear correlation method}
 An alternative way to calculate the differential diffusion signal ${}^{18}\Delta\sigma^2$
-is based on the assumption that the initial precipitated isotopic signal presents a \Dxs~that
+is based on the assumption that the initial precipitated isotopic signal presents a deuterium excess signal \Dxs~that
 is invariable with time and as a consequence of this, the correlation signal between \delOx~and \delD~(hereafter \delcorrel) is expected
 to have a maximum value at the time of deposition.
 The \Dxs~signal is defined as the deviation from the metoric water line $\mathrm{d_{xs}}= \delta\mathrm{D}- 8\cdot\delta^{18}\mathrm{O} $ \citep{craig, Dansgaard}.
@@ -777,8 +779,8 @@ It is thus likely to result in inaccuracies.
 \vspace*{2mm}	
 \begin{center}		
 	\includegraphics[width=0.7\textwidth]{Figure_6}		
-	\caption{Differential diffusion length profiles for cases A (solid lines) and B 
-		(dashed lines) for ${}^{18}\Delta\sigma^2$  (blue) and ${}^{17}\Delta\sigma^2$ (purple).
+	\caption{Differential diffusion length profiles for cases A (dashed lines) and B 
+		(solid lines) for ${}^{18}\Delta\sigma^2$  (blue) and ${}^{17}\Delta\sigma^2$ (purple).
 		The density profiles are given in black.} 		
 	\label{fig:diff_diffusion_example}	
 \end{center}
@@ -1614,12 +1616,14 @@ Of all the tested techniques, the diffusion length ratio method is the least pre
 a $s_{\bar{T}}$ of $11.8\,^\mathrm{o}\mathrm{C}$. 
 A similar precision was found from the synthetic data.
 
+
 The perturbations of the model parameters help achieve a realistic view on the overall precision
-and it facilitates an optimal comparison between the single and the differential diffusion techniques.
+and it facilitates a comparison between the single and the differential diffusion techniques.
 Nonetheless, we want to emphasize that the presented precisions do not represent the absolute obtainable precision 
 of the diffusion-based temperature reconstruction techniques. 
-Essentially, the input parameters' uncertainties in the firn diffusion model 
-are both depth and site dependent. 
+While the uncertainties presented in Table \ref{tbl:model_unc} represents typical Holocene values estimated
+for Central Greenland and the East Antarctic Ice Cap, the input parameters' uncertainties in the firn diffusion model 
+are essentially both depth and site dependent. 
 For instance, we have a better knowledge about the ice flow thinning at a low accumulation site e.g. Dome C 
 compared to that of a high accumulation site e.g. NGRIP for early Holocene ice core data,
 This is a result of the Dome C site's early Holocene period being at a depth of $300\,\mathrm{m}$ while the NGRIP site's
@@ -1643,8 +1647,8 @@ Even though the firn diffusion model has a polythermal firn layer due to the sea
 we can only estimate a single value of the diffusion length from the data
 (the exact temperature gradients a layer has experienced is unknown).
 The reconstructed temperatures should therefore not necessarily be completely identical to present day annual temperatures.
-However, clear outliers can still be inferred from the data as temperature estimates that deviate with
-$-30\,^\mathrm{o}\mathrm{C}$ from the present day annual mean temperatures are unrealistic.
+However, clear outliers can still be inferred from the data as Holocene temperature estimates that deviate with
+$30\,^\mathrm{o}\mathrm{C}$ from the present day annual mean temperatures are unrealistic.
 
 First we address the correlation-based and diffusion length ratio techniques as these two
 methods result in temperatures that clearly deviate with present day annual mean temperatures (Fig. \ref{fig:all_temps} and \ref{fig:early_temps}).
@@ -1775,7 +1779,7 @@ This makes the method less suitable as a paleoclimatic thermometer.
 
 
 
-\subsubsection{Outlook with respect to ice core measurements} \label{sec:outlook}
+\subsection{Outlook with respect to ice core measurements} \label{sec:outlook}
 It is obvious from the analysis we present here that the type of isotopic analysis chosen has an 
 impact on the quality of the power spectral estimates and subsequently on the diffusion length estimation.
 One such important property of the spectral estimation that is directly dependent on the nature of the isotopic analysis
@@ -1814,13 +1818,17 @@ Such a correction though does not take into account the fact that due to the con
 the constant mixing volume of the system's components (sample tubing, valves etc) will cause a variable mixing as melt rates change.
 The magnitudes and importance of these variations are not easy to assess and more work will be required in the future in order 
 to characterize and correct for these effects.
+
+Due to the recent advances in laser spectroscopy we expect measurements of the $\delta^{17}$O signal to be a common output from analyzed ice cores.
+As we showed with synthetic data, such a signal can also be used to reconstruct temperatures. Especially the differential diffusion length of $\delta^{17}$O and $\delta$D showed higher precision than that of $\delta^{18}$O and $\delta$D. Such measurements however, require that laboratories around the world have access to well calibrated standards. Calibration protocols for $\delta^{17}$O have been suggested \citep{Schoenemannn2013} although there is still a lack of $\delta^{17}$O values for the International Atomic Energy Agency standards VSMOW (Vienna Standard Mean Ocean Water) and SLAP (Standard Light Antarctic Precipitation).  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Conclusions}  %% \conclusions[modified heading if necessary]
 This study assessed the performance of six different diffusion-based temperature reconstruction
 techniques.
-By applying the methods on synthetic data, it was demonstrated that each method could be used to accurately reconstruct unbiased temperatures.
+%By applying the methods on synthetic data, it was demonstrated that each method could be used to accurately reconstruct unbiased temperatures.
+By applying the methods on synthetic data, first order tests of accuracy and bias were demonstrated and evaluated.
 Moreover, this approach facilitated precision estimates of each method.
 The precision of each technique was further quantified by
 utilizing every variety of the diffusion-based temperature proxy on thirteen high resolution 
@@ -1841,9 +1849,9 @@ and the method is not suitable as a paleoclimatic thermometer.
 
 In conclusion, despite that the dual diffusion techniques seem to be the more optimal choices 
 due to their independence of sampling and ice diffusion or densification and thinning processes,
-the uncertain estimates should outweigh the theoretical advantages.
-From the combined analyses of the synthetic data and ice core data, this study has demonstrated that methods 
-based on the single isotope diffusion lengths result in the most accurate and precise estimates of past temperatures.	
+the uncertain estimates should outweigh the theoretical advantages for Holocene ice core data.
+%From the combined analyses of the synthetic data and ice core data, this study has demonstrated that methods 
+%based on the single isotope diffusion lengths result in the most accurate and precise estimates of past temperatures.	
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2080,7 +2088,8 @@ This effect is further illustrated in Fig. \ref{fig:appendix_synthetic_PSD} whic
 		\caption{Left: PSD of the raw AR-1 time series (case B \delOx~series). 
 			Right: PSD of the \delOx~series (from Fig. \ref{fig:appendix_synthetic_data}). 
 			Blue curve represents the PSD of the sampled time series before diffusion, 
-			and the green curve represents the PSD of the sampled time series after diffusion. }  \label{fig:appendix_synthetic_PSD}
+			and the green curve represents the PSD of the sampled time series after diffusion. 
+			The y-scale are different in the two figures.}  \label{fig:appendix_synthetic_PSD}
 	\end{center}
 \end{figure*}
 
