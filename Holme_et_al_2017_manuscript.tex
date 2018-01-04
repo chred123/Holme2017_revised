@@ -240,7 +240,7 @@ where $D \left( t \right)$ is the diffusivity coefficient, $\dot{\varepsilon}_z\
 the vertical strain rate and  $z$ is the vertical axis of a coordinate system, 
 with its origin being fixed within the considered layer.
 The attenuation of the isotopic signal results in loss of information.
-However the dependence of $\dot{\varepsilon}_z\left(t\right)$  and $D \left( t \right)$ 
+However, the dependence of $\dot{\varepsilon}_z\left(t\right)$  and $D \left( t \right)$ 
 on temperature and accumulation presents the possibility of using the process as a tool
 to infer these two paleoclimatic parameters. A solution to Eq. \ref{eq.diffusion} can be given by
 the convolution of the initial isotopic profile $\delta'$ with a Gaussian filter $\mathcal{G}$ as:
@@ -297,7 +297,7 @@ In this work we make use of the Herron--Langway densification model (\textbf{H--
 and the diffusivity rate parametrization introduced by \cite{Johnsen2000} (see Appendix \ref{sec:appendix_firn_diffusion}).
 $\frac{\mathrm{d}\rho}{\mathrm{d}t}$ depends on temperature and overburden pressure
 and $D\left(\rho\right)$ depends on temperature and firn connectivity.
-Our implementation of Eq. \ref{eq.difflengthintegration} includes a seasonal temperature signal that propagates down in the firn is included (see Appendix \ref{sec:firn_temp_profile}).
+Our implementation of Eq. \ref{eq.difflengthintegration} includes a seasonal temperature signal that propagates down in the firn (see Appendix \ref{sec:firn_temp_profile}).
 The seasonal temperature variation affects the firn diffusion length nonlinearly in the upper $10-12 \, \mathrm{m}$ due to the saturation vapor pressure's exponential
 dependence on temperature.
 
@@ -446,8 +446,6 @@ It is assumed independent of $k$ (now $P_0$) due to the strong depositional nois
 encountered in high resolution $\delta$ ice core series \citep{Johnsen2000}. 
 Theoretically $|\hat{\eta}(k )|^2$ refers to white measurement noise.
 As we will show later, real ice core data sometimes have a more red noise behavior.
-%Moreover, \cite{Gkinis2014} showed that the redness of the climate signal does not significantly affect the 
-%estimated diffusion lengths.
 A generalized model for the noise signal can be described well by autoregressive process of order 1 (AR-1).
 Its power spectral density is defined as \citep{Kay1981}:
 \begin{equation}
@@ -466,7 +464,7 @@ Using a least--squares approach we optimize the fit of the model $P_s$ to the da
 parameters $P_0$, $\sigma$, $a_1$ and $\sigma_{\mathrm{\eta}}^2$.
 In the case of Fig. \ref{fig:synthetic_power_spectra},
 the $\vert P_s - \mathbb{P}_s \vert^2$ least squares optimization resulted in 
-$P_0=0.35\,\permil^2\cdot \mathrm{m}$, $\sigma = 8.45 \, \mathrm{cm}$, $a_1 = 0.05$ and $\sigma_{\mathrm{\eta}}^2 =0.005 \, \permil^2$.
+$P_0=0.32\,\permil^2\cdot \mathrm{m}$, $\sigma = 8.45 \, \mathrm{cm}$, $a_1 = 0.05$ and $\sigma_{\mathrm{\eta}}^2 =0.005 \, \permil^2$.
 
 
 Assuming a diffusion length $\widehat{\sigma}_i^2$ is obtained for depth $z_i$ by means of 
@@ -590,8 +588,7 @@ diffusion length value by 0.3 cm, owing essentially to the exclusion of the annu
 of $\vert P_s - \mathbb{P}_s \vert^2$.
 While the value of $f_{\lambda}$ can be roughly predicted, the value of $\mathrm{d}f_{\lambda}$ usually requires visual 
 inspection of the spectrum. 
-We used a weight function of $w(f_{\lambda} - 0.5 \leq f \leq
-f_{\lambda} + 3) = 0$.
+
 
 
 
@@ -843,7 +840,7 @@ We designate the subtraction technique with
 I, the linear regression with II and the correlation method with III. 
 For every value of the diffusion estimates we calculate a firn temperature where
 the uncertainties related to the firn diffusion model ($A$, $\rho_{co}$, $\rho_o$, surface pressure $\mathrm{P}$, $\mathcal{S}$ and $\sigma_{ice}$ in Table \ref{tbl:model_unc}) are included. 
-For for the total of the 500 iterations we calculate a mean firn temperature $\overline{T}$, 
+For the total of the 500 iterations we calculate a mean firn temperature $\overline{T}$, 
 a standard deviation and a mean bias as: 
 \begin{equation}
 \text{MB} = \frac{1}{N} \sum_{i = 1}^{N} T_i - T_{\text{sur}} = \overline{T} - T_{\text{sur}},
@@ -960,12 +957,14 @@ we have used data originating from deeper sections of the ice cores with an age
 of about 10ka b2k reflecting conditions of  the early Holocene. In Table \ref{tbl:drill_sites} we provide relevant 
 information for each data set as well as the present 
 temperature and accumulation conditions for each ice core site.
+For five out of thirteen ice core data sets, we used a weight function of $w(f_{\lambda} - 0.5 \leq f \leq
+f_{\lambda} + 3) = 0$ in order to remove the annual peak (see Appendix F).
 
 The data sets were produced using a variety of techniques
 both with respect to the analysis itself (IRMS/CRDS), as well as with respect to the sample resolution and preparation
 (discrete/CFA). 
 The majority of the data sets were analyzed using CRDS instrumentation. In particular the L1102i, L2120i and L2130i
-variants of the Picarro CRDS analyser were utilized for both discrete and CFA measurements of \delOx~and \delD.
+variants of the Picarro CRDS analyzer were utilized for both discrete and CFA measurements of \delOx~and \delD.
 The rest of the data sets were analyzed using IRMS techniques with either $\mathrm{CO}_2$ equilibration or 
 high temperature carbon reduction. 
 For the case of the NEEM early Holocene data set, we work with two data sections that span the same 
@@ -992,7 +991,6 @@ deviation for the temperature.
 Results are presented in Table \ref{tbl:icecore_results}. 
 The estimated temperatures for ice cores covering the late-mid Holocene and early Holocene are 
 shown in Fig. \ref{fig:all_temps} and \ref{fig:early_temps} respectively.
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1208,7 +1206,7 @@ We don't know why the noise for some of the Greenlandic sites behaves differentl
 but the white noise of the Antarctic ice core data coincides well
 with isotopic signals that likely comprise of a few events per year and
 is whiten due to post depositional effects such as snow relocation. 
-Nonetheless, The AR-1 noise model in Eq. \ref{eq:powerspectrum} describes both the red and white noise well.
+Nonetheless, the AR-1 noise model in Eq. \ref{eq:powerspectrum} describes both the red and white noise well.
 
 An example of how sample resolution plays a role in assessing the value of the estimated diffusion length, 
 can be seen when visually comparing the spectra of the NEEM early Holocene data in Fig. \ref{fig:NEEM_cfa_fig_1} and \ref{fig:NEEM_dis_fig_1}. 
@@ -1619,10 +1617,10 @@ For the AR-1 process we use $r_1 = 0.3$ and $\varepsilon = 120\,\permil^2$ for c
 Each data section is $20\, \mathrm{m}$ long and has an initial spacing of 
 $10^{-3}\, \mathrm{m}$. The \delD~and \delOxb~series are then
 generated assuming a \Dxs~signal of $10\,\permil$ and an
-$\Delta^{17}\mathrm{O}$ signal of 0 per meg:
+$^{17}\mathrm{O}_{\mathrm{excess}}$ signal of 0 per meg:
 \begin{align} 
 \delta\mathrm{D} = 8 \cdot \delta^{18}\mathrm{O} + 10 \permil&\\
-\Delta^{17}\mathrm{O} = \ln(\delta^{17}\mathrm{O}+1) - 0.528&\ln(\delta^{18}\mathrm{O} +1)
+^{17}\mathrm{O}_{\mathrm{excess}} = \ln(\delta^{17}\mathrm{O}+1) - 0.528&\ln(\delta^{18}\mathrm{O} +1)
 \end{align}
 
 The time series are then forward-diffused by means of numerical convolution 
